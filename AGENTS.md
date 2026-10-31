@@ -65,6 +65,28 @@ If this file and the code disagree, **the code wins**:
   the file stem. Topics: `physics`, `geometry`, `math`,
   `programming`, `architecture`, `ml`, `news`, `refactor`.
 
+## Animation — strongly preferred
+
+A still picture is a missed opportunity: the pane exists to feel
+alive while the agent works. Every quiz scene **should** declare
+a subtle animation in `scene.anim`:
+
+| Scene | `anim.type` | Effect |
+| --- | --- | --- |
+| orbits | `orbit` | planets drift along their rings, sun rays turn slowly |
+| diagram | `flow` | a dot travels the edges in order, looping |
+| network | `pulse` | a soft wave breathes through the layers |
+| any | `breathe` | the whole scene gently scales (±1%) |
+
+```json
+"scene": {"type": "orbits", "rings": 4, "anim": {"type": "orbit", "speed": 0.12}}
+```
+
+Rules: slow and calm (this sits next to someone's work), strictly
+monochrome, no flashing. `speed` is relative — 0.05–0.3 for
+orbit/flow, ~1.0 for pulse. The validator rejects animation
+types that don't belong to the scene.
+
 ## Style guide
 
 The app is a quiet, monochrome, grotesk instrument (Linear-like).
@@ -80,23 +102,42 @@ Packs must feel native:
   lecture. Cards: one suggestion with a concrete first step.
 - English text (the app's UI language).
 
-## Validate before you commit
+## Test your game before you ship it (required)
 
-From the main repo checkout:
+Writing a pack without running it is not done. From the main
+repo checkout there is a dedicated tool:
 
 ```bash
 cd agent-aware-terminal
-python3 -c "
-from backend.app.content_engine import scan_packs
-packs, errors = scan_packs(['games-base', 'content/games'])
-print(len(packs), 'ok'); [print(e) for e in errors]"
+python3 tools/test_game.py games-base/my-new-game.json
 ```
 
-Zero errors or it does not ship. To preview live, copy the pack
-into `~/.local/share/agent-aware-terminal/content/`, give an
-agent a >7 s task in the app, and watch for
-`[content] serving <your-id>` in
-`~/.local/share/agent-aware-terminal/decisions.log`.
+It runs, for every pack you point it at:
+
+1. **Schema validation** — the engine's own rules.
+2. **A scripted playthrough** — the correct target must score,
+   every other target must fail, cards must not score, and an
+   explanation must exist. If a player *cannot win* (or cannot
+   lose), the tool says so.
+3. **Scene sanity** — diagram nodes in bounds and not
+   overlapping, orbit rings clickable.
+4. **Preview renders** — PNG snapshots (dark + light; two frames
+   when animated) in `/tmp/game-previews/`.
+
+**Then open the preview PNGs and look at them.** You have
+vision; use it. Check the layout reads well, labels fit, the
+animation frames differ, nothing collides. Iterate until the
+preview looks like it belongs next to the terminal.
+
+Finally, smoke-test live: copy the pack into
+`~/.local/share/agent-aware-terminal/content/`, give an agent a
+>7 s task in the app, and confirm
+`[content] serving <your-id>` appears in
+`~/.local/share/agent-aware-terminal/decisions.log` and the game
+plays in the pane.
+
+Ship checklist: `tools/test_game.py` green · previews looked at ·
+`scene.anim` present · explanation teaches something · id stable.
 
 ## Do / Don't
 

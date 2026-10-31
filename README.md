@@ -25,4 +25,6 @@ The engine serves packs in a shuffled cycle — no repeats until
 every pack has been shown (the cycle persists across restarts).
 
 **Authoring a game?** Read [AGENTS.md](AGENTS.md): schema, scene
-types, style guide, and how to validate.
+types, animation, style guide — and the required test loop
+(`python3 tools/test_game.py` in the main repo validates a pack,
+plays it through automatically, and renders previews to look at).
