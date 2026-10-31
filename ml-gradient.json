@@ -4,13 +4,33 @@
   "kicker": "ML BASICS",
   "topic": "Machine learning",
   "title": "Gradient Descent",
-  "scene": {"type": "network", "layers": [3, 4, 2]},
+  "scene": {
+    "type": "network",
+    "layers": [
+      3,
+      4,
+      2
+    ],
+    "anim": {
+      "type": "pulse",
+      "speed": 1.0
+    }
+  },
   "question": "Which formula describes a single step of gradient descent for updating model parameters?",
   "choices": [
-    {"id": "minus", "label": "θ = θ − α · ∇θL(θ)"},
-    {"id": "plus", "label": "θ = θ + α · ∇θL(θ)"},
-    {"id": "swap", "label": "θ = ∇θL(θ) · θ"}
+    {
+      "id": "minus",
+      "label": "\u03b8 = \u03b8 \u2212 \u03b1 \u00b7 \u2207\u03b8L(\u03b8)"
+    },
+    {
+      "id": "plus",
+      "label": "\u03b8 = \u03b8 + \u03b1 \u00b7 \u2207\u03b8L(\u03b8)"
+    },
+    {
+      "id": "swap",
+      "label": "\u03b8 = \u2207\u03b8L(\u03b8) \u00b7 \u03b8"
+    }
   ],
   "answer": "minus",
-  "explanation": "Gradient descent steps against the gradient: θ moves opposite to ∇θL(θ), scaled by the learning rate α."
+  "explanation": "Gradient descent steps against the gradient: \u03b8 moves opposite to \u2207\u03b8L(\u03b8), scaled by the learning rate \u03b1."
 }
