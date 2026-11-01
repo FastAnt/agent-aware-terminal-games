@@ -122,11 +122,18 @@ def _bars(cr, view, items, x0, y0, bw, gap, maxv):
         _t(cr, view, x0 + i * (bw + gap) + bw / 2, y0 - bh - 12, val, 11, "text")
 
 
+def _dist(cr, view, cx, cy, shift, col):
+    cr.new_path()
+    for i in range(41):
+        f = i / 40; x = cx - 70 + f * 140; y = cy - math.exp(-((f - (0.5 + shift)) ** 2) / 0.02) * 44
+        cr.line_to(x, y) if i else cr.move_to(x, y)
+    cr.set_source_rgba(*view.colors[col], 0.9); cr.set_line_width(1.8); cr.stroke()
+
 def paint(cr,view):
     w,h,t=view.w,view.h,view.t
-    dist(cr,view,w*0.26,h*0.56,0,"muted"); _t(cr,view,w*0.26,h*0.24,"training data",11,"muted")
+    _dist(cr,view,w*0.26,h*0.56,0,"muted"); _t(cr,view,w*0.26,h*0.24,"training data",11,"muted")
     _box(cr,view,w*0.44,h*0.34,w*0.12,h*0.14,"model",9,fill_col="square")
-    dist(cr,view,w*0.76,h*0.56,0.18,"square"); _t(cr,view,w*0.76,h*0.24,"production data",11,"square")
+    _dist(cr,view,w*0.76,h*0.56,0.18,"square"); _t(cr,view,w*0.76,h*0.24,"production data",11,"square")
     _t(cr,view,w*0.76,h*0.68,"features computed differently!",9,"square")
     _t(cr,view,w/2,h*0.86,"train/serve skew: same model, different world",11,"square")
 
