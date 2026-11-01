@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "architecture-fact-google-calendar-2019-001",
+  "kicker": "FACT",
+  "topic": "Architecture",
+  "title": "Even Google Calendar has a blast radius",
+  "body": "In June 2019 a network configuration change intended for a small set of servers was applied to a much larger set, congesting Google's network and degrading services including YouTube and Gmail for hours. Their postmortem describes automation safeguards that have since become standard sermon material: scope checks and canaries on configuration, not only on code. Configuration is code that skips review.",
+  "source_hint": "Google Cloud status and postmortem, June 2019",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "config meant for few",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "applied to many",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "network congestion",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

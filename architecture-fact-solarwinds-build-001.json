@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "architecture-fact-solarwinds-build-001",
+  "kicker": "FACT",
+  "topic": "Architecture",
+  "title": "SolarWinds attackers compromised the build, not the product",
+  "body": "In 2020 investigators found trojanised updates of Orion software, signed and shipped through the vendor's own pipeline to thousands of organisations. The product code was fine until the factory was owned. Software supply-chain security, signing plus reproducible builds plus build isolation, dates its mainstream urgency from this intrusion.",
+  "source_hint": "FireEye / CISA SolarWinds reports (2020)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "build pipeline owned",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "signed bad update",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "thousands install it",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

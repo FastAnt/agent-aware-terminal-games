@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "architecture-fact-blameless-postmortems-001",
+  "kicker": "FACT",
+  "topic": "Architecture",
+  "title": "Blameless postmortems exist because fear hides causes",
+  "body": "Etsy and Google popularised incident reviews that ask how the system let a reasonable person err, instead of naming a culprit. Punishing the messenger guarantees the next messenger stays silent and the latent condition survives. The rule is not kindness for its own sake; it is how you get the timeline that actually prevents recurrence.",
+  "source_hint": "Google SRE Book; Etsy debriefing culture writings",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "punish the person",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "causes go underground",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "fix the system instead",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

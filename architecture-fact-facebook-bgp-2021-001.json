@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "architecture-fact-facebook-bgp-2021-001",
+  "kicker": "FACT",
+  "topic": "Architecture",
+  "title": "Facebook's 2021 outage locked its own engineers out",
+  "body": "A configuration change withdrew the BGP routes to Facebook's DNS, disconnecting its datacenters from the Internet and from each other. Internal tools rode the same network, and reporting described badge access failing with it. Six hours of outage traced to connectivity being both the product and the repair path, a dependency loop every platform should diagram in advance.",
+  "source_hint": "Facebook engineering postmortem, Oct 2021",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "BGP routes withdrawn",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "DNS unreachable",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "repair tools offline too",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

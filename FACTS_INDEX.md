@@ -298,3 +298,28 @@ architecture-fact-hyrums-law-001 · Architecture · Every observable behaviour o
 architecture-fact-chaos-monkey-001 · Architecture · Netflix breaks its own production on weekdays, on purpose
 architecture-fact-error-budgets-001 · Architecture · Reliability becomes negotiable with an error budget
 architecture-fact-prime-video-monolith-001 · Architecture · Prime Video cut costs 90 percent by un-distributing a tool
+architecture-fact-knight-capital-001 · Architecture · Knight Capital lost $440M in 45 minutes to a dead flag
+architecture-fact-gitlab-backup-001 · Architecture · GitLab deleted its database and found backups were theatre
+architecture-fact-aws-s3-typo-001 · Architecture · An AWS typo took down a chunk of the Internet
+architecture-fact-facebook-bgp-2021-001 · Architecture · Facebook's 2021 outage locked its own engineers out
+architecture-fact-cloudflare-regex-2019-001 · Architecture · One regex, deployed everywhere at once, CPU'd the planet
+architecture-fact-fastly-config-2021-001 · Architecture · One customer's valid setting triggered a dormant global bug
+architecture-fact-notpetya-maersk-001 · Architecture · Maersk was saved by a domain controller that lost power
+architecture-fact-blackout-alarm-2003-001 · Architecture · The 2003 blackout grew behind a silenced alarm
+architecture-fact-denver-baggage-001 · Architecture · Denver's airport was delayed by its own baggage system
+architecture-fact-crowdstrike-2024-001 · Architecture · A sensor update crashed millions of Windows machines
+architecture-fact-boeing-mcas-redundancy-001 · Architecture · MCAS trusted one sensor; redundancy is an architecture
+architecture-fact-ovh-fire-backup-001 · Architecture · Fire taught the difference between backup and replica
+architecture-fact-tsb-migration-001 · Architecture · TSB's big-bang migration locked out 1.9 million customers
+architecture-fact-ba-power-2017-001 · Architecture · British Airways grounded itself by unplugging the IT
+architecture-fact-google-calendar-2019-001 · Architecture · Even Google Calendar has a blast radius
+architecture-fact-rogers-2022-001 · Architecture · One maintenance update silenced a national carrier
+architecture-fact-nhs-wannacry-001 · Architecture · WannaCry hurt hospitals through unpatched known holes
+architecture-fact-equifax-struts-001 · Architecture · Equifax was breached through a patched-elsewhere framework
+architecture-fact-heartbleed-lesson-001 · Architecture · Heartbleed was two missing lines in a heartbeat
+architecture-fact-log4shell-ubiquity-001 · Architecture · Log4Shell hid in a logging library's helpful feature
+architecture-fact-solarwinds-build-001 · Architecture · SolarWinds attackers compromised the build, not the product
+architecture-fact-stuxnet-airgap-001 · Architecture · Stuxnet crossed an air gap on a USB stick
+architecture-fact-yahoo-breach-scale-001 · Architecture · Yahoo's breach grew every time it was recounted
+architecture-fact-ashley-lessons-001 · Architecture · Backups that nobody tested are a hope, not a plan
+architecture-fact-blameless-postmortems-001 · Architecture · Blameless postmortems exist because fear hides causes

@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "architecture-fact-equifax-struts-001",
+  "kicker": "FACT",
+  "topic": "Architecture",
+  "title": "Equifax was breached through a patched-elsewhere framework",
+  "body": "The 2017 Equifax breach exposed data of about 147 million people via an Apache Struts vulnerability announced, with a patch, two months earlier; one internet-facing system missed the update and scanning missed the system. Postmortems emphasise asset inventory failure more than the bug. You cannot patch what your inventory insists does not exist.",
+  "source_hint": "US House Oversight report on Equifax (2018)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "patch announced",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "one system missed",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "147M records",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

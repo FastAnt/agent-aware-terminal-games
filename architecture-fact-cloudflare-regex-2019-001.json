@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "architecture-fact-cloudflare-regex-2019-001",
+  "kicker": "FACT",
+  "topic": "Architecture",
+  "title": "One regex, deployed everywhere at once, CPU'd the planet",
+  "body": "In July 2019 a new Cloudflare WAF rule contained a regular expression with catastrophic backtracking; pushed globally within minutes, it exhausted CPU across the network and 502'd much of the web for 27 minutes. The postmortem led them to cap rule CPU and stage rollouts. Global instantaneous deployment is global instantaneous failure with good intentions.",
+  "source_hint": "Cloudflare outage postmortem, July 2019",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "bad regex rule",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "global push in minutes",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "CPU exhausted",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}
