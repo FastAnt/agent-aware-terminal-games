@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "geometry-fact-klein-bottle-001",
+  "kicker": "FACT",
+  "topic": "Geometry",
+  "title": "A Klein bottle has no inside; models fake one",
+  "body": "The Klein bottle passes its neck through its own wall so the surface is everywhere continuous with itself, having no separate interior. A true one cannot sit in our three dimensions without intersecting itself; physical models cheat with the glass passing 'through' by convention. Mathematicians keep it as the logo of surfaces that refuse our categories.",
+  "source_hint": "Klein (1882), non-orientable surfaces",
+  "scene": {
+    "type": "orbits",
+    "rings": 3,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 80
+      },
+      {
+        "ring": 2,
+        "angle": 210
+      },
+      {
+        "ring": 3,
+        "angle": 330
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

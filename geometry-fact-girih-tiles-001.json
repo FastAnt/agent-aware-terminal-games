@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "geometry-fact-girih-tiles-001",
+  "kicker": "FACT",
+  "topic": "Geometry",
+  "title": "Medieval tilers may have beaten Penrose by 500 years",
+  "body": "In 2007 Peter Lu and Paul Steinhardt showed the girih tile patterns on buildings like Isfahan's 1453 Darb-i Imam shrine embody near-quasicrystalline geometry with self-similar subdivision, centuries before Penrose. The artisans left no theory text, only the work. Craft traditions can encode mathematics nobody wrote down, a caution for histories that equate knowledge with publication.",
+  "source_hint": "Lu and Steinhardt, Science (2007)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "five girih tiles",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "subdivision rules",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "1453 shrine patterns",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

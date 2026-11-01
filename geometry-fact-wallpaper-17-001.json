@@ -1,0 +1,21 @@
+{
+  "type": "fact",
+  "id": "geometry-fact-wallpaper-17-001",
+  "kicker": "FACT",
+  "topic": "Geometry",
+  "title": "Every wallpaper uses one of 17 symmetries",
+  "body": "Plane patterns built from two independent translations can combine rotations, reflections and glides in exactly seventeen distinct symmetry groups, proven in the 19th century and found already exploited by Islamic artists centuries earlier. Any wallpaper you will ever see is one of seventeen. Crystallographers extended the census to 230 groups in three dimensions, the periodic table of pattern.",
+  "source_hint": "Fedorov (1891), plane symmetry groups",
+  "scene": {
+    "type": "network",
+    "layers": [
+      4,
+      4,
+      4
+    ],
+    "anim": {
+      "type": "pulse",
+      "speed": 0.5
+    }
+  }
+}

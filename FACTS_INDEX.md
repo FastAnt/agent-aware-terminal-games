@@ -403,3 +403,28 @@ ml-fact-hallucination-mechanism-001 · Machine learning · Hallucination is the 
 ml-fact-eval-contamination-001 · Machine learning · Benchmarks leak into training data and inflate scores
 ml-fact-human-feedback-cost-001 · Machine learning · The humans in RLHF are an invisible workforce
 ml-fact-open-weights-irreversible-001 · Machine learning · Released weights cannot be unreleased
+geometry-fact-mercator-greenland-001 · Geometry · Mercator makes Greenland look Africa-sized
+geometry-fact-no-perfect-map-001 · Geometry · A perfect flat map is a theorem-level impossibility
+geometry-fact-great-circle-flights-001 · Geometry · Planes to Tokyo fly toward the pole because Earth is round
+geometry-fact-spherical-triangle-001 · Geometry · On a sphere, a triangle can have 3 right angles
+geometry-fact-mobius-cut-001 · Geometry · Cut a Möbius strip: you do not get two strips
+geometry-fact-klein-bottle-001 · Geometry · A Klein bottle has no inside; models fake one
+geometry-fact-penrose-triangle-001 · Geometry · The Penrose triangle exists in photographs, from one angle
+geometry-fact-pentagon-soccer-001 · Geometry · Every soccer ball hides exactly twelve pentagons
+geometry-fact-five-platonics-001 · Geometry · Exactly five perfect solids exist; Euclid ends there
+geometry-fact-euler-formula-001 · Geometry · Vertices minus edges plus faces equals two, almost always
+geometry-fact-honeycomb-hales-001 · Geometry · Bees were proved optimal only in 1999
+geometry-fact-kepler-oranges-001 · Geometry · Greengrocers stack oranges the provably best way
+geometry-fact-kissing-twelve-001 · Geometry · Newton and Gregory argued over twelve or thirteen spheres
+geometry-fact-brachistochrone-001 · Geometry · The fastest slide curve is a cycloid
+geometry-fact-catenary-arch-001 · Geometry · A hanging chain, flipped, is the perfect arch
+geometry-fact-reuleaux-drill-001 · Geometry · A non-round triangle can drill a square hole
+geometry-fact-coastline-paradox-001 · Geometry · Britain's coast has no definite length
+geometry-fact-koch-snowflake-001 · Geometry · A snowflake can fence infinite perimeter around finite land
+geometry-fact-torus-donut-001 · Geometry · Topologically, a coffee cup is a donut
+geometry-fact-wallpaper-17-001 · Geometry · Every wallpaper uses one of 17 symmetries
+geometry-fact-penrose-tiling-001 · Geometry · Never-repeating tiles that conquered chemistry
+geometry-fact-girih-tiles-001 · Geometry · Medieval tilers may have beaten Penrose by 500 years
+geometry-fact-geodesic-domes-001 · Geometry · Fuller's domes get stronger as they get bigger
+geometry-fact-dymaxion-map-001 · Geometry · Fuller's map unfolds Earth into triangles
+geometry-fact-winkel-tripel-001 · Geometry · The atlas map is a three-way compromise

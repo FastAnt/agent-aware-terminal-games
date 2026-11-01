@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "geometry-fact-reuleaux-drill-001",
+  "kicker": "FACT",
+  "topic": "Geometry",
+  "title": "A non-round triangle can drill a square hole",
+  "body": "Reuleaux triangles, arcs bulging from each corner, have the same width in every direction like a circle yet are not round; mounted eccentrically in a Watts drill they carve nearly square holes. Constant width is a property, roundness is a stronger claim. Barbier's theorem gives all such shapes the same perimeter, pi times width, cheekily including the circle.",
+  "source_hint": "Reuleaux; Watts Brothers drill patents (1914)",
+  "scene": {
+    "type": "orbits",
+    "rings": 3,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 0
+      },
+      {
+        "ring": 2,
+        "angle": 120
+      },
+      {
+        "ring": 3,
+        "angle": 240
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

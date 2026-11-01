@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "geometry-fact-penrose-tiling-001",
+  "kicker": "FACT",
+  "topic": "Geometry",
+  "title": "Never-repeating tiles that conquered chemistry",
+  "body": "Penrose's two tile shapes in the 1970s force aperiodic patterns: they cover the plane but never periodically, with local fivefold symmetry crystallography called impossible. In 1982 Dan Shechtman saw exactly such symmetry in an alloy and was ridiculed before winning the 2011 Nobel in Chemistry. The mathematics was considered a game until nature was caught playing it.",
+  "source_hint": "Penrose (1974); Shechtman Nobel Prize 2011",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "two tile shapes",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "never repeats",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "found in real alloys",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

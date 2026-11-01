@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "geometry-fact-spherical-triangle-001",
+  "kicker": "FACT",
+  "topic": "Geometry",
+  "title": "On a sphere, a triangle can have 3 right angles",
+  "body": "Draw a triangle on a sphere from the north pole down two meridians a quarter-turn apart and along the equator: three right angles, summing to 270 degrees. On curved surfaces the 180-degree rule is local custom, not law. Spherical excess, the surplus, measures the area, a fact navigators and geodesists use literally.",
+  "source_hint": "Spherical geometry (Girard's theorem)",
+  "scene": {
+    "type": "orbits",
+    "rings": 3,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 0
+      },
+      {
+        "ring": 2,
+        "angle": 90
+      },
+      {
+        "ring": 3,
+        "angle": 180
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "geometry-fact-penrose-triangle-001",
+  "kicker": "FACT",
+  "topic": "Geometry",
+  "title": "The Penrose triangle exists in photographs, from one angle",
+  "body": "Impossible triangles drawn by Reutersvärd (1934) and the Penroses (1954) cannot exist as ordinary solid objects, yet sculptors build twisted shapes that align into the impossible form from exactly one viewpoint. Your visual system assumes the rest. Perception is inference, and these objects are exploits for its assumptions, physical adversarial examples for human vision.",
+  "source_hint": "Reutersvärd (1934); Penrose and Penrose (1958)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "twisted real shape",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "one viewpoint",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "impossible triangle",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

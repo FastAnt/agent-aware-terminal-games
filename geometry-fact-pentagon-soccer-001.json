@@ -1,0 +1,35 @@
+{
+  "type": "fact",
+  "id": "geometry-fact-pentagon-soccer-001",
+  "kicker": "FACT",
+  "topic": "Geometry",
+  "title": "Every soccer ball hides exactly twelve pentagons",
+  "body": "A ball sewn from hexagons alone cannot close into a sphere; Euler's formula forces exactly twelve pentagonal defects among the hexagons, however many hexagons you add. Carbon's buckminsterfullerene molecule obeys the same count. It is a lovely jail: topology does not negotiate with sports equipment or chemistry.",
+  "source_hint": "Euler characteristic applied to fullerene/truncated icosahedron",
+  "scene": {
+    "type": "orbits",
+    "rings": 5,
+    "dots": [
+      {
+        "ring": 2,
+        "angle": 30
+      },
+      {
+        "ring": 3,
+        "angle": 120
+      },
+      {
+        "ring": 4,
+        "angle": 210
+      },
+      {
+        "ring": 5,
+        "angle": 320
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

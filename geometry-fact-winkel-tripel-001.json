@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "geometry-fact-winkel-tripel-001",
+  "kicker": "FACT",
+  "topic": "Geometry",
+  "title": "The atlas map is a three-way compromise",
+  "body": "National Geographic adopted the Winkel Tripel in 1998 because it balances area, distance and direction distortions acceptably, tripel referring to that triple compromise. It is nobody's optimum and everybody's truce. Even the name admits the theorem: you cannot have truth, so you negotiate which errors your readers can live with.",
+  "source_hint": "Winkel (1921); National Geographic adoption (1998)",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 2,
+        "angle": 40
+      },
+      {
+        "ring": 3,
+        "angle": 170
+      },
+      {
+        "ring": 4,
+        "angle": 300
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

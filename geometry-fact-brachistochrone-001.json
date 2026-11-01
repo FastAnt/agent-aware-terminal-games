@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "geometry-fact-brachistochrone-001",
+  "kicker": "FACT",
+  "topic": "Geometry",
+  "title": "The fastest slide curve is a cycloid",
+  "body": "Galileo guessed a circular arc; the true curve of fastest descent under gravity is a cycloid, shown by Johann Bernoulli's 1696 challenge and solved by Newton overnight, anonymously, among others. The winning curve dips steeply first to buy speed, then spends it. It launched the calculus of variations, mathematics for optimising whole paths, not points.",
+  "source_hint": "Acta Eruditorum challenge (1696-97)",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 2,
+        "angle": 40
+      },
+      {
+        "ring": 3,
+        "angle": 170
+      },
+      {
+        "ring": 4,
+        "angle": 300
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

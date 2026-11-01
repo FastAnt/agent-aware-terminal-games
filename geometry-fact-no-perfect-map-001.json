@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "geometry-fact-no-perfect-map-001",
+  "kicker": "FACT",
+  "topic": "Geometry",
+  "title": "A perfect flat map is a theorem-level impossibility",
+  "body": "Gauss's Theorema Egregium says curvature is intrinsic: a sphere's surface cannot be flattened without stretching or tearing, because curvature would have to change. Every world map therefore chooses its lie, preserving area, angles, distances or direction, never all. Map projections are editorial decisions with equations attached.",
+  "source_hint": "Gauss, Theorema Egregium (1827)",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 2,
+        "angle": 40
+      },
+      {
+        "ring": 3,
+        "angle": 180
+      },
+      {
+        "ring": 4,
+        "angle": 310
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

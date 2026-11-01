@@ -1,0 +1,35 @@
+{
+  "type": "fact",
+  "id": "geometry-fact-kissing-twelve-001",
+  "kicker": "FACT",
+  "topic": "Geometry",
+  "title": "Newton and Gregory argued over twelve or thirteen spheres",
+  "body": "Can thirteen equal spheres all touch one central sphere? Newton said twelve is the limit; Gregory suspected thirteen might fit in 1694. The space almost allows it; the twelve neighbours have slack to rattle around, which kept hope alive for 259 years until proved impossible in 1953. Near-misses can occupy mathematics for centuries.",
+  "source_hint": "Kissing number problem (Newton-Gregory dispute)",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 30
+      },
+      {
+        "ring": 2,
+        "angle": 130
+      },
+      {
+        "ring": 3,
+        "angle": 230
+      },
+      {
+        "ring": 4,
+        "angle": 330
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

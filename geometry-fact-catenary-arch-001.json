@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "geometry-fact-catenary-arch-001",
+  "kicker": "FACT",
+  "topic": "Geometry",
+  "title": "A hanging chain, flipped, is the perfect arch",
+  "body": "A flexible chain hangs in a catenary, pure compression's mirror: flip it and the same curve stands as an arch carrying its weight without bending. Hooke announced it in 1675 as an anagram; Gaudi later designed with hanging-chain models, literally inverting gravity into architecture. Galileo had guessed parabola for the chain and was gracefully wrong.",
+  "source_hint": "Hooke (1675); catenary mathematics (1691)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "chain hangs: tension",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "flip it over",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "arch: compression",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

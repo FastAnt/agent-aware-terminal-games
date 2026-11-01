@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "geometry-fact-torus-donut-001",
+  "kicker": "FACT",
+  "topic": "Geometry",
+  "title": "Topologically, a coffee cup is a donut",
+  "body": "Deform the cup continuously and its handle becomes the donut's hole while the cup's bowl flattens onto the ring; both are genus-one surfaces. Topology classifies by what survives such kneading: holes. The joke is also the discipline's thesis statement, that shape is softer and number is harder than we assumed.",
+  "source_hint": "Genus in algebraic topology",
+  "scene": {
+    "type": "orbits",
+    "rings": 3,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 90
+      },
+      {
+        "ring": 2,
+        "angle": 210
+      },
+      {
+        "ring": 3,
+        "angle": 330
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

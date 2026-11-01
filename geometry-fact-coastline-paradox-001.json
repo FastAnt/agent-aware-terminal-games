@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "geometry-fact-coastline-paradox-001",
+  "kicker": "FACT",
+  "topic": "Geometry",
+  "title": "Britain's coast has no definite length",
+  "body": "Measure the coast with shorter rulers and you capture more inlets, so the total grows without settling; Richardson measured it and Mandelbrot made it famous in 1967. Coastlines are not approximately one-dimensional, which is why fractal dimension, about 1.25 for Britain's west coast, describes them better than length. Maps quote a number only after quietly choosing a ruler.",
+  "source_hint": "Richardson; Mandelbrot, Science (1967)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "measure with 100 km",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "measure with 10 km",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "length grows",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "fact",
+  "id": "geometry-fact-five-platonics-001",
+  "kicker": "FACT",
+  "topic": "Geometry",
+  "title": "Exactly five perfect solids exist; Euclid ends there",
+  "body": "For a convex solid of identical regular faces, angle arithmetic at each corner permits only the tetrahedron, cube, octahedron, dodecahedron and icosahedron to close. Euclid's Elements builds toward constructing all five and proving the list complete in the final book. Twenty-three centuries later the proof strategy is unchanged: count the angles, exhaust the world.",
+  "source_hint": "Euclid, Elements Book XIII",
+  "scene": {
+    "type": "network",
+    "layers": [
+      1,
+      4
+    ],
+    "anim": {
+      "type": "pulse",
+      "speed": 0.5
+    }
+  }
+}

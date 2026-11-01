@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "geometry-fact-euler-formula-001",
+  "kicker": "FACT",
+  "topic": "Geometry",
+  "title": "Vertices minus edges plus faces equals two, almost always",
+  "body": "For convex polyhedra, V - E + F = 2, whether cube (8-12+6) or a geodesic dome with thousands of parts. Euler noticed it in 1750; it became the seed of topology, where the number reappears as a property of the surface, not the shape. Spheres give 2, a torus gives 0, a double torus -2, anatomy by arithmetic.",
+  "source_hint": "Euler (1750); Euler characteristic",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "count corners",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "minus edges, plus faces",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "always 2 on a sphere",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

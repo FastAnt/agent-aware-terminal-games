@@ -1,0 +1,35 @@
+{
+  "type": "fact",
+  "id": "geometry-fact-mercator-greenland-001",
+  "kicker": "FACT",
+  "topic": "Geometry",
+  "title": "Mercator makes Greenland look Africa-sized",
+  "body": "Mercator's 1569 projection preserves angles, priceless for navigation, by stretching land near the poles. Greenland (about 2.2 million km2) inflates to look Africa-sized (about 30 million). Generations of schoolchildren absorbed a wrong hierarchy of continents from a sailor's tool doing exactly its designed job.",
+  "source_hint": "Mercator projection mathematics; land area data",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 40
+      },
+      {
+        "ring": 2,
+        "angle": 150
+      },
+      {
+        "ring": 3,
+        "angle": 240
+      },
+      {
+        "ring": 4,
+        "angle": 330
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

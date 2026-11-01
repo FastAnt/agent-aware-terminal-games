@@ -1,0 +1,21 @@
+{
+  "type": "fact",
+  "id": "geometry-fact-kepler-oranges-001",
+  "kicker": "FACT",
+  "topic": "Geometry",
+  "title": "Greengrocers stack oranges the provably best way",
+  "body": "Kepler conjectured in 1611 that the familiar pyramid stack of spheres, face-centred cubic, is the densest possible packing at about 74 percent. Thomas Hales's 1998 proof ran to hundreds of pages plus code and took journal referees years to certify; a fully machine-checked version finished in 2014. Cannonballs, crystals and oranges share one optimum.",
+  "source_hint": "Hales (1998); Flyspeck project completion (2014)",
+  "scene": {
+    "type": "network",
+    "layers": [
+      3,
+      4,
+      3
+    ],
+    "anim": {
+      "type": "pulse",
+      "speed": 0.5
+    }
+  }
+}
