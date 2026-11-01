@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "math-fact-point999-001",
+  "kicker": "FACT",
+  "topic": "Math",
+  "title": "0.999... equals 1, exactly, not approximately",
+  "body": "Let x = 0.999...; then 10x = 9.999..., and subtracting gives 9x = 9, so x = 1. The discomfort comes from reading 0.999... as a process stopping somewhere; it names the limit itself. In the real numbers there is simply no room between it and 1 for a difference to live.",
+  "source_hint": "Standard real analysis (limit of geometric series)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "0.999...",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "10x - x = 9",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "x = 1",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

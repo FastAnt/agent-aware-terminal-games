@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "math-fact-fourcolour-001",
+  "kicker": "FACT",
+  "topic": "Math",
+  "title": "The four colour theorem needed a computer's stamina",
+  "body": "Appel and Haken's 1976 proof that four colours suffice for any map worked by reducing the problem to 1,936 configurations checked by computer, too many for human verification. It was the first famous theorem whose proof no person could fully survey. Later work shrank the case list, but the epistemological argument it started never closed.",
+  "source_hint": "Appel and Haken (1976); Robertson et al. simplification",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "any map",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "1936 cases by computer",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "four colours suffice",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

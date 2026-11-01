@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "math-fact-e-interest-001",
+  "kicker": "FACT",
+  "topic": "Math",
+  "title": "e was discovered by asking how interest compounds",
+  "body": "Jacob Bernoulli asked in 1683 what happens if interest compounds ever more often within a year. Yearly doubling gives 2, continuous compounding settles at about 2.71828, not infinity: the limit of (1+1/n)^n. The number e is thus baked into growth itself, which is why it keeps reappearing wherever change feeds on itself.",
+  "source_hint": "Bernoulli, compound interest problem, 1683",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "compound yearly: 2",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "compound always",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "limit = e",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

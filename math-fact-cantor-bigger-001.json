@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "math-fact-cantor-bigger-001",
+  "kicker": "FACT",
+  "topic": "Math",
+  "title": "Some infinities are provably bigger than others",
+  "body": "Cantor's diagonal argument lists supposed real numbers between 0 and 1, then builds a number differing from the nth listed at the nth digit. The new number is missing by construction, so no list exhausts the reals. Counting numbers and reals are both infinite, yet cannot be paired off.",
+  "source_hint": "Cantor, diagonal argument, 1891",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "list all reals",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "flip nth digit",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "missing number",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

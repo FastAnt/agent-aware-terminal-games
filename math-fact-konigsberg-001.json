@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "math-fact-konigsberg-001",
+  "kicker": "FACT",
+  "topic": "Math",
+  "title": "Seven bridges founded graph theory by being impossible",
+  "body": "Königsberg's citizens wondered if one walk could cross each of its seven bridges exactly once. Euler modelled land as points and bridges as lines, then showed such a route needs at most two landmasses with an odd number of bridges; Königsberg had four. Answer: impossible, and a new field began with a 'no'.",
+  "source_hint": "Euler, 'Solutio problematis ad geometriam situs pertinentis', 1736",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "land = points",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "bridges = lines",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "4 odd: impossible",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

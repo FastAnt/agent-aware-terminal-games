@@ -1,0 +1,27 @@
+{
+  "type": "fact",
+  "id": "math-fact-ham-sandwich-001",
+  "kicker": "FACT",
+  "topic": "Math",
+  "title": "One cut can halve two sandwiches exactly",
+  "body": "The ham sandwich theorem says a single plane can simultaneously bisect the volumes of several objects in space: bread, ham, and (in the plane version) two pancakes with one line. It follows from topology, not knife skill. Its cousin, the Borsuk-Ulam theorem, also guarantees antipodal points on Earth share temperature and pressure right now.",
+  "source_hint": "Ham sandwich theorem (Steinhaus); Borsuk-Ulam, 1933",
+  "scene": {
+    "type": "orbits",
+    "rings": 3,
+    "dots": [
+      {
+        "ring": 2,
+        "angle": 60
+      },
+      {
+        "ring": 3,
+        "angle": 240
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

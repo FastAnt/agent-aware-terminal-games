@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "math-fact-st-petersburg-001",
+  "kicker": "FACT",
+  "topic": "Math",
+  "title": "A coin game worth infinity that nobody will buy",
+  "body": "Flip until heads: win 2^k dollars if it takes k flips. Expected value sums to infinity, yet people offer a few dollars, a paradox Bernoulli resolved by valuing money's utility, which grows slower than money. Casinos and insurers still live inside this insight: expected value is not expected satisfaction.",
+  "source_hint": "Bernoulli (1738), St Petersburg paradox",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "flip until heads",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "prize doubles",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "infinite expectation",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

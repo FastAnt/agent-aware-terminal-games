@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "math-fact-hilbert-hotel-001",
+  "kicker": "FACT",
+  "topic": "Math",
+  "title": "A full hotel with infinite rooms can still take guests",
+  "body": "Hilbert's hotel has rooms 1, 2, 3, ... all occupied. One more guest arrives: move everyone from room n to n+1 and room 1 frees up. Even infinitely many new guests fit by moving n to 2n. Infinity plus one is not bigger; that is almost its definition.",
+  "source_hint": "Hilbert, hotel parable (1924 lectures)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "all rooms full",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "n -> n+1",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "room 1 free",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

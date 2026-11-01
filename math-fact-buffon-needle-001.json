@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "math-fact-buffon-needle-001",
+  "kicker": "FACT",
+  "topic": "Math",
+  "title": "Dropping needles on floorboards estimates pi",
+  "body": "Buffon showed in 1777 that a needle dropped on evenly spaced lines crosses a line with probability involving pi, because orientation is angular and pi owns angles. Tossing many needles and counting crossings estimates pi by pure chance. It is Monte Carlo computation two centuries before computers existed to be Monte-Carloed upon.",
+  "source_hint": "Buffon (1777); Laplace's extension",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "drop needles",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "count crossings",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "pi from chance",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

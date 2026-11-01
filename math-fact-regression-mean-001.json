@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "math-fact-regression-mean-001",
+  "kicker": "FACT",
+  "topic": "Math",
+  "title": "Tall parents have shorter children, on average: regression",
+  "body": "Galton noticed children of very tall parents tend to be tall but closer to average, and symmetrically for short parents. No force pulls families toward mediocrity; extremes are partly luck, and luck does not inherit. Regression to the mean thereafter explained phantom effects of punishments, remedies and coaching interventions everywhere.",
+  "source_hint": "Galton, 'Regression Towards Mediocrity in Hereditary Stature' (1886)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "extreme parent",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "partly luck",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "child nearer average",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

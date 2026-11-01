@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "math-fact-hairy-ball-001",
+  "kicker": "FACT",
+  "topic": "Math",
+  "title": "You cannot comb a hairy ball flat everywhere",
+  "body": "Topology proves any continuous tangent field on a sphere has a zero: comb a hairy ball and some point stands up or swirls. Meteorologists read it as 'somewhere on Earth the horizontal wind is calm right now'. The same theorem fails on a doughnut, which is why torus-shaped creatures could, in principle, be perfectly combed.",
+  "source_hint": "Hairy ball theorem (Poincaré-Brouwer)",
+  "scene": {
+    "type": "orbits",
+    "rings": 3,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 90
+      },
+      {
+        "ring": 2,
+        "angle": 200
+      },
+      {
+        "ring": 3,
+        "angle": 330
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

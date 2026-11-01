@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "math-fact-montyhall-001",
+  "kicker": "FACT",
+  "topic": "Math",
+  "title": "Switching doors wins the car twice as often",
+  "body": "Your first pick hides the car with probability 1/3. The host, who knows, opens a goat door, concentrating the other 2/3 onto the single remaining closed door. Switching therefore wins two thirds of the time. The host's informed choice, not the doors themselves, moves the probability.",
+  "source_hint": "Monty Hall problem (vos Savant, 1990; formal analyses)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "your door: 1/3",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "host opens goat",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "other door: 2/3",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

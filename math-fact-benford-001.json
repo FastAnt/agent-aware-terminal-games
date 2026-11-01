@@ -1,0 +1,21 @@
+{
+  "type": "fact",
+  "id": "math-fact-benford-001",
+  "kicker": "FACT",
+  "topic": "Math",
+  "title": "Real data starts with 1 far more often than with 9",
+  "body": "In many naturally growing datasets, about 30 percent of numbers begin with 1 and fewer than 5 percent with 9, following log10(1+1/d). Quantities spanning many scales spend more time in the low end of each decade. Auditors screen accounts with Benford's law because invented numbers tend to start too evenly.",
+  "source_hint": "Benford (1938); Newcomb (1881)",
+  "scene": {
+    "type": "network",
+    "layers": [
+      6,
+      4,
+      2
+    ],
+    "anim": {
+      "type": "pulse",
+      "speed": 0.5
+    }
+  }
+}

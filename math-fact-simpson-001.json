@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "math-fact-simpson-001",
+  "kicker": "FACT",
+  "topic": "Math",
+  "title": "A trend can hold in every subgroup and reverse overall",
+  "body": "Simpson's paradox arises when groups of very different sizes are merged: treatment A beats B for men and for women separately, yet loses combined, because group mix, not treatment effect, drives the totals. It is not a trick but a warning that aggregates conceal structure. Several famous discrimination lawsuits turned on exactly this.",
+  "source_hint": "Simpson (1951); Berkeley admissions analyses (1973)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "A wins group 1",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "A wins group 2",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "B wins combined",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}
