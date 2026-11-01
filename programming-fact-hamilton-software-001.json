@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-hamilton-software-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "Apollo software made failure a scheduling problem",
+  "body": "Margaret Hamilton's Apollo team designed the guidance software to prioritise: when overloaded, it dropped display jobs and kept flying the spacecraft. That priority executive is why the 1202 alarms during Apollo 11 were survivable. Hamilton also pushed the then-radical idea that software deserved the word 'engineering'.",
+  "source_hint": "NASA Apollo software engineering history",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "job priorities",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "drop displays",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "keep flying",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

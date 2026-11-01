@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-turing-machine-paper-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "Computability came from an imaginary machine",
+  "body": "Turing's 1936 paper described a hypothetical device reading and writing symbols on an endless tape. With that fiction he defined what 'computable' means, proved limits on it, and sketched a universal machine that could simulate any other. Real computers arrived a decade later, already described.",
+  "source_hint": "Turing, 'On Computable Numbers', 1936",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "tape + head",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "read, write, move",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "universal machine",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

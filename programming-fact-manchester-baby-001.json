@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-manchester-baby-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "The first stored program ran 52 minutes, in 1948",
+  "body": "Manchester's 'Baby' ran the world's first stored program on 21 June 1948: 17 instructions that found the highest factor of a number by trial subtraction. It took 52 minutes and about 3.5 million operations. Tiny as it was, it proved instructions could live in memory alongside data.",
+  "source_hint": "University of Manchester computing history",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "17 instructions",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "trial subtraction",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "highest factor",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-year-2038-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "The 2038 bug is a clock overflow, not a prophecy",
+  "body": "Many systems store time as a signed 32-bit count of seconds since 1970. That counter reaches its maximum on 19 January 2038 and wraps to a negative value, so unpatched systems may read the date as 1901. The fix is boring but vital: move to 64-bit time before the deadline arrives.",
+  "source_hint": "POSIX time and 32-bit time_t limits",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "1970 epoch",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "32-bit seconds",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "wraps 2038",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

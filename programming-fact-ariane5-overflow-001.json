@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-ariane5-overflow-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "Ariane 5 was lost to an overflowing number",
+  "body": "In 1996 the first Ariane 5 veered off course and self-destructed about 40 seconds after launch. Software reused from Ariane 4 converted a 64-bit velocity value into a 16-bit integer that overflowed, because the new rocket flew a faster trajectory the old code had never seen. Reuse without re-checking assumptions was the real fault.",
+  "source_hint": "ESA Ariane 5 Flight 501 inquiry report",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Ariane 4 code",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "64-bit to 16-bit",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "overflow",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

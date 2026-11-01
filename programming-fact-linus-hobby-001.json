@@ -1,0 +1,21 @@
+{
+  "type": "fact",
+  "id": "programming-fact-linus-hobby-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "Linux began as 'just a hobby'",
+  "body": "In August 1991 Linus Torvalds posted that he was building a free operating system kernel, 'just a hobby, won't be big and professional'. Hobby licensing plus arriving internet collaboration turned it into the kernel under most servers, phones (via Android) and every TOP500 supercomputer since 2017.",
+  "source_hint": "Torvalds, comp.os.minix post, 25 Aug 1991; TOP500",
+  "scene": {
+    "type": "network",
+    "layers": [
+      2,
+      4,
+      3
+    ],
+    "anim": {
+      "type": "pulse",
+      "speed": 0.5
+    }
+  }
+}

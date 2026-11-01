@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-git-ten-days-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "Git was written in weeks, out of necessity",
+  "body": "When the free BitKeeper licence for Linux kernel development was revoked in 2005, Linus Torvalds wrote Git, using it to manage the kernel within about ten days. He designed it as a distributed content tracker first and a version tool second, which is why every clone carries full history.",
+  "source_hint": "Torvalds, Git project history, 2005",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "BitKeeper revoked",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "Git in days",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "every clone complete",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

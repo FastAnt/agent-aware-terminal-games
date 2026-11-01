@@ -1,0 +1,21 @@
+{
+  "type": "fact",
+  "id": "programming-fact-eniac-programmers-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "ENIAC was programmed by rewiring it",
+  "body": "ENIAC's first programmers, six women mathematicians, set up problems by plugging cables and setting thousands of switches, because stored programs did not exist yet. A calculation could take days to wire and minutes to run. Their work was debugging as much as programming: tracing signals through the machine by hand.",
+  "source_hint": "ENIAC historical records, US Army / UPenn",
+  "scene": {
+    "type": "network",
+    "layers": [
+      3,
+      4,
+      2
+    ],
+    "anim": {
+      "type": "pulse",
+      "speed": 0.5
+    }
+  }
+}

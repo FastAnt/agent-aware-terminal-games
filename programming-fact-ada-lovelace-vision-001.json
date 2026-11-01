@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-ada-lovelace-vision-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "Lovelace predicted computers would compose music",
+  "body": "Beyond her Bernoulli algorithm, Lovelace wrote that a sufficiently general engine 'might compose elaborate pieces of music' if relations could be expressed symbolically. In 1843, with no working computer in existence, she had already separated the idea of software from the machinery that runs it. That conceptual leap is why she is celebrated.",
+  "source_hint": "Lovelace's notes, Note G, 1843",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "symbols, not numbers",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "music, images",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "software idea",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

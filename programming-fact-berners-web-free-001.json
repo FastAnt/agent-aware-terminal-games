@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-berners-web-free-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "The Web was given away. That is why it won",
+  "body": "Tim Berners-Lee built the first website at CERN in 1991 to share documents between physicists. In 1993 CERN released the Web's technology royalty-free. Rival systems charged or stayed proprietary; the free, simple one became universal infrastructure within a few years.",
+  "source_hint": "CERN 1993 public-domain release of WWW",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "CERN 1991",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "free in 1993",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "the Web everywhere",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

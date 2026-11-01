@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-binary-search-overflow-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "Binary search hid an overflow bug for years",
+  "body": "The classic midpoint formula (low + high) / 2 overflows for large arrays, turning a correct algorithm into a crash. The bug sat in textbooks and in Java's own library until Joshua Bloch publicised it in 2006. Writing low + (high - low) / 2 avoids ever forming the too-large sum.",
+  "source_hint": "Bloch, 'Nearly All Binary Searches Are Broken', 2006",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "low + high",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "overflow",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "safer midpoint",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

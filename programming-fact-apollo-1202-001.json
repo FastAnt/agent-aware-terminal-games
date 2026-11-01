@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-apollo-1202-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "Apollo 11 landed while its computer complained",
+  "body": "Minutes before the first Moon landing, the Apollo guidance computer raised 1201 and 1202 alarms. Its priority-based executive was shedding low-priority jobs under an unexpected radar load, exactly as designed. Mission control recognised the behaviour, trusted the design, and called 'go' for landing.",
+  "source_hint": "Apollo 11 mission reports and AGC documentation",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "radar overload",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "priority shedding",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "landing: go",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-hopper-compiler-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "Hopper built a compiler they said was impossible",
+  "body": "In 1952 Hopper's A-0 system translated symbolic instructions into machine code for UNIVAC. Colleagues insisted computers could only do arithmetic, never write programs. Her compiler proved programs could be written by programs, the seed of every high-level language and of COBOL, which she later championed.",
+  "source_hint": "Grace Hopper, A-0 compiler history, 1952",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "symbolic code",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "A-0 compiler",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "machine code",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

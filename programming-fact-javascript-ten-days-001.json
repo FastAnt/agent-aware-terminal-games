@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-javascript-ten-days-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "JavaScript was prototyped in about ten days",
+  "body": "Brendan Eich built the first JavaScript prototype at Netscape in May 1995 in roughly ten days, under pressure to ship a scripting language for the browser. The haste left famous quirks, like typeof null being 'object'. Standardised as ECMAScript, it outlived the browser wars to run nearly every page.",
+  "source_hint": "Eich, JavaScript history interviews; ECMA-262",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Netscape 1995",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "10-day prototype",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "every web page",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}
