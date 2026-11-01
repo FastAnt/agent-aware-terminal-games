@@ -128,7 +128,7 @@ def paint(cr, view):
     ox, oy = w*0.78, h*0.26; ex, ey = w*0.3, h*0.58
     _circ(cr, view, ox, oy, 7, "text", 1, fill=True); _t(cr, view, ox, oy - 18, "origin", 10, "muted")
     _circ(cr, view, ex, ey, 7, "square", 1, fill=True); _t(cr, view, ex, ey + 24, "edge", 10, "square")
-    cr.new_path(); cr.move_to(ex, ey); cr.quadratic_curve_to(w*0.55, h*0.2, ox, oy)
+    cr.new_path(); cr.move_to(ex, ey); cr.curve_to(w*0.5, h*0.24, w*0.62, h*0.16, ox, oy)
     cr.set_source_rgba(*view.colors["muted"], 0.6); cr.set_line_width(1.4); cr.stroke()
     _t(cr, view, w*0.56, h*0.24, "first request: far", 11, "muted")
     for i in range(3):

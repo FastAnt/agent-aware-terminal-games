@@ -125,7 +125,7 @@ def _bars(cr, view, items, x0, y0, bw, gap, maxv):
 def paint(cr, view):
     w, h, t = view.w, view.h, view.t
     cx, cy = w/2, h*0.44
-    cr.new_path(); cr.move_to(cx - 170, cy); cr.quadratic_curve_to(cx, cy - 34, cx + 170, cy + 6); cr.quadratic_curve_to(cx, cy + 22, cx - 170, cy + 10); cr.close_path()
+    cr.new_path(); cr.move_to(cx - 170, cy); cr.curve_to(cx - 60, cy - 34, cx + 80, cy - 30, cx + 170, cy + 6); cr.curve_to(cx + 60, cy + 22, cx - 80, cy + 20, cx - 170, cy + 10); cr.close_path()
     cr.set_source_rgba(*view.colors["text"], 0.85); cr.set_line_width(1.8); cr.stroke()
     _circ(cr, view, cx + 130, cy + 14, 6, "square", 1, fill=True)
     _t(cr, view, cx + 130, cy + 40, "one faulty sensor", 11, "square")
