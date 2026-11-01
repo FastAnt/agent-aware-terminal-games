@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "physics-fact-proton-electron-1836-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "One proton outweighs 1836 electrons",
+  "body": "The proton-to-electron mass ratio is about 1836.15, another dimensionless constant measured superbly and explained not at all. Because of it, chemistry's mass lives in nuclei while its action lives in electrons, a division of labour the whole periodic table exploits. Why this ratio, nobody can currently derive from deeper principles.",
+  "source_hint": "CODATA mass ratio",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "electron mass x 1836",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "proton",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "chemistry's split",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

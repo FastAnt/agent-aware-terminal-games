@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "physics-fact-iss-falling-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "Astronauts float because they never stop falling",
+  "body": "The International Space Station at about 400 kilometres still feels roughly 90 percent of surface gravity. Crew float because station, crew and breakfast all fall around Earth together, continuously missing the ground. 'Zero gravity' is a misnomer; free fall is the honest term, and orbit is falling with style points for trajectory.",
+  "source_hint": "ISS orbital parameters (NASA)",
+  "scene": {
+    "type": "orbits",
+    "rings": 3,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 60
+      },
+      {
+        "ring": 2,
+        "angle": 190
+      },
+      {
+        "ring": 3,
+        "angle": 320
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

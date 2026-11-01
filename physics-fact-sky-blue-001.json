@@ -1,0 +1,35 @@
+{
+  "type": "fact",
+  "id": "physics-fact-sky-blue-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "The sky is blue because air itself scatters blue most",
+  "body": "Sunlight bouncing off molecules much smaller than its wavelength scatters in proportion to one over wavelength to the fourth power: blue scatters several times more strongly than red. Your blue sky is sunlight redirected sideways by the air. At sunset the long path strips the blue away, leaving the reds the same law spared.",
+  "source_hint": "Rayleigh scattering (1871)",
+  "scene": {
+    "type": "orbits",
+    "rings": 5,
+    "dots": [
+      {
+        "ring": 2,
+        "angle": 30
+      },
+      {
+        "ring": 3,
+        "angle": 140
+      },
+      {
+        "ring": 4,
+        "angle": 230
+      },
+      {
+        "ring": 5,
+        "angle": 320
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

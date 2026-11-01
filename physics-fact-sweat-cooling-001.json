@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "physics-fact-sweat-cooling-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "Sweat cools by taking the fastest molecules",
+  "body": "Evaporating water carries off more than average energy per molecule, leaving the remaining sweat, and your skin, cooler. Humidity defeats it by slowing net evaporation, which is why muggy heat is dangerous at temperatures that feel fine when dry. Fans help by replacing saturated air, not by chilling the room.",
+  "source_hint": "Latent heat of vaporisation physiology",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "fast molecules escape",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "skin left cooler",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "humidity blocks it",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "physics-fact-second-caesium-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "One second is 9,192,631,770 ticks of caesium",
+  "body": "The second is defined by the caesium-133 atom's hyperfine transition: exactly 9,192,631,770 periods of its radiation make one second. The number was chosen in 1967 to match the astronomical second it replaced. Atomic clocks realising it now err by less than a second over millions of years, quietly anchoring GPS and networks.",
+  "source_hint": "SI brochure, second definition",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "caesium atom",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "9,192,631,770 ticks",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "one second",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "physics-fact-metre-light-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "The metre is defined by light, not a bar",
+  "body": "Since 1983 the metre has been defined as the distance light travels in 1/299792458 of a second, fixing the speed of light as exact by definition. The platinum-iridium bar in Paris retired. Length is now derived from time, our most precisely measurable quantity, so any good clock laboratory can realise a metre without visiting a vault.",
+  "source_hint": "SI brochure (BIPM), metre definition",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 2,
+        "angle": 30
+      },
+      {
+        "ring": 3,
+        "angle": 170
+      },
+      {
+        "ring": 4,
+        "angle": 300
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

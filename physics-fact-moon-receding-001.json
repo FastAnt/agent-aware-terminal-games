@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "physics-fact-moon-receding-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "The Moon drifts away about 4 centimetres a year",
+  "body": "Apollo astronauts left mirror arrays on the Moon; timing laser pulses off them measures the Earth-Moon distance to centimetres and shows the Moon receding roughly 3.8 centimetres yearly. Earth's tides, dragged ahead by rotation, transfer angular momentum to the Moon. In exchange, our day slowly lengthens, as ancient coral growth bands also record.",
+  "source_hint": "Lunar laser ranging (Apollo retroreflectors)",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 2,
+        "angle": 40
+      },
+      {
+        "ring": 3,
+        "angle": 180
+      },
+      {
+        "ring": 4,
+        "angle": 310
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

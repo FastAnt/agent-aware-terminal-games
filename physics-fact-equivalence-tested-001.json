@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "physics-fact-equivalence-tested-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "Falling objects agree to 1 part in 10^15",
+  "body": "The MICROSCOPE satellite compared titanium and platinum masses in free fall around Earth and found their accelerations equal to about one part in a quadrillion. Galileo's insight, Newton's assumption and Einstein's foundation keep surviving sharper tests. Any future theory of gravity must still explain why inertial and gravitational mass refuse to differ.",
+  "source_hint": "MICROSCOPE mission results (2022)",
+  "scene": {
+    "type": "orbits",
+    "rings": 3,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 60
+      },
+      {
+        "ring": 2,
+        "angle": 180
+      },
+      {
+        "ring": 3,
+        "angle": 320
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

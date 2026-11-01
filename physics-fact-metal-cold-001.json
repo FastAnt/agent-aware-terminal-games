@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "physics-fact-metal-cold-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "Metal feels colder than wood at the same temperature",
+  "body": "A steel rail and a wooden bench in the same room are at the same temperature, yet the rail feels colder because metal conducts heat away from your skin far faster. Your hand senses heat flow, not temperature itself. Effusivity, how greedily a surface drinks heat, is the property your fingers actually report.",
+  "source_hint": "Thermal effusivity, heat conduction texts",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "same temperature",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "metal drains heat fast",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "feels colder",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

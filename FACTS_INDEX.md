@@ -219,3 +219,28 @@ physics-fact-planck-scale-001 · Physics · Planck units mark where our two best
 physics-fact-chandrasekhar-001 · Physics · A star's death has a weight limit of 1.4 Suns
 physics-fact-neutron-star-density-001 · Physics · A neutron star packs a mountain range into a sugar cube
 physics-fact-eddington-eclipse-001 · Physics · A 1919 eclipse made Einstein famous overnight
+physics-fact-metre-light-001 · Physics · The metre is defined by light, not a bar
+physics-fact-second-caesium-001 · Physics · One second is 9,192,631,770 ticks of caesium
+physics-fact-kilogram-planck-001 · Physics · The kilogram is anchored to Planck's constant since 2019
+physics-fact-absolute-zero-001 · Physics · Absolute zero is a limit you may approach, never reach
+physics-fact-alpha-137-001 · Physics · One dimensionless number in physics has no explanation
+physics-fact-proton-electron-1836-001 · Physics · One proton outweighs 1836 electrons
+physics-fact-equivalence-tested-001 · Physics · Falling objects agree to 1 part in 10^15
+physics-fact-moon-receding-001 · Physics · The Moon drifts away about 4 centimetres a year
+physics-fact-day-lengthening-001 · Physics · Days were about 22 hours when dinosaurs were young
+physics-fact-sky-blue-001 · Physics · The sky is blue because air itself scatters blue most
+physics-fact-metal-cold-001 · Physics · Metal feels colder than wood at the same temperature
+physics-fact-glass-not-liquid-001 · Physics · Old window panes are not slowly flowing glass
+physics-fact-microwave-frequency-001 · Physics · Microwaves heat food at 2.45 GHz, and not by resonance
+physics-fact-lightning-hot-001 · Physics · Lightning is several times hotter than the Sun's surface
+physics-fact-static-shock-001 · Physics · A doorknob shock is thousands of volts and harmless
+physics-fact-frog-levitation-001 · Physics · A live frog has floated in a magnet
+physics-fact-superconductor-meissner-001 · Physics · Superconductors expel magnetic fields
+physics-fact-pressure-cooker-001 · Physics · Pressure cookers cook by letting water get hotter
+physics-fact-sweat-cooling-001 · Physics · Sweat cools by taking the fastest molecules
+physics-fact-boomerang-nebula-001 · Physics · The coldest natural place is a star's outflow
+physics-fact-sun-sound-delay-001 · Physics · Sun storms would take a month to hear
+physics-fact-earth-rotation-speed-001 · Physics · You are moving at 1,600 km/h and feel nothing
+physics-fact-iss-falling-001 · Physics · Astronauts float because they never stop falling
+physics-fact-escape-velocity-001 · Physics · Escape velocity is about not coming back, not about engines
+physics-fact-coriolis-myth-001 · Physics · Toilet bowls do not reveal the hemisphere

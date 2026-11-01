@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "physics-fact-boomerang-nebula-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "The coldest natural place is a star's outflow",
+  "body": "The Boomerang Nebula's gas, expanding rapidly from a dying star, has cooled to about one kelvin, colder than the 2.7 kelvin cosmic background glow everywhere else. Expansion refrigerates it below the universe's own floor temperature, locally and briefly on cosmic scales. Laboratories on Earth go far colder, deliberately and in speck-sized samples.",
+  "source_hint": "Boomerang Nebula measurements (ALMA / Sahai and Nyman)",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 2,
+        "angle": 40
+      },
+      {
+        "ring": 3,
+        "angle": 170
+      },
+      {
+        "ring": 4,
+        "angle": 300
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

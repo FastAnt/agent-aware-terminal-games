@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "physics-fact-superconductor-meissner-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "Superconductors expel magnetic fields",
+  "body": "Below a critical temperature, superconductors actively push magnetic fields out of their interior, the Meissner effect, beyond merely having zero resistance. That expulsion is what locks levitating magnets in place over superconductors in demonstrations and maglev prototypes. Zero resistance alone would trap fields in, not hold a train up.",
+  "source_hint": "Meissner and Ochsenfeld (1933)",
+  "scene": {
+    "type": "orbits",
+    "rings": 3,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 50
+      },
+      {
+        "ring": 2,
+        "angle": 180
+      },
+      {
+        "ring": 3,
+        "angle": 310
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

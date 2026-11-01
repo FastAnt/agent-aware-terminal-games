@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "physics-fact-sun-sound-delay-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "Sun storms would take a month to hear",
+  "body": "Sound cannot cross the vacuum between Sun and Earth, but even if it could at sea-level speed it would take roughly a month to arrive, and would spread and fade far below audibility on the way. Space silence is a distance-and-medium fact, not an absence of violence at the source. Explosions in films lie twice: in timing and in volume.",
+  "source_hint": "Speed of sound vs Earth-Sun distance (calculation)",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 50
+      },
+      {
+        "ring": 3,
+        "angle": 200
+      },
+      {
+        "ring": 4,
+        "angle": 330
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

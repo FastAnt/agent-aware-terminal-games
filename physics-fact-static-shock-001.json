@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "physics-fact-static-shock-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "A doorknob shock is thousands of volts and harmless",
+  "body": "Walking on carpet can charge you to several thousand volts, yet the spark that stings carries microjoules because almost no charge is stored. Voltage is pressure, not quantity; static shocks are all pressure and no river. The same voltage from a supply that can sustain current is what makes electricity dangerous.",
+  "source_hint": "Electrostatics references (triboelectric charging)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "thousands of volts",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "almost no charge",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "sting, not harm",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "physics-fact-day-lengthening-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "Days were about 22 hours when dinosaurs were young",
+  "body": "Tidal friction saps Earth's spin, lengthening the day by roughly two milliseconds per century, a rate fossil corals confirm: Devonian corals show about 400 daily growth bands per annual band, meaning about 400 shorter days per year then. The Moon article and this one are the same transaction read from opposite ends.",
+  "source_hint": "Paleorotation evidence (Wells, coral growth rings)",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 2,
+        "angle": 30
+      },
+      {
+        "ring": 3,
+        "angle": 170
+      },
+      {
+        "ring": 4,
+        "angle": 300
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}
