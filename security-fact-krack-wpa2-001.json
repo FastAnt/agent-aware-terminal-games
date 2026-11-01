@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "security-fact-krack-wpa2-001",
+  "kicker": "FACT",
+  "topic": "Security",
+  "title": "KRACK made WPA2 handshakes replay their keys away",
+  "body": "Mathy Vanhoef's 2017 key-reinstallation attacks forced retransmitted handshake messages to reinstall already-used keys in WPA2, resetting nonces and enabling decryption on many devices. The flaw lived in the protocol's state machine and its formal proofs' blind spots, not in one vendor's code. It patched client by client, an ecosystem-scale scavenger hunt.",
+  "source_hint": "Vanhoef, 'Key Reinstallation Attacks' (ACM CCS 2017)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "replay handshake step",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "key reinstalled, nonce reset",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "traffic decryptable",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

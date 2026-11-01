@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "security-fact-passkeys-origin-001",
+  "kicker": "FACT",
+  "topic": "Security",
+  "title": "Passkeys stop phishing by refusing the wrong site",
+  "body": "A FIDO2 passkey signs a challenge bound to the site's real origin, so a lookalike domain receives a signature it cannot use and the browser will not offer the real credential there. There is no shared secret for a fake page to harvest. Phishing resistance comes from refusing to play, cryptographically, on the wrong field.",
+  "source_hint": "FIDO2 / WebAuthn specification (W3C)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "fake site asks",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "origin does not match",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "no usable signature",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

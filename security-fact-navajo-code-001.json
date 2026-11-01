@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "security-fact-navajo-code-001",
+  "kicker": "FACT",
+  "topic": "Security",
+  "title": "The Navajo code was never broken, and it was two codes deep",
+  "body": "US Marines in the Pacific used Navajo code talkers whose system combined an unwritten language with a substitution code for military terms, spoken at machine-gun speed without machines. Japanese intelligence never cracked it, and a captured code talker forced to translate literal Navajo produced nonsense, because the code layer hid inside the language layer. Obscurity worked once, as a weapon with native speakers as the key.",
+  "source_hint": "US Marine Corps / National Archives, code talker histories",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Navajo language",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "code inside it",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "never broken",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

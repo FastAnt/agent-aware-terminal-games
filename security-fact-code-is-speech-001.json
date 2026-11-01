@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "security-fact-code-is-speech-001",
+  "kicker": "FACT",
+  "topic": "Security",
+  "title": "A court fight made source code legally speech",
+  "body": "When the US treated strong cryptography as a munition requiring export licences, cryptographer Daniel Bernstein sued; appeals courts in the 1990s recognised source code as expressive speech under the First Amendment. PGP's author Phil Zimmermann had faced investigation for the same reason. The rulings underpin why publishing cryptography is now ordinary academic life.",
+  "source_hint": "Bernstein v. United States (9th Cir.)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "code classed as munition",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "sued for publishing",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "speech, ruled court",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

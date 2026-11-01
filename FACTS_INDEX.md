@@ -487,3 +487,18 @@ cloud-fact-retry-jitter-001 · Cloud · Polite retries back off exponentially an
 cloud-fact-egress-asymmetry-001 · Cloud · Clouds charge rent on the exit door, not the entrance
 cloud-fact-clock-skew-leases-001 · Cloud · Cloud leases assume clocks lie a little
 cloud-fact-load-shedding-001 · Cloud · Dropping some requests early saves the rest
+security-fact-venona-reuse-001 · Security · One-time pads failed the Soviets only when reused
+security-fact-code-is-speech-001 · Security · A court fight made source code legally speech
+security-fact-nist-password-reversal-001 · Security · The password rules' author publicly recanted them
+security-fact-correct-horse-entropy-001 · Security · Four random words beat one tortured password
+security-fact-timing-side-channel-001 · Security · Passwords have been stolen by measuring nanoseconds
+security-fact-rowhammer-001 · Security · Reading your own memory can flip bits in your neighbour's
+security-fact-spectre-lesson-001 · Security · Spectre made CPUs leak through their own predictions
+security-fact-van-eck-001 · Security · A monitor's picture was recoverable from its radio leakage
+security-fact-krack-wpa2-001 · Security · KRACK made WPA2 handshakes replay their keys away
+security-fact-wep-iv-reuse-001 · Security · WEP died because its 24-bit IVs repeated by lunch
+security-fact-sql-injection-shape-001 · Security · SQL injection is a grammar confusion, not bad luck
+security-fact-passkeys-origin-001 · Security · Passkeys stop phishing by refusing the wrong site
+security-fact-totp-window-001 · Security · Your 6-digit code is a clock, shared with the server
+security-fact-beyondcorp-aurora-001 · Security · Google rebuilt access after being breached in 2009
+security-fact-navajo-code-001 · Security · The Navajo code was never broken, and it was two codes deep

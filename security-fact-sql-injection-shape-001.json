@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "security-fact-sql-injection-shape-001",
+  "kicker": "FACT",
+  "topic": "Security",
+  "title": "SQL injection is a grammar confusion, not bad luck",
+  "body": "Injection happens when user text is glued into a query string so the database cannot tell instructions from data, the same confusion as XSS in browsers and command injection in shells. Parameterised queries fix the class by sending code and data on separate channels, not by blacklisting quotes. Every injection variant since the 1990s is this one idea wearing a new syntax.",
+  "source_hint": "OWASP SQL Injection reference",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "data glued into code",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "database obeys the text",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "parameters separate them",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

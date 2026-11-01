@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "security-fact-wep-iv-reuse-001",
+  "kicker": "FACT",
+  "topic": "Security",
+  "title": "WEP died because its 24-bit IVs repeated by lunch",
+  "body": "WEP encrypted each packet with RC4 keyed by a shared secret plus a 24-bit initialisation vector sent in clear. On a busy network those IVs exhausted and repeated within hours, and weak-IV analysis recovered the key from passively sniffed traffic. AirSnort made it a download in 2001. The cipher's core was fine; the key scheduling was a revolving door.",
+  "source_hint": "Fluhrer, Mantin, Shamir (2001), RC4 key scheduling attack",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "24-bit IV space",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "repeats in hours",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "key recovered passively",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}
