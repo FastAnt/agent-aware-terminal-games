@@ -184,6 +184,148 @@ wrong for both.
 | programming-linked-list-001 | nodes in a chain with next arrows, head/tail marked |
 | programming-while-loop-001 | a circular loop arrow with a counter and an exit |
 
+## Visual-fit audit (explicit addendum)
+
+This addendum answers the two visual questions directly for
+every agent-authored game in this batch. It is the authoritative
+visual decision list where the summary counts above differ.
+
+- **Fits** — the picture identifies the object or mechanism in
+  the question. No mandatory visual rework; only the optional
+  polish already noted in the per-game verdicts.
+- **Partly fits** — the visual family is right, but the exact
+  relationship asked about is missing or ambiguous. Partial
+  visual rework is required.
+- **Does not fit** — the picture is generic, unrelated, or
+  teaches the wrong visual idea. A full visual redo is required.
+
+Counts: **Fits 24 · Partly fits 38 · Does not fit 40 · Total 102.**
+
+Coverage correction: `math-percent-150-001` was omitted from
+the verdict tables above. It is included below as **Does not
+fit / Full redo**: six floating circles do not show 20% of 150.
+Use a 150-unit quantity bar or a percent grid with the relevant
+portion clearly highlighted. The three original files
+`architecture_mvc.py`, `ml_gradient.py`, and `physics_orbits.py`
+remain excluded because they are base games, not batch items.
+
+### Fits — no mandatory visual rework
+
+| Game | Visual fits the game? | Visual rework needed? |
+| --- | --- | --- |
+| architecture-api-gateway-001 | Fits | No |
+| architecture-database-store-001 | Fits | No |
+| architecture-db-index-001 | Fits | No |
+| geometry-triangle-angles-001 | Fits | No |
+| math-binary-13-001 | Fits | No |
+| math-derivative-x2-001 | Fits | No |
+| math-fibonacci-next-001 | Fits | No |
+| math-log2-32-001 | Fits | No |
+| math-next-prime-001 | Fits | No |
+| ml-classification-001 | Fits | No |
+| ml-loss-function-001 | Fits | No |
+| ml-regression-output-001 | Fits | No |
+| physics-current-unit-001 | Fits | No |
+| physics-electron-shell-001 | Fits | No |
+| physics-energy-conversion-001 | Fits | No |
+| physics-pendulum-period-001 | Fits | No |
+| physics-projectile-angle-001 | Fits | No |
+| physics-sound-vacuum-001 | Fits | No |
+| physics-wave-speed-001 | Fits | No |
+| programming-bst-left-001 | Fits | No |
+| programming-get-request-001 | Fits | No |
+| programming-git-commit-001 | Fits | No |
+| programming-recursion-base-001 | Fits | No |
+| programming-sql-select-001 | Fits | No |
+
+### Partly fits — partial visual rework required
+
+| Game | Visual fits the game? | Visual rework needed? |
+| --- | --- | --- |
+| architecture-cache-purpose-001 | Partly fits | Yes — partial |
+| architecture-cdn-role-001 | Partly fits | Yes — partial |
+| architecture-horizontal-scaling-001 | Partly fits | Yes — partial |
+| architecture-message-queue-001 | Partly fits | Yes — partial |
+| architecture-microservices-001 | Partly fits | Yes — partial |
+| geometry-circumference-001 | Partly fits | Yes — partial |
+| geometry-equilateral-angles-001 | Partly fits | Yes — partial |
+| geometry-pythagoras-345-001 | Partly fits | Yes — partial |
+| geometry-right-angle-001 | Partly fits | Yes — partial |
+| geometry-triangle-area-001 | Partly fits | Yes — partial |
+| math-even-number-001 | Partly fits | Yes — partial |
+| math-gcd-12-18-001 | Partly fits | Yes — partial |
+| math-lcm-4-6-001 | Partly fits | Yes — partial |
+| math-marble-probability-001 | Partly fits | Yes — partial |
+| math-median-379-001 | Partly fits | Yes — partial |
+| math-power-2-5-001 | Partly fits | Yes — partial |
+| math-prime-29-001 | Partly fits | Yes — partial |
+| math-square-sequence-001 | Partly fits | Yes — partial |
+| ml-activation-001 | Partly fits | Yes — partial |
+| ml-clustering-001 | Partly fits | Yes — partial |
+| ml-feature-001 | Partly fits | Yes — partial |
+| ml-overfitting-001 | Partly fits | Yes — partial |
+| ml-precision-001 | Partly fits | Yes — partial |
+| ml-test-split-001 | Partly fits | Yes — partial |
+| physics-free-fall-001 | Partly fits | Yes — partial |
+| physics-kinetic-energy-001 | Partly fits | Yes — partial |
+| programming-binary-search-001 | Partly fits | Yes — partial |
+| programming-boolean-and-001 | Partly fits | Yes — partial |
+| programming-bubble-sort-001 | Partly fits | Yes — partial |
+| programming-compiler-role-001 | Partly fits | Yes — partial |
+| programming-queue-fifo-001 | Partly fits | Yes — partial |
+| programming-stable-sort-001 | Partly fits | Yes — partial |
+| programming-stack-pop-001 | Partly fits | Yes — partial |
+| programming-tree-root-001 | Partly fits | Yes — partial |
+| physics-earth-orbit-001 | Partly fits | Yes — partial |
+| physics-jupiter-orbit-001 | Partly fits | Yes — partial |
+| physics-mars-orbit-001 | Partly fits | Yes — partial |
+| physics-venus-orbit-001 | Partly fits | Yes — partial |
+
+### Does not fit — full visual redo required
+
+| Game | Visual fits the game? | Visual rework needed? |
+| --- | --- | --- |
+| architecture-authn-authz-001 | Does not fit | Yes — full redo |
+| architecture-backup-purpose-001 | Does not fit | Yes — full redo |
+| architecture-load-balancer-001 | Does not fit | Yes — full redo |
+| architecture-rest-stateless-001 | Does not fit | Yes — full redo |
+| geometry-cube-faces-001 | Does not fit | Yes — full redo |
+| geometry-hexagon-sides-001 | Does not fit | Yes — full redo |
+| geometry-pentagon-sides-001 | Does not fit | Yes — full redo |
+| geometry-parallel-lines-001 | Does not fit | Yes — full redo |
+| geometry-radius-diameter-001 | Does not fit | Yes — full redo |
+| geometry-similar-shapes-001 | Does not fit | Yes — full redo |
+| geometry-square-symmetry-001 | Does not fit | Yes — full redo |
+| geometry-supplementary-001 | Does not fit | Yes — full redo |
+| math-absolute-value-001 | Does not fit | Yes — full redo |
+| math-factorial-4-001 | Does not fit | Yes — full redo |
+| math-fraction-half-001 | Does not fit | Yes — full redo |
+| math-gauss-sum-001 | Does not fit | Yes — full redo |
+| math-percent-150-001 | Does not fit | Yes — full redo |
+| math-roman-xv-001 | Does not fit | Yes — full redo |
+| math-slope-001 | Does not fit | Yes — full redo |
+| ml-epoch-001 | Does not fit | Yes — full redo |
+| ml-generalization-001 | Does not fit | Yes — full redo |
+| ml-learning-rate-001 | Does not fit | Yes — full redo |
+| ml-supervised-001 | Does not fit | Yes — full redo |
+| physics-density-formula-001 | Does not fit | Yes — full redo |
+| physics-floating-001 | Does not fit | Yes — full redo |
+| physics-friction-direction-001 | Does not fit | Yes — full redo |
+| physics-momentum-formula-001 | Does not fit | Yes — full redo |
+| physics-moon-gravity-001 | Does not fit | Yes — full redo |
+| physics-newton-third-001 | Does not fit | Yes — full redo |
+| physics-parallel-voltage-001 | Does not fit | Yes — full redo |
+| physics-pressure-formula-001 | Does not fit | Yes — full redo |
+| physics-reflection-angle-001 | Does not fit | Yes — full redo |
+| physics-series-resistance-001 | Does not fit | Yes — full redo |
+| programming-big-o-binary-001 | Does not fit | Yes — full redo |
+| programming-constant-var-001 | Does not fit | Yes — full redo |
+| programming-dns-role-001 | Does not fit | Yes — full redo |
+| programming-hash-lookup-001 | Does not fit | Yes — full redo |
+| programming-http-404-001 | Does not fit | Yes — full redo |
+| programming-linked-list-001 | Does not fit | Yes — full redo |
+| programming-while-loop-001 | Does not fit | Yes — full redo |
+
 ## What to do next, in order
 
 1. Commit in batches and start INDEX.md (id · topic · mechanic
