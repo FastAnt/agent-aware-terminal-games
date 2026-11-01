@@ -31,32 +31,32 @@ programming-fact-y2k-two-digits-001 · Programming · Y2K was a memory-saving de
 programming-fact-morris-worm-001 · Programming · The first Internet worm was a survey that escaped · visual: bespoke
 programming-fact-moores-law-observation-001 · Programming · Moore's law is an observation, not physics · visual: bespoke
 programming-fact-sorting-lower-bound-001 · Programming · Comparison sorts cannot beat n log n, and it is provable · visual: bespoke
-programming-fact-quicksort-worst-001 · Programming · Quicksort's worst case hides in already-sorted input
-programming-fact-halting-in-practice-001 · Programming · Every linter works around an impossible perfect checker
-programming-fact-np-verifier-001 · Programming · NP is about checking, not solving
-programming-fact-ackermann-001 · Programming · The Ackermann function outruns every simple loop nest
-programming-fact-latency-numbers-001 · Programming · Memory is fast only next to a disk seek
-programming-fact-false-sharing-001 · Programming · Two variables can be slow because they share 64 bytes
-programming-fact-float-tenth-001 · Programming · 0.1 + 0.2 is not 0.3, and binary is why
-programming-fact-nan-not-equal-001 · Programming · NaN is not equal to itself, on purpose
-programming-fact-utf8-design-001 · Programming · UTF-8 was designed so ASCII is already valid UTF-8
-programming-fact-emoji-grapheme-001 · Programming · One visible emoji can be many code points
-programming-fact-regex-backtracking-001 · Programming · A short regex can take longer than the age of the universe
-programming-fact-amdahl-law-001 · Programming · Speeding up 90 percent of a program cannot give 10x forever
-programming-fact-endianness-origin-001 · Programming · Endianness is a Gulliver's Travels joke that stuck
-programming-fact-bloom-filter-001 · Programming · A Bloom filter can lie only in one direction
-programming-fact-hyperloglog-001 · Programming · Billions of distinct items, counted in kilobytes
-programming-fact-euclid-still-001 · Programming · The oldest algorithm still in textbooks is Euclid's
-programming-fact-inverse-sqrt-hack-001 · Programming · Quake's inverse square root used a magic hexadecimal number
-programming-fact-copy-on-write-001 · Programming · Forking a process does not copy its memory
-programming-fact-branch-prediction-001 · Programming · Your CPU runs code that may never happen
+programming-fact-quicksort-worst-001 · Programming · Quicksort's worst case hides in already-sorted input · visual: bespoke
+programming-fact-halting-in-practice-001 · Programming · Every linter works around an impossible perfect checker · visual: bespoke
+programming-fact-np-verifier-001 · Programming · NP is about checking, not solving · visual: bespoke
+programming-fact-ackermann-001 · Programming · The Ackermann function outruns every simple loop nest · visual: bespoke
+programming-fact-latency-numbers-001 · Programming · Memory is fast only next to a disk seek · visual: bespoke
+programming-fact-false-sharing-001 · Programming · Two variables can be slow because they share 64 bytes · visual: bespoke
+programming-fact-float-tenth-001 · Programming · 0.1 + 0.2 is not 0.3, and binary is why · visual: bespoke
+programming-fact-nan-not-equal-001 · Programming · NaN is not equal to itself, on purpose · visual: bespoke
+programming-fact-utf8-design-001 · Programming · UTF-8 was designed so ASCII is already valid UTF-8 · visual: bespoke
+programming-fact-emoji-grapheme-001 · Programming · One visible emoji can be many code points · visual: bespoke
+programming-fact-regex-backtracking-001 · Programming · A short regex can take longer than the age of the universe · visual: bespoke
+programming-fact-amdahl-law-001 · Programming · Speeding up 90 percent of a program cannot give 10x forever · visual: bespoke
+programming-fact-endianness-origin-001 · Programming · Endianness is a Gulliver's Travels joke that stuck · visual: bespoke
+programming-fact-bloom-filter-001 · Programming · A Bloom filter can lie only in one direction · visual: bespoke
+programming-fact-hyperloglog-001 · Programming · Billions of distinct items, counted in kilobytes · visual: bespoke
+programming-fact-euclid-still-001 · Programming · The oldest algorithm still in textbooks is Euclid's · visual: bespoke
+programming-fact-inverse-sqrt-hack-001 · Programming · Quake's inverse square root used a magic hexadecimal number · visual: bespoke
+programming-fact-copy-on-write-001 · Programming · Forking a process does not copy its memory · visual: bespoke
+programming-fact-branch-prediction-001 · Programming · Your CPU runs code that may never happen · visual: bespoke
 programming-fact-jit-hotspot-001 · Programming · JIT compilers optimise the code you actually run · visual: bespoke
-programming-fact-gc-vs-refcount-001 · Programming · Reference counting cannot collect a cycle
-programming-fact-turing-completeness-css-001 · Programming · CSS plus HTML was shown to be Turing complete
-programming-fact-stack-frames-001 · Programming · Recursion depth is limited by memory, not by the language
-programming-fact-pipes-mcilroy-001 · Programming · Unix pipes were one person's stubborn suggestion
-programming-fact-fortran-1957-001 · Programming · FORTRAN's promise: let scientists stop hand-coding machines
-programming-fact-lisp-homoiconic-001 · Programming · In Lisp, code is its own data structure
+programming-fact-gc-vs-refcount-001 · Programming · Reference counting cannot collect a cycle · visual: bespoke
+programming-fact-turing-completeness-css-001 · Programming · CSS plus HTML was shown to be Turing complete · visual: bespoke
+programming-fact-stack-frames-001 · Programming · Recursion depth is limited by memory, not by the language · visual: bespoke
+programming-fact-pipes-mcilroy-001 · Programming · Unix pipes were one person's stubborn suggestion · visual: bespoke
+programming-fact-fortran-1957-001 · Programming · FORTRAN's promise: let scientists stop hand-coding machines · visual: bespoke
+programming-fact-lisp-homoiconic-001 · Programming · In Lisp, code is its own data structure · visual: bespoke
 programming-fact-simula-classes-001 · Programming · Classes and objects were invented to simulate ships
 programming-fact-codd-relational-001 · Programming · Databases were revolutionised by one internal report
 programming-fact-visicalc-killer-app-001 · Programming · The spreadsheet was the first killer app

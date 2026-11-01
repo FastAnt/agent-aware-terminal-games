@@ -470,3 +470,81 @@ that. Status is tracked in FACTS_INDEX.md ("visual: bespoke").
 - programming-fact-sorting-lower-bound-001 — A decision tree
   branching for 3 elements with 6 leaves labelled as the 6
   orders; "at least log2(n!) questions".
+
+## Batch C3 — chains, part 3 (25)
+
+- programming-fact-quicksort-worst-001 — Already-sorted bars;
+  the first-element pivot splits off one bar at a time,
+  partitions shrink by one: a staircase of wasted splits.
+- programming-fact-halting-in-practice-001 — A "perfect
+  checker" box crossed out; below, three partial tools
+  (types, tests, linter) each catching a slice of bugs.
+- programming-fact-np-verifier-001 — Left: a huge faint maze
+  of search; right: one proposed path drawn bold, checked
+  quickly step by step with ticks.
+- programming-fact-ackermann-001 — A table A(m,n) whose values
+  explode across the row: 1, 3, 7, 61, then a tower arrow off
+  the frame.
+- programming-fact-latency-numbers-001 — Log-scale horizontal
+  bars: L1, RAM, SSD, disk seek, cross-country packet, each
+  labelled with its rough time.
+- programming-fact-false-sharing-001 — One 64-byte cache line
+  holding variables A and B; two cores keep invalidating each
+  other's copy, ping-pong arrows.
+- programming-fact-float-tenth-001 — 0.1 expanded as a
+  repeating binary fraction; the sum line reads
+  0.30000000000000004 with the stray 4 highlighted.
+- programming-fact-nan-not-equal-001 — Two identical NaN boxes
+  facing each other with a != sign and an X over the equals
+  that IEEE intends.
+- programming-fact-utf8-design-001 — Byte patterns stacked:
+  0xxxxxxx ASCII, then 110/1110/11110 lead bytes with
+  10xxxxxx continuations, ASCII row glowing as already valid.
+- programming-fact-emoji-grapheme-001 — One family emoji glyph
+  decomposed into person code points joined by ZWJ links,
+  "1 grapheme, many code points".
+- programming-fact-regex-backtracking-001 — "(a+)+$" above a
+  string of a's ending in b; a branching tree of ways to split
+  that doubles at each step.
+- programming-fact-amdahl-law-001 — A speedup curve rising
+  toward a dashed ceiling at 10x labelled "the serial 10%
+  rules".
+- programming-fact-endianness-origin-001 — An egg cracked from
+  the big end and the little end (two factions), below byte
+  orders 12 34 vs 34 12 in memory.
+- programming-fact-bloom-filter-001 — A bit array; three hash
+  arrows from item "cat" set three bits; query "dog" hits an
+  unset bit: "definitely not here".
+- programming-fact-hyperloglog-001 — A funnel of countless
+  distinct cards into a tiny register box labelled "12 KB"
+  estimating billions.
+- programming-fact-euclid-still-001 — A remainder staircase:
+  1071 = 2x462 + 147 ... down to gcd 21, on a scroll labelled
+  c. 300 BC.
+- programming-fact-inverse-sqrt-hack-001 — The hex constant
+  0x5f3759df in a box, one Newton step arrow refining a rough
+  guess curve to the true 1/sqrt(x).
+- programming-fact-copy-on-write-001 — Parent and child arrows
+  sharing the same page boxes; one writes, only that page
+  duplicates and splits off.
+- programming-fact-branch-prediction-001 — A pipeline fork:
+  the CPU races down the guessed branch, a "wrong" flag
+  flushes those boxes away.
+- programming-fact-gc-vs-refcount-001 — Two objects pointing
+  at each other in a cycle, counters stuck at 1, unreachable
+  from roots: the leak island.
+- programming-fact-turing-completeness-css-001 — A row of
+  checkbox cells evolving downward like Rule 110, selectors
+  as the rule arrows.
+- programming-fact-stack-frames-001 — A stack of call frames
+  growing downward toward a "memory" floor; the top frame
+  labelled "one more call?"
+- programming-fact-pipes-mcilroy-001 — Small tool boxes
+  cat | grep | wc chained by pipe glyphs, data dots flowing
+  through, "one stubborn suggestion, 1964".
+- programming-fact-fortran-1957-001 — A hand-written formula
+  X = A + B*C fed through a compiler box to machine code;
+  a scientist icon freed from wiring diagrams.
+- programming-fact-lisp-homoiconic-001 — The expression
+  (+ 1 (* 2 3)) drawn as a tree that is simultaneously a
+  nested list of boxes: code = data.
