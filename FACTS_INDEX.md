@@ -428,3 +428,28 @@ geometry-fact-girih-tiles-001 · Geometry · Medieval tilers may have beaten Pen
 geometry-fact-geodesic-domes-001 · Geometry · Fuller's domes get stronger as they get bigger
 geometry-fact-dymaxion-map-001 · Geometry · Fuller's map unfolds Earth into triangles
 geometry-fact-winkel-tripel-001 · Geometry · The atlas map is a three-way compromise
+geometry-fact-morley-triangle-001 · Geometry · Trisect every angle and an equilateral triangle appears
+geometry-fact-napoleon-triangle-001 · Geometry · Napoleon's theorem plants equilateral triangles everywhere
+geometry-fact-sangaku-001 · Geometry · Japanese temples hung geometry problems as offerings
+geometry-fact-descartes-circles-001 · Geometry · Four kissing circles obey one tidy equation
+geometry-fact-ford-circles-001 · Geometry · Between two Ford circles hides an infinite family
+geometry-fact-menger-sponge-001 · Geometry · A sponge with zero volume, infinite surface
+geometry-fact-peano-curve-001 · Geometry · One curve can fill an entire square
+geometry-fact-hilbert-gis-001 · Geometry · Hilbert curves order map tiles on disk
+geometry-fact-bernoulli-spiral-tomb-001 · Geometry · Bernoulli's tombstone got the wrong spiral
+geometry-fact-involute-gears-001 · Geometry · Gear teeth are shaped by unwinding string from a circle
+geometry-fact-tractrix-pursuit-001 · Geometry · Drag a watch on a chain: a tractrix
+geometry-fact-cycloid-clock-001 · Geometry · Huygens fixed clocks with cycloid cheeks
+geometry-fact-loxodrome-spiral-001 · Geometry · A fixed compass course spirals to the pole
+geometry-fact-antipodal-map-001 · Geometry · Antipodal weather twins exist right now
+geometry-fact-sphere-area-lune-001 · Geometry · Sphere lunes have area by pure proportion
+geometry-fact-projective-perspective-001 · Geometry · Painters invented projective geometry by looking
+geometry-fact-desargues-shadow-001 · Geometry · Two triangles, perspective from point and line
+geometry-fact-pascal-hexagon-001 · Geometry · Six points on a conic hide a straight line
+geometry-fact-tesseract-net-001 · Geometry · A hypercube unfolds into eight cubes
+geometry-fact-soddy-poem-001 · Geometry · A geometry theorem was published as a love poem
+geometry-fact-japanese-sangaku-lost-001 · Geometry · Most sangaku tablets rotted away
+geometry-fact-constant-width-body-001 · Geometry · Constant-width solids that are not spheres
+geometry-fact-sphere-packing-dim8-001 · Geometry · Sphere packing in 8D fell to a short proof
+geometry-fact-gerrymandering-geometry-001 · Geometry · District shapes can be measured for mischief
+geometry-fact-voronoi-nature-001 · Geometry · Voronoi cells grow in giraffes, mud and dragonfly wings

@@ -1,0 +1,21 @@
+{
+  "type": "fact",
+  "id": "geometry-fact-menger-sponge-001",
+  "kicker": "FACT",
+  "topic": "Geometry",
+  "title": "A sponge with zero volume, infinite surface",
+  "body": "Carve the middle third from a cube's faces recursively and you get the Menger sponge: volume tends to zero while surface area grows without bound. It is a shape that is almost entirely holes, used from fractal theory to antenna design, where crumpled surface in tiny volume is exactly the job description.",
+  "source_hint": "Menger (1926)",
+  "scene": {
+    "type": "network",
+    "layers": [
+      3,
+      3,
+      3
+    ],
+    "anim": {
+      "type": "pulse",
+      "speed": 0.5
+    }
+  }
+}

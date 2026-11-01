@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "geometry-fact-cycloid-clock-001",
+  "kicker": "FACT",
+  "topic": "Geometry",
+  "title": "Huygens fixed clocks with cycloid cheeks",
+  "body": "A pendulum's period grows slightly with swing width, ruining clocks. Huygens proved the cycloid is the tautochrone, the curve on which a sliding bead reaches the bottom in the same time from anywhere, and in 1673 built clocks whose strings wrapped cycloidal guides. His analysis of evolutes created the mathematics to correct his own invention.",
+  "source_hint": "Huygens, 'Horologium Oscillatorium' (1673)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "pendulum: width matters",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "cycloid: equal time",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "accurate clocks",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

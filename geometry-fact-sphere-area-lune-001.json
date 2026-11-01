@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "geometry-fact-sphere-area-lune-001",
+  "kicker": "FACT",
+  "topic": "Geometry",
+  "title": "Sphere lunes have area by pure proportion",
+  "body": "A lune, the area between two great-circle halves, is proportional simply to its angle: double the angle, double the area, one of few curved areas computable by pure proportion. Hippocrates of Chios used lunes around 440 BCE to square curved regions exactly, the first such success. It raised hopes for squaring the circle that took 2,300 years to dash properly.",
+  "source_hint": "Hippocrates of Chios, lune quadratures",
+  "scene": {
+    "type": "orbits",
+    "rings": 3,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 60
+      },
+      {
+        "ring": 2,
+        "angle": 200
+      },
+      {
+        "ring": 3,
+        "angle": 330
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

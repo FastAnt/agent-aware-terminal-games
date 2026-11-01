@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "geometry-fact-gerrymandering-geometry-001",
+  "kicker": "FACT",
+  "topic": "Geometry",
+  "title": "District shapes can be measured for mischief",
+  "body": "The efficiency gap and compactness scores turn gerrymandering into geometry: measure how many votes each side wastes, or how tentacled a district's perimeter is versus its area. Courts have entertained Polsby-Popper scores, perimeter squared over area, as evidence. Democracy's fairness arguments now include fractal-adjacent shape forensics, which would have delighted and alarmed the 1812 cartoonists who named the practice.",
+  "source_hint": "Polsby and Popper (1991), district compactness",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 2,
+        "angle": 40
+      },
+      {
+        "ring": 3,
+        "angle": 160
+      },
+      {
+        "ring": 4,
+        "angle": 300
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

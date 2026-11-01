@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "geometry-fact-pascal-hexagon-001",
+  "kicker": "FACT",
+  "topic": "Geometry",
+  "title": "Six points on a conic hide a straight line",
+  "body": "Pascal, aged sixteen, published in 1640 that the three intersections of opposite sides of a hexagon inscribed in any conic section are collinear. It unified results about circles, ellipses and hyperbolas in one statement. The teenage author had founded projective geometry's favourite party trick, later called the hexagrammum mysticum.",
+  "source_hint": "Pascal, 'Essai pour les coniques' (1640)",
+  "scene": {
+    "type": "orbits",
+    "rings": 3,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 50
+      },
+      {
+        "ring": 2,
+        "angle": 180
+      },
+      {
+        "ring": 3,
+        "angle": 310
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

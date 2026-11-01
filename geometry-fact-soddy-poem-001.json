@@ -1,0 +1,35 @@
+{
+  "type": "fact",
+  "id": "geometry-fact-soddy-poem-001",
+  "kicker": "FACT",
+  "topic": "Geometry",
+  "title": "A geometry theorem was published as a love poem",
+  "body": "Frederick Soddy announced his rediscovery of the kissing-circles relation in a 1936 poem in Nature, 'The Kiss Precise', complete with instructions in verse. The journal printed it because the mathematics was real. It may be the only theorem whose standard citation includes stanzas, proving exposition formats are conventions, not laws of thought.",
+  "source_hint": "Soddy, 'The Kiss Precise', Nature (1936)",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 40
+      },
+      {
+        "ring": 2,
+        "angle": 130
+      },
+      {
+        "ring": 3,
+        "angle": 230
+      },
+      {
+        "ring": 4,
+        "angle": 330
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "geometry-fact-sangaku-001",
+  "kicker": "FACT",
+  "topic": "Geometry",
+  "title": "Japanese temples hung geometry problems as offerings",
+  "body": "During Japan's Edo isolation, worshippers hung wooden tablets called sangaku under shrine roofs, inscribed with geometry theorems and intricate circle configurations, part offering, part publication. Farmers and samurai alike authored them. A parallel mathematical culture, cut off from the West, developed its own aesthetic of elegant tangent-circle puzzles.",
+  "source_hint": "Sangaku tablets (Edo period)",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 2,
+        "angle": 40
+      },
+      {
+        "ring": 3,
+        "angle": 150
+      },
+      {
+        "ring": 4,
+        "angle": 260
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

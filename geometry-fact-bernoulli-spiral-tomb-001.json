@@ -1,0 +1,35 @@
+{
+  "type": "fact",
+  "id": "geometry-fact-bernoulli-spiral-tomb-001",
+  "kicker": "FACT",
+  "topic": "Geometry",
+  "title": "Bernoulli's tombstone got the wrong spiral",
+  "body": "Jacob Bernoulli loved the logarithmic spiral, which stays self-similar as it grows, and asked for it with the motto 'though changed, I arise the same'. The stonemason carved an Archimedean spiral instead, whose coils are evenly spaced and not self-similar. Even in death, being misquoted by one's executors is possible.",
+  "source_hint": "Bernoulli tombstone, Basel Munster",
+  "scene": {
+    "type": "orbits",
+    "rings": 5,
+    "dots": [
+      {
+        "ring": 2,
+        "angle": 30
+      },
+      {
+        "ring": 3,
+        "angle": 120
+      },
+      {
+        "ring": 4,
+        "angle": 210
+      },
+      {
+        "ring": 5,
+        "angle": 320
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

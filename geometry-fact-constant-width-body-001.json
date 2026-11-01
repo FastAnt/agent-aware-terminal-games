@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "geometry-fact-constant-width-body-001",
+  "kicker": "FACT",
+  "topic": "Geometry",
+  "title": "Constant-width solids that are not spheres",
+  "body": "Rotate a Reuleaux triangle and you do not get one; Meissner bodies, made by rounding edges of a tetrahedron cleverly, are three-dimensional shapes with the same width in every direction yet not balls. They would roll like spheres between plates while being visibly tetrahedral. Barbier's circle of ideas generalises upward, with effort, into solid geometry.",
+  "source_hint": "Meissner bodies (1911)",
+  "scene": {
+    "type": "orbits",
+    "rings": 3,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 120
+      },
+      {
+        "ring": 2,
+        "angle": 240
+      },
+      {
+        "ring": 3,
+        "angle": 330
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

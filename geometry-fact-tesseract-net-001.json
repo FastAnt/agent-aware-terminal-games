@@ -1,0 +1,21 @@
+{
+  "type": "fact",
+  "id": "geometry-fact-tesseract-net-001",
+  "kicker": "FACT",
+  "topic": "Geometry",
+  "title": "A hypercube unfolds into eight cubes",
+  "body": "Just as a cube unfolds into a cross of six squares, a four-dimensional tesseract unfolds into eight cubes joined in a cross-like net, famously painted by Dali in 'Crucifixion (Corpus Hypercubus)'. We cannot build the folded result, but its shadow and nets are rigorous drawings. Geometry routinely studies objects by their silhouettes when the objects themselves decline to visit.",
+  "source_hint": "Tesseract combinatorics; Dali (1954)",
+  "scene": {
+    "type": "network",
+    "layers": [
+      2,
+      4,
+      2
+    ],
+    "anim": {
+      "type": "pulse",
+      "speed": 0.5
+    }
+  }
+}

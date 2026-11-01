@@ -1,0 +1,35 @@
+{
+  "type": "fact",
+  "id": "geometry-fact-descartes-circles-001",
+  "kicker": "FACT",
+  "topic": "Geometry",
+  "title": "Four kissing circles obey one tidy equation",
+  "body": "Descartes' circle theorem relates the curvatures of four mutually tangent circles: the squared sum equals twice the sum of squares, letting you compute the tiny circle that fits the curvilinear gap. Frederick Soddy re-popularised it in a 1936 poem in Nature, calling them kissing circles. Packing problems turn lyrical surprisingly often.",
+  "source_hint": "Descartes circle theorem (1643)",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 40
+      },
+      {
+        "ring": 2,
+        "angle": 140
+      },
+      {
+        "ring": 3,
+        "angle": 240
+      },
+      {
+        "ring": 4,
+        "angle": 330
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

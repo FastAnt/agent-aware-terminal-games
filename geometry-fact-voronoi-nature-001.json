@@ -1,0 +1,21 @@
+{
+  "type": "fact",
+  "id": "geometry-fact-voronoi-nature-001",
+  "kicker": "FACT",
+  "topic": "Geometry",
+  "title": "Voronoi cells grow in giraffes, mud and dragonfly wings",
+  "body": "Partitioning by 'closer to my seed than yours' produces Voronoi diagrams, and nature keeps reinventing them: giraffe patches, basalt columns, leaf veins and soap foams approximate them because local growth rules generate them. Red Blob Games' explorables made them a programmer's staple for maps. The same diagram organises cell towers and postcodes on your phone.",
+  "source_hint": "Voronoi diagrams in nature and computation",
+  "scene": {
+    "type": "network",
+    "layers": [
+      3,
+      4,
+      3
+    ],
+    "anim": {
+      "type": "pulse",
+      "speed": 0.5
+    }
+  }
+}

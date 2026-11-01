@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "geometry-fact-tractrix-pursuit-001",
+  "kicker": "FACT",
+  "topic": "Geometry",
+  "title": "Drag a watch on a chain: a tractrix",
+  "body": "Huygens studied the curve traced by an object dragged on a taut leash when the puller walks a straight line, the tractrix, a pursuit where the rope stays tangent. Rotating it yields the pseudosphere, a surface of constant negative curvature that helped mathematicians believe non-Euclidean geometry. A dog-walk curve became a model universe with different parallels.",
+  "source_hint": "Huygens (1693), tractrix",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "puller walks straight",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "leash stays taut",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "dragged curve follows",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}
