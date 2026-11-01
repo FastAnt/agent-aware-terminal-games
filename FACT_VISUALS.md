@@ -548,3 +548,82 @@ that. Status is tracked in FACTS_INDEX.md ("visual: bespoke").
 - programming-fact-lisp-homoiconic-001 — The expression
   (+ 1 (* 2 3)) drawn as a tree that is simultaneously a
   nested list of boxes: code = data.
+
+## Batch C4 — chains, part 4 (25)
+
+- programming-fact-simula-classes-001 — Ship silhouettes at
+  sea (simulation) morphing into class/object boxes with the
+  same hull outline; Simula 1967.
+- programming-fact-codd-relational-001 — Tangled pointer
+  records on the left; clean tables with rows/keys on the
+  right; one internal report between them, 1970.
+- programming-fact-visicalc-killer-app-001 — A grid of cells,
+  one value changing and dependent cells rippling updates;
+  an Apple II outline under the sheet.
+- programming-fact-alto-gui-001 — One 1973 machine outline
+  containing three labelled gifts: window, mouse, Ethernet
+  cable, radiating to later computers.
+- programming-fact-mosaic-images-001 — A text-only page on the
+  left; the same page with an image block inline on the
+  right, a crowd arrow "the Web takes off".
+- programming-fact-tcp-flag-day-001 — A calendar page
+  1 Jan 1983 with a flag; left protocol NCP switches off,
+  right TCP/IP switches on, network dots keep flowing.
+- programming-fact-dns-hosts-file-001 — One huge HOSTS.TXT
+  scroll buckling; it explodes into a tree of DNS servers
+  each holding a page.
+- programming-fact-first-domain-001 — A 1985 calendar and the
+  address symbolics.com as the first entry in a newborn
+  registry book; .com stamp.
+- programming-fact-csp-hoare-001 — 1978 paper at left; arrows
+  of time to goroutine/light threads fanning into channels
+  in Go, message arrows between them.
+- programming-fact-prolog-facts-001 — Facts listed
+  (parent(tom,bob)...), a query box, the machine's proof
+  tree growing downward to "yes".
+- programming-fact-haskell-laziness-001 — Many dialect boxes
+  on the left converging into one Haskell box; an infinite
+  list drawn lazily, only first cells solid.
+- programming-fact-regex-kleene-001 — Neuron net sketch
+  (1951) transforming by arrow into the notation a*, the
+  mathematics of nerve nets becoming regex.
+- programming-fact-emoji-kurita-001 — A 12x12 pixel grid
+  heart drawn chunky, a pager outline around it, 176 glyphs
+  in a small wall, 1999.
+- programming-fact-wikiwikiweb-001 — An airport shuttle bus
+  labelled "wiki wiki = quick", arrow to a web page anyone
+  can edit, pencil icon.
+- programming-fact-json-crockford-001 — A big JavaScript
+  object literal; the simple data core highlighted and
+  lifted out as JSON, "a subset that won".
+- programming-fact-rest-dissertation-001 — A thesis book
+  (2000) with arrows to browser/address-bar concepts:
+  resources, URLs, stateless; no protocol box anywhere.
+- programming-fact-opensource-cathedral-001 — A cathedral
+  (single architect plan) vs a bazaar of many stalls
+  contributing patches, eyeballs icons "given enough
+  eyeballs".
+- programming-fact-netscape-open-001 — A browser box cracking
+  open (source released 1998), a mozilla lizard silhouette
+  emerging, arrow to foundation.
+- programming-fact-skiplist-001 — Express lanes over a sorted
+  list: towers of different heights, a search path hopping
+  the top lane then dropping down.
+- programming-fact-hash-tree-bins-001 — A bucket filling with
+  chained entries past 8, then re-drawing itself as a small
+  balanced tree (Java HashMap).
+- programming-fact-array-vs-list-cache-001 — Array cells
+  contiguous with a cache-line bracket fetched at once;
+  linked nodes scattered with arrows chasing pointers slowly.
+- programming-fact-union-find-almost-001 — Trees flattening:
+  find() with path halving, the tree squashes almost flat;
+  alpha(n) "practically constant".
+- programming-fact-heap-array-tree-001 — Left a binary heap
+  tree, right its exact array [16,14,10,8,7...], index arrows
+  parent 2i children.
+- programming-fact-reservoir-sampling-001 — A stream of items
+  flowing past, a reservoir of k slots; item n swaps in with
+  probability k/n, dice.
+- programming-fact-majority-vote-001 — A stream of votes, one
+  counter and one candidate name; mismatches decrement,
+  matches increment (Boyer-Moore).

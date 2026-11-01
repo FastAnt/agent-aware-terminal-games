@@ -57,36 +57,36 @@ programming-fact-stack-frames-001 · Programming · Recursion depth is limited b
 programming-fact-pipes-mcilroy-001 · Programming · Unix pipes were one person's stubborn suggestion · visual: bespoke
 programming-fact-fortran-1957-001 · Programming · FORTRAN's promise: let scientists stop hand-coding machines · visual: bespoke
 programming-fact-lisp-homoiconic-001 · Programming · In Lisp, code is its own data structure · visual: bespoke
-programming-fact-simula-classes-001 · Programming · Classes and objects were invented to simulate ships
-programming-fact-codd-relational-001 · Programming · Databases were revolutionised by one internal report
-programming-fact-visicalc-killer-app-001 · Programming · The spreadsheet was the first killer app
-programming-fact-alto-gui-001 · Programming · The GUI, mouse and Ethernet shared one 1973 machine
-programming-fact-mosaic-images-001 · Programming · One browser feature made the Web popular: inline images
+programming-fact-simula-classes-001 · Programming · Classes and objects were invented to simulate ships · visual: bespoke
+programming-fact-codd-relational-001 · Programming · Databases were revolutionised by one internal report · visual: bespoke
+programming-fact-visicalc-killer-app-001 · Programming · The spreadsheet was the first killer app · visual: bespoke
+programming-fact-alto-gui-001 · Programming · The GUI, mouse and Ethernet shared one 1973 machine · visual: bespoke
+programming-fact-mosaic-images-001 · Programming · One browser feature made the Web popular: inline images · visual: bespoke
 programming-fact-pagerank-eigen-001 · Programming · Google began as an eigenvector problem · visual: bespoke
 programming-fact-mapreduce-paper-001 · Programming · MapReduce taught clusters by hiding the hard parts · visual: bespoke
-programming-fact-tcp-flag-day-001 · Programming · The Internet once switched protocols on a deadline
-programming-fact-dns-hosts-file-001 · Programming · DNS exists because one text file stopped scaling
-programming-fact-first-domain-001 · Programming · The first .com was a computer maker's, in 1985
+programming-fact-tcp-flag-day-001 · Programming · The Internet once switched protocols on a deadline · visual: bespoke
+programming-fact-dns-hosts-file-001 · Programming · DNS exists because one text file stopped scaling · visual: bespoke
+programming-fact-first-domain-001 · Programming · The first .com was a computer maker's, in 1985 · visual: bespoke
 programming-fact-erlang-nines-001 · Programming · Erlang was built so phone switches basically never stop · visual: bespoke
-programming-fact-csp-hoare-001 · Programming · Go's goroutines descend from a 1978 paper
+programming-fact-csp-hoare-001 · Programming · Go's goroutines descend from a 1978 paper · visual: bespoke
 programming-fact-smalltalk-balloon-001 · Programming · Smalltalk hid an entire computer inside every object · visual: bespoke
-programming-fact-prolog-facts-001 · Programming · Prolog programs state facts; the machine finds the proof
-programming-fact-haskell-laziness-001 · Programming · Lazy evaluation once united a fragmented field
-programming-fact-regex-kleene-001 · Programming · Regular expressions began as nerve-net mathematics
-programming-fact-emoji-kurita-001 · Programming · Emoji were 12 by 12 pixels, designed for pagers
-programming-fact-wikiwikiweb-001 · Programming · The first wiki was named after a Honolulu bus
+programming-fact-prolog-facts-001 · Programming · Prolog programs state facts; the machine finds the proof · visual: bespoke
+programming-fact-haskell-laziness-001 · Programming · Lazy evaluation once united a fragmented field · visual: bespoke
+programming-fact-regex-kleene-001 · Programming · Regular expressions began as nerve-net mathematics · visual: bespoke
+programming-fact-emoji-kurita-001 · Programming · Emoji were 12 by 12 pixels, designed for pagers · visual: bespoke
+programming-fact-wikiwikiweb-001 · Programming · The first wiki was named after a Honolulu bus · visual: bespoke
 programming-fact-ajax-gmail-001 · Programming · Web apps became real when pages stopped reloading · visual: bespoke
-programming-fact-json-crockford-001 · Programming · JSON won by being a subset of something else
-programming-fact-rest-dissertation-001 · Programming · REST is a PhD thesis, not a protocol
-programming-fact-opensource-cathedral-001 · Programming · The Cathedral and the Bazaar argued open code works better
-programming-fact-netscape-open-001 · Programming · Mozilla was a codename before it was a foundation
-programming-fact-skiplist-001 · Programming · Skip lists balance themselves with coin flips
-programming-fact-hash-tree-bins-001 · Programming · Java's hash maps turn crowded buckets into tiny trees
-programming-fact-array-vs-list-cache-001 · Programming · Arrays beat linked lists on modern hardware by locality
-programming-fact-union-find-almost-001 · Programming · Union-find is constant for all practical purposes
-programming-fact-heap-array-tree-001 · Programming · A heap is a tree that lives inside an array
-programming-fact-reservoir-sampling-001 · Programming · You can sample fairly from a stream you cannot store
-programming-fact-majority-vote-001 · Programming · One counter finds a majority without counting everything
+programming-fact-json-crockford-001 · Programming · JSON won by being a subset of something else · visual: bespoke
+programming-fact-rest-dissertation-001 · Programming · REST is a PhD thesis, not a protocol · visual: bespoke
+programming-fact-opensource-cathedral-001 · Programming · The Cathedral and the Bazaar argued open code works better · visual: bespoke
+programming-fact-netscape-open-001 · Programming · Mozilla was a codename before it was a foundation · visual: bespoke
+programming-fact-skiplist-001 · Programming · Skip lists balance themselves with coin flips · visual: bespoke
+programming-fact-hash-tree-bins-001 · Programming · Java's hash maps turn crowded buckets into tiny trees · visual: bespoke
+programming-fact-array-vs-list-cache-001 · Programming · Arrays beat linked lists on modern hardware by locality · visual: bespoke
+programming-fact-union-find-almost-001 · Programming · Union-find is constant for all practical purposes · visual: bespoke
+programming-fact-heap-array-tree-001 · Programming · A heap is a tree that lives inside an array · visual: bespoke
+programming-fact-reservoir-sampling-001 · Programming · You can sample fairly from a stream you cannot store · visual: bespoke
+programming-fact-majority-vote-001 · Programming · One counter finds a majority without counting everything · visual: bespoke
 programming-fact-fisher-yates-001 · Programming · A fair shuffle swaps each card with a random earlier one
 programming-fact-sieve-eratosthenes-001 · Programming · A Greek sieve from 2300 years ago still finds primes
 programming-fact-duffs-device-001 · Programming · Duff's device interleaves a switch with a loop, legally
