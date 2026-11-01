@@ -892,3 +892,71 @@ that. Status is tracked in FACTS_INDEX.md ("visual: bespoke").
 - physics-fact-maxwell-demon-001 — A demon at a door between
   fast/slow molecules, its notebook filling until erasure
   costs the savings.
+
+## Batch C9 — chains, part 9 (25)
+
+- physics-fact-tunnelling-sun-001 — Two proton dots facing a
+  barrier wall between them in the Sun's core; one ghosted
+  through the wall (tunnelling) with spark of fusion.
+- physics-fact-uncertainty-intrinsic-001 — A wave packet:
+  narrow position spike with wide momentum wave, and the
+  reverse pair beneath (Heisenberg trade-off).
+- physics-fact-double-slit-single-001 — Electron dots arriving
+  one by one on a screen, gradually forming interference
+  bands; slit wall in middle.
+- physics-fact-no-ftl-entangle-001 — Two entangled particles
+  flying apart, measurement dice identical-looking random on
+  both sides; a "message?" envelope crossed.
+- physics-fact-schrodinger-cat-001 — A box with cat silhouette
+  and a sign "a reductio ad absurdum, 1935" - the satire label.
+- physics-fact-casimir-001 — Two parallel plates with fewer
+  wave squiggles between than outside; arrows pushing inward.
+- physics-fact-hawking-temp-001 — Big black hole cool blue-ish
+  (greyscale dim) vs tiny one bright hot, temperature labels
+  inverse to mass.
+- physics-fact-dirac-positron-001 — Equation E = +/- mc^2 with
+  the minus branch leading to a positron track curling in a
+  chamber (1932 photo style).
+- physics-fact-neutrino-rain-001 — A human silhouette with
+  countless faint streaks passing through, Sun above.
+- physics-fact-redshift-tower-001 — A tower; light wave rising
+  with stretching wavelength, red-shifted (greyscale spacing)
+  at top (Pound-Rebka).
+- physics-fact-speedlimit-info-001 — Race track: light beam
+  finish line, rocket, signal, causality cone; all capped.
+- physics-fact-planck-scale-001 — Length ruler zooming down:
+  atom, nucleus, then Planck length wall where QM and gravity
+  icons collide.
+- physics-fact-metre-light-001 — Light ray travelling for
+  1/299792458 s bracket labelled "1 metre (since 1983)", old
+  bar crossed.
+- physics-fact-second-caesium-001 — Caesium atom with tick
+  marks counting 9,192,631,770 oscillations = 1 s.
+- physics-fact-kilogram-planck-001 — The old platinum cylinder
+  crossed, replaced by h constant and a Kibble balance.
+- physics-fact-absolute-zero-001 — Temperature staircase
+  descending toward 0 K dashed floor, steps halve forever.
+- physics-fact-alpha-137-001 — The number 1/137.035999... as a
+  large inscription, Feynman quote tag "a mystery".
+- physics-fact-proton-electron-1836-001 — Balance: one proton
+  pan vs 1836 tiny electron dots on the other.
+- physics-fact-equivalence-tested-001 — Feather vs hammer /
+  two masses falling side by side in a satellite, deviation
+  meter at 10^-15.
+- physics-fact-day-lengthening-001 — Earth with Moon receding
+  arrow; clock face 22h in dinosaur era vs 24h now.
+- physics-fact-sky-blue-001 — Sun beam entering air with tiny
+  molecules; blue-ish (light) short waves scattered everywhere,
+  long waves pass straight.
+- physics-fact-metal-cold-001 — Metal bar and wood block at
+  same 20C label; heat arrows drain fast from finger into
+  metal, slow into wood.
+- physics-fact-glass-not-liquid-001 — Old window pane with
+  uneven thickness at manufacture (blown crown) label; a
+  horizontal "flow after 800 yrs: none" gauge.
+- physics-fact-microwave-frequency-001 — Oven box, water
+  molecule rotating arrows at 2.45 GHz, "not a resonance:
+  just a good, allowed frequency".
+- physics-fact-lightning-hot-001 — Lightning bolt with
+  thermometer bursting past Sun-surface marker 30,000 K vs
+  5,500 K.
