@@ -1080,3 +1080,60 @@ that. Status is tracked in FACTS_INDEX.md ("visual: bespoke").
 - architecture-fact-protobuf-numbers-001 — Schema fields with
   permanent numbers 1,2,3; renaming a field label while the
   number stays.
+
+## Batch C12 — chains, part 12 (25)
+
+- architecture-fact-range-resume-001 — A file bar with bytes
+  0-999 downloaded, connection cut, resume arrow asking
+  Range: 600-.
+- architecture-fact-websocket-upgrade-001 — An HTTP request
+  envelope with "Upgrade: websocket" hat, morphing into a
+  persistent two-way pipe.
+- architecture-fact-mqtt-qos-001 — Four-step ladder PUBLISH,
+  PUBREC, PUBREL, PUBCOMP between sensor and broker.
+- architecture-fact-keepalive-cost-001 — Timeline comparing
+  new-handshake-per-request stairs vs one handshake and many
+  requests on a kept line.
+- architecture-fact-sharding-hotspot-001 — Shard boxes, one
+  celebrity shard glowing overloaded while others idle.
+- architecture-fact-read-replica-lag-001 — Primary writing v2,
+  replica still serving v1 with a lag clock between.
+- ml-fact-imagenet-labels-001 — Wall of images with label tags
+  being attached by many hands/clock: 14M labels.
+- ml-fact-word2vec-arithmetic-001 — Vector arrows in word
+  space: king - man + woman parallelogram landing at queen.
+- ml-fact-gan-pub-001 — Two networks duelling: generator
+  forging, discriminator judging, pub napkin sketch corner.
+- ml-fact-scaling-laws-001 — Log-log straight lines of loss
+  vs compute/data/parameters, eerily parallel.
+- ml-fact-chinchilla-001 — Balance: parameters pan vs tokens
+  pan, old models parameter-heavy, Chinchilla point balanced.
+- ml-fact-double-descent-001 — Test error curve: falls, rises
+  (classical peak), then falls again past interpolation.
+- ml-fact-grokking-001 — Two curves over long training:
+  train accuracy instant, test accuracy jumps much later.
+- ml-fact-adversarial-examples-001 — Panda image, plus noise
+  panel (invisible), equals gibbon label with 99% confidence.
+- ml-fact-move37-001 — Go board with one stone placed at move
+  37 ringed, commentators crossed, "brilliant" tag.
+- ml-fact-alphafold-casp-001 — Amino acid chain folding into
+  protein ribbon, CASP score bar 92.
+- ml-fact-lottery-ticket-001 — Big network web with a small
+  highlighted subnetwork; scissors pruning to it.
+- ml-fact-catastrophic-forgetting-001 — Two task panels: task A
+  mastered then greyed forgotten while task B trains.
+- ml-fact-bpe-tokens-001 — Word "unbelievable" split into
+  subword pieces un/believ/able by merge frequency.
+- ml-fact-temperature-sampling-001 — Probability bars over next
+  words reshaped: low T spiky, high T flat, knob dial.
+- ml-fact-rlhf-preference-001 — Two answer cards ranked by a
+  human, reward model learning the ranking arrow.
+- ml-fact-quantization-int8-001 — Weight values on a float
+  ruler snapped to 256 int8 ticks, model shrinks 4x.
+- ml-fact-label-errors-benchmark-001 — Benchmark images with a
+  few wrong label tags ringed (a cat labelled dog).
+- ml-fact-data-leakage-target-001 — Feature list with one
+  "future" feature highlighted leaking the answer, calendar
+  split train Monday vs deployment.
+- ml-fact-class-imbalance-accuracy-001 — 99 green vs 1 red dot
+  field; lazy classifier "always green" scoring 99%.

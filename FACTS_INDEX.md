@@ -333,44 +333,44 @@ architecture-fact-bgp-pakistan-2008-001 · Architecture · One country's attempt
 architecture-fact-ntp-stratum-001 · Architecture · Internet time descends from atomic clocks in layers · visual: bespoke
 architecture-fact-protobuf-numbers-001 · Architecture · In protobuf, field numbers are forever; names are free · visual: bespoke
 architecture-fact-etag-revalidation-001 · Architecture · An ETag lets a browser ask 'still the same?' cheaply · visual: bespoke
-architecture-fact-range-resume-001 · Architecture · Downloads resume because HTTP can ask for slices
+architecture-fact-range-resume-001 · Architecture · Downloads resume because HTTP can ask for slices · visual: bespoke
 architecture-fact-email-store-forward-001 · Architecture · Email was built to survive machines being off · visual: bespoke
 architecture-fact-dkim-spf-dmarc-001 · Architecture · Email authentication arrived decades after email · visual: bespoke
-architecture-fact-websocket-upgrade-001 · Architecture · WebSockets begin life as an HTTP request in disguise
-architecture-fact-mqtt-qos-001 · Architecture · MQTT's QoS 2 is a four-step handshake in miniature
-architecture-fact-keepalive-cost-001 · Architecture · Connection reuse exists because handshakes are expensive
+architecture-fact-websocket-upgrade-001 · Architecture · WebSockets begin life as an HTTP request in disguise · visual: bespoke
+architecture-fact-mqtt-qos-001 · Architecture · MQTT's QoS 2 is a four-step handshake in miniature · visual: bespoke
+architecture-fact-keepalive-cost-001 · Architecture · Connection reuse exists because handshakes are expensive · visual: bespoke
 architecture-fact-grpc-streaming-001 · Architecture · gRPC streams because one request-response rarely fits · visual: bespoke
 architecture-fact-cdn-origin-pull-001 · Architecture · The first visitor to a new city pays for everyone · visual: bespoke
-architecture-fact-sharding-hotspot-001 · Architecture · Sharding by the wrong key creates one celebrity shard
-architecture-fact-read-replica-lag-001 · Architecture · Read replicas can honestly return yesterday's news
+architecture-fact-sharding-hotspot-001 · Architecture · Sharding by the wrong key creates one celebrity shard · visual: bespoke
+architecture-fact-read-replica-lag-001 · Architecture · Read replicas can honestly return yesterday's news · visual: bespoke
 ml-fact-perceptron-hype-001 · Machine learning · The 1958 perceptron was promised to walk and talk · visual: bespoke
 ml-fact-xor-winter-001 · Machine learning · One XOR problem helped freeze AI research for years · visual: bespoke
 ml-fact-backprop-1986-001 · Machine learning · Backpropagation was discovered at least three times · visual: bespoke
 ml-fact-imagenet-moment-001 · Machine learning · AlexNet won by 10 points and ended an era overnight · visual: bespoke
-ml-fact-imagenet-labels-001 · Machine learning · ImageNet's secret ingredient was labelled data at scale
-ml-fact-word2vec-arithmetic-001 · Machine learning · king - man + woman lands near queen, unprogrammed
-ml-fact-gan-pub-001 · Machine learning · GANs were argued into existence in a Montreal pub
+ml-fact-imagenet-labels-001 · Machine learning · ImageNet's secret ingredient was labelled data at scale · visual: bespoke
+ml-fact-word2vec-arithmetic-001 · Machine learning · king - man + woman lands near queen, unprogrammed · visual: bespoke
+ml-fact-gan-pub-001 · Machine learning · GANs were argued into existence in a Montreal pub · visual: bespoke
 ml-fact-transformer-paper-001 · Machine learning · 'Attention Is All You Need deleted recurrence · visual: bespoke
-ml-fact-scaling-laws-001 · Machine learning · Language model quality follows eerily straight power laws
-ml-fact-chinchilla-001 · Machine learning · Famous models were trained on too little text
-ml-fact-double-descent-001 · Machine learning · Making a model bigger can make test error fall twice
-ml-fact-grokking-001 · Machine learning · Networks can understand long after memorising
-ml-fact-adversarial-examples-001 · Machine learning · A panda plus invisible noise fools a network
-ml-fact-move37-001 · Machine learning · Move 37 was first called a mistake by experts
+ml-fact-scaling-laws-001 · Machine learning · Language model quality follows eerily straight power laws · visual: bespoke
+ml-fact-chinchilla-001 · Machine learning · Famous models were trained on too little text · visual: bespoke
+ml-fact-double-descent-001 · Machine learning · Making a model bigger can make test error fall twice · visual: bespoke
+ml-fact-grokking-001 · Machine learning · Networks can understand long after memorising · visual: bespoke
+ml-fact-adversarial-examples-001 · Machine learning · A panda plus invisible noise fools a network · visual: bespoke
+ml-fact-move37-001 · Machine learning · Move 37 was first called a mistake by experts · visual: bespoke
 ml-fact-alphazero-tabula-001 · Machine learning · AlphaZero taught itself chess, then crushed Stockfish · visual: bespoke
-ml-fact-alphafold-casp-001 · Machine learning · AlphaFold2 essentially solved a 50-year grand challenge
+ml-fact-alphafold-casp-001 · Machine learning · AlphaFold2 essentially solved a 50-year grand challenge · visual: bespoke
 ml-fact-dqn-atari-001 · Machine learning · One algorithm learned Atari from pixels · visual: bespoke
 ml-fact-batchnorm-landscape-001 · Machine learning · Batch norm works, maybe not for the stated reason · visual: bespoke
 ml-fact-dropout-ensemble-001 · Machine learning · Dropout is secretly an ensemble of countless networks · visual: bespoke
-ml-fact-lottery-ticket-001 · Machine learning · Big networks hide small networks that win alone
-ml-fact-catastrophic-forgetting-001 · Machine learning · Networks forget the old task acing the new
-ml-fact-bpe-tokens-001 · Machine learning · Language models read compression-born subwords
-ml-fact-temperature-sampling-001 · Machine learning · Temperature: librarian or improviser knob
-ml-fact-rlhf-preference-001 · Machine learning · RLHF taught models manners from ranked preferences
-ml-fact-quantization-int8-001 · Machine learning · Models survive rewriting in 8-bit integers
-ml-fact-label-errors-benchmark-001 · Machine learning · Some benchmark labels are simply wrong
-ml-fact-data-leakage-target-001 · Machine learning · Target leakage wins competitions and fails Mondays
-ml-fact-class-imbalance-accuracy-001 · Machine learning · 99 percent accuracy can mean the model does nothing
+ml-fact-lottery-ticket-001 · Machine learning · Big networks hide small networks that win alone · visual: bespoke
+ml-fact-catastrophic-forgetting-001 · Machine learning · Networks forget the old task acing the new · visual: bespoke
+ml-fact-bpe-tokens-001 · Machine learning · Language models read compression-born subwords · visual: bespoke
+ml-fact-temperature-sampling-001 · Machine learning · Temperature: librarian or improviser knob · visual: bespoke
+ml-fact-rlhf-preference-001 · Machine learning · RLHF taught models manners from ranked preferences · visual: bespoke
+ml-fact-quantization-int8-001 · Machine learning · Models survive rewriting in 8-bit integers · visual: bespoke
+ml-fact-label-errors-benchmark-001 · Machine learning · Some benchmark labels are simply wrong · visual: bespoke
+ml-fact-data-leakage-target-001 · Machine learning · Target leakage wins competitions and fails Mondays · visual: bespoke
+ml-fact-class-imbalance-accuracy-001 · Machine learning · 99 percent accuracy can mean the model does nothing · visual: bespoke
 ml-fact-train-serving-skew-001 · Machine learning · Models meet a different world than they trained in
 ml-fact-concept-drift-001 · Machine learning · The world changes; yesterday's model is historical
 ml-fact-feedback-loops-ml-001 · Machine learning · Predictive policing can patrol its own predictions
