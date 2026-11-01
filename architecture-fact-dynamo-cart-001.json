@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "architecture-fact-dynamo-cart-001",
+  "kicker": "FACT",
+  "topic": "Architecture",
+  "title": "Amazon's cart chose 'always writable' over always consistent",
+  "body": "Amazon's Dynamo (2007) kept shopping carts writable during failures by accepting conflicting versions and reconciling later, famously merging divergent carts rather than ever showing an error. Losing sales to consistency checks cost more than an occasional merged duplicate item. Eventual consistency entered mainstream vocabulary through that trade.",
+  "source_hint": "DeCandia et al., Dynamo, SOSP 2007",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "writes during failure",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "conflicting carts",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "merge later",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

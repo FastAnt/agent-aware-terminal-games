@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "architecture-fact-thundering-herd-001",
+  "kicker": "FACT",
+  "topic": "Architecture",
+  "title": "When a hot cache entry expires, the database gets mobbed",
+  "body": "While a popular key is cached, thousands of requests are harmless; the moment it expires, all of them may stampede the database to recompute it at once. This thundering herd has flattened systems whose steady state was comfortable. Fixes are unglamorous: request coalescing, early refresh, jittered TTLs, or letting one worker rebuild while others serve slightly stale.",
+  "source_hint": "Caching literature and production postmortems",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "hot key expires",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "thousands recompute",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "database flattens",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

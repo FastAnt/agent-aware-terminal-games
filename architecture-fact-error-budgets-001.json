@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "architecture-fact-error-budgets-001",
+  "kicker": "FACT",
+  "topic": "Architecture",
+  "title": "Reliability becomes negotiable with an error budget",
+  "body": "Google SRE turns a 99.9 percent availability target into a budget of allowed downtime per period. While budget remains, teams may ship risky changes; when spent, launches freeze for reliability work. The mechanism converts reliability-versus-features shouting into arithmetic both sides agreed to when calm.",
+  "source_hint": "Google SRE Book, ch. on error budgets",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "99.9% target",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "budget remaining: ship",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "budget spent: freeze",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

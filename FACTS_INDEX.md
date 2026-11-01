@@ -273,3 +273,28 @@ physics-fact-pulsar-clocks-001 · Physics · Some pulsars keep time rivaling ato
 physics-fact-gravitational-waves-2015-001 · Physics · In 2015 we heard two black holes collide
 physics-fact-time-crystal-space-001 · Physics · The oldest light we see left before Earth existed
 physics-fact-antimatter-banana-001 · Physics · Bananas emit antimatter, at a homeopathic rate
+architecture-fact-two-generals-001 · Architecture · Two generals cannot agree over an unreliable messenger
+architecture-fact-byzantine-third-001 · Architecture · Tolerating traitors takes more than triple the traitors
+architecture-fact-cap-partition-001 · Architecture · Under a network partition, you must pick a poison
+architecture-fact-dynamo-cart-001 · Architecture · Amazon's cart chose 'always writable' over always consistent
+architecture-fact-lamport-clocks-001 · Architecture · Lamport ordered events without trusting any clock
+architecture-fact-exactly-once-myth-001 · Architecture · Exactly-once delivery is impossible; dedup is the trick
+architecture-fact-consistent-hashing-001 · Architecture · Consistent hashing moves only 1/n of keys when a node joins
+architecture-fact-circuit-breaker-001 · Architecture · Circuit breakers exist because retries can be an attack
+architecture-fact-thundering-herd-001 · Architecture · When a hot cache entry expires, the database gets mobbed
+architecture-fact-paxos-simple-001 · Architecture · Paxos was so hard to explain it needed a sequel paper
+architecture-fact-idempotency-keys-001 · Architecture · A good retry button is really an idempotency key
+architecture-fact-lsm-vs-btree-001 · Architecture · Write-heavy stores trade read work for write speed
+architecture-fact-gossip-spread-001 · Architecture · Cluster gossip spreads news like a rumour, on purpose
+architecture-fact-anycast-001 · Architecture · The same IP address can live in a hundred cities
+architecture-fact-bulkheads-001 · Architecture · Ships' bulkheads became a software pattern
+architecture-fact-backpressure-001 · Architecture · Fast producers must be told to slow down
+architecture-fact-two-phase-commit-001 · Architecture · Two-phase commit can block everyone on one coordinator
+architecture-fact-saga-compensate-001 · Architecture · Sagas undo work with new work, never by time travel
+architecture-fact-spanner-truetime-001 · Architecture · Google put atomic clocks and GPS into its datacenters
+architecture-fact-snowflake-ids-001 · Architecture · Twitter's Snowflake IDs sort themselves by time
+architecture-fact-uuid-collision-001 · Architecture · Random UUIDs collide about when hell freezes over
+architecture-fact-hyrums-law-001 · Architecture · Every observable behaviour of your API becomes a contract
+architecture-fact-chaos-monkey-001 · Architecture · Netflix breaks its own production on weekdays, on purpose
+architecture-fact-error-budgets-001 · Architecture · Reliability becomes negotiable with an error budget
+architecture-fact-prime-video-monolith-001 · Architecture · Prime Video cut costs 90 percent by un-distributing a tool

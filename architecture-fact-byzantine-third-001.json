@@ -1,0 +1,21 @@
+{
+  "type": "fact",
+  "id": "architecture-fact-byzantine-third-001",
+  "kicker": "FACT",
+  "topic": "Architecture",
+  "title": "Tolerating traitors takes more than triple the traitors",
+  "body": "Byzantine fault tolerance has a hard arithmetic: with m traitors sending contradictory lies, honest nodes need to outnumber them such that total nodes exceed 3m. Below that, lies can split the honest into irreconcilable camps. Lamport, Shostak and Pease proved the bound in 1982; blockchains later made it famous.",
+  "source_hint": "Lamport, Shostak, Pease (1982)",
+  "scene": {
+    "type": "network",
+    "layers": [
+      4,
+      5,
+      4
+    ],
+    "anim": {
+      "type": "pulse",
+      "speed": 0.5
+    }
+  }
+}

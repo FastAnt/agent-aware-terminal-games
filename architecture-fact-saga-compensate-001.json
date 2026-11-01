@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "architecture-fact-saga-compensate-001",
+  "kicker": "FACT",
+  "topic": "Architecture",
+  "title": "Sagas undo work with new work, never by time travel",
+  "body": "A saga splits a cross-service transaction into local steps, each with a compensating action: cancel the hotel, refund the flight. Compensation is business logic, not rollback; the intermediate states were real and visible. Systems that pretend distributed transactions are database transactions discover this during their first partial failure at 3 a.m.",
+  "source_hint": "Garcia-Molina and Salem (1987)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "book flight",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "book hotel fails",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "compensate: refund flight",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

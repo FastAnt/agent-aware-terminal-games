@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "architecture-fact-two-generals-001",
+  "kicker": "FACT",
+  "topic": "Architecture",
+  "title": "Two generals cannot agree over an unreliable messenger",
+  "body": "Two commanders, coordinating only by messengers who may be captured, can never reach certain agreement to attack together: every confirmation itself needs confirming, infinitely. Lamport formalised versions as the Byzantine generals problem. It is why distributed consensus tolerates doubt by design instead of demanding impossible certainty over networks that drop packets.",
+  "source_hint": "Two Generals problem; Lamport et al. (1982)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "general A",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "messenger may fall",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "general B",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

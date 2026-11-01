@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "architecture-fact-bulkheads-001",
+  "kicker": "FACT",
+  "topic": "Architecture",
+  "title": "Ships' bulkheads became a software pattern",
+  "body": "A bulkhead in a hull confines flooding to one compartment. Applied to services, separate thread pools or cells per dependency or tenant keep one failure from consuming every resource. Nygard catalogued the transfer from naval architecture. It is the same instinct as circuit breakers pointed at capacity instead of time.",
+  "source_hint": "Nygard, 'Release It!' bulkhead pattern",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "tenant A floods",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "bulkhead wall",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "tenant B dry",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "architecture-fact-paxos-simple-001",
+  "kicker": "FACT",
+  "topic": "Architecture",
+  "title": "Paxos was so hard to explain it needed a sequel paper",
+  "body": "Lamport modelled consensus on a fictional Greek island parliament, and the 1998 paper's whimsy hid an algorithm implementers struggled to pin down. He followed with 'Paxos Made Simple' (2001), stripping the metaphor. Systems like Chubby and Spanner still run its descendants; the difficulty of explaining consensus remains a lesson inside the algorithm's success.",
+  "source_hint": "Lamport (1998, 2001)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "island parliament",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "too clever by half",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "Paxos Made Simple",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

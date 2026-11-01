@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "architecture-fact-uuid-collision-001",
+  "kicker": "FACT",
+  "topic": "Architecture",
+  "title": "Random UUIDs collide about when hell freezes over",
+  "body": "A version-4 UUID has 122 random bits; you would need to mint around a quintillion before collision odds reach even one in a million by the birthday bound. 'Essentially never' here has a number attached. Systems do fail at key generation, but from bad randomness or bad code, not from exhausting the space.",
+  "source_hint": "RFC 4122; birthday bound calculation",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "122 random bits",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "quintillion IDs",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "collision: negligible",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

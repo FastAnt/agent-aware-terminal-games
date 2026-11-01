@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "architecture-fact-spanner-truetime-001",
+  "kicker": "FACT",
+  "topic": "Architecture",
+  "title": "Google put atomic clocks and GPS into its datacenters",
+  "body": "Spanner achieves globally consistent transactions by timestamping with TrueTime, which does not hide clock uncertainty but exposes it as an interval and waits it out before committing. Google installed GPS receivers and atomic clocks in datacenters to keep those intervals small. The system buys consistency with hardware and deliberate waiting, a refreshingly literal solution.",
+  "source_hint": "Corbett et al., Spanner, OSDI 2012",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 2,
+        "angle": 40
+      },
+      {
+        "ring": 3,
+        "angle": 180
+      },
+      {
+        "ring": 4,
+        "angle": 310
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

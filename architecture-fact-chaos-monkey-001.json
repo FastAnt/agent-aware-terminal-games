@@ -1,0 +1,21 @@
+{
+  "type": "fact",
+  "id": "architecture-fact-chaos-monkey-001",
+  "kicker": "FACT",
+  "topic": "Architecture",
+  "title": "Netflix breaks its own production on weekdays, on purpose",
+  "body": "Chaos Monkey, released in 2011, randomly terminates production instances during business hours so engineers cannot let resilience rot and someone is awake when it happens. The point is rehearsal: if a single instance dying can hurt you, better to learn at 11 a.m. on Tuesday. It founded chaos engineering as a named discipline.",
+  "source_hint": "Netflix Tech Blog, Chaos Monkey (2011-2012)",
+  "scene": {
+    "type": "network",
+    "layers": [
+      3,
+      5,
+      3
+    ],
+    "anim": {
+      "type": "pulse",
+      "speed": 0.5
+    }
+  }
+}

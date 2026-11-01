@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "architecture-fact-two-phase-commit-001",
+  "kicker": "FACT",
+  "topic": "Architecture",
+  "title": "Two-phase commit can block everyone on one coordinator",
+  "body": "In 2PC a coordinator asks everyone to prepare, then orders commit. If it dies after some prepared, those participants hold locks, forbidden to decide alone, potentially for hours. The protocol guarantees atomicity by introducing a single throat to choke. Sagas answer by giving up atomicity and compensating instead, openly.",
+  "source_hint": "Gray (1978); saga pattern, Garcia-Molina and Salem (1987)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "prepare?",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "coordinator dies",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "everyone blocked",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

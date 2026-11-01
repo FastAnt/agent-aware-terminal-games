@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "architecture-fact-circuit-breaker-001",
+  "kicker": "FACT",
+  "topic": "Architecture",
+  "title": "Circuit breakers exist because retries can be an attack",
+  "body": "When a dependency fails, eager retries from every client multiply load exactly when the system can least bear it. The circuit-breaker pattern, popularised by Michael Nygard, fails fast after repeated errors and periodically probes for recovery. It imports an electrician's insight: cut the circuit before the wiring melts, which in software means your own retry storm.",
+  "source_hint": "Nygard, 'Release It!' (2007)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "dependency fails",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "retries multiply load",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "breaker opens",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

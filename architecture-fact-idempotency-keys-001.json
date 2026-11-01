@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "architecture-fact-idempotency-keys-001",
+  "kicker": "FACT",
+  "topic": "Architecture",
+  "title": "A good retry button is really an idempotency key",
+  "body": "Payment APIs let clients attach a unique key to a charge request so a retried submission returns the original result instead of charging twice. Stripe's documentation made the pattern famous. It acknowledges the network's core ambiguity, did my request land, and dissolves it by making repetition harmless. Distributed safety often reduces to naming operations well.",
+  "source_hint": "Stripe API documentation, idempotent requests",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "charge + key K",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "retry with key K",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "one charge, replayed receipt",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

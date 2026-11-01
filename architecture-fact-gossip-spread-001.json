@@ -1,0 +1,21 @@
+{
+  "type": "fact",
+  "id": "architecture-fact-gossip-spread-001",
+  "kicker": "FACT",
+  "topic": "Architecture",
+  "title": "Cluster gossip spreads news like a rumour, on purpose",
+  "body": "Gossip protocols have each node periodically tell a random peer what it knows; information spreads exponentially fast while no node is a bottleneck or single point of failure. Epidemics are the model and the maths. Membership and failure detection in systems like Cassandra ride on mechanisms borrowed from how diseases, and office rumours, propagate.",
+  "source_hint": "Demers et al., epidemic algorithms (1987)",
+  "scene": {
+    "type": "network",
+    "layers": [
+      2,
+      4,
+      6
+    ],
+    "anim": {
+      "type": "pulse",
+      "speed": 0.5
+    }
+  }
+}

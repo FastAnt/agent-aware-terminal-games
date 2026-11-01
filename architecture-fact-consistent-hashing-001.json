@@ -1,0 +1,35 @@
+{
+  "type": "fact",
+  "id": "architecture-fact-consistent-hashing-001",
+  "kicker": "FACT",
+  "topic": "Architecture",
+  "title": "Consistent hashing moves only 1/n of keys when a node joins",
+  "body": "Hashing keys and servers onto a ring and assigning each key to the next server clockwise means adding one server only steals keys from its single neighbour's arc, about a 1/n share. Caches stopped reshuffling the world at every membership change. Karger and colleagues published it in 1997 for Akamai's web caching problem.",
+  "source_hint": "Karger et al., 'Consistent Hashing and Random Trees' (1997)",
+  "scene": {
+    "type": "orbits",
+    "rings": 5,
+    "dots": [
+      {
+        "ring": 2,
+        "angle": 20
+      },
+      {
+        "ring": 3,
+        "angle": 120
+      },
+      {
+        "ring": 4,
+        "angle": 220
+      },
+      {
+        "ring": 5,
+        "angle": 320
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

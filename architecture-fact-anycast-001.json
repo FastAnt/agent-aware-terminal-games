@@ -1,0 +1,35 @@
+{
+  "type": "fact",
+  "id": "architecture-fact-anycast-001",
+  "kicker": "FACT",
+  "topic": "Architecture",
+  "title": "The same IP address can live in a hundred cities",
+  "body": "Anycast announces one IP address from many locations, and BGP routing delivers each user to a nearby healthy instance. DNS root servers and CDNs use it so 'the server' is a place-dependent answer. When routing hiccups, the same address can silently teleport users across continents, which confuses debugging beautifully.",
+  "source_hint": "Anycast practice, RFC and CDN literature",
+  "scene": {
+    "type": "orbits",
+    "rings": 5,
+    "dots": [
+      {
+        "ring": 2,
+        "angle": 30
+      },
+      {
+        "ring": 3,
+        "angle": 130
+      },
+      {
+        "ring": 4,
+        "angle": 230
+      },
+      {
+        "ring": 5,
+        "angle": 330
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}
