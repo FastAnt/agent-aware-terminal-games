@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-sorting-lower-bound-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "Comparison sorts cannot beat n log n, and it is provable",
+  "body": "Any sort that learns only by comparing pairs is a decision tree, and telling apart all n-factorial orders needs at least log2(n!) questions, which grows like n log n. That is why comparison sorts stop at n log n, while special sorts that exploit the keys themselves, like counting sort, can go faster.",
+  "source_hint": "Decision-tree lower bound (CLRS, Introduction to Algorithms)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "all orderings",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "comparisons only",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "n log n minimum",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

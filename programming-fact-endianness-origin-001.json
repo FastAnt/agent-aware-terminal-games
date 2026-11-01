@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-endianness-origin-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "Endianness is a Gulliver's Travels joke that stuck",
+  "body": "In 1980 Danny Cohen borrowed big-endian and little-endian from Swift's satire of egg-cracking factions to name the two byte orders for multi-byte numbers. Network protocols standardised on big-endian while most desktops store little-endian, so the joke became a permanent translation duty at every socket boundary.",
+  "source_hint": "Cohen, 'On Holy Wars and a Plea for Peace', 1980",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "big-endian",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "network order",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "little-endian",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

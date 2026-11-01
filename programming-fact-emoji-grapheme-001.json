@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-emoji-grapheme-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "One visible emoji can be many code points",
+  "body": "The family emoji on your phone is often a sequence: person code points joined by zero-width joiners, plus skin-tone modifiers. String length, cursor movement and truncation must count user-perceived characters (grapheme clusters), not code points, or software slices a family into pieces. Unicode defines the joining rules; implementations lag at their peril.",
+  "source_hint": "Unicode Standard Annex #29, grapheme clusters",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "person + ZWJ",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "person + ZWJ",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "one glyph",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

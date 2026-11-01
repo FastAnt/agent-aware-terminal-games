@@ -30,3 +30,28 @@ programming-fact-javascript-ten-days-001 · Programming · JavaScript was protot
 programming-fact-y2k-two-digits-001 · Programming · Y2K was a memory-saving decision coming due
 programming-fact-morris-worm-001 · Programming · The first Internet worm was a survey that escaped
 programming-fact-moores-law-observation-001 · Programming · Moore's law is an observation, not physics
+programming-fact-sorting-lower-bound-001 · Programming · Comparison sorts cannot beat n log n, and it is provable
+programming-fact-quicksort-worst-001 · Programming · Quicksort's worst case hides in already-sorted input
+programming-fact-halting-in-practice-001 · Programming · Every linter works around an impossible perfect checker
+programming-fact-np-verifier-001 · Programming · NP is about checking, not solving
+programming-fact-ackermann-001 · Programming · The Ackermann function outruns every simple loop nest
+programming-fact-latency-numbers-001 · Programming · Memory is fast only next to a disk seek
+programming-fact-false-sharing-001 · Programming · Two variables can be slow because they share 64 bytes
+programming-fact-float-tenth-001 · Programming · 0.1 + 0.2 is not 0.3, and binary is why
+programming-fact-nan-not-equal-001 · Programming · NaN is not equal to itself, on purpose
+programming-fact-utf8-design-001 · Programming · UTF-8 was designed so ASCII is already valid UTF-8
+programming-fact-emoji-grapheme-001 · Programming · One visible emoji can be many code points
+programming-fact-regex-backtracking-001 · Programming · A short regex can take longer than the age of the universe
+programming-fact-amdahl-law-001 · Programming · Speeding up 90 percent of a program cannot give 10x forever
+programming-fact-endianness-origin-001 · Programming · Endianness is a Gulliver's Travels joke that stuck
+programming-fact-bloom-filter-001 · Programming · A Bloom filter can lie only in one direction
+programming-fact-hyperloglog-001 · Programming · Billions of distinct items, counted in kilobytes
+programming-fact-euclid-still-001 · Programming · The oldest algorithm still in textbooks is Euclid's
+programming-fact-inverse-sqrt-hack-001 · Programming · Quake's inverse square root used a magic hexadecimal number
+programming-fact-copy-on-write-001 · Programming · Forking a process does not copy its memory
+programming-fact-branch-prediction-001 · Programming · Your CPU runs code that may never happen
+programming-fact-jit-hotspot-001 · Programming · JIT compilers optimise the code you actually run
+programming-fact-gc-vs-refcount-001 · Programming · Reference counting cannot collect a cycle
+programming-fact-turing-completeness-css-001 · Programming · CSS plus HTML was shown to be Turing complete
+programming-fact-stack-frames-001 · Programming · Recursion depth is limited by memory, not by the language
+programming-fact-pipes-mcilroy-001 · Programming · Unix pipes were one person's stubborn suggestion

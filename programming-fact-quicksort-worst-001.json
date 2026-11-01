@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-quicksort-worst-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "Quicksort's worst case hides in already-sorted input",
+  "body": "Quicksort is fast on average because pivots usually split work evenly. Pick the first element as pivot on sorted data and every split is maximally lopsided, degrading to n-squared. Random or median pivots do not remove the worst case, they make it vanishingly unlikely to stumble into.",
+  "source_hint": "Hoare 1962; CLRS analysis of randomised quicksort",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "sorted input",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "bad pivots",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "n-squared",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

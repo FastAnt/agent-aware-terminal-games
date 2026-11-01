@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-halting-in-practice-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "Every linter works around an impossible perfect checker",
+  "body": "Because the halting problem is undecidable, no analyser can be both always right and always finished. Real tools choose a side: miss some bugs, or sometimes report code that is actually fine, or occasionally never answer. When a checker seems stubborn, it is not incompetence; the perfect version is mathematically impossible.",
+  "source_hint": "Turing 1936; Rice's theorem, 1953",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "perfect checker",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "impossible (1936)",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "miss or over-report",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

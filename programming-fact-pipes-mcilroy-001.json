@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-pipes-mcilroy-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "Unix pipes were one person's stubborn suggestion",
+  "body": "Douglas McIlroy proposed connecting programs like garden hoses as early as 1964 and kept lobbying until Ken Thompson implemented pipes in one night in 1973. Thompson then rewired the standard tools to read and write streams. Composing small programs at the shell, rather than building monoliths, dates to that night's work.",
+  "source_hint": "McIlroy / Unix history, Bell Labs",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "program",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "pipe |",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "program",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

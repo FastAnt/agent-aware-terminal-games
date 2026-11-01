@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-false-sharing-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "Two variables can be slow because they share 64 bytes",
+  "body": "Cores do not fetch individual variables from memory; they move whole cache lines, typically 64 bytes. Two hot variables on one line make cores invalidate each other's copies on every write, even though the code shares nothing. The slowdown is called false sharing, and padding or alignment is the odd cure.",
+  "source_hint": "Intel architecture manuals on cache coherence",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "core A writes x",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "same 64B line",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "core B stalls",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

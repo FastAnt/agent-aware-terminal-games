@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-euclid-still-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "The oldest algorithm still in textbooks is Euclid's",
+  "body": "Euclid described his GCD procedure around 300 BCE: replace the larger number by the remainder until one side is zero. It needs no factoring and runs in a handful of steps; worst case is consecutive Fibonacci numbers. The same three lines still sit inside modern cryptography toolkits computing modular inverses.",
+  "source_hint": "Euclid, Elements, Book VII (c. 300 BCE)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "a mod b",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "repeat",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "gcd remains",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

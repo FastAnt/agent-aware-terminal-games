@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-bloom-filter-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "A Bloom filter can lie only in one direction",
+  "body": "A Bloom filter hashes each item into several bits of an array. If any checked bit is 0 the item is definitely absent; if all are 1 it is probably present, because other items may have set those bits. Databases use that asymmetry to skip disk reads for keys that cannot exist.",
+  "source_hint": "Bloom, Communications of the ACM, 1970",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "k hashes",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "bits set",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "no = certain",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

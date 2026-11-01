@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-branch-prediction-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "Your CPU runs code that may never happen",
+  "body": "To keep its pipeline full, a modern CPU guesses which way each branch goes and executes ahead speculatively. A wrong guess flushes that work, costing a dozen or more cycles. Predictable patterns run measurably faster than random ones with identical instruction counts, which is why sorted data can speed up a simple loop.",
+  "source_hint": "Intel / AMD optimisation manuals on branch prediction",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "guess a branch",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "execute ahead",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "flush if wrong",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

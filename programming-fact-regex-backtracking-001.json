@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-regex-backtracking-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "A short regex can take longer than the age of the universe",
+  "body": "Backtracking regex engines try possibilities one by one; nested quantifiers like (a+)+ multiply those possibilities exponentially on near-miss input. The string fails only after the engine explores a combinatorial maze. This is why one user-supplied pattern has taken down large sites, and why linear-time engines like RE2 refuse backreferences.",
+  "source_hint": "Cox, 'Regular Expression Matching Can Be Simple and Fast' (2007)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "nested quantifiers",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "exponential retries",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "near-miss input",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

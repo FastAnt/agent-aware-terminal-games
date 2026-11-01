@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-utf8-design-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "UTF-8 was designed so ASCII is already valid UTF-8",
+  "body": "Ken Thompson and Rob Pike sketched UTF-8 in 1992 with strict rules: ASCII bytes mean themselves, and multi-byte characters start and continue with distinct byte patterns. A decoder landing mid-character can resynchronise within one character, and no character's bytes appear inside another's. That self-synchronising design helped it displace every rival encoding.",
+  "source_hint": "Pike, 'The History of UTF-8' (2003)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "ASCII unchanged",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "lead vs trail bytes",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "self-synchronising",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

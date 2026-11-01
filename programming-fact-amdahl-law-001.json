@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-amdahl-law-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "Speeding up 90 percent of a program cannot give 10x forever",
+  "body": "Amdahl's law: if a tenth of the work is serial, infinitely fast parallel hardware still caps the speedup at ten times. The serial residue always becomes the bottleneck. It is the maths behind 'just add more cores' disappointing everyone, and why profiling beats guessing where time goes.",
+  "source_hint": "Amdahl, AFIPS conference, 1967",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "90% parallel",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "10% serial",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "max speedup 10x",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-nan-not-equal-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "NaN is not equal to itself, on purpose",
+  "body": "IEEE 754 defines NaN, the result of invalid operations like 0/0, to compare unequal to everything, including itself. That makes x != x a reliable NaN test in languages without one. The oddity is deliberate: a poisoned value should fail every check rather than quietly pass one.",
+  "source_hint": "IEEE 754 standard, comparison predicates",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "0 / 0",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "NaN",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "x != x detects it",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}
