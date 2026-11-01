@@ -1191,3 +1191,68 @@ that. Status is tracked in FACTS_INDEX.md ("visual: bespoke").
   textbook stack, score gauge inflated.
 - ml-fact-human-feedback-cost-001 — Rows of annotator desks
   behind the model curtain, ranking answers.
+
+## Batch C14 — chains, part 14 (25)
+
+- ml-fact-open-weights-irreversible-001 — A weights file
+  released through a door into many copied drives; recall
+  arrow bouncing off.
+- geometry-fact-penrose-triangle-001 — Impossible triangle
+  drawn with overlapping beams, one corner highlighted as
+  the viewpoint trick.
+- geometry-fact-euler-formula-001 — A cube wireframe with V,
+  E, F counted in three tallies: 8 - 12 + 6 = 2.
+- geometry-fact-kissing-twelve-001 — Central sphere ringed by
+  12 spheres, a 13th ghosted sphere not fitting (Newton vs
+  Gregory).
+- geometry-fact-brachistochrone-001 — Three slides from A to
+  B: straight, steep dip, cycloid with race dots, cycloid
+  winning.
+- geometry-fact-catenary-arch-001 — Hanging chain curve
+  flipped vertically into an arch, stones along it.
+- geometry-fact-reuleaux-drill-001 — Reuleaux triangle
+  rotating inside a square guide, corners tracing a square.
+- geometry-fact-coastline-paradox-001 — Britain-ish outline
+  measured with long ruler then short ruler, length numbers
+  growing.
+- geometry-fact-koch-snowflake-001 — Triangle with iterated
+  spiky edges zooming; perimeter up, area bounded box.
+- geometry-fact-penrose-tiling-001 — Kite and dart tiles
+  patch with no periodic repeat, a quasicrystal diffraction
+  dots corner.
+- geometry-fact-girih-tiles-001 — Five girih tile shapes
+  assembled into a decagonal medieval pattern, 12th century
+  label.
+- geometry-fact-morley-triangle-001 — A triangle with each
+  angle trisected, inner intersections forming an equilateral
+  triangle.
+- geometry-fact-napoleon-triangle-001 — A scalene triangle
+  with equilateral triangles on each side, centres joined
+  into another equilateral.
+- geometry-fact-sangaku-001 — A wooden tablet hanging in a
+  temple frame with circles in a square problem drawn.
+- geometry-fact-descartes-circles-001 — Four mutually tangent
+  circles, curvature equation (k1+k2+k3+k4)^2 = 2 sum k^2.
+- geometry-fact-ford-circles-001 — Circles sitting on a number
+  line at fractions 0, 1/2, 1, tangent, mediants between.
+- geometry-fact-hilbert-gis-001 — A Hilbert curve snaking
+  through a grid filling quadrants recursively, map tiles.
+- geometry-fact-involute-gears-001 — String unwinding from a
+  base circle tracing involute, two gear teeth meshing.
+- geometry-fact-tractrix-pursuit-001 — A person walking a line
+  dragging a watch on a taut chain, watch path curving
+  asymptotic.
+- geometry-fact-cycloid-clock-001 — Pendulum swinging between
+  cycloid cheeks, period constant at two amplitudes.
+- geometry-fact-antipodal-map-001 — Flat world map with two
+  antipodal pins linked through globe inset, equal temp.
+- geometry-fact-projective-perspective-001 — Railroad tracks
+  converging to vanishing point on a canvas, painter eye.
+- geometry-fact-desargues-shadow-001 — Two triangles with
+  lines through corresponding vertices meeting at a point,
+  base intersections on a line.
+- geometry-fact-pascal-hexagon-001 — Hexagon inscribed in a
+  conic, three intersection points of opposite sides
+  collinear.
+- geometry-fact-soddy-poem-001 — Kissing circles with verses
+  text lines beside: "The Kiss Precise" 1936 Nature poem.

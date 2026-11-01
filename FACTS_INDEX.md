@@ -402,52 +402,52 @@ ml-fact-emergent-abilities-debate-001 · Machine learning · 'Emergent abilities
 ml-fact-hallucination-mechanism-001 · Machine learning · Hallucination is the training objective working as designed · visual: bespoke
 ml-fact-eval-contamination-001 · Machine learning · Benchmarks leak into training data and inflate scores · visual: bespoke
 ml-fact-human-feedback-cost-001 · Machine learning · The humans in RLHF are an invisible workforce · visual: bespoke
-ml-fact-open-weights-irreversible-001 · Machine learning · Released weights cannot be unreleased
+ml-fact-open-weights-irreversible-001 · Machine learning · Released weights cannot be unreleased · visual: bespoke
 geometry-fact-mercator-greenland-001 · Geometry · Mercator makes Greenland look Africa-sized · visual: bespoke
 geometry-fact-no-perfect-map-001 · Geometry · A perfect flat map is a theorem-level impossibility · visual: bespoke
 geometry-fact-great-circle-flights-001 · Geometry · Planes to Tokyo fly toward the pole because Earth is round · visual: bespoke
 geometry-fact-spherical-triangle-001 · Geometry · On a sphere, a triangle can have 3 right angles · visual: bespoke
 geometry-fact-mobius-cut-001 · Geometry · Cut a Möbius strip: you do not get two strips · visual: bespoke
 geometry-fact-klein-bottle-001 · Geometry · A Klein bottle has no inside; models fake one · visual: bespoke
-geometry-fact-penrose-triangle-001 · Geometry · The Penrose triangle exists in photographs, from one angle
+geometry-fact-penrose-triangle-001 · Geometry · The Penrose triangle exists in photographs, from one angle · visual: bespoke
 geometry-fact-pentagon-soccer-001 · Geometry · Every soccer ball hides exactly twelve pentagons · visual: bespoke
 geometry-fact-five-platonics-001 · Geometry · Exactly five perfect solids exist; Euclid ends there · visual: bespoke
-geometry-fact-euler-formula-001 · Geometry · Vertices minus edges plus faces equals two, almost always
+geometry-fact-euler-formula-001 · Geometry · Vertices minus edges plus faces equals two, almost always · visual: bespoke
 geometry-fact-honeycomb-hales-001 · Geometry · Bees were proved optimal only in 1999 · visual: bespoke
 geometry-fact-kepler-oranges-001 · Geometry · Greengrocers stack oranges the provably best way · visual: bespoke
-geometry-fact-kissing-twelve-001 · Geometry · Newton and Gregory argued over twelve or thirteen spheres
-geometry-fact-brachistochrone-001 · Geometry · The fastest slide curve is a cycloid
-geometry-fact-catenary-arch-001 · Geometry · A hanging chain, flipped, is the perfect arch
-geometry-fact-reuleaux-drill-001 · Geometry · A non-round triangle can drill a square hole
-geometry-fact-coastline-paradox-001 · Geometry · Britain's coast has no definite length
-geometry-fact-koch-snowflake-001 · Geometry · A snowflake can fence infinite perimeter around finite land
+geometry-fact-kissing-twelve-001 · Geometry · Newton and Gregory argued over twelve or thirteen spheres · visual: bespoke
+geometry-fact-brachistochrone-001 · Geometry · The fastest slide curve is a cycloid · visual: bespoke
+geometry-fact-catenary-arch-001 · Geometry · A hanging chain, flipped, is the perfect arch · visual: bespoke
+geometry-fact-reuleaux-drill-001 · Geometry · A non-round triangle can drill a square hole · visual: bespoke
+geometry-fact-coastline-paradox-001 · Geometry · Britain's coast has no definite length · visual: bespoke
+geometry-fact-koch-snowflake-001 · Geometry · A snowflake can fence infinite perimeter around finite land · visual: bespoke
 geometry-fact-torus-donut-001 · Geometry · Topologically, a coffee cup is a donut · visual: bespoke
 geometry-fact-wallpaper-17-001 · Geometry · Every wallpaper uses one of 17 symmetries · visual: bespoke
-geometry-fact-penrose-tiling-001 · Geometry · Never-repeating tiles that conquered chemistry
-geometry-fact-girih-tiles-001 · Geometry · Medieval tilers may have beaten Penrose by 500 years
+geometry-fact-penrose-tiling-001 · Geometry · Never-repeating tiles that conquered chemistry · visual: bespoke
+geometry-fact-girih-tiles-001 · Geometry · Medieval tilers may have beaten Penrose by 500 years · visual: bespoke
 geometry-fact-geodesic-domes-001 · Geometry · Fuller's domes get stronger as they get bigger · visual: bespoke
 geometry-fact-dymaxion-map-001 · Geometry · Fuller's map unfolds Earth into triangles · visual: bespoke
 geometry-fact-winkel-tripel-001 · Geometry · The atlas map is a three-way compromise · visual: bespoke
-geometry-fact-morley-triangle-001 · Geometry · Trisect every angle and an equilateral triangle appears
-geometry-fact-napoleon-triangle-001 · Geometry · Napoleon's theorem plants equilateral triangles everywhere
-geometry-fact-sangaku-001 · Geometry · Japanese temples hung geometry problems as offerings
-geometry-fact-descartes-circles-001 · Geometry · Four kissing circles obey one tidy equation
-geometry-fact-ford-circles-001 · Geometry · Between two Ford circles hides an infinite family
+geometry-fact-morley-triangle-001 · Geometry · Trisect every angle and an equilateral triangle appears · visual: bespoke
+geometry-fact-napoleon-triangle-001 · Geometry · Napoleon's theorem plants equilateral triangles everywhere · visual: bespoke
+geometry-fact-sangaku-001 · Geometry · Japanese temples hung geometry problems as offerings · visual: bespoke
+geometry-fact-descartes-circles-001 · Geometry · Four kissing circles obey one tidy equation · visual: bespoke
+geometry-fact-ford-circles-001 · Geometry · Between two Ford circles hides an infinite family · visual: bespoke
 geometry-fact-menger-sponge-001 · Geometry · A sponge with zero volume, infinite surface · visual: bespoke
 geometry-fact-peano-curve-001 · Geometry · One curve can fill an entire square · visual: bespoke
-geometry-fact-hilbert-gis-001 · Geometry · Hilbert curves order map tiles on disk
+geometry-fact-hilbert-gis-001 · Geometry · Hilbert curves order map tiles on disk · visual: bespoke
 geometry-fact-bernoulli-spiral-tomb-001 · Geometry · Bernoulli's tombstone got the wrong spiral · visual: bespoke
-geometry-fact-involute-gears-001 · Geometry · Gear teeth are shaped by unwinding string from a circle
-geometry-fact-tractrix-pursuit-001 · Geometry · Drag a watch on a chain: a tractrix
-geometry-fact-cycloid-clock-001 · Geometry · Huygens fixed clocks with cycloid cheeks
+geometry-fact-involute-gears-001 · Geometry · Gear teeth are shaped by unwinding string from a circle · visual: bespoke
+geometry-fact-tractrix-pursuit-001 · Geometry · Drag a watch on a chain: a tractrix · visual: bespoke
+geometry-fact-cycloid-clock-001 · Geometry · Huygens fixed clocks with cycloid cheeks · visual: bespoke
 geometry-fact-loxodrome-spiral-001 · Geometry · A fixed compass course spirals to the pole · visual: bespoke
-geometry-fact-antipodal-map-001 · Geometry · Antipodal weather twins exist right now
+geometry-fact-antipodal-map-001 · Geometry · Antipodal weather twins exist right now · visual: bespoke
 geometry-fact-sphere-area-lune-001 · Geometry · Sphere lunes have area by pure proportion · visual: bespoke
-geometry-fact-projective-perspective-001 · Geometry · Painters invented projective geometry by looking
-geometry-fact-desargues-shadow-001 · Geometry · Two triangles, perspective from point and line
-geometry-fact-pascal-hexagon-001 · Geometry · Six points on a conic hide a straight line
+geometry-fact-projective-perspective-001 · Geometry · Painters invented projective geometry by looking · visual: bespoke
+geometry-fact-desargues-shadow-001 · Geometry · Two triangles, perspective from point and line · visual: bespoke
+geometry-fact-pascal-hexagon-001 · Geometry · Six points on a conic hide a straight line · visual: bespoke
 geometry-fact-tesseract-net-001 · Geometry · A hypercube unfolds into eight cubes · visual: bespoke
-geometry-fact-soddy-poem-001 · Geometry · A geometry theorem was published as a love poem
+geometry-fact-soddy-poem-001 · Geometry · A geometry theorem was published as a love poem · visual: bespoke
 geometry-fact-japanese-sangaku-lost-001 · Geometry · Most sangaku tablets rotted away
 geometry-fact-constant-width-body-001 · Geometry · Constant-width solids that are not spheres
 geometry-fact-sphere-packing-dim8-001 · Geometry · Sphere packing in 8D fell to a short proof · visual: bespoke
