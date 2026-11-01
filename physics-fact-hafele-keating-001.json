@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "physics-fact-hafele-keating-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "In 1971, clocks flown around the world disagreed on return",
+  "body": "Hafele and Keating flew caesium clocks eastward and westward around the globe and compared them with a reference at the US Naval Observatory. Eastward clocks lost time, westward gained, matching relativity's combined speed-and-gravity accounting within errors. It remains the most homespun direct demonstration that elapsed time depends on your path.",
+  "source_hint": "Hafele and Keating, Science (1972)",
+  "scene": {
+    "type": "orbits",
+    "rings": 3,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 50
+      },
+      {
+        "ring": 2,
+        "angle": 180
+      },
+      {
+        "ring": 3,
+        "angle": 310
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

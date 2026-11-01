@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "physics-fact-redshift-tower-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "Gravity reddens light climbing out of a basement",
+  "body": "Pound and Rebka in 1959 dropped gamma rays down a 22.5-metre Harvard tower and measured them arriving very slightly redshifted, by about one part in a quadrillion at each end. Photons lose energy climbing in gravity exactly as general relativity demands. The whole effect is smaller than the spectral lines are wide, extracted by vibrating the source with loudspeaker precision.",
+  "source_hint": "Pound and Rebka (1959-60)",
+  "scene": {
+    "type": "orbits",
+    "rings": 3,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 40
+      },
+      {
+        "ring": 2,
+        "angle": 180
+      },
+      {
+        "ring": 3,
+        "angle": 310
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

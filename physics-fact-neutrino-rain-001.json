@@ -1,0 +1,35 @@
+{
+  "type": "fact",
+  "id": "physics-fact-neutrino-rain-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "Trillions of neutrinos pass through you every second",
+  "body": "Stars and reactors flood space with neutrinos that interact so weakly that a light-year of lead would stop only about half of them. Tens of trillions cross your body each second, day and night (the night's neutrinos traverse the whole Earth first). Detectors need kilotons of water to catch a handful daily.",
+  "source_hint": "Neutrino flux estimates (solar neutrino literature)",
+  "scene": {
+    "type": "orbits",
+    "rings": 5,
+    "dots": [
+      {
+        "ring": 2,
+        "angle": 30
+      },
+      {
+        "ring": 3,
+        "angle": 130
+      },
+      {
+        "ring": 4,
+        "angle": 230
+      },
+      {
+        "ring": 5,
+        "angle": 320
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "physics-fact-no-ftl-entangle-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "Entanglement cannot send messages, even in principle",
+  "body": "Entangled particles correlate instantly across distance, but each side's local results look perfectly random until compared through an ordinary channel. The no-communication theorem proves no choice made on one side changes any statistic on the other. Nature keeps the correlation and withholds the telephone, preserving relativity's speed limit on information.",
+  "source_hint": "No-communication theorem (Eberhard, 1978)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "shared pair",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "local results random",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "compare classically",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

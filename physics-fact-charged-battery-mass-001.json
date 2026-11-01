@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "physics-fact-charged-battery-mass-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "A charged battery weighs more than a dead one",
+  "body": "Charging stores energy, and stored energy contributes mass: a phone battery's charge amounts to something like a ten-millionth of a gram, depending on capacity. The scale of c^2 hides it completely. Mass was never 'stuff' alone; bound energy, in batteries, nuclei and hot tea, quietly counts too.",
+  "source_hint": "Mass-energy equivalence, applied estimates",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "charge it",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "stored energy",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "heavier, unmeasurably",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

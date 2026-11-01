@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "physics-fact-eddington-eclipse-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "A 1919 eclipse made Einstein famous overnight",
+  "body": "Expeditions to Sobral and Principe photographed stars near the eclipsed Sun and reported their light bent by roughly the amount general relativity predicted, twice the Newtonian value. Newspapers worldwide announced a revolution. Historians note the data were messier than the headlines, but later eclipse and radio measurements confirmed the deflection precisely.",
+  "source_hint": "Dyson, Eddington and Davidson (1920)",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 2,
+        "angle": 40
+      },
+      {
+        "ring": 3,
+        "angle": 170
+      },
+      {
+        "ring": 4,
+        "angle": 300
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

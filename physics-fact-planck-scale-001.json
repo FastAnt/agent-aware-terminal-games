@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "physics-fact-planck-scale-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "Planck units mark where our two best theories collide",
+  "body": "Combining c, Planck's constant and Newton's G yields natural units: a Planck length near 1.6 x 10^-35 metres and time near 5 x 10^-44 seconds. Below those scales, quantum mechanics and general relativity must both apply and neither suffices alone. The numbers are not a wall in nature so much as a border between our maps.",
+  "source_hint": "Planck (1899), natural units",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "c, hbar, G combine",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "Planck length",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "theories collide",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

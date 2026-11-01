@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "physics-fact-schrodinger-cat-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "Schroedinger's cat was an attack, not a proposal",
+  "body": "Schroedinger invented his cat in 1935 to ridicule applying quantum superposition naively to everyday objects, not to claim cats are both alive and dead. The thought experiment was aimed at the Copenhagen interpretation's fuzzy border between quantum system and classical observer. Popular culture adopted the cat; the criticism it carried is still discussed.",
+  "source_hint": "Schroedinger (1935), 'The Present Situation in Quantum Mechanics'",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "quantum atom",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "amplified to a cat",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "absurd: that was the point",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

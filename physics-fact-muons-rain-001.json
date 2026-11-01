@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "physics-fact-muons-rain-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "Muons reach the ground by living in another time",
+  "body": "Muons created high in the atmosphere decay in about 2.2 microseconds at rest, too briefly to cross ten kilometres even near light speed. Yet they rain through you constantly: at their speed, time dilation stretches their lives about twenty-fold from our frame. Relativity is not abstract; detectors count it on tabletops.",
+  "source_hint": "Rossi and Hall experiment (1941)",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 80
+      },
+      {
+        "ring": 2,
+        "angle": 190
+      },
+      {
+        "ring": 4,
+        "angle": 320
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

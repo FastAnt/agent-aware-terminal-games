@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "physics-fact-double-slit-single-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "Single electrons build interference one dot at a time",
+  "body": "Fire electrons at two slits so sparsely that they arrive one by one, and each lands as a single dot, yet thousands of dots gradually draw interference bands. Tonomura's 1989 filmed experiment shows statistics becoming pattern with no electron ever 'splitting' visibly. The mathematics says amplitude interferes; the screen says dots. Both are the data.",
+  "source_hint": "Tonomura et al. (1989), electron biprism experiment",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 2,
+        "angle": 30
+      },
+      {
+        "ring": 3,
+        "angle": 170
+      },
+      {
+        "ring": 4,
+        "angle": 300
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

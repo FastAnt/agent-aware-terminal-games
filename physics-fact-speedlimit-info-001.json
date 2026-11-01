@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "physics-fact-speedlimit-info-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "Nothing carrying information outruns light in vacuum",
+  "body": "Relativity's speed limit is really about causality: any signal faster than light would, in some frame, arrive before it was sent, inviting paradoxes. Tachyons are not forbidden as algebra but would break that ordering; none have been found. Group velocities and shadows can exceed c; messages cannot ride them.",
+  "source_hint": "Einstein (1905); causality analyses",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "signal faster than c",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "arrives before sent",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "causality forbids",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

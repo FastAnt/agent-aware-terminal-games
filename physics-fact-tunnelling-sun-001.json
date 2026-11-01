@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "physics-fact-tunnelling-sun-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "The Sun shines by quantum tunnelling",
+  "body": "Protons in the Sun's core are not hot enough, classically, to overcome their electric repulsion and fuse. Tunnelling lets a small fraction slip through the barrier anyway, at a rate so slow that the Sun burns for billions of years. Our starlight is a quantum leak, metered out at geological pace.",
+  "source_hint": "Gamow (1928), quantum tunnelling in fusion",
+  "scene": {
+    "type": "orbits",
+    "rings": 3,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 70
+      },
+      {
+        "ring": 2,
+        "angle": 190
+      },
+      {
+        "ring": 3,
+        "angle": 320
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "fact",
+  "id": "physics-fact-neutron-star-density-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "A neutron star packs a mountain range into a sugar cube",
+  "body": "Matter in a neutron star reaches densities around 10^17 kilograms per cubic metre, comparable to an atomic nucleus scaled to a city-sized ball. A teaspoon of it would have a mass on the order of a billion tonnes, though it would not politely stay on the spoon. These are estimates from nuclear physics, honestly rounded.",
+  "source_hint": "Neutron star structure literature (equation of state)",
+  "scene": {
+    "type": "orbits",
+    "rings": 3,
+    "dots": [
+      {
+        "ring": 2,
+        "angle": 50
+      },
+      {
+        "ring": 3,
+        "angle": 210
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

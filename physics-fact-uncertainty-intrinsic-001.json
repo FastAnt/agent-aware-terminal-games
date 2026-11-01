@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "physics-fact-uncertainty-intrinsic-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "Uncertainty is not clumsy measurement; it is the world",
+  "body": "Heisenberg's principle is often told as photons bumping electrons we try to watch. The deeper truth is that position and momentum are wave properties that cannot both be sharp in any state, measured or not, like a note that cannot have exact pitch and exact instant. Instruments merely inherit a fuzziness that was already there.",
+  "source_hint": "Heisenberg (1927); Kennard's formalisation",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "sharp position",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "fuzzy momentum",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "built into states",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

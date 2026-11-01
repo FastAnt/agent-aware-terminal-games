@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "physics-fact-mercury-perihelion-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "Mercury's orbit misbehaved until gravity was rethought",
+  "body": "Mercury's elliptical orbit precesses, and after accounting for every known planetary tug, about 43 arcseconds per century remained unexplained for decades. Le Verrier even hypothesised a hidden planet Vulcan. General relativity's curved spacetime supplies exactly the missing amount, which is why the anomaly became evidence instead of error.",
+  "source_hint": "Le Verrier (1859); Einstein (1915)",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 2,
+        "angle": 30
+      },
+      {
+        "ring": 3,
+        "angle": 150
+      },
+      {
+        "ring": 4,
+        "angle": 290
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

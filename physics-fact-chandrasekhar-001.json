@@ -1,0 +1,27 @@
+{
+  "type": "fact",
+  "id": "physics-fact-chandrasekhar-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "A star's death has a weight limit of 1.4 Suns",
+  "body": "Chandrasekhar calculated in 1930, on the ship to England, that a white dwarf heavier than about 1.4 solar masses cannot hold itself up with electron pressure and must collapse further. Eddington publicly dismissed the conclusion, delaying its acceptance. Neutron stars and supernovae live on the far side of that number.",
+  "source_hint": "Chandrasekhar (1931); Nobel Prize 1983",
+  "scene": {
+    "type": "orbits",
+    "rings": 3,
+    "dots": [
+      {
+        "ring": 2,
+        "angle": 70
+      },
+      {
+        "ring": 3,
+        "angle": 220
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

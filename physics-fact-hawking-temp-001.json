@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "physics-fact-hawking-temp-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "Black holes have a temperature, and small ones are hot",
+  "body": "Hawking showed in 1974 that black holes radiate thermally, with temperature inversely proportional to mass. A stellar black hole sits far below the cosmic background and effectively never shrinks, but a hypothetical mountain-mass one would glow fiercely. The result fused gravity, quantum theory and thermodynamics in one formula, and its information paradox still organises research.",
+  "source_hint": "Hawking, Nature (1974)",
+  "scene": {
+    "type": "orbits",
+    "rings": 3,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 60
+      },
+      {
+        "ring": 2,
+        "angle": 200
+      },
+      {
+        "ring": 3,
+        "angle": 330
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

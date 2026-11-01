@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "physics-fact-maxwell-demon-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "Maxwell's demon was defeated by its own memory",
+  "body": "A tiny gatekeeper sorting fast from slow molecules seemed able to break the second law for free. The resolution, completed by Bennett following Landauer and Szilard: the demon must record measurements, and erasing that memory to continue costs at least the entropy it saved. Information is physical, bookkeeping included.",
+  "source_hint": "Szilard (1929); Bennett (1982)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "demon sorts molecules",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "memory fills",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "erasing pays entropy",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

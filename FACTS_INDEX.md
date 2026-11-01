@@ -194,3 +194,28 @@ math-fact-squaring-circle-001 · Math · Squaring the circle died when pi turned
 math-fact-transcendental-pi-e-001 · Math · We do not know if pi + e is irrational
 math-fact-chaitin-omega-001 · Math · There is a number that encodes all of mathematics' secrets
 math-fact-busy-beaver-001 · Math · The busiest small machines outrun all comprehension
+physics-fact-gps-relativity-001 · Physics · GPS works only because relativity is corrected daily
+physics-fact-muons-rain-001 · Physics · Muons reach the ground by living in another time
+physics-fact-hafele-keating-001 · Physics · In 1971, clocks flown around the world disagreed on return
+physics-fact-hot-tea-mass-001 · Physics · A hot cup of tea is heavier than the same tea cold
+physics-fact-charged-battery-mass-001 · Physics · A charged battery weighs more than a dead one
+physics-fact-mercury-perihelion-001 · Physics · Mercury's orbit misbehaved until gravity was rethought
+physics-fact-cmb-pigeons-001 · Physics · The Big Bang's afterglow was found as antenna noise
+physics-fact-olbers-dark-001 · Physics · The night sky is dark because the universe has a birthday
+physics-fact-landauer-001 · Physics · Erasing one bit must release a minimum of heat
+physics-fact-maxwell-demon-001 · Physics · Maxwell's demon was defeated by its own memory
+physics-fact-tunnelling-sun-001 · Physics · The Sun shines by quantum tunnelling
+physics-fact-uncertainty-intrinsic-001 · Physics · Uncertainty is not clumsy measurement; it is the world
+physics-fact-double-slit-single-001 · Physics · Single electrons build interference one dot at a time
+physics-fact-no-ftl-entangle-001 · Physics · Entanglement cannot send messages, even in principle
+physics-fact-schrodinger-cat-001 · Physics · Schroedinger's cat was an attack, not a proposal
+physics-fact-casimir-001 · Physics · Two empty plates attract because the vacuum is not nothing
+physics-fact-hawking-temp-001 · Physics · Black holes have a temperature, and small ones are hot
+physics-fact-dirac-positron-001 · Physics · Antimatter was found in an equation before a detector
+physics-fact-neutrino-rain-001 · Physics · Trillions of neutrinos pass through you every second
+physics-fact-redshift-tower-001 · Physics · Gravity reddens light climbing out of a basement
+physics-fact-speedlimit-info-001 · Physics · Nothing carrying information outruns light in vacuum
+physics-fact-planck-scale-001 · Physics · Planck units mark where our two best theories collide
+physics-fact-chandrasekhar-001 · Physics · A star's death has a weight limit of 1.4 Suns
+physics-fact-neutron-star-density-001 · Physics · A neutron star packs a mountain range into a sugar cube
+physics-fact-eddington-eclipse-001 · Physics · A 1919 eclipse made Einstein famous overnight
