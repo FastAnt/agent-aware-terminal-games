@@ -61,7 +61,7 @@ Python modules, as a top-level field for JSON):
 | type | Behaviour in the pane |
 | --- | --- |
 | `game` | quiz: answered for **points** (score + streak shown) |
-| `fact` | interesting fact: **Skip / Next** only, never scored |
+| `fact` | interesting fact: **Skip / Next** only, never scored (how to write good ones: `FACTS.md`) |
 | `idea` | proposal the user can **Save** — saved ideas land in the project's `.aat/research/saved_ideas.jsonl` for an agent to implement later |
 | `news` | news item: **Skip / Next** plus an **Open link** button |
 

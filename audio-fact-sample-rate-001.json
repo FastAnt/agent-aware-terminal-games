@@ -1,0 +1,9 @@
+{
+  "type": "fact",
+  "id": "audio-fact-sample-rate-001",
+  "kicker": "FACT",
+  "topic": "Audio & DSP",
+  "title": "Why CDs sample at 44.1 kHz",
+  "body": "Early digital audio masters were stored on video tape, so the sample rate had to fit video timing: 3 samples per line, 245 lines per field, 60 fields per second. CD audio's odd 44,100 Hz is a fossil of 1970s television.",
+  "source_hint": "Sony PCM-1600 / Red Book history"
+}

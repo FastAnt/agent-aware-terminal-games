@@ -1,0 +1,9 @@
+{
+  "type": "fact",
+  "id": "programming-fact-first-bug-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "The first bug was not the first bug",
+  "body": "In 1947 Harvard operators taped a moth found in a Mark II relay into the logbook, and the photo made 'bug' famous. But engineers had called faults bugs since Edison, so the moth was the first literal bug, not the first one.",
+  "source_hint": "Harvard Mark II logbook, 9 Sep 1947"
+}
