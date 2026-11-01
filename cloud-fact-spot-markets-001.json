@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "cloud-fact-spot-markets-001",
+  "kicker": "FACT",
+  "topic": "Cloud",
+  "title": "Cloud spare capacity is sold like an airline seat market",
+  "body": "Spot and preemptible instances rent idle datacenter capacity at steep discounts with the catch that the provider may reclaim them on minutes' notice. Batch systems designed to checkpoint and scatter survive happily; stateful singletons die rudely. The discount is precisely the price of interruptibility, one of computing's cleaner markets.",
+  "source_hint": "AWS Spot / GCP preemptible VM documentation",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "idle capacity",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "steep discount",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "reclaimed on notice",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

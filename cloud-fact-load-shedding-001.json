@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "cloud-fact-load-shedding-001",
+  "kicker": "FACT",
+  "topic": "Cloud",
+  "title": "Dropping some requests early saves the rest",
+  "body": "When demand exceeds capacity, accepting everything degrades all requests into timeouts; shedding load at the edge, rejecting cheap and early, preserves success for the admitted fraction. Google's SRE literature treats overload as a queuing problem with a triage answer. A system that fails partially and fast looks, from the user's chair, indistinguishable from health for most people most of the time.",
+  "source_hint": "Google SRE Book, handling overload",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "demand spikes",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "shed early at edge",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "admitted requests succeed",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

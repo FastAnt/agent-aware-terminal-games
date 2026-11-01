@@ -1,0 +1,35 @@
+{
+  "type": "fact",
+  "id": "cloud-fact-data-gravity-001",
+  "kicker": "FACT",
+  "topic": "Cloud",
+  "title": "Data attracts applications the way mass attracts mass",
+  "body": "Dave McCrory named data gravity in 2010: large datasets pull services toward them because moving compute is cheaper than moving the data, and each landed service generates more data, deepening the well. Cloud egress fees add an economic event horizon. Architectures orbit datasets whether designed to or not, so dataset placement is destiny.",
+  "source_hint": "McCrory, data gravity concept (2010)",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 50
+      },
+      {
+        "ring": 2,
+        "angle": 150
+      },
+      {
+        "ring": 3,
+        "angle": 240
+      },
+      {
+        "ring": 4,
+        "angle": 330
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

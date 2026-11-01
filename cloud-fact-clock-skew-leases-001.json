@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "cloud-fact-clock-skew-leases-001",
+  "kicker": "FACT",
+  "topic": "Cloud",
+  "title": "Cloud leases assume clocks lie a little",
+  "body": "Distributed locks are usually leases with expiry times because clock skew makes absolute deadlines untrustworthy across machines; Google's Spanner exposes time uncertainty explicitly for the same reason. A client that cannot renew in time must assume it lost the lock while possibly still running. Fencing tokens exist to stop exactly that zombie. Time in the cloud is a rumour with error bars.",
+  "source_hint": "Chubby / Spanner literature on leases and time",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "lease granted",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "clocks disagree",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "fencing stops zombies",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

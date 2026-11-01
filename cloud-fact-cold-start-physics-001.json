@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "cloud-fact-cold-start-physics-001",
+  "kicker": "FACT",
+  "topic": "Cloud",
+  "title": "Serverless cold starts are mostly loading, not laziness",
+  "body": "A function platform starting from zero must allocate a sandbox, fetch code, start a runtime and run your initialisation before your first line executes. Keeping instances warm costs the provider idle capacity, so platforms reap them and users pay in first-request latency. The trade is explicit in the pricing if you know to look: elasticity is rented readiness.",
+  "source_hint": "Serverless platform documentation (Lambda execution environments)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "request arrives cold",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "sandbox + runtime load",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "your code finally runs",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

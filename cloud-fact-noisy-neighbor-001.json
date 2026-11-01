@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "cloud-fact-noisy-neighbor-001",
+  "kicker": "FACT",
+  "topic": "Cloud",
+  "title": "Your cloud neighbour can slow you without touching you",
+  "body": "Shared hosts mean shared caches, disks and network queues; a neighbour's workload can evict your cache lines and queue ahead of your packets. Providers mitigate with isolation and throttles, but performance interference is intrinsic to multi-tenancy's economics. It is the apartment-building problem rendered in silicon: density is the product, and the risk.",
+  "source_hint": "Multi-tenancy performance literature",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "your workload",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "neighbour spikes",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "your latency rises",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

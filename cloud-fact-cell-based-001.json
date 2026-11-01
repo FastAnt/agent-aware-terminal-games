@@ -1,0 +1,22 @@
+{
+  "type": "fact",
+  "id": "cloud-fact-cell-based-001",
+  "kicker": "FACT",
+  "topic": "Cloud",
+  "title": "Amazon confines failures by building in cells",
+  "body": "Cell-based architecture replicates an entire small stack, data included, many times and routes each customer to one cell, so a bad deploy or poisoned tenant damages a cell-sized slice rather than the platform. Amazon adopted cells after learning that global systems have global Tuesdays. The blast radius becomes a design parameter you choose in advance, like a ship's compartments.",
+  "source_hint": "Amazon Builders' Library, cell-based architecture",
+  "scene": {
+    "type": "network",
+    "layers": [
+      3,
+      3,
+      3,
+      3
+    ],
+    "anim": {
+      "type": "pulse",
+      "speed": 0.5
+    }
+  }
+}

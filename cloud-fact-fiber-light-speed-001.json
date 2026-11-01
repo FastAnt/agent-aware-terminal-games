@@ -1,0 +1,35 @@
+{
+  "type": "fact",
+  "id": "cloud-fact-fiber-light-speed-001",
+  "kicker": "FACT",
+  "topic": "Cloud",
+  "title": "Light in fiber goes about 200 km per millisecond",
+  "body": "Glass has a refractive index near 1.47, so signals in fiber travel at roughly two-thirds of vacuum light speed, about 200 kilometres per millisecond one way. A round trip across an ocean therefore costs tens of milliseconds no engineering can repeal. Cloud regions are placed by physics first and marketing second.",
+  "source_hint": "Refractive index of silica fiber, networking texts",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 50
+      },
+      {
+        "ring": 2,
+        "angle": 160
+      },
+      {
+        "ring": 3,
+        "angle": 260
+      },
+      {
+        "ring": 4,
+        "angle": 330
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

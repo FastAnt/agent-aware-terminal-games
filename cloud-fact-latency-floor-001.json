@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "cloud-fact-latency-floor-001",
+  "kicker": "FACT",
+  "topic": "Cloud",
+  "title": "Geography sets a latency floor no provider can beat",
+  "body": "A request and reply between continents must physically cross the distance twice at fiber speed, so intercontinental round trips have a hard floor of many tens of milliseconds. CDNs, edge compute and regional replicas are all ways of moving the data instead of arguing with the constant. When an app feels slow across an ocean, it is usually obeying physics exactly.",
+  "source_hint": "Speed of light in fiber; RTT measurements",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "request crosses ocean",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "reply crosses back",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "floor is physics",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}
