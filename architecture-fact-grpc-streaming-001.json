@@ -1,0 +1,21 @@
+{
+  "type": "fact",
+  "id": "architecture-fact-grpc-streaming-001",
+  "kicker": "FACT",
+  "topic": "Architecture",
+  "title": "gRPC streams because one request-response rarely fits",
+  "body": "Beyond unary calls, gRPC supports server, client and bidirectional streaming over HTTP/2's multiplexed streams, so telemetry uploads or live feeds share one connection. The IDL-first contract generates stubs in many languages from one .proto file. Its ergonomics descend directly from Google's internal Stubby, released as open source in 2015.",
+  "source_hint": "gRPC documentation and Stubby history",
+  "scene": {
+    "type": "network",
+    "layers": [
+      2,
+      3,
+      2
+    ],
+    "anim": {
+      "type": "pulse",
+      "speed": 0.5
+    }
+  }
+}

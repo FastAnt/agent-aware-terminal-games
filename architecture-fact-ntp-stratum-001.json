@@ -1,0 +1,35 @@
+{
+  "type": "fact",
+  "id": "architecture-fact-ntp-stratum-001",
+  "kicker": "FACT",
+  "topic": "Architecture",
+  "title": "Internet time descends from atomic clocks in layers",
+  "body": "NTP organises time as strata: stratum-0 devices are reference clocks like GPS receivers, stratum-1 servers read them directly, and each hop adds a stratum and a whisper of error. Your laptop typically drinks from stratum 2 or 3. The design, by David Mills from 1985, still disciplines most of the planet's machines to within milliseconds.",
+  "source_hint": "RFC 5905, NTP protocol",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 40
+      },
+      {
+        "ring": 2,
+        "angle": 150
+      },
+      {
+        "ring": 3,
+        "angle": 240
+      },
+      {
+        "ring": 4,
+        "angle": 330
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

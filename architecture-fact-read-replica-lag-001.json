@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "architecture-fact-read-replica-lag-001",
+  "kicker": "FACT",
+  "topic": "Architecture",
+  "title": "Read replicas can honestly return yesterday's news",
+  "body": "Replication is asynchronous in most systems, so a user may update their profile, immediately reload from a replica, and see the old value, then file a bug against reality. Read-your-writes is a guarantee someone must deliberately buy with routing or waiting. Distributed-systems bugs in production are very often just physics presenting its invoice.",
+  "source_hint": "Replication lag literature; Dynamo-era papers",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "write to primary",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "reload from replica",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "old value appears",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

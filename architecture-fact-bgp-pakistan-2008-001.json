@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "architecture-fact-bgp-pakistan-2008-001",
+  "kicker": "FACT",
+  "topic": "Architecture",
+  "title": "One country's attempt to block YouTube blocked it worldwide",
+  "body": "In 2008 Pakistan Telecom, ordered to block YouTube domestically, announced a more specific route for YouTube's address block, and much of the Internet obligingly routed YouTube traffic to Pakistan, where it vanished. BGP trusts announcements; specificity beats legitimacy. The global outage lasted hours and remains the textbook route-hijack case study.",
+  "source_hint": "Renesys / RIPE analyses of the 2008 hijack",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "specific route announced",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "world believes it",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "traffic vanishes",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

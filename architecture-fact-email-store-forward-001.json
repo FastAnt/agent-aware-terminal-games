@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "architecture-fact-email-store-forward-001",
+  "kicker": "FACT",
+  "topic": "Architecture",
+  "title": "Email was built to survive machines being off",
+  "body": "SMTP queues and retries because its 1982 world had intermittent connections; mail hopped between relays that might be down for hours. That patience is why email feels asynchronous while chat, designed online, feels broken when it lags. Protocols remember the networks they were born into long after those networks vanish.",
+  "source_hint": "RFC 821 (1982), SMTP design context",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "sender's relay queues",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "next relay offline",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "retry until delivered",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

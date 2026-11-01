@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "architecture-fact-slow-start-001",
+  "kicker": "FACT",
+  "topic": "Architecture",
+  "title": "TCP begins every connection deliberately slow",
+  "body": "Congestion control starts by sending a small burst, then roughly doubles per round trip while acknowledgements return cleanly, probing for the path's capacity. The 1988 congestion collapses, when throughput fell a thousandfold under load, taught the Internet manners. Every fast download you enjoy began life as a cautious trickle that earned its speed.",
+  "source_hint": "Jacobson (1988), congestion avoidance algorithms",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "tiny first burst",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "double each round trip",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "back off on loss",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

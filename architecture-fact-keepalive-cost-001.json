@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "architecture-fact-keepalive-cost-001",
+  "kicker": "FACT",
+  "topic": "Architecture",
+  "title": "Connection reuse exists because handshakes are expensive",
+  "body": "Opening TCP plus TLS costs round trips and CPU before a byte of content moves; keep-alive and connection pools amortise that across many requests. On high-latency links the handshake, not the payload, dominates small API calls. Half of performance engineering is refusing to pay introductions repeatedly.",
+  "source_hint": "RFC 9112 connection reuse; TLS handshake costs",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "handshake: round trips",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "many requests",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "cost amortised",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

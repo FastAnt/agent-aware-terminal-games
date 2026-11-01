@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "architecture-fact-tls13-rtt-001",
+  "kicker": "FACT",
+  "topic": "Architecture",
+  "title": "TLS 1.3 deleted a round trip and some antiques",
+  "body": "TLS 1.3 (2018) cut the handshake to one round trip, made forward secrecy mandatory and removed legacy options like RSA key exchange and renegotiation that had enabled years of attacks. Its optional zero-round-trip resumption replays data, a risk applications must consciously accept. Security protocols improve as much by subtraction as addition.",
+  "source_hint": "RFC 8446, TLS 1.3",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "one round trip",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "forward secrecy required",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "legacy removed",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

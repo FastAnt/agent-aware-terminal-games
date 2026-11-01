@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "architecture-fact-range-resume-001",
+  "kicker": "FACT",
+  "topic": "Architecture",
+  "title": "Downloads resume because HTTP can ask for slices",
+  "body": "A Range request lets a client request byte windows of a resource, and a 206 response delivers exactly that slice. Interrupted downloads resume instead of restarting, and video players fetch only the segment around your click. A file becomes addressable geography rather than an all-or-nothing parcel, which changes what failure costs.",
+  "source_hint": "RFC 9110, range requests",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "bytes 0-999",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "connection drops",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "bytes 1000- onward",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "architecture-fact-dkim-spf-dmarc-001",
+  "kicker": "FACT",
+  "topic": "Architecture",
+  "title": "Email authentication arrived decades after email",
+  "body": "SMTP never verified senders, so SPF (which IPs may send), DKIM (cryptographic signatures on messages) and DMARC (policy tying them to the visible From domain) were bolted on across the 2000s-2010s. Phishing exploits the gap between the envelope and what humans see. Retrofitting identity onto a trusting protocol is generational work, still unfinished.",
+  "source_hint": "RFCs 7208 (SPF), 6376 (DKIM), 7489 (DMARC)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "SPF: allowed hosts",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "DKIM: signature",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "DMARC: policy",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

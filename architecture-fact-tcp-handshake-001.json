@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "architecture-fact-tcp-handshake-001",
+  "kicker": "FACT",
+  "topic": "Architecture",
+  "title": "TCP's three-way handshake proves both sides can hear",
+  "body": "SYN, SYN-ACK, ACK is not ceremony: it synchronises sequence numbers both ways and proves each direction of the path works before data flows. A two-step version could not distinguish a fresh request from a replayed ghost of an old connection. Protocol rituals usually encode a scar from some forgotten failure mode.",
+  "source_hint": "RFC 793 / RFC 9293, TCP specification",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "SYN",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "SYN-ACK",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "ACK: speak now",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

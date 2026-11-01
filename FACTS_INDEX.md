@@ -323,3 +323,23 @@ architecture-fact-stuxnet-airgap-001 · Architecture · Stuxnet crossed an air g
 architecture-fact-yahoo-breach-scale-001 · Architecture · Yahoo's breach grew every time it was recounted
 architecture-fact-ashley-lessons-001 · Architecture · Backups that nobody tested are a hope, not a plan
 architecture-fact-blameless-postmortems-001 · Architecture · Blameless postmortems exist because fear hides causes
+architecture-fact-tcp-handshake-001 · Architecture · TCP's three-way handshake proves both sides can hear
+architecture-fact-slow-start-001 · Architecture · TCP begins every connection deliberately slow
+architecture-fact-nagle-delayed-ack-001 · Architecture · Two polite algorithms once made each other wait
+architecture-fact-http2-headline-001 · Architecture · HTTP/2 multiplexed everything onto one fragile pipe
+architecture-fact-tls13-rtt-001 · Architecture · TLS 1.3 deleted a round trip and some antiques
+architecture-fact-dns-ttl-trade-001 · Architecture · Every DNS record carries its own staleness budget
+architecture-fact-bgp-pakistan-2008-001 · Architecture · One country's attempt to block YouTube blocked it worldwide
+architecture-fact-ntp-stratum-001 · Architecture · Internet time descends from atomic clocks in layers
+architecture-fact-protobuf-numbers-001 · Architecture · In protobuf, field numbers are forever; names are free
+architecture-fact-etag-revalidation-001 · Architecture · An ETag lets a browser ask 'still the same?' cheaply
+architecture-fact-range-resume-001 · Architecture · Downloads resume because HTTP can ask for slices
+architecture-fact-email-store-forward-001 · Architecture · Email was built to survive machines being off
+architecture-fact-dkim-spf-dmarc-001 · Architecture · Email authentication arrived decades after email
+architecture-fact-websocket-upgrade-001 · Architecture · WebSockets begin life as an HTTP request in disguise
+architecture-fact-mqtt-qos-001 · Architecture · MQTT's QoS 2 is a four-step handshake in miniature
+architecture-fact-keepalive-cost-001 · Architecture · Connection reuse exists because handshakes are expensive
+architecture-fact-grpc-streaming-001 · Architecture · gRPC streams because one request-response rarely fits
+architecture-fact-cdn-origin-pull-001 · Architecture · The first visitor to a new city pays for everyone
+architecture-fact-sharding-hotspot-001 · Architecture · Sharding by the wrong key creates one celebrity shard
+architecture-fact-read-replica-lag-001 · Architecture · Read replicas can honestly return yesterday's news
