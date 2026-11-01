@@ -1,0 +1,21 @@
+{
+  "type": "fact",
+  "id": "ml-fact-dqn-atari-001",
+  "kicker": "FACT",
+  "topic": "Machine learning",
+  "title": "One algorithm learned Atari from pixels",
+  "body": "DeepMind's DQN (2013-2015) learned games like Breakout from raw pixels and score alone, discovering the tunnelling strategy, hitting the ball behind the wall, that humans prize. Experience replay and a frozen target network stabilised the learning. It was reinforcement learning's AlexNet moment, announcing agents that learn sensorimotor skills from reward only.",
+  "source_hint": "Mnih et al., Nature (2015)",
+  "scene": {
+    "type": "network",
+    "layers": [
+      4,
+      4,
+      2
+    ],
+    "anim": {
+      "type": "pulse",
+      "speed": 0.5
+    }
+  }
+}

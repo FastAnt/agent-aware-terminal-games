@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "ml-fact-scaling-laws-001",
+  "kicker": "FACT",
+  "topic": "Machine learning",
+  "title": "Language model quality follows eerily straight power laws",
+  "body": "Kaplan and colleagues showed in 2020 that test loss falls as a smooth power law with parameters, data and compute across many orders of magnitude, letting labs predict big models from small ones. The surprise was not that bigger helps but that the curve has so little drama. AI progress became, unusually, partially budgetable.",
+  "source_hint": "Kaplan et al., 'Scaling Laws for Neural Language Models' (2020)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "small models",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "straight line on log-log",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "predict the giant",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

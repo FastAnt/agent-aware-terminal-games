@@ -343,3 +343,28 @@ architecture-fact-grpc-streaming-001 · Architecture · gRPC streams because one
 architecture-fact-cdn-origin-pull-001 · Architecture · The first visitor to a new city pays for everyone
 architecture-fact-sharding-hotspot-001 · Architecture · Sharding by the wrong key creates one celebrity shard
 architecture-fact-read-replica-lag-001 · Architecture · Read replicas can honestly return yesterday's news
+ml-fact-perceptron-hype-001 · Machine learning · The 1958 perceptron was promised to walk and talk
+ml-fact-xor-winter-001 · Machine learning · One XOR problem helped freeze AI research for years
+ml-fact-backprop-1986-001 · Machine learning · Backpropagation was discovered at least three times
+ml-fact-imagenet-moment-001 · Machine learning · AlexNet won by 10 points and ended an era overnight
+ml-fact-imagenet-labels-001 · Machine learning · ImageNet's secret ingredient was labelled data at scale
+ml-fact-word2vec-arithmetic-001 · Machine learning · king - man + woman lands near queen, unprogrammed
+ml-fact-gan-pub-001 · Machine learning · GANs were argued into existence in a Montreal pub
+ml-fact-transformer-paper-001 · Machine learning · 'Attention Is All You Need deleted recurrence
+ml-fact-scaling-laws-001 · Machine learning · Language model quality follows eerily straight power laws
+ml-fact-chinchilla-001 · Machine learning · Famous models were trained on too little text
+ml-fact-double-descent-001 · Machine learning · Making a model bigger can make test error fall twice
+ml-fact-grokking-001 · Machine learning · Networks can understand long after memorising
+ml-fact-adversarial-examples-001 · Machine learning · A panda plus invisible noise fools a network
+ml-fact-move37-001 · Machine learning · Move 37 was first called a mistake by experts
+ml-fact-alphazero-tabula-001 · Machine learning · AlphaZero taught itself chess, then crushed Stockfish
+ml-fact-alphafold-casp-001 · Machine learning · AlphaFold2 essentially solved a 50-year grand challenge
+ml-fact-dqn-atari-001 · Machine learning · One algorithm learned Atari from pixels
+ml-fact-batchnorm-landscape-001 · Machine learning · Batch norm works, maybe not for the stated reason
+ml-fact-dropout-ensemble-001 · Machine learning · Dropout is secretly an ensemble of countless networks
+ml-fact-lottery-ticket-001 · Machine learning · Big networks hide small networks that win alone
+ml-fact-catastrophic-forgetting-001 · Machine learning · Networks forget the old task acing the new
+ml-fact-bpe-tokens-001 · Machine learning · Language models read compression-born subwords
+ml-fact-temperature-sampling-001 · Machine learning · Temperature: librarian or improviser knob
+ml-fact-rlhf-preference-001 · Machine learning · RLHF taught models manners from ranked preferences
+ml-fact-quantization-int8-001 · Machine learning · Models survive rewriting in 8-bit integers

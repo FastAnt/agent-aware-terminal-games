@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "ml-fact-alphafold-casp-001",
+  "kicker": "FACT",
+  "topic": "Machine learning",
+  "title": "AlphaFold2 essentially solved a 50-year grand challenge",
+  "body": "At CASP14 in 2020 AlphaFold2 predicted protein structures with accuracy competitive with experiments for many targets, stunning assessors who had scored incremental progress for decades. Folding went from bottleneck to database: DeepMind and EMBL later released predictions for over two hundred million proteins. One benchmark result restructured daily practice in biology labs worldwide.",
+  "source_hint": "Jumper et al., Nature (2021); AlphaFold DB",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "amino acid chain",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "predicted folds",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "200M structures shared",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

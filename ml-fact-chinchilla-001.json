@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "ml-fact-chinchilla-001",
+  "kicker": "FACT",
+  "topic": "Machine learning",
+  "title": "Famous models were trained on too little text",
+  "body": "DeepMind's Chinchilla study (2022) found compute-optimal training balances parameters and tokens, about twenty tokens per parameter, implying celebrated models like GPT-3 were oversized for their data. A smaller Chinchilla trained longer beat the much larger Gopher. The field had been buying parameters when it should have been buying textbooks.",
+  "source_hint": "Hoffmann et al., 'Training Compute-Optimal Large Language Models' (2022)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "bigger model",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "same compute, more text",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "smaller wins",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

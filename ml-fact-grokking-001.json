@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "ml-fact-grokking-001",
+  "kicker": "FACT",
+  "topic": "Machine learning",
+  "title": "Networks can understand long after memorising",
+  "body": "In grokking, a small model first memorises training data to perfection while test accuracy sits at chance, then, after far more training, abruptly generalises. Power and colleagues reported it in 2022 on algorithmic tasks. Memorisation and understanding can be phases of one run, separated by nothing visible in the training loss.",
+  "source_hint": "Power et al., 'Grokking' (2022)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "memorised: test random",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "keep training",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "suddenly generalises",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

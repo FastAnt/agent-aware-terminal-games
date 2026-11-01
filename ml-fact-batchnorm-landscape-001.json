@@ -1,0 +1,21 @@
+{
+  "type": "fact",
+  "id": "ml-fact-batchnorm-landscape-001",
+  "kicker": "FACT",
+  "topic": "Machine learning",
+  "title": "Batch norm works, maybe not for the stated reason",
+  "body": "Batch norm was introduced in 2015 as taming 'internal covariate shift'. A 2018 MIT study found that story shaky: networks with deliberately injected shift still trained well, while batch norm measurably smoothed the optimisation landscape instead. A technique can be indispensable and mis-explained for years, which engineering tolerates and science eventually audits.",
+  "source_hint": "Ioffe and Szegedy (2015); Santurkar et al., NeurIPS 2018",
+  "scene": {
+    "type": "network",
+    "layers": [
+      3,
+      4,
+      3
+    ],
+    "anim": {
+      "type": "pulse",
+      "speed": 0.5
+    }
+  }
+}

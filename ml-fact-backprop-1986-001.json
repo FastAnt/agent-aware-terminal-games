@@ -1,0 +1,21 @@
+{
+  "type": "fact",
+  "id": "ml-fact-backprop-1986-001",
+  "kicker": "FACT",
+  "topic": "Machine learning",
+  "title": "Backpropagation was discovered at least three times",
+  "body": "Paul Werbos described the algorithm in his 1974 thesis, and others found pieces elsewhere, but Rumelhart, Hinton and Williams's 1986 Nature paper made backpropagation famous by showing hidden layers learning useful features. Ideas in science often need their third discoverer, the one with the demonstration that lands. Deep learning's fuse was lit repeatedly before it caught.",
+  "source_hint": "Rumelhart, Hinton and Williams, Nature (1986)",
+  "scene": {
+    "type": "network",
+    "layers": [
+      3,
+      4,
+      3
+    ],
+    "anim": {
+      "type": "pulse",
+      "speed": 0.5
+    }
+  }
+}

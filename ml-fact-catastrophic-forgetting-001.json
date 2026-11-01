@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "ml-fact-catastrophic-forgetting-001",
+  "kicker": "FACT",
+  "topic": "Machine learning",
+  "title": "Networks forget the old task acing the new",
+  "body": "Train a network on task B after task A and performance on A often collapses, because B's updates overwrite the weights A needed. Brains mostly avoid this; networks do not by default. Continual learning research, from elastic weight consolidation to replay buffers, is the long reply to that one embarrassing asymmetry.",
+  "source_hint": "McCloskey and Cohen (1989); Kirkpatrick et al. (2017)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "learn A: good",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "learn B: good",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "A: forgotten",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

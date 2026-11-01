@@ -1,0 +1,20 @@
+{
+  "type": "fact",
+  "id": "ml-fact-xor-winter-001",
+  "kicker": "FACT",
+  "topic": "Machine learning",
+  "title": "One XOR problem helped freeze AI research for years",
+  "body": "Minsky and Papert's 1969 book 'Perceptrons' proved single-layer networks cannot compute XOR, a function needing a hidden layer. Funding and enthusiasm drained into the first AI winter, though multilayer training methods were the real missing piece. A two-input toy problem redirected a decade of research budgets.",
+  "source_hint": "Minsky and Papert, 'Perceptrons' (1969)",
+  "scene": {
+    "type": "network",
+    "layers": [
+      2,
+      1
+    ],
+    "anim": {
+      "type": "pulse",
+      "speed": 0.5
+    }
+  }
+}

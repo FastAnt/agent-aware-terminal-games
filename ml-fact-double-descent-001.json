@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "ml-fact-double-descent-001",
+  "kicker": "FACT",
+  "topic": "Machine learning",
+  "title": "Making a model bigger can make test error fall twice",
+  "body": "Classical wisdom says test error worsens after a model can perfectly fit training data. In modern networks it often falls again beyond that interpolation point, the second descent Belkin and colleagues documented in 2019. The U-curve textbooks drew was a chapter, not the book. Overparameterisation, properly fed, behaves differently than statistics folklore expected.",
+  "source_hint": "Belkin et al., PNAS (2019)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "error falls",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "error rises (classic)",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "falls again, bigger",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

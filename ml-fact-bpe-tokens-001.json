@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "ml-fact-bpe-tokens-001",
+  "kicker": "FACT",
+  "topic": "Machine learning",
+  "title": "Language models read compression-born subwords",
+  "body": "Byte-pair encoding builds a vocabulary by repeatedly merging the most frequent symbol pairs in text, so common words become single tokens and rare ones split into pieces. A 1994 compression algorithm by Philip Gage thus decides what a 'word' is for modern LLMs. Odd spellings and arithmetic stumble partly on those seams.",
+  "source_hint": "Gage (1994); Sennrich et al. (2016)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "count pairs",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "merge the frequent",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "tokens are born",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

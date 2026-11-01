@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "ml-fact-rlhf-preference-001",
+  "kicker": "FACT",
+  "topic": "Machine learning",
+  "title": "RLHF taught models manners from ranked preferences",
+  "body": "InstructGPT showed that fine-tuning on human demonstrations, then optimising against a reward model trained on human rankings of outputs, made a 1.3-billion-parameter model preferred over the raw 175-billion GPT-3. Alignment turned out to be teachable signal, not only scale. Modern assistants are that recipe, industrialised with more data and debate.",
+  "source_hint": "Ouyang et al., InstructGPT (2022)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "humans rank outputs",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "reward model learns taste",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "policy optimised",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "ml-fact-adversarial-examples-001",
+  "kicker": "FACT",
+  "topic": "Machine learning",
+  "title": "A panda plus invisible noise fools a network",
+  "body": "Szegedy and colleagues found in 2013 that adding imperceptible, carefully computed noise to an image flips a network's classification with high confidence. The inputs look identical to us; the model's decision boundary simply lives closer than intuition suggests. A decade of defences later, robustness remains partial, a standing lesson in how differently machines see.",
+  "source_hint": "Szegedy et al. (2013); Goodfellow FGSM (2015)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "panda + noise",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "looks identical",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "confident gibbon",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

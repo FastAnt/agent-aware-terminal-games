@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "ml-fact-quantization-int8-001",
+  "kicker": "FACT",
+  "topic": "Machine learning",
+  "title": "Models survive rewriting in 8-bit integers",
+  "body": "Post-training quantization converts 32-bit weights to 8-bit integers, shrinking a model roughly fourfold with often minor accuracy loss, because weight distributions tolerate coarse rounding surprisingly well. Phones running local models exist thanks to this arithmetic diet. Precision in ML is a budget, and most bits were buying almost nothing.",
+  "source_hint": "Jacob et al. (2018), quantization for inference",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "32-bit weights",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "round to 8-bit",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "4x smaller, works",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}
