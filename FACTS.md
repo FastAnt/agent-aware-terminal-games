@@ -63,6 +63,17 @@ Fails the bar: definitions ("HTTP is a protocol"), bare
 vocabulary, self-evident statements, listicles compressed into
 one card, and rewordings of facts already in the catalogue.
 
+## Visuals: one fact, one picture
+
+Every fact ships with a visual **authored for that fact** —
+never copy a scene from another fact or game. The picture must
+depict the subject or mechanism (cover the text: could a
+reader guess the topic?). Labeled diagrams only when the fact
+is genuinely a process, with the fact's own structure; anything
+spatial becomes a small Python module (`"type": "fact"` +
+`paint(cr, view)`). See FACTS_REVIEW.md for the audit that
+established this rule and the redo worklist.
+
 ## The 500-fact campaign
 
 Target ~500 fact cards, quotas by topic:
