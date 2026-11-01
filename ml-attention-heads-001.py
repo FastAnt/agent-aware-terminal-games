@@ -1,7 +1,7 @@
 """Multi-Head Attention - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-attention-heads-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Multi-Head Attention', 'question': 'Multi-head attention runs several attention heads in parallel mainly to do what?', 'choices': [{'id': 'heads', 'label': 'Look at different relation types at once'}, {'id': 'seq', 'label': 'Run them one after another'}, {'id': 'big', 'label': 'Make one head bigger'}], 'answer': 'heads', 'explanation': 'Different heads can track different relations (syntax, position, coreference) simultaneously, then their outputs are mixed.'}
+GAME = {"type": "game", 'id': 'ml-attention-heads-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Multi-Head Attention', 'question': 'Multi-head attention runs several attention heads in parallel mainly to do what?', 'choices': [{'id': 'heads', 'label': 'Look at different relation types at once'}, {'id': 'seq', 'label': 'Run them one after another'}, {'id': 'big', 'label': 'Make one head bigger'}], 'answer': 'heads', 'explanation': 'Different heads can track different relations (syntax, position, coreference) simultaneously, then their outputs are mixed.'}
 
 CARDS = []
 POLYS = []

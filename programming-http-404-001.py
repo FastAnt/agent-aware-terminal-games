@@ -1,7 +1,7 @@
 """HTTP 404 - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-http-404-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'HTTP 404', 'question': 'HTTP status 404 means what?', 'choices': [{'id': 'nf', 'label': 'Not Found'}, {'id': 'ok', 'label': 'OK'}, {'id': 'err', 'label': 'Server Error'}], 'answer': 'nf', 'explanation': '404 is the client-error code for a missing resource; 200 is OK and 500 is a server error.'}
+GAME = {"type": "game", 'id': 'programming-http-404-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'HTTP 404', 'question': 'HTTP status 404 means what?', 'choices': [{'id': 'nf', 'label': 'Not Found'}, {'id': 'ok', 'label': 'OK'}, {'id': 'err', 'label': 'Server Error'}], 'answer': 'nf', 'explanation': '404 is the client-error code for a missing resource; 200 is OK and 500 is a server error.'}
 
 CARDS = []
 POLYS = []

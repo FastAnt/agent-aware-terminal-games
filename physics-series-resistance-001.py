@@ -1,7 +1,7 @@
 """Series Resistors - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-series-resistance-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Series Resistors', 'question': 'Resistors of 2 and 3 ohms are connected in series. What is the total?', 'choices': [{'id': 'r5', 'label': '5 ohms'}, {'id': 'r1', 'label': '1.2 ohms'}, {'id': 'r6', 'label': '6 ohms'}], 'answer': 'r5', 'explanation': 'Series resistances simply add: 2 + 3 = 5 ohms.'}
+GAME = {"type": "game", 'id': 'physics-series-resistance-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Series Resistors', 'question': 'Resistors of 2 and 3 ohms are connected in series. What is the total?', 'choices': [{'id': 'r5', 'label': '5 ohms'}, {'id': 'r1', 'label': '1.2 ohms'}, {'id': 'r6', 'label': '6 ohms'}], 'answer': 'r5', 'explanation': 'Series resistances simply add: 2 + 3 = 5 ohms.'}
 
 CARDS = []
 POLYS = []

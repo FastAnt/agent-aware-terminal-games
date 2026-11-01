@@ -1,7 +1,7 @@
 """Decrypting Caesar - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-caesar-decrypt-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Decrypting Caesar', 'question': 'To decrypt a Caesar cipher shifted by 3, you shift letters how?', 'choices': [{'id': 'back', 'label': 'Back by 3 (or forward 23)'}, {'id': 'fwd', 'label': 'Forward by 3'}, {'id': 'rot', 'label': 'By 13 always'}], 'answer': 'back', 'explanation': 'Encryption and decryption are opposite shifts; -3 is the same as +23 mod 26.'}
+GAME = {"type": "game", 'id': 'programming-caesar-decrypt-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Decrypting Caesar', 'question': 'To decrypt a Caesar cipher shifted by 3, you shift letters how?', 'choices': [{'id': 'back', 'label': 'Back by 3 (or forward 23)'}, {'id': 'fwd', 'label': 'Forward by 3'}, {'id': 'rot', 'label': 'By 13 always'}], 'answer': 'back', 'explanation': 'Encryption and decryption are opposite shifts; -3 is the same as +23 mod 26.'}
 
 CARDS = []
 POLYS = []

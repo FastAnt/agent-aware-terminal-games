@@ -1,7 +1,7 @@
 """Gear Ratio - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-gear-ratio-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Gear Ratio', 'question': 'A 10-tooth gear driving a 40-tooth gear makes the output turn how?', 'choices': [{'id': 'slow', 'label': '4x slower with more torque'}, {'id': 'fast', 'label': '4x faster'}, {'id': 'same', 'label': 'Same speed'}], 'answer': 'slow', 'explanation': 'Speed ratio is inverse teeth ratio: 40/10 means output turns once per 4 input turns.'}
+GAME = {"type": "game", 'id': 'physics-gear-ratio-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Gear Ratio', 'question': 'A 10-tooth gear driving a 40-tooth gear makes the output turn how?', 'choices': [{'id': 'slow', 'label': '4x slower with more torque'}, {'id': 'fast', 'label': '4x faster'}, {'id': 'same', 'label': 'Same speed'}], 'answer': 'slow', 'explanation': 'Speed ratio is inverse teeth ratio: 40/10 means output turns once per 4 input turns.'}
 
 CARDS = []
 POLYS = []

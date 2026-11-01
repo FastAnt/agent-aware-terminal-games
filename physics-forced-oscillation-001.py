@@ -1,7 +1,7 @@
 """Forced Oscillation - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-forced-oscillation-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Forced Oscillation', 'question': 'A steadily driven oscillator eventually oscillates at what frequency?', 'choices': [{'id': 'drive', 'label': 'The driving frequency'}, {'id': 'nat', 'label': 'Always its natural one'}, {'id': 'zero', 'label': 'Zero'}], 'answer': 'drive', 'explanation': 'After transients die out, the system follows the driver; amplitude peaks near resonance.'}
+GAME = {"type": "game", 'id': 'physics-forced-oscillation-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Forced Oscillation', 'question': 'A steadily driven oscillator eventually oscillates at what frequency?', 'choices': [{'id': 'drive', 'label': 'The driving frequency'}, {'id': 'nat', 'label': 'Always its natural one'}, {'id': 'zero', 'label': 'Zero'}], 'answer': 'drive', 'explanation': 'After transients die out, the system follows the driver; amplitude peaks near resonance.'}
 
 CARDS = []
 POLYS = []

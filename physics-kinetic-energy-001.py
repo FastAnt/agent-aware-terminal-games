@@ -1,7 +1,7 @@
 """Kinetic Energy - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-kinetic-energy-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Kinetic Energy', 'question': 'A car doubles its speed. By what factor does its kinetic energy grow?', 'choices': [{'id': 'x4', 'label': 'Four times'}, {'id': 'x2', 'label': 'Two times'}, {'id': 'x8', 'label': 'Eight times'}], 'answer': 'x4', 'explanation': 'Kinetic energy is (1/2)*m*v^2, so doubling v multiplies the energy by four.'}
+GAME = {"type": "game", 'id': 'physics-kinetic-energy-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Kinetic Energy', 'question': 'A car doubles its speed. By what factor does its kinetic energy grow?', 'choices': [{'id': 'x4', 'label': 'Four times'}, {'id': 'x2', 'label': 'Two times'}, {'id': 'x8', 'label': 'Eight times'}], 'answer': 'x4', 'explanation': 'Kinetic energy is (1/2)*m*v^2, so doubling v multiplies the energy by four.'}
 
 CARDS = []
 POLYS = []

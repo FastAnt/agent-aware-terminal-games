@@ -1,7 +1,7 @@
 """Average Pooling - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-pool-avg-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Average Pooling', 'question': 'Average pooling outputs what per patch?', 'choices': [{'id': 'avg', 'label': 'The mean of the patch'}, {'id': 'max', 'label': 'The maximum'}, {'id': 'med', 'label': 'The median'}], 'answer': 'avg', 'explanation': 'It smooths by averaging, a gentler downsampling than taking the max.'}
+GAME = {"type": "game", 'id': 'ml-pool-avg-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Average Pooling', 'question': 'Average pooling outputs what per patch?', 'choices': [{'id': 'avg', 'label': 'The mean of the patch'}, {'id': 'max', 'label': 'The maximum'}, {'id': 'med', 'label': 'The median'}], 'answer': 'avg', 'explanation': 'It smooths by averaging, a gentler downsampling than taking the max.'}
 
 CARDS = []
 POLYS = []

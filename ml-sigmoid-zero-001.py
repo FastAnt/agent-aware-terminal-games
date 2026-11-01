@@ -1,7 +1,7 @@
 """Sigmoid at Zero - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-sigmoid-zero-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Sigmoid at Zero', 'question': 'Sigmoid(0) equals what?', 'choices': [{'id': 'h', 'label': '0.5'}, {'id': 'z', 'label': '0'}, {'id': 'o', 'label': '1'}], 'answer': 'h', 'explanation': '1/(1+e^0) = 1/2: zero input gives an undecided 0.5.'}
+GAME = {"type": "game", 'id': 'ml-sigmoid-zero-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Sigmoid at Zero', 'question': 'Sigmoid(0) equals what?', 'choices': [{'id': 'h', 'label': '0.5'}, {'id': 'z', 'label': '0'}, {'id': 'o', 'label': '1'}], 'answer': 'h', 'explanation': '1/(1+e^0) = 1/2: zero input gives an undecided 0.5.'}
 
 CARDS = []
 POLYS = []

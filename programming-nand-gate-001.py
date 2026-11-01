@@ -1,7 +1,7 @@
 """NAND Gate - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-nand-gate-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'NAND Gate', 'question': 'Inputs are A=1 and B=1. What does the NAND gate output?', 'choices': [{'id': 'zero', 'label': '0'}, {'id': 'one', 'label': '1'}], 'answer': 'zero', 'explanation': 'NAND is AND followed by NOT: AND gives 1, inverted to 0.'}
+GAME = {"type": "game", 'id': 'programming-nand-gate-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'NAND Gate', 'question': 'Inputs are A=1 and B=1. What does the NAND gate output?', 'choices': [{'id': 'zero', 'label': '0'}, {'id': 'one', 'label': '1'}], 'answer': 'zero', 'explanation': 'NAND is AND followed by NOT: AND gives 1, inverted to 0.'}
 
 CARDS = []
 POLYS = []

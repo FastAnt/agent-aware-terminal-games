@@ -1,7 +1,7 @@
 """Residual Connections - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-residual-why-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Residual Connections', 'question': 'A residual connection y = F(x) + x mainly helps by doing what?', 'choices': [{'id': 'grad', 'label': 'Lets gradients flow directly through'}, {'id': 'data', 'label': 'Adding data'}, {'id': 'size', 'label': 'Shrinking models'}], 'answer': 'grad', 'explanation': 'The identity shortcut gives gradients a clean path, enabling very deep networks.'}
+GAME = {"type": "game", 'id': 'ml-residual-why-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Residual Connections', 'question': 'A residual connection y = F(x) + x mainly helps by doing what?', 'choices': [{'id': 'grad', 'label': 'Lets gradients flow directly through'}, {'id': 'data', 'label': 'Adding data'}, {'id': 'size', 'label': 'Shrinking models'}], 'answer': 'grad', 'explanation': 'The identity shortcut gives gradients a clean path, enabling very deep networks.'}
 
 CARDS = []
 POLYS = []

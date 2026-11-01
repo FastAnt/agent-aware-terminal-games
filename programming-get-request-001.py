@@ -1,7 +1,7 @@
 """HTTP GET — click a component. See games-base/SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-get-request-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'HTTP GET', 'question': 'Click the method meant only to retrieve data.', 'choices': [{'id': 'get', 'label': 'GET'}, {'id': 'post', 'label': 'POST'}, {'id': 'del2', 'label': 'DELETE'}], 'answer': 'get', 'explanation': 'GET retrieves a representation and should not change server state; POST usually creates or submits.'}
+GAME = {"type": "game", 'id': 'programming-get-request-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'HTTP GET', 'question': 'Click the method meant only to retrieve data.', 'choices': [{'id': 'get', 'label': 'GET'}, {'id': 'post', 'label': 'POST'}, {'id': 'del2', 'label': 'DELETE'}], 'answer': 'get', 'explanation': 'GET retrieves a representation and should not change server state; POST usually creates or submits.'}
 
 NODES = [('get', 'GET'), ('post', 'POST'), ('del2', 'DELETE')]
 EDGES = [('get', 'post'), ('post', 'del2'), ('del2', 'get')]

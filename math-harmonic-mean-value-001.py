@@ -1,7 +1,7 @@
 """Mean Value Property - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'math-harmonic-mean-value-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Mean Value Property', 'question': 'For a harmonic function, the value at a point equals what?', 'choices': [{'id': 'avg', 'label': 'Average over circles around it'}, {'id': 'max', 'label': 'Maximum nearby'}, {'id': 'edge', 'label': 'Value at boundary'}], 'answer': 'avg', 'explanation': 'Harmonic functions have no interior bumps: each value is the average of surrounding values.'}
+GAME = {"type": "game", 'id': 'math-harmonic-mean-value-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Mean Value Property', 'question': 'For a harmonic function, the value at a point equals what?', 'choices': [{'id': 'avg', 'label': 'Average over circles around it'}, {'id': 'max', 'label': 'Maximum nearby'}, {'id': 'edge', 'label': 'Value at boundary'}], 'answer': 'avg', 'explanation': 'Harmonic functions have no interior bumps: each value is the average of surrounding values.'}
 
 CARDS = []
 POLYS = []

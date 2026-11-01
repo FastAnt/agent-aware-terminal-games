@@ -1,7 +1,7 @@
 """Unit of Current — click a component. See games-base/SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-current-unit-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Unit of Current', 'question': 'Click the SI unit of electric current.', 'choices': [{'id': 'ampere', 'label': 'Ampere'}, {'id': 'volt', 'label': 'Volt'}, {'id': 'ohm', 'label': 'Ohm'}], 'answer': 'ampere', 'explanation': 'Current is measured in amperes; volts measure potential difference and ohms measure resistance.'}
+GAME = {"type": "game", 'id': 'physics-current-unit-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Unit of Current', 'question': 'Click the SI unit of electric current.', 'choices': [{'id': 'ampere', 'label': 'Ampere'}, {'id': 'volt', 'label': 'Volt'}, {'id': 'ohm', 'label': 'Ohm'}], 'answer': 'ampere', 'explanation': 'Current is measured in amperes; volts measure potential difference and ohms measure resistance.'}
 
 NODES = [('ampere', 'Ampere'), ('volt', 'Volt'), ('ohm', 'Ohm')]
 EDGES = [('ampere', 'volt'), ('volt', 'ohm'), ('ohm', 'ampere')]

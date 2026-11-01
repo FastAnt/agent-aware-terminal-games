@@ -5,7 +5,7 @@ Inspiration notes: see games-base/SOURCES.md (original idea, no copied assets).
 """
 import math
 
-GAME = {'id': 'ml-regression-output-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Regression Output', 'question': 'Regression predicts what kind of value?', 'choices': [{'id': 'num', 'label': 'A continuous number'}, {'id': 'cat', 'label': 'A category'}, {'id': 'img', 'label': 'An image only'}], 'answer': 'num', 'explanation': 'Regression outputs numbers like prices or temperatures; classification outputs categories.'}
+GAME = {"type": "game", 'id': 'ml-regression-output-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Regression Output', 'question': 'Regression predicts what kind of value?', 'choices': [{'id': 'num', 'label': 'A continuous number'}, {'id': 'cat', 'label': 'A category'}, {'id': 'img', 'label': 'An image only'}], 'answer': 'num', 'explanation': 'Regression outputs numbers like prices or temperatures; classification outputs categories.'}
 
 SCENE = "parabola"
 

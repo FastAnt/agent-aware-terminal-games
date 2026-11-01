@@ -1,7 +1,7 @@
 """Nonce - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-nonce-purpose-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Nonce', 'question': 'A nonce in a protocol or cipher mode must mainly be what?', 'choices': [{'id': 'uniq', 'label': 'Unique for each use'}, {'id': 'secret', 'label': 'Secret'}, {'id': 'long', 'label': 'Very long'}], 'answer': 'uniq', 'explanation': 'Reusing a nonce under one key can be catastrophic (e.g., XOR of messages leaks); secrecy is not required.'}
+GAME = {"type": "game", 'id': 'programming-nonce-purpose-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Nonce', 'question': 'A nonce in a protocol or cipher mode must mainly be what?', 'choices': [{'id': 'uniq', 'label': 'Unique for each use'}, {'id': 'secret', 'label': 'Secret'}, {'id': 'long', 'label': 'Very long'}], 'answer': 'uniq', 'explanation': 'Reusing a nonce under one key can be catastrophic (e.g., XOR of messages leaks); secrecy is not required.'}
 
 CARDS = []
 POLYS = []

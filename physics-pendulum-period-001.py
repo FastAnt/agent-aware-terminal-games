@@ -5,7 +5,7 @@ Inspiration notes: see games-base/SOURCES.md (original idea, no copied assets).
 """
 import math
 
-GAME = {'id': 'physics-pendulum-period-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Pendulum Period', 'question': 'What most strongly determines the period of a simple pendulum?', 'choices': [{'id': 'length', 'label': 'Its length'}, {'id': 'mass', 'label': 'The bob mass'}, {'id': 'color', 'label': 'The bob colour'}], 'answer': 'length', 'explanation': 'For small swings the period depends on length and gravity, roughly 2*pi*sqrt(L/g); mass cancels out.'}
+GAME = {"type": "game", 'id': 'physics-pendulum-period-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Pendulum Period', 'question': 'What most strongly determines the period of a simple pendulum?', 'choices': [{'id': 'length', 'label': 'Its length'}, {'id': 'mass', 'label': 'The bob mass'}, {'id': 'color', 'label': 'The bob colour'}], 'answer': 'length', 'explanation': 'For small swings the period depends on length and gravity, roughly 2*pi*sqrt(L/g); mass cancels out.'}
 
 SCENE = "pendulum"
 

@@ -1,7 +1,7 @@
 """Biconditional - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'math-biconditional-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Biconditional', 'question': 'P if and only if Q is true exactly when what?', 'choices': [{'id': 'eq', 'label': 'P and Q have the same value'}, {'id': 'diff', 'label': 'P and Q differ'}, {'id': 'pt', 'label': 'P is true'}], 'answer': 'eq', 'explanation': 'The biconditional asserts equivalence: both true or both false.'}
+GAME = {"type": "game", 'id': 'math-biconditional-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Biconditional', 'question': 'P if and only if Q is true exactly when what?', 'choices': [{'id': 'eq', 'label': 'P and Q have the same value'}, {'id': 'diff', 'label': 'P and Q differ'}, {'id': 'pt', 'label': 'P is true'}], 'answer': 'eq', 'explanation': 'The biconditional asserts equivalence: both true or both false.'}
 
 CARDS = []
 POLYS = []

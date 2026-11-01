@@ -1,7 +1,7 @@
 """Pentagon - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'geometry-pentagon-sides-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Geometry', 'title': 'Pentagon', 'question': 'Click the polygon with exactly five sides.', 'choices': [{'id': 'pentagon', 'label': 'Pentagon'}, {'id': 'triangle', 'label': 'Triangle'}, {'id': 'hexagon', 'label': 'Hexagon'}], 'answer': 'pentagon', 'explanation': 'Penta means five: a pentagon has five sides, a triangle three and a hexagon six.'}
+GAME = {"type": "game", 'id': 'geometry-pentagon-sides-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Geometry', 'title': 'Pentagon', 'question': 'Click the polygon with exactly five sides.', 'choices': [{'id': 'pentagon', 'label': 'Pentagon'}, {'id': 'triangle', 'label': 'Triangle'}, {'id': 'hexagon', 'label': 'Hexagon'}], 'answer': 'pentagon', 'explanation': 'Penta means five: a pentagon has five sides, a triangle three and a hexagon six.'}
 
 CARDS = []
 POLYS = []

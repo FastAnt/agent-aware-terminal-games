@@ -1,7 +1,7 @@
 """Newton's Third Law - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-newton-third-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': "Newton's Third Law", 'question': 'You push a wall and it pushes back. This is an example of what?', 'choices': [{'id': 'third', 'label': "Newton's third law"}, {'id': 'first', 'label': "Newton's first law"}, {'id': 'ohm', 'label': "Ohm's law"}], 'answer': 'third', 'explanation': 'Every action has an equal and opposite reaction: forces come in pairs on different bodies.'}
+GAME = {"type": "game", 'id': 'physics-newton-third-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': "Newton's Third Law", 'question': 'You push a wall and it pushes back. This is an example of what?', 'choices': [{'id': 'third', 'label': "Newton's third law"}, {'id': 'first', 'label': "Newton's first law"}, {'id': 'ohm', 'label': "Ohm's law"}], 'answer': 'third', 'explanation': 'Every action has an equal and opposite reaction: forces come in pairs on different bodies.'}
 
 CARDS = []
 POLYS = []

@@ -1,7 +1,7 @@
 """Equivalent Fraction - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'math-fraction-half-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Equivalent Fraction', 'question': 'Which fraction equals 1/2?', 'choices': [{'id': 'f24', 'label': '2/4'}, {'id': 'f23', 'label': '2/3'}, {'id': 'f35', 'label': '3/5'}], 'answer': 'f24', 'explanation': '2/4 simplifies to 1/2 by dividing top and bottom by 2.'}
+GAME = {"type": "game", 'id': 'math-fraction-half-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Equivalent Fraction', 'question': 'Which fraction equals 1/2?', 'choices': [{'id': 'f24', 'label': '2/4'}, {'id': 'f23', 'label': '2/3'}, {'id': 'f35', 'label': '3/5'}], 'answer': 'f24', 'explanation': '2/4 simplifies to 1/2 by dividing top and bottom by 2.'}
 
 CARDS = []
 POLYS = []

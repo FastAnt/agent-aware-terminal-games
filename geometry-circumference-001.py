@@ -1,7 +1,7 @@
 """Circumference - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'geometry-circumference-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Geometry', 'title': 'Circumference', 'question': 'The circumference of a circle of radius r is what?', 'choices': [{'id': 'c2', 'label': '2 * pi * r'}, {'id': 'c1', 'label': 'pi * r^2'}, {'id': 'c3', 'label': '2 * r'}], 'answer': 'c2', 'explanation': 'Circumference is 2*pi*r; pi*r^2 is the area enclosed by the circle.'}
+GAME = {"type": "game", 'id': 'geometry-circumference-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Geometry', 'title': 'Circumference', 'question': 'The circumference of a circle of radius r is what?', 'choices': [{'id': 'c2', 'label': '2 * pi * r'}, {'id': 'c1', 'label': 'pi * r^2'}, {'id': 'c3', 'label': '2 * r'}], 'answer': 'c2', 'explanation': 'Circumference is 2*pi*r; pi*r^2 is the area enclosed by the circle.'}
 
 CARDS = []
 POLYS = []

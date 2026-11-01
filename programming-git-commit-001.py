@@ -5,7 +5,7 @@ Inspiration notes: see games-base/SOURCES.md (original idea, no copied assets).
 """
 import math
 
-GAME = {'id': 'programming-git-commit-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Git Commit', 'question': 'A git commit records what?', 'choices': [{'id': 'snap', 'label': 'A snapshot of changes'}, {'id': 'copy', 'label': 'A server copy'}, {'id': 'test', 'label': 'A test run'}], 'answer': 'snap', 'explanation': 'A commit stores a snapshot of the staged tree plus author, time and parent history.'}
+GAME = {"type": "game", 'id': 'programming-git-commit-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Git Commit', 'question': 'A git commit records what?', 'choices': [{'id': 'snap', 'label': 'A snapshot of changes'}, {'id': 'copy', 'label': 'A server copy'}, {'id': 'test', 'label': 'A test run'}], 'answer': 'snap', 'explanation': 'A commit stores a snapshot of the staged tree plus author, time and parent history.'}
 
 SCENE = "tree"
 

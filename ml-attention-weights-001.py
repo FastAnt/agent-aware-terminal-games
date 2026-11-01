@@ -1,7 +1,7 @@
 """Attention Weights - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-attention-weights-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Attention Weights', 'question': 'The attention weights over values sum to what (per query)?', 'choices': [{'id': 'one', 'label': '1'}, {'id': 'n', 'label': 'Sequence length'}, {'id': 'zero', 'label': '0'}], 'answer': 'one', 'explanation': 'They are a softmax distribution: a weighted average of value vectors.'}
+GAME = {"type": "game", 'id': 'ml-attention-weights-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Attention Weights', 'question': 'The attention weights over values sum to what (per query)?', 'choices': [{'id': 'one', 'label': '1'}, {'id': 'n', 'label': 'Sequence length'}, {'id': 'zero', 'label': '0'}], 'answer': 'one', 'explanation': 'They are a softmax distribution: a weighted average of value vectors.'}
 
 CARDS = []
 POLYS = []

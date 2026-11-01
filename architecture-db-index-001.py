@@ -5,7 +5,7 @@ Inspiration notes: see games-base/SOURCES.md (original idea, no copied assets).
 """
 import math
 
-GAME = {'id': 'architecture-db-index-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Architecture', 'title': 'Database Index', 'question': 'A database index mainly improves what?', 'choices': [{'id': 'query', 'label': 'Query speed'}, {'id': 'disk', 'label': 'Disk size'}, {'id': 'backup2', 'label': 'Backup speed'}], 'answer': 'query', 'explanation': 'An index is a lookup structure that finds rows without scanning the whole table, at some write cost.'}
+GAME = {"type": "game", 'id': 'architecture-db-index-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Architecture', 'title': 'Database Index', 'question': 'A database index mainly improves what?', 'choices': [{'id': 'query', 'label': 'Query speed'}, {'id': 'disk', 'label': 'Disk size'}, {'id': 'backup2', 'label': 'Backup speed'}], 'answer': 'query', 'explanation': 'An index is a lookup structure that finds rows without scanning the whole table, at some write cost.'}
 
 SCENE = "tree"
 

@@ -1,7 +1,7 @@
 """Harmonic Series - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'math-harmonic-series-math-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Harmonic Series', 'question': 'The harmonic series 1 + 1/2 + 1/3 + ... does what?', 'choices': [{'id': 'div', 'label': 'Diverges (grows without bound)'}, {'id': 'conv', 'label': 'Converges to 2'}, {'id': 'conv2', 'label': 'Converges to 1'}], 'answer': 'div', 'explanation': 'Despite terms shrinking to zero, grouped blocks each exceed 1/2, so the sum is infinite.'}
+GAME = {"type": "game", 'id': 'math-harmonic-series-math-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Harmonic Series', 'question': 'The harmonic series 1 + 1/2 + 1/3 + ... does what?', 'choices': [{'id': 'div', 'label': 'Diverges (grows without bound)'}, {'id': 'conv', 'label': 'Converges to 2'}, {'id': 'conv2', 'label': 'Converges to 1'}], 'answer': 'div', 'explanation': 'Despite terms shrinking to zero, grouped blocks each exceed 1/2, so the sum is infinite.'}
 
 CARDS = []
 POLYS = []

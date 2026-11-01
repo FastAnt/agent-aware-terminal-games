@@ -1,7 +1,7 @@
 """Linked List - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-linked-list-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Linked List', 'question': 'Elements of a linked list are connected by what?', 'choices': [{'id': 'ptr', 'label': 'Pointers / references'}, {'id': 'index', 'label': 'Array indexes'}, {'id': 'keys', 'label': 'Hash keys'}], 'answer': 'ptr', 'explanation': 'Each node holds data plus a reference to the next node; there is no contiguous index like an array.'}
+GAME = {"type": "game", 'id': 'programming-linked-list-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Linked List', 'question': 'Elements of a linked list are connected by what?', 'choices': [{'id': 'ptr', 'label': 'Pointers / references'}, {'id': 'index', 'label': 'Array indexes'}, {'id': 'keys', 'label': 'Hash keys'}], 'answer': 'ptr', 'explanation': 'Each node holds data plus a reference to the next node; there is no contiguous index like an array.'}
 
 CARDS = []
 POLYS = []

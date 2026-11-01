@@ -1,7 +1,7 @@
 """Slope - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'math-slope-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Slope', 'question': 'The slope of a line is defined as what?', 'choices': [{'id': 'rise', 'label': 'rise / run'}, {'id': 'run', 'label': 'run / rise'}, {'id': 'prod', 'label': 'rise * run'}], 'answer': 'rise', 'explanation': 'Slope measures steepness as vertical change over horizontal change, rise over run.'}
+GAME = {"type": "game", 'id': 'math-slope-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Slope', 'question': 'The slope of a line is defined as what?', 'choices': [{'id': 'rise', 'label': 'rise / run'}, {'id': 'run', 'label': 'run / rise'}, {'id': 'prod', 'label': 'rise * run'}], 'answer': 'rise', 'explanation': 'Slope measures steepness as vertical change over horizontal change, rise over run.'}
 
 CARDS = []
 POLYS = []

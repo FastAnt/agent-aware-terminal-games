@@ -1,7 +1,7 @@
 """Jupiter's Orbit - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-jupiter-orbit-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': "Jupiter's Orbit", 'hint': 'Choose an orbit', 'question': "Four planets are placed. Click Jupiter's orbit.", 'choices': [], 'answer': 'ring-5', 'explanation': 'Jupiter is the fifth planet from the Sun, the first of the giant outer planets.'}
+GAME = {"type": "game", 'id': 'physics-jupiter-orbit-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': "Jupiter's Orbit", 'hint': 'Choose an orbit', 'question': "Four planets are placed. Click Jupiter's orbit.", 'choices': [], 'answer': 'ring-5', 'explanation': 'Jupiter is the fifth planet from the Sun, the first of the giant outer planets.'}
 
 CARDS = []
 POLYS = []

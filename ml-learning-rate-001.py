@@ -1,7 +1,7 @@
 """Learning Rate - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-learning-rate-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Learning Rate', 'question': 'The learning rate in gradient descent controls what?', 'choices': [{'id': 'step', 'label': 'Step size of each update'}, {'id': 'data', 'label': 'Amount of data'}, {'id': 'layers', 'label': 'Number of layers'}], 'answer': 'step', 'explanation': 'Too large a rate can overshoot the minimum; too small makes training crawl.'}
+GAME = {"type": "game", 'id': 'ml-learning-rate-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Learning Rate', 'question': 'The learning rate in gradient descent controls what?', 'choices': [{'id': 'step', 'label': 'Step size of each update'}, {'id': 'data', 'label': 'Amount of data'}, {'id': 'layers', 'label': 'Number of layers'}], 'answer': 'step', 'explanation': 'Too large a rate can overshoot the minimum; too small makes training crawl.'}
 
 CARDS = []
 POLYS = []

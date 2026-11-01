@@ -1,7 +1,7 @@
 """Classification — click a component. See games-base/SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-classification-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Classification', 'question': 'Click the task that predicts a category.', 'choices': [{'id': 'cls', 'label': 'Classification'}, {'id': 'reg', 'label': 'Regression'}, {'id': 'clus', 'label': 'Clustering'}], 'answer': 'cls', 'explanation': 'Classification predicts a discrete label; regression predicts a number and clustering groups unlabelled data.'}
+GAME = {"type": "game", 'id': 'ml-classification-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Classification', 'question': 'Click the task that predicts a category.', 'choices': [{'id': 'cls', 'label': 'Classification'}, {'id': 'reg', 'label': 'Regression'}, {'id': 'clus', 'label': 'Clustering'}], 'answer': 'cls', 'explanation': 'Classification predicts a discrete label; regression predicts a number and clustering groups unlabelled data.'}
 
 NODES = [('cls', 'Classification'), ('reg', 'Regression'), ('clus', 'Clustering')]
 EDGES = [('cls', 'reg'), ('reg', 'clus'), ('clus', 'cls')]

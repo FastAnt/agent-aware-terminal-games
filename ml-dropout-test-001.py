@@ -1,7 +1,7 @@
 """Dropout at Inference - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-dropout-test-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Dropout at Inference', 'question': 'At inference time, dropout is typically what?', 'choices': [{'id': 'off2', 'label': 'Turned off'}, {'id': 'same', 'label': 'Kept random'}, {'id': 'half', 'label': 'Doubled'}], 'answer': 'off2', 'explanation': 'Predictions should be deterministic: all units stay on (with training-time scaling to match).'}
+GAME = {"type": "game", 'id': 'ml-dropout-test-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Dropout at Inference', 'question': 'At inference time, dropout is typically what?', 'choices': [{'id': 'off2', 'label': 'Turned off'}, {'id': 'same', 'label': 'Kept random'}, {'id': 'half', 'label': 'Doubled'}], 'answer': 'off2', 'explanation': 'Predictions should be deterministic: all units stay on (with training-time scaling to match).'}
 
 CARDS = []
 POLYS = []

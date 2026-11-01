@@ -1,7 +1,7 @@
 """Stack Operation - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-stack-pop-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Stack Operation', 'question': 'Click the operation that removes the top of a stack.', 'choices': [{'id': 'pop', 'label': 'Pop'}, {'id': 'push', 'label': 'Push'}, {'id': 'peek', 'label': 'Peek'}], 'answer': 'pop', 'explanation': 'Pop removes and returns the top element; push adds one and peek only looks.'}
+GAME = {"type": "game", 'id': 'programming-stack-pop-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Stack Operation', 'question': 'Click the operation that removes the top of a stack.', 'choices': [{'id': 'pop', 'label': 'Pop'}, {'id': 'push', 'label': 'Push'}, {'id': 'peek', 'label': 'Peek'}], 'answer': 'pop', 'explanation': 'Pop removes and returns the top element; push adds one and peek only looks.'}
 
 CARDS = []
 POLYS = []

@@ -1,7 +1,7 @@
 """Similar Shapes - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'geometry-similar-shapes-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Geometry', 'title': 'Similar Shapes', 'question': 'Similar figures must have which property?', 'choices': [{'id': 'angles', 'label': 'Equal angles'}, {'id': 'area', 'label': 'Equal areas'}, {'id': 'sides', 'label': 'Equal sides'}], 'answer': 'angles', 'explanation': 'Similar figures share equal angles and proportional sides; equal sides would make them congruent.'}
+GAME = {"type": "game", 'id': 'geometry-similar-shapes-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Geometry', 'title': 'Similar Shapes', 'question': 'Similar figures must have which property?', 'choices': [{'id': 'angles', 'label': 'Equal angles'}, {'id': 'area', 'label': 'Equal areas'}, {'id': 'sides', 'label': 'Equal sides'}], 'answer': 'angles', 'explanation': 'Similar figures share equal angles and proportional sides; equal sides would make them congruent.'}
 
 CARDS = []
 POLYS = []

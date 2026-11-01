@@ -1,7 +1,7 @@
 """Feature - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-feature-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Feature', 'question': 'Click the term for one input variable of a model.', 'choices': [{'id': 'feature', 'label': 'Feature'}, {'id': 'label3', 'label': 'Label'}, {'id': 'epoch2', 'label': 'Epoch'}], 'answer': 'feature', 'explanation': 'Features are the measured inputs; the label is what the model tries to predict.'}
+GAME = {"type": "game", 'id': 'ml-feature-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Feature', 'question': 'Click the term for one input variable of a model.', 'choices': [{'id': 'feature', 'label': 'Feature'}, {'id': 'label3', 'label': 'Label'}, {'id': 'epoch2', 'label': 'Epoch'}], 'answer': 'feature', 'explanation': 'Features are the measured inputs; the label is what the model tries to predict.'}
 
 CARDS = []
 POLYS = []

@@ -1,7 +1,7 @@
 """Convolution Output - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-conv-output-size-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Convolution Output', 'question': 'A 5x5 input with a 3x3 kernel (no padding, stride 1) gives which output size?', 'choices': [{'id': 'o3', 'label': '3x3'}, {'id': 'o5', 'label': '5x5'}, {'id': 'o2', 'label': '2x2'}], 'answer': 'o3', 'explanation': 'Output = 5-3+1 = 3 per side: the kernel fits in three positions each way.'}
+GAME = {"type": "game", 'id': 'ml-conv-output-size-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Convolution Output', 'question': 'A 5x5 input with a 3x3 kernel (no padding, stride 1) gives which output size?', 'choices': [{'id': 'o3', 'label': '3x3'}, {'id': 'o5', 'label': '5x5'}, {'id': 'o2', 'label': '2x2'}], 'answer': 'o3', 'explanation': 'Output = 5-3+1 = 3 per side: the kernel fits in three positions each way.'}
 
 CARDS = []
 POLYS = []

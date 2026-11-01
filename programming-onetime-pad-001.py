@@ -1,7 +1,7 @@
 """One-Time Pad - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-onetime-pad-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'One-Time Pad', 'question': 'A one-time pad is unbreakable when the key is what?', 'choices': [{'id': 'rand', 'label': 'Random, as long as the message, used once'}, {'id': 'short', 'label': 'Short and reused'}, {'id': 'word', 'label': 'A dictionary word'}], 'answer': 'rand', 'explanation': 'With a truly random same-length single-use key, ciphertext leaks nothing.'}
+GAME = {"type": "game", 'id': 'programming-onetime-pad-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'One-Time Pad', 'question': 'A one-time pad is unbreakable when the key is what?', 'choices': [{'id': 'rand', 'label': 'Random, as long as the message, used once'}, {'id': 'short', 'label': 'Short and reused'}, {'id': 'word', 'label': 'A dictionary word'}], 'answer': 'rand', 'explanation': 'With a truly random same-length single-use key, ciphertext leaks nothing.'}
 
 CARDS = []
 POLYS = []

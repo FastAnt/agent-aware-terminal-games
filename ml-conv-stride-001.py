@@ -1,7 +1,7 @@
 """Stride - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-conv-stride-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Stride', 'question': 'A stride of 2 in a convolution means the kernel does what?', 'choices': [{'id': 'step', 'label': 'Moves 2 cells at a time'}, {'id': 'two', 'label': 'Uses 2 kernels'}, {'id': 'pad', 'label': 'Adds 2 pads'}], 'answer': 'step', 'explanation': 'Stride is the step size of the sliding window; 2 roughly halves the output size.'}
+GAME = {"type": "game", 'id': 'ml-conv-stride-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Stride', 'question': 'A stride of 2 in a convolution means the kernel does what?', 'choices': [{'id': 'step', 'label': 'Moves 2 cells at a time'}, {'id': 'two', 'label': 'Uses 2 kernels'}, {'id': 'pad', 'label': 'Adds 2 pads'}], 'answer': 'step', 'explanation': 'Stride is the step size of the sliding window; 2 roughly halves the output size.'}
 
 CARDS = []
 POLYS = []

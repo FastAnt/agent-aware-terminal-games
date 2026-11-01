@@ -1,7 +1,7 @@
 """Motor vs Generator - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-motor-vs-generator-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Motor vs Generator', 'question': 'A generator is a motor run how?', 'choices': [{'id': 'rev', 'label': 'In reverse: motion in, electricity out'}, {'id': 'fast', 'label': 'Faster'}, {'id': 'hot', 'label': 'Hotter'}], 'answer': 'rev', 'explanation': 'Motors turn electricity into motion; generators turn motion into electricity, same physics reversed.'}
+GAME = {"type": "game", 'id': 'physics-motor-vs-generator-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Motor vs Generator', 'question': 'A generator is a motor run how?', 'choices': [{'id': 'rev', 'label': 'In reverse: motion in, electricity out'}, {'id': 'fast', 'label': 'Faster'}, {'id': 'hot', 'label': 'Hotter'}], 'answer': 'rev', 'explanation': 'Motors turn electricity into motion; generators turn motion into electricity, same physics reversed.'}
 
 CARDS = []
 POLYS = []

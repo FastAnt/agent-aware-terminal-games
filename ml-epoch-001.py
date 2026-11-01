@@ -1,7 +1,7 @@
 """Epoch - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-epoch-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Epoch', 'question': 'One epoch means what?', 'choices': [{'id': 'pass', 'label': 'One full pass over the training data'}, {'id': 'step', 'label': 'One gradient step'}, {'id': 'layer', 'label': 'One layer'}], 'answer': 'pass', 'explanation': 'Training usually runs many epochs; each epoch sees every training example once.'}
+GAME = {"type": "game", 'id': 'ml-epoch-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Epoch', 'question': 'One epoch means what?', 'choices': [{'id': 'pass', 'label': 'One full pass over the training data'}, {'id': 'step', 'label': 'One gradient step'}, {'id': 'layer', 'label': 'One layer'}], 'answer': 'pass', 'explanation': 'Training usually runs many epochs; each epoch sees every training example once.'}
 
 CARDS = []
 POLYS = []

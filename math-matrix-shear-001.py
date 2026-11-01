@@ -1,7 +1,7 @@
 """Shear - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'math-matrix-shear-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Shear', 'question': 'A shear matrix does what to a square?', 'choices': [{'id': 'slant', 'label': 'Slants it, one axis sliding'}, {'id': 'rot', 'label': 'Rotates it rigidly'}, {'id': 'shrink', 'label': 'Shrinks it to a point'}], 'answer': 'slant', 'explanation': 'Shear adds a multiple of one coordinate to the other, turning squares into parallelograms.'}
+GAME = {"type": "game", 'id': 'math-matrix-shear-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Shear', 'question': 'A shear matrix does what to a square?', 'choices': [{'id': 'slant', 'label': 'Slants it, one axis sliding'}, {'id': 'rot', 'label': 'Rotates it rigidly'}, {'id': 'shrink', 'label': 'Shrinks it to a point'}], 'answer': 'slant', 'explanation': 'Shear adds a multiple of one coordinate to the other, turning squares into parallelograms.'}
 
 CARDS = []
 POLYS = []

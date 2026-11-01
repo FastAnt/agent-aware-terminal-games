@@ -1,7 +1,7 @@
 """Rotation Matrix - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'math-matrix-rotation-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Rotation Matrix', 'question': 'A rotation matrix applied to a shape does what?', 'choices': [{'id': 'rot', 'label': 'Rotates it, preserving lengths'}, {'id': 'scale', 'label': 'Stretches it'}, {'id': 'flat', 'label': 'Flattens it to a line'}], 'answer': 'rot', 'explanation': 'Rotation matrices are orthogonal with determinant 1: rigid turning, no distortion.'}
+GAME = {"type": "game", 'id': 'math-matrix-rotation-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Rotation Matrix', 'question': 'A rotation matrix applied to a shape does what?', 'choices': [{'id': 'rot', 'label': 'Rotates it, preserving lengths'}, {'id': 'scale', 'label': 'Stretches it'}, {'id': 'flat', 'label': 'Flattens it to a line'}], 'answer': 'rot', 'explanation': 'Rotation matrices are orthogonal with determinant 1: rigid turning, no distortion.'}
 
 CARDS = []
 POLYS = []

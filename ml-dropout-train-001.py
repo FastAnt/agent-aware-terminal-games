@@ -1,7 +1,7 @@
 """Dropout in Training - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-dropout-train-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Dropout in Training', 'question': 'During training, dropout randomly does what?', 'choices': [{'id': 'off', 'label': 'Switches off some activations'}, {'id': 'all', 'label': 'Deletes layers'}, {'id': 'dup', 'label': 'Duplicates neurons'}], 'answer': 'off', 'explanation': 'Randomly zeroing units prevents co-adaptation; the full network returns at test time.'}
+GAME = {"type": "game", 'id': 'ml-dropout-train-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Dropout in Training', 'question': 'During training, dropout randomly does what?', 'choices': [{'id': 'off', 'label': 'Switches off some activations'}, {'id': 'all', 'label': 'Deletes layers'}, {'id': 'dup', 'label': 'Duplicates neurons'}], 'answer': 'off', 'explanation': 'Randomly zeroing units prevents co-adaptation; the full network returns at test time.'}
 
 CARDS = []
 POLYS = []

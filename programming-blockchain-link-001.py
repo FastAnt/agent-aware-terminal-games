@@ -1,7 +1,7 @@
 """Blockchain Linking - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-blockchain-link-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Blockchain Linking', 'question': 'In a blockchain, each block stores what of the previous block?', 'choices': [{'id': 'hash', 'label': 'Its hash'}, {'id': 'key', 'label': 'Its private key'}, {'id': 'time', 'label': 'Its timestamp only'}], 'answer': 'hash', 'explanation': 'Changing history changes its hash and breaks every later link, making tampering evident.'}
+GAME = {"type": "game", 'id': 'programming-blockchain-link-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Blockchain Linking', 'question': 'In a blockchain, each block stores what of the previous block?', 'choices': [{'id': 'hash', 'label': 'Its hash'}, {'id': 'key', 'label': 'Its private key'}, {'id': 'time', 'label': 'Its timestamp only'}], 'answer': 'hash', 'explanation': 'Changing history changes its hash and breaks every later link, making tampering evident.'}
 
 CARDS = []
 POLYS = []

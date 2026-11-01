@@ -1,7 +1,7 @@
 """API Gateway — click a component. See games-base/SOURCES.md."""
 import math
 
-GAME = {'id': 'architecture-api-gateway-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Architecture', 'title': 'API Gateway', 'question': 'Click the entry point that routes client requests to services.', 'choices': [{'id': 'gateway', 'label': 'Gateway'}, {'id': 'db2', 'label': 'Database'}, {'id': 'worker', 'label': 'Worker'}], 'answer': 'gateway', 'explanation': 'The gateway is the front door: it routes, authenticates and rate-limits before requests reach services.'}
+GAME = {"type": "game", 'id': 'architecture-api-gateway-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Architecture', 'title': 'API Gateway', 'question': 'Click the entry point that routes client requests to services.', 'choices': [{'id': 'gateway', 'label': 'Gateway'}, {'id': 'db2', 'label': 'Database'}, {'id': 'worker', 'label': 'Worker'}], 'answer': 'gateway', 'explanation': 'The gateway is the front door: it routes, authenticates and rate-limits before requests reach services.'}
 
 NODES = [('gateway', 'Gateway'), ('db2', 'Database'), ('worker', 'Worker')]
 EDGES = [('gateway', 'db2'), ('db2', 'worker'), ('worker', 'gateway')]

@@ -1,7 +1,7 @@
 """Antinodes - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-standing-antinode-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Antinodes', 'question': 'An antinode is where the standing wave does what?', 'choices': [{'id': 'max', 'label': 'Oscillates with maximum amplitude'}, {'id': 'zero', 'label': 'Never moves'}, {'id': 'end', 'label': 'Ends'}], 'answer': 'max', 'explanation': 'Between nodes, antinodes reach the largest swing, twice the travelling amplitude.'}
+GAME = {"type": "game", 'id': 'physics-standing-antinode-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Antinodes', 'question': 'An antinode is where the standing wave does what?', 'choices': [{'id': 'max', 'label': 'Oscillates with maximum amplitude'}, {'id': 'zero', 'label': 'Never moves'}, {'id': 'end', 'label': 'Ends'}], 'answer': 'max', 'explanation': 'Between nodes, antinodes reach the largest swing, twice the travelling amplitude.'}
 
 CARDS = []
 POLYS = []

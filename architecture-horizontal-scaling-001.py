@@ -1,7 +1,7 @@
 """Horizontal Scaling - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'architecture-horizontal-scaling-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Architecture', 'title': 'Horizontal Scaling', 'question': 'Horizontal scaling means doing what?', 'choices': [{'id': 'more', 'label': 'Adding more machines'}, {'id': 'bigger', 'label': 'Buying one bigger machine'}, {'id': 'code', 'label': 'Rewriting code'}], 'answer': 'more', 'explanation': 'You scale out with more instances behind a balancer, rather than scaling up one machine.'}
+GAME = {"type": "game", 'id': 'architecture-horizontal-scaling-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Architecture', 'title': 'Horizontal Scaling', 'question': 'Horizontal scaling means doing what?', 'choices': [{'id': 'more', 'label': 'Adding more machines'}, {'id': 'bigger', 'label': 'Buying one bigger machine'}, {'id': 'code', 'label': 'Rewriting code'}], 'answer': 'more', 'explanation': 'You scale out with more instances behind a balancer, rather than scaling up one machine.'}
 
 CARDS = []
 POLYS = []

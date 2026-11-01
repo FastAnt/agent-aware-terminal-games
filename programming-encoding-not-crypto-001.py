@@ -1,7 +1,7 @@
 """Encoding vs Encryption - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-encoding-not-crypto-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Encoding vs Encryption', 'question': 'Base64 encoding provides which protection?', 'choices': [{'id': 'none', 'label': 'None, it is just a format'}, {'id': 'enc', 'label': 'Encryption'}, {'id': 'int', 'label': 'Integrity'}], 'answer': 'none', 'explanation': 'Encoding is reversible by anyone without a key; calling it encryption is a classic bug.'}
+GAME = {"type": "game", 'id': 'programming-encoding-not-crypto-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Encoding vs Encryption', 'question': 'Base64 encoding provides which protection?', 'choices': [{'id': 'none', 'label': 'None, it is just a format'}, {'id': 'enc', 'label': 'Encryption'}, {'id': 'int', 'label': 'Integrity'}], 'answer': 'none', 'explanation': 'Encoding is reversible by anyone without a key; calling it encryption is a classic bug.'}
 
 CARDS = []
 POLYS = []

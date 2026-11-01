@@ -1,7 +1,7 @@
 """Binary Search - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-binary-search-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Binary Search', 'question': 'Binary search works by repeatedly doing what?', 'choices': [{'id': 'half', 'label': 'Halving the range'}, {'id': 'scan', 'label': 'Scanning every item'}, {'id': 'sort', 'label': 'Sorting again'}], 'answer': 'half', 'explanation': 'Each step compares the middle and discards half the sorted range, giving O(log n) time.'}
+GAME = {"type": "game", 'id': 'programming-binary-search-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Binary Search', 'question': 'Binary search works by repeatedly doing what?', 'choices': [{'id': 'half', 'label': 'Halving the range'}, {'id': 'scan', 'label': 'Scanning every item'}, {'id': 'sort', 'label': 'Sorting again'}], 'answer': 'half', 'explanation': 'Each step compares the middle and discards half the sorted range, giving O(log n) time.'}
 
 CARDS = []
 POLYS = []

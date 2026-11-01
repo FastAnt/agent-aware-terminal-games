@@ -1,7 +1,7 @@
 """Substitution Weakness - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-substitution-leak-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Substitution Weakness', 'question': 'Simple substitution ciphers leak which information?', 'choices': [{'id': 'freq', 'label': 'Letter frequencies'}, {'id': 'len', 'label': 'Message length only'}, {'id': 'none', 'label': 'Nothing'}], 'answer': 'freq', 'explanation': 'Common letters stay common under renaming, so frequency analysis cracks them.'}
+GAME = {"type": "game", 'id': 'programming-substitution-leak-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Substitution Weakness', 'question': 'Simple substitution ciphers leak which information?', 'choices': [{'id': 'freq', 'label': 'Letter frequencies'}, {'id': 'len', 'label': 'Message length only'}, {'id': 'none', 'label': 'Nothing'}], 'answer': 'freq', 'explanation': 'Common letters stay common under renaming, so frequency analysis cracks them.'}
 
 CARDS = []
 POLYS = []

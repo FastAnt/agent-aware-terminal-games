@@ -1,7 +1,7 @@
 """Scaling Matrix - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'math-matrix-scaling-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Scaling Matrix', 'question': 'The matrix [[2,0],[0,1]] stretches a shape in which direction?', 'choices': [{'id': 'x', 'label': 'x direction'}, {'id': 'y', 'label': 'y direction'}, {'id': 'both', 'label': 'Both equally'}], 'answer': 'x', 'explanation': 'The diagonal entry 2 scales x-coordinates; y with factor 1 is untouched.'}
+GAME = {"type": "game", 'id': 'math-matrix-scaling-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Scaling Matrix', 'question': 'The matrix [[2,0],[0,1]] stretches a shape in which direction?', 'choices': [{'id': 'x', 'label': 'x direction'}, {'id': 'y', 'label': 'y direction'}, {'id': 'both', 'label': 'Both equally'}], 'answer': 'x', 'explanation': 'The diagonal entry 2 scales x-coordinates; y with factor 1 is untouched.'}
 
 CARDS = []
 POLYS = []

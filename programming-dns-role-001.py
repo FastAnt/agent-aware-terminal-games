@@ -1,7 +1,7 @@
 """DNS - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-dns-role-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'DNS', 'question': 'What does DNS mainly do?', 'choices': [{'id': 'ip', 'label': 'Maps names to IP addresses'}, {'id': 'enc', 'label': 'Encrypts pages'}, {'id': 'store', 'label': 'Stores files'}], 'answer': 'ip', 'explanation': 'DNS translates human names like example.org into the IP addresses machines route to.'}
+GAME = {"type": "game", 'id': 'programming-dns-role-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'DNS', 'question': 'What does DNS mainly do?', 'choices': [{'id': 'ip', 'label': 'Maps names to IP addresses'}, {'id': 'enc', 'label': 'Encrypts pages'}, {'id': 'store', 'label': 'Stores files'}], 'answer': 'ip', 'explanation': 'DNS translates human names like example.org into the IP addresses machines route to.'}
 
 CARDS = []
 POLYS = []

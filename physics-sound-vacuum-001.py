@@ -5,7 +5,7 @@ Inspiration notes: see games-base/SOURCES.md (original idea, no copied assets).
 """
 import math
 
-GAME = {'id': 'physics-sound-vacuum-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Sound in Space', 'question': 'Why can sound not travel through a vacuum?', 'choices': [{'id': 'nomed', 'label': 'It needs a medium'}, {'id': 'slow', 'label': 'It is too slow'}, {'id': 'cold', 'label': 'It is too cold'}], 'answer': 'nomed', 'explanation': 'Sound is vibration of matter; with no particles to vibrate, there is nothing to carry it.'}
+GAME = {"type": "game", 'id': 'physics-sound-vacuum-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Sound in Space', 'question': 'Why can sound not travel through a vacuum?', 'choices': [{'id': 'nomed', 'label': 'It needs a medium'}, {'id': 'slow', 'label': 'It is too slow'}, {'id': 'cold', 'label': 'It is too cold'}], 'answer': 'nomed', 'explanation': 'Sound is vibration of matter; with no particles to vibrate, there is nothing to carry it.'}
 
 SCENE = "wave"
 

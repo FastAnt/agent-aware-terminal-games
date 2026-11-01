@@ -1,7 +1,7 @@
 """Triangular Determinant - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'math-matrix-triangular-det-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Triangular Determinant', 'question': 'The determinant of an upper-triangular matrix is what?', 'choices': [{'id': 'prod', 'label': 'Product of the diagonal'}, {'id': 'sum', 'label': 'Sum of the diagonal'}, {'id': 'zero', 'label': 'Always zero'}], 'answer': 'prod', 'explanation': 'Triangular determinants collapse to the diagonal product, zeros contribute nothing.'}
+GAME = {"type": "game", 'id': 'math-matrix-triangular-det-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Triangular Determinant', 'question': 'The determinant of an upper-triangular matrix is what?', 'choices': [{'id': 'prod', 'label': 'Product of the diagonal'}, {'id': 'sum', 'label': 'Sum of the diagonal'}, {'id': 'zero', 'label': 'Always zero'}], 'answer': 'prod', 'explanation': 'Triangular determinants collapse to the diagonal product, zeros contribute nothing.'}
 
 CARDS = []
 POLYS = []

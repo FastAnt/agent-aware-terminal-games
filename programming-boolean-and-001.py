@@ -1,7 +1,7 @@
 """Boolean AND - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-boolean-and-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Boolean AND', 'question': 'When is A AND B true?', 'choices': [{'id': 'both', 'label': 'Only if both are true'}, {'id': 'any', 'label': 'If either is true'}, {'id': 'never', 'label': 'Never'}], 'answer': 'both', 'explanation': 'AND needs both inputs true; OR needs at least one, which is the common confusion.'}
+GAME = {"type": "game", 'id': 'programming-boolean-and-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Boolean AND', 'question': 'When is A AND B true?', 'choices': [{'id': 'both', 'label': 'Only if both are true'}, {'id': 'any', 'label': 'If either is true'}, {'id': 'never', 'label': 'Never'}], 'answer': 'both', 'explanation': 'AND needs both inputs true; OR needs at least one, which is the common confusion.'}
 
 CARDS = []
 POLYS = []

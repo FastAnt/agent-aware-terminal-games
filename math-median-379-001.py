@@ -1,7 +1,7 @@
 """Median - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'math-median-379-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Median', 'question': 'What is the median of 3, 7, 9?', 'choices': [{'id': 'm7', 'label': '7'}, {'id': 'm3', 'label': '3'}, {'id': 'm9', 'label': '9'}], 'answer': 'm7', 'explanation': 'The median is the middle value in order, here 7 between 3 and 9.'}
+GAME = {"type": "game", 'id': 'math-median-379-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Median', 'question': 'What is the median of 3, 7, 9?', 'choices': [{'id': 'm7', 'label': '7'}, {'id': 'm3', 'label': '3'}, {'id': 'm9', 'label': '9'}], 'answer': 'm7', 'explanation': 'The median is the middle value in order, here 7 between 3 and 9.'}
 
 CARDS = []
 POLYS = []

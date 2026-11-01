@@ -1,7 +1,7 @@
 """Load Path - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'architecture-load-path-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Architecture', 'title': 'Load Path', 'question': 'Roof loads in a building travel to the ground through what sequence?', 'choices': [{'id': 'path', 'label': 'Slab -> beams -> columns -> foundation'}, {'id': 'path2', 'label': 'Straight through air'}, {'id': 'path3', 'label': 'Walls only'}], 'answer': 'path', 'explanation': 'Every load needs a continuous path of structure down to the foundation.'}
+GAME = {"type": "game", 'id': 'architecture-load-path-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Architecture', 'title': 'Load Path', 'question': 'Roof loads in a building travel to the ground through what sequence?', 'choices': [{'id': 'path', 'label': 'Slab -> beams -> columns -> foundation'}, {'id': 'path2', 'label': 'Straight through air'}, {'id': 'path3', 'label': 'Walls only'}], 'answer': 'path', 'explanation': 'Every load needs a continuous path of structure down to the foundation.'}
 
 CARDS = []
 POLYS = []

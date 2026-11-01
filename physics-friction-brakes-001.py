@@ -1,7 +1,7 @@
 """Brakes - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-friction-brakes-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Brakes', 'question': 'Car brakes slow the wheels mainly by converting kinetic energy into what via friction?', 'choices': [{'id': 'heat', 'label': 'Heat'}, {'id': 'sound', 'label': 'Sound'}, {'id': 'light', 'label': 'Light'}], 'answer': 'heat', 'explanation': 'Brake pads clamp and friction turns motion into heat, which is why brakes get hot.'}
+GAME = {"type": "game", 'id': 'physics-friction-brakes-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Brakes', 'question': 'Car brakes slow the wheels mainly by converting kinetic energy into what via friction?', 'choices': [{'id': 'heat', 'label': 'Heat'}, {'id': 'sound', 'label': 'Sound'}, {'id': 'light', 'label': 'Light'}], 'answer': 'heat', 'explanation': 'Brake pads clamp and friction turns motion into heat, which is why brakes get hot.'}
 
 CARDS = []
 POLYS = []

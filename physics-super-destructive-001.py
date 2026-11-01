@@ -1,7 +1,7 @@
 """Destructive Interference - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-super-destructive-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Destructive Interference', 'question': 'Two identical waves meeting exactly out of phase produce what?', 'choices': [{'id': 'zero', 'label': 'Near cancellation'}, {'id': 'big', 'label': 'Double amplitude'}, {'id': 'half', 'label': 'Half amplitude'}], 'answer': 'zero', 'explanation': 'Peak meets trough everywhere, so they cancel (used in noise-cancelling headphones).'}
+GAME = {"type": "game", 'id': 'physics-super-destructive-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Destructive Interference', 'question': 'Two identical waves meeting exactly out of phase produce what?', 'choices': [{'id': 'zero', 'label': 'Near cancellation'}, {'id': 'big', 'label': 'Double amplitude'}, {'id': 'half', 'label': 'Half amplitude'}], 'answer': 'zero', 'explanation': 'Peak meets trough everywhere, so they cancel (used in noise-cancelling headphones).'}
 
 CARDS = []
 POLYS = []

@@ -1,7 +1,7 @@
 """Why Pool? - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-pool-why-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Why Pool?', 'question': 'Pooling layers are used mainly to do what?', 'choices': [{'id': 'down', 'label': 'Downsample and add small shift-tolerance'}, {'id': 'up', 'label': 'Upsample'}, {'id': 'lab', 'label': 'Label data'}], 'answer': 'down', 'explanation': 'Smaller maps cost less compute and the exact position of a feature matters less.'}
+GAME = {"type": "game", 'id': 'ml-pool-why-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Why Pool?', 'question': 'Pooling layers are used mainly to do what?', 'choices': [{'id': 'down', 'label': 'Downsample and add small shift-tolerance'}, {'id': 'up', 'label': 'Upsample'}, {'id': 'lab', 'label': 'Label data'}], 'answer': 'down', 'explanation': 'Smaller maps cost less compute and the exact position of a feature matters less.'}
 
 CARDS = []
 POLYS = []

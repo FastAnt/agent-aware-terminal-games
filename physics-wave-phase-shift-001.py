@@ -1,7 +1,7 @@
 """Phase Shift - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-wave-phase-shift-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Phase Shift', 'question': 'Shifting a sine wave by half a period gives what?', 'choices': [{'id': 'neg', 'label': 'The inverted wave'}, {'id': 'same', 'label': 'The same wave'}, {'id': 'zero', 'label': 'Zero'}], 'answer': 'neg', 'explanation': 'Half a period later sine reaches the opposite value: sin(x+pi) = -sin x.'}
+GAME = {"type": "game", 'id': 'physics-wave-phase-shift-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Phase Shift', 'question': 'Shifting a sine wave by half a period gives what?', 'choices': [{'id': 'neg', 'label': 'The inverted wave'}, {'id': 'same', 'label': 'The same wave'}, {'id': 'zero', 'label': 'Zero'}], 'answer': 'neg', 'explanation': 'Half a period later sine reaches the opposite value: sin(x+pi) = -sin x.'}
 
 CARDS = []
 POLYS = []

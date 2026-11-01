@@ -10,6 +10,7 @@ fast and pure — it runs ~20x/second while the pane is open.
 import math
 
 GAME = {
+    "type": "game",
     "id": "physics-orbits-001",
     "kind": "quiz",
     "kicker": "MINI GAME",

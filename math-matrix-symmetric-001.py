@@ -1,7 +1,7 @@
 """Symmetric Matrix - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'math-matrix-symmetric-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Symmetric Matrix', 'question': 'A matrix is symmetric when it equals what?', 'choices': [{'id': 't', 'label': 'Its transpose'}, {'id': 'n', 'label': 'Its negative'}, {'id': 'i', 'label': 'Its inverse'}], 'answer': 't', 'explanation': 'Symmetric means a_ij = a_ji: the matrix mirrors over its diagonal.'}
+GAME = {"type": "game", 'id': 'math-matrix-symmetric-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Symmetric Matrix', 'question': 'A matrix is symmetric when it equals what?', 'choices': [{'id': 't', 'label': 'Its transpose'}, {'id': 'n', 'label': 'Its negative'}, {'id': 'i', 'label': 'Its inverse'}], 'answer': 't', 'explanation': 'Symmetric means a_ij = a_ji: the matrix mirrors over its diagonal.'}
 
 CARDS = []
 POLYS = []

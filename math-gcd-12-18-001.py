@@ -1,7 +1,7 @@
 """Greatest Common Divisor - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'math-gcd-12-18-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Greatest Common Divisor', 'question': 'What is the greatest common divisor of 12 and 18?', 'choices': [{'id': 'g6', 'label': '6'}, {'id': 'g3', 'label': '3'}, {'id': 'g36', 'label': '36'}], 'answer': 'g6', 'explanation': 'Divisors of 12 are 1,2,3,4,6,12 and of 18 are 1,2,3,6,9,18; the greatest shared one is 6.'}
+GAME = {"type": "game", 'id': 'math-gcd-12-18-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Greatest Common Divisor', 'question': 'What is the greatest common divisor of 12 and 18?', 'choices': [{'id': 'g6', 'label': '6'}, {'id': 'g3', 'label': '3'}, {'id': 'g36', 'label': '36'}], 'answer': 'g6', 'explanation': 'Divisors of 12 are 1,2,3,4,6,12 and of 18 are 1,2,3,6,9,18; the greatest shared one is 6.'}
 
 CARDS = []
 POLYS = []

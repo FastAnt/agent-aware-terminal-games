@@ -1,7 +1,7 @@
 """Cross-Entropy Loss - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-cross-entropy-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Cross-Entropy Loss', 'question': 'Cross-entropy loss grows large when the model does what?', 'choices': [{'id': 'conf', 'label': 'Is confidently wrong'}, {'id': 'right', 'label': 'Is right and confident'}, {'id': 'unsure', 'label': 'Is unsure but right'}], 'answer': 'conf', 'explanation': 'It takes -log(probability of truth); near-zero confidence in truth explodes the loss.'}
+GAME = {"type": "game", 'id': 'ml-cross-entropy-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Cross-Entropy Loss', 'question': 'Cross-entropy loss grows large when the model does what?', 'choices': [{'id': 'conf', 'label': 'Is confidently wrong'}, {'id': 'right', 'label': 'Is right and confident'}, {'id': 'unsure', 'label': 'Is unsure but right'}], 'answer': 'conf', 'explanation': 'It takes -log(probability of truth); near-zero confidence in truth explodes the loss.'}
 
 CARDS = []
 POLYS = []

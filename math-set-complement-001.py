@@ -1,7 +1,7 @@
 """Complement - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'math-set-complement-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Complement', 'question': 'The complement of A contains elements that are where?', 'choices': [{'id': 'notin', 'label': 'Outside A'}, {'id': 'in', 'label': 'Inside A'}, {'id': 'both', 'label': 'In both sets'}], 'answer': 'notin', 'explanation': 'A complement is everything in the universe that is not in A.'}
+GAME = {"type": "game", 'id': 'math-set-complement-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Complement', 'question': 'The complement of A contains elements that are where?', 'choices': [{'id': 'notin', 'label': 'Outside A'}, {'id': 'in', 'label': 'Inside A'}, {'id': 'both', 'label': 'In both sets'}], 'answer': 'notin', 'explanation': 'A complement is everything in the universe that is not in A.'}
 
 CARDS = []
 POLYS = []

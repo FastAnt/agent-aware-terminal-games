@@ -1,7 +1,7 @@
 """XOR Cipher - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-xor-cipher-rev-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'XOR Cipher', 'question': 'XOR-ing a message with the same key twice returns what?', 'choices': [{'id': 'orig', 'label': 'The original message'}, {'id': 'zeros', 'label': 'All zeros'}, {'id': 'key', 'label': 'The key'}], 'answer': 'orig', 'explanation': 'Since x XOR k XOR k = x, the key cancels itself: reversible encryption.'}
+GAME = {"type": "game", 'id': 'programming-xor-cipher-rev-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'XOR Cipher', 'question': 'XOR-ing a message with the same key twice returns what?', 'choices': [{'id': 'orig', 'label': 'The original message'}, {'id': 'zeros', 'label': 'All zeros'}, {'id': 'key', 'label': 'The key'}], 'answer': 'orig', 'explanation': 'Since x XOR k XOR k = x, the key cancels itself: reversible encryption.'}
 
 CARDS = []
 POLYS = []

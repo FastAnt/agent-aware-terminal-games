@@ -1,7 +1,7 @@
 """Train / Test Split - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-test-split-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Train / Test Split', 'question': 'Why keep a separate test set?', 'choices': [{'id': 'unseen', 'label': 'To evaluate on unseen data'}, {'id': 'more', 'label': 'To train longer'}, {'id': 'label', 'label': 'To label data'}], 'answer': 'unseen', 'explanation': 'Only unseen data honestly estimates how the model will behave in the real world.'}
+GAME = {"type": "game", 'id': 'ml-test-split-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Train / Test Split', 'question': 'Why keep a separate test set?', 'choices': [{'id': 'unseen', 'label': 'To evaluate on unseen data'}, {'id': 'more', 'label': 'To train longer'}, {'id': 'label', 'label': 'To label data'}], 'answer': 'unseen', 'explanation': 'Only unseen data honestly estimates how the model will behave in the real world.'}
 
 CARDS = []
 POLYS = []

@@ -1,7 +1,7 @@
 """Area of a Triangle - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'geometry-triangle-area-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Geometry', 'title': 'Area of a Triangle', 'question': 'The area of a triangle is which formula?', 'choices': [{'id': 'bh', 'label': 'base * height / 2'}, {'id': 'bh2', 'label': 'base * height'}, {'id': 'bs', 'label': 'base + height'}], 'answer': 'bh', 'explanation': 'A triangle is half of the parallelogram on the same base and height, hence base*height/2.'}
+GAME = {"type": "game", 'id': 'geometry-triangle-area-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Geometry', 'title': 'Area of a Triangle', 'question': 'The area of a triangle is which formula?', 'choices': [{'id': 'bh', 'label': 'base * height / 2'}, {'id': 'bh2', 'label': 'base * height'}, {'id': 'bs', 'label': 'base + height'}], 'answer': 'bh', 'explanation': 'A triangle is half of the parallelogram on the same base and height, hence base*height/2.'}
 
 CARDS = []
 POLYS = []

@@ -1,7 +1,7 @@
 """Vacuous Truth - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'math-implies-vacuous-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Vacuous Truth', 'question': 'If P is false, the implication P -> Q is what?', 'choices': [{'id': 'true', 'label': 'True regardless of Q'}, {'id': 'false', 'label': 'False'}, {'id': 'dep', 'label': 'Depends on Q'}], 'answer': 'true', 'explanation': 'A promise conditioned on P is not broken when P never happens: vacuously true.'}
+GAME = {"type": "game", 'id': 'math-implies-vacuous-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Vacuous Truth', 'question': 'If P is false, the implication P -> Q is what?', 'choices': [{'id': 'true', 'label': 'True regardless of Q'}, {'id': 'false', 'label': 'False'}, {'id': 'dep', 'label': 'Depends on Q'}], 'answer': 'true', 'explanation': 'A promise conditioned on P is not broken when P never happens: vacuously true.'}
 
 CARDS = []
 POLYS = []

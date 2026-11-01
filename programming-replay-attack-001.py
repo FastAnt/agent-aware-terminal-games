@@ -1,7 +1,7 @@
 """Replay Attacks - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-replay-attack-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Replay Attacks', 'question': 'A nonce/timestamp in requests mainly stops which attack?', 'choices': [{'id': 'replay', 'label': 'Replaying a captured request'}, {'id': 'brute', 'label': 'Brute force'}, {'id': 'sql', 'label': 'SQL injection'}], 'answer': 'replay', 'explanation': 'Freshness values let the server reject a byte-for-byte resend of an old valid request.'}
+GAME = {"type": "game", 'id': 'programming-replay-attack-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Replay Attacks', 'question': 'A nonce/timestamp in requests mainly stops which attack?', 'choices': [{'id': 'replay', 'label': 'Replaying a captured request'}, {'id': 'brute', 'label': 'Brute force'}, {'id': 'sql', 'label': 'SQL injection'}], 'answer': 'replay', 'explanation': 'Freshness values let the server reject a byte-for-byte resend of an old valid request.'}
 
 CARDS = []
 POLYS = []

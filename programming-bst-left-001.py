@@ -5,7 +5,7 @@ Inspiration notes: see games-base/SOURCES.md (original idea, no copied assets).
 """
 import math
 
-GAME = {'id': 'programming-bst-left-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Binary Search Tree', 'question': 'In a binary search tree, smaller keys go where?', 'choices': [{'id': 'left', 'label': 'Left subtree'}, {'id': 'right', 'label': 'Right subtree'}, {'id': 'root', 'label': 'At the root'}], 'answer': 'left', 'explanation': 'By convention smaller keys go left and larger keys right, which makes search a guided descent.'}
+GAME = {"type": "game", 'id': 'programming-bst-left-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Binary Search Tree', 'question': 'In a binary search tree, smaller keys go where?', 'choices': [{'id': 'left', 'label': 'Left subtree'}, {'id': 'right', 'label': 'Right subtree'}, {'id': 'root', 'label': 'At the root'}], 'answer': 'left', 'explanation': 'By convention smaller keys go left and larger keys right, which makes search a guided descent.'}
 
 SCENE = "tree"
 

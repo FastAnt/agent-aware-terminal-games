@@ -1,7 +1,7 @@
 """Q Factor - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-quality-factor-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Q Factor', 'question': 'A high-Q oscillator does what after being struck?', 'choices': [{'id': 'long', 'label': 'Rings for many cycles'}, {'id': 'once', 'label': 'Stops at once'}, {'id': 'grow', 'label': 'Grows forever'}], 'answer': 'long', 'explanation': 'Q measures stored energy versus loss per cycle; high Q means slow decay and sharp resonance.'}
+GAME = {"type": "game", 'id': 'physics-quality-factor-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Q Factor', 'question': 'A high-Q oscillator does what after being struck?', 'choices': [{'id': 'long', 'label': 'Rings for many cycles'}, {'id': 'once', 'label': 'Stops at once'}, {'id': 'grow', 'label': 'Grows forever'}], 'answer': 'long', 'explanation': 'Q measures stored energy versus loss per cycle; high Q means slow decay and sharp resonance.'}
 
 CARDS = []
 POLYS = []

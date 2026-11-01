@@ -1,7 +1,7 @@
 """Constructive Interference - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-super-constructive-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Constructive Interference', 'question': 'Two identical waves meeting in phase produce what?', 'choices': [{'id': 'big', 'label': 'Double amplitude'}, {'id': 'zero', 'label': 'Silence'}, {'id': 'same', 'label': 'Same amplitude'}], 'answer': 'big', 'explanation': 'In phase, peaks add: superposition gives twice the amplitude.'}
+GAME = {"type": "game", 'id': 'physics-super-constructive-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Constructive Interference', 'question': 'Two identical waves meeting in phase produce what?', 'choices': [{'id': 'big', 'label': 'Double amplitude'}, {'id': 'zero', 'label': 'Silence'}, {'id': 'same', 'label': 'Same amplitude'}], 'answer': 'big', 'explanation': 'In phase, peaks add: superposition gives twice the amplitude.'}
 
 CARDS = []
 POLYS = []

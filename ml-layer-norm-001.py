@@ -1,7 +1,7 @@
 """Layer Normalization - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-layer-norm-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Layer Normalization', 'question': 'Layer norm normalises across what, for one example?', 'choices': [{'id': 'feat', 'label': 'Its features'}, {'id': 'batch', 'label': 'The whole batch'}, {'id': 'time', 'label': 'Time steps'}], 'answer': 'feat', 'explanation': "It standardises within a single example's feature vector, batch-size independent."}
+GAME = {"type": "game", 'id': 'ml-layer-norm-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Layer Normalization', 'question': 'Layer norm normalises across what, for one example?', 'choices': [{'id': 'feat', 'label': 'Its features'}, {'id': 'batch', 'label': 'The whole batch'}, {'id': 'time', 'label': 'Time steps'}], 'answer': 'feat', 'explanation': "It standardises within a single example's feature vector, batch-size independent."}
 
 CARDS = []
 POLYS = []

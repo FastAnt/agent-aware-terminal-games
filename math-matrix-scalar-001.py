@@ -1,7 +1,7 @@
 """Scalar Multiple - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'math-matrix-scalar-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Scalar Multiple', 'question': 'Multiplying a matrix by scalar 2 does what?', 'choices': [{'id': 'each', 'label': 'Doubles every entry'}, {'id': 'diag', 'label': 'Doubles the diagonal only'}, {'id': 'row', 'label': 'Doubles the first row'}], 'answer': 'each', 'explanation': 'A scalar reaches every entry, unlike row operations.'}
+GAME = {"type": "game", 'id': 'math-matrix-scalar-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Scalar Multiple', 'question': 'Multiplying a matrix by scalar 2 does what?', 'choices': [{'id': 'each', 'label': 'Doubles every entry'}, {'id': 'diag', 'label': 'Doubles the diagonal only'}, {'id': 'row', 'label': 'Doubles the first row'}], 'answer': 'each', 'explanation': 'A scalar reaches every entry, unlike row operations.'}
 
 CARDS = []
 POLYS = []

@@ -1,7 +1,7 @@
 """Beam Under Load - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'architecture-beam-bending-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Architecture', 'title': 'Beam Under Load', 'question': 'A simply supported beam with a centre load bends into which shape?', 'choices': [{'id': 'sag', 'label': 'Sagging (concave up)'}, {'id': 'hog', 'label': 'Hogging up'}, {'id': 'flat', 'label': 'Stays flat'}], 'answer': 'sag', 'explanation': 'The load pushes the middle down: top fibres compress, bottom stretch.'}
+GAME = {"type": "game", 'id': 'architecture-beam-bending-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Architecture', 'title': 'Beam Under Load', 'question': 'A simply supported beam with a centre load bends into which shape?', 'choices': [{'id': 'sag', 'label': 'Sagging (concave up)'}, {'id': 'hog', 'label': 'Hogging up'}, {'id': 'flat', 'label': 'Stays flat'}], 'answer': 'sag', 'explanation': 'The load pushes the middle down: top fibres compress, bottom stretch.'}
 
 CARDS = []
 POLYS = []

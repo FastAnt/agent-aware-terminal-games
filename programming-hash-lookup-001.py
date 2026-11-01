@@ -1,7 +1,7 @@
 """Hash Map Lookup - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-hash-lookup-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Hash Map Lookup', 'question': 'Average lookup time in a well-sized hash map is what?', 'choices': [{'id': 'o1', 'label': 'O(1)'}, {'id': 'on', 'label': 'O(n)'}, {'id': 'olog', 'label': 'O(log n)'}], 'answer': 'o1', 'explanation': 'Hashing jumps straight to a bucket, so average lookup is constant time O(1).'}
+GAME = {"type": "game", 'id': 'programming-hash-lookup-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Hash Map Lookup', 'question': 'Average lookup time in a well-sized hash map is what?', 'choices': [{'id': 'o1', 'label': 'O(1)'}, {'id': 'on', 'label': 'O(n)'}, {'id': 'olog', 'label': 'O(log n)'}], 'answer': 'o1', 'explanation': 'Hashing jumps straight to a bucket, so average lookup is constant time O(1).'}
 
 CARDS = []
 POLYS = []

@@ -7,6 +7,7 @@ Click a component or use the choices below.
 import math
 
 GAME = {
+    "type": "game",
     "id": "architecture-mvc-001",
     "kind": "quiz",
     "kicker": "ARCHITECTURE",

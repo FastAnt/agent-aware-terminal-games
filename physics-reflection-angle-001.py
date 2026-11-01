@@ -1,7 +1,7 @@
 """Reflection - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-reflection-angle-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Reflection', 'question': 'A ray hits a mirror at 30 degrees to the normal. At what angle does it reflect?', 'choices': [{'id': 'r30', 'label': '30 degrees'}, {'id': 'r60', 'label': '60 degrees'}, {'id': 'r0', 'label': '0 degrees'}], 'answer': 'r30', 'explanation': 'The law of reflection: the angle of reflection equals the angle of incidence, both measured from the normal.'}
+GAME = {"type": "game", 'id': 'physics-reflection-angle-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Reflection', 'question': 'A ray hits a mirror at 30 degrees to the normal. At what angle does it reflect?', 'choices': [{'id': 'r30', 'label': '30 degrees'}, {'id': 'r60', 'label': '60 degrees'}, {'id': 'r0', 'label': '0 degrees'}], 'answer': 'r30', 'explanation': 'The law of reflection: the angle of reflection equals the angle of incidence, both measured from the normal.'}
 
 CARDS = []
 POLYS = []

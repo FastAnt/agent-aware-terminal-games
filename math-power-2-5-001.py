@@ -1,7 +1,7 @@
 """Power of Two - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'math-power-2-5-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Power of Two', 'question': 'What is 2^5?', 'choices': [{'id': 'p32', 'label': '32'}, {'id': 'p10', 'label': '10'}, {'id': 'p25', 'label': '25'}], 'answer': 'p32', 'explanation': '2^5 = 2*2*2*2*2 = 32.'}
+GAME = {"type": "game", 'id': 'math-power-2-5-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Power of Two', 'question': 'What is 2^5?', 'choices': [{'id': 'p32', 'label': '32'}, {'id': 'p10', 'label': '10'}, {'id': 'p25', 'label': '25'}], 'answer': 'p32', 'explanation': '2^5 = 2*2*2*2*2 = 32.'}
 
 CARDS = []
 POLYS = []

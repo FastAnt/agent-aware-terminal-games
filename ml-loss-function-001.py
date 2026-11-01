@@ -5,7 +5,7 @@ Inspiration notes: see games-base/SOURCES.md (original idea, no copied assets).
 """
 import math
 
-GAME = {'id': 'ml-loss-function-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Loss Function', 'question': 'Training minimises a loss function that measures what?', 'choices': [{'id': 'err', 'label': 'Prediction error'}, {'id': 'time', 'label': 'Training time only'}, {'id': 'size', 'label': 'Model file size'}], 'answer': 'err', 'explanation': 'The loss scores how wrong predictions are, and gradients of it drive learning.'}
+GAME = {"type": "game", 'id': 'ml-loss-function-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Loss Function', 'question': 'Training minimises a loss function that measures what?', 'choices': [{'id': 'err', 'label': 'Prediction error'}, {'id': 'time', 'label': 'Training time only'}, {'id': 'size', 'label': 'Model file size'}], 'answer': 'err', 'explanation': 'The loss scores how wrong predictions are, and gradients of it drive learning.'}
 
 SCENE = "parabola"
 

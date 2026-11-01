@@ -1,7 +1,7 @@
 """Tree Root - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-tree-root-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Tree Root', 'question': 'Click the node with no parent in a tree.', 'choices': [{'id': 'root', 'label': 'Root'}, {'id': 'leaf', 'label': 'Leaf'}, {'id': 'edge', 'label': 'Edge'}], 'answer': 'root', 'explanation': 'The root is the single top node with no parent; leaves have no children and edges are links.'}
+GAME = {"type": "game", 'id': 'programming-tree-root-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Tree Root', 'question': 'Click the node with no parent in a tree.', 'choices': [{'id': 'root', 'label': 'Root'}, {'id': 'leaf', 'label': 'Leaf'}, {'id': 'edge', 'label': 'Edge'}], 'answer': 'root', 'explanation': 'The root is the single top node with no parent; leaves have no children and edges are links.'}
 
 CARDS = []
 POLYS = []

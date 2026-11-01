@@ -1,7 +1,7 @@
 """Hydraulics (Pascal) - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-pascal-law-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Hydraulics (Pascal)', 'question': 'In a hydraulic lift, pressure applied to a small piston appears at a big piston how?', 'choices': [{'id': 'eq', 'label': 'Same pressure, larger force'}, {'id': 'less', 'label': 'Less pressure'}, {'id': 'none', 'label': 'Not transmitted'}], 'answer': 'eq', 'explanation': 'Pascal: pressure transmits undiminished; force scales with piston area, multiplying lift.'}
+GAME = {"type": "game", 'id': 'physics-pascal-law-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Hydraulics (Pascal)', 'question': 'In a hydraulic lift, pressure applied to a small piston appears at a big piston how?', 'choices': [{'id': 'eq', 'label': 'Same pressure, larger force'}, {'id': 'less', 'label': 'Less pressure'}, {'id': 'none', 'label': 'Not transmitted'}], 'answer': 'eq', 'explanation': 'Pascal: pressure transmits undiminished; force scales with piston area, multiplying lift.'}
 
 CARDS = []
 POLYS = []

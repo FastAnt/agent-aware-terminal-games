@@ -1,7 +1,7 @@
 """Simple Harmonic Motion - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-shm-restoring-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Simple Harmonic Motion', 'question': 'In SHM, the acceleration always points where?', 'choices': [{'id': 'eq', 'label': 'Toward equilibrium'}, {'id': 'away', 'label': 'Away from equilibrium'}, {'id': 'tan', 'label': 'Along the motion'}], 'answer': 'eq', 'explanation': 'The restoring force F = -kx pulls back toward equilibrium, overshoot creates the oscillation.'}
+GAME = {"type": "game", 'id': 'physics-shm-restoring-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Simple Harmonic Motion', 'question': 'In SHM, the acceleration always points where?', 'choices': [{'id': 'eq', 'label': 'Toward equilibrium'}, {'id': 'away', 'label': 'Away from equilibrium'}, {'id': 'tan', 'label': 'Along the motion'}], 'answer': 'eq', 'explanation': 'The restoring force F = -kx pulls back toward equilibrium, overshoot creates the oscillation.'}
 
 CARDS = []
 POLYS = []

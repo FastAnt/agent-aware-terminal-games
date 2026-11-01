@@ -1,7 +1,7 @@
 """Add Two Matrices - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'math-matrix-add-compute-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Add Two Matrices', 'question': 'What is the sum of the two matrices shown?', 'choices': [{'id': 'r1', 'label': '[[6,8],[10,12]]'}, {'id': 'r2', 'label': '[[6,8],[10,11]]'}, {'id': 'r3', 'label': '[[5,12],[21,32]]'}], 'answer': 'r1', 'explanation': 'Add matching entries: 1+5, 2+6, 3+7, 4+8 gives [[6,8],[10,12]].'}
+GAME = {"type": "game", 'id': 'math-matrix-add-compute-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Add Two Matrices', 'question': 'What is the sum of the two matrices shown?', 'choices': [{'id': 'r1', 'label': '[[6,8],[10,12]]'}, {'id': 'r2', 'label': '[[6,8],[10,11]]'}, {'id': 'r3', 'label': '[[5,12],[21,32]]'}], 'answer': 'r1', 'explanation': 'Add matching entries: 1+5, 2+6, 3+7, 4+8 gives [[6,8],[10,12]].'}
 
 CARDS = []
 POLYS = []

@@ -1,7 +1,7 @@
 """Password Salts - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-salt-purpose-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Password Salts', 'question': 'A unique salt per password defeats which attack?', 'choices': [{'id': 'rainbow', 'label': 'Precomputed rainbow tables'}, {'id': 'brute', 'label': 'All brute force'}, {'id': 'phish', 'label': 'Phishing'}], 'answer': 'rainbow', 'explanation': 'Salts make identical passwords hash differently, so one precomputed table cannot crack all at once.'}
+GAME = {"type": "game", 'id': 'programming-salt-purpose-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Password Salts', 'question': 'A unique salt per password defeats which attack?', 'choices': [{'id': 'rainbow', 'label': 'Precomputed rainbow tables'}, {'id': 'brute', 'label': 'All brute force'}, {'id': 'phish', 'label': 'Phishing'}], 'answer': 'rainbow', 'explanation': 'Salts make identical passwords hash differently, so one precomputed table cannot crack all at once.'}
 
 CARDS = []
 POLYS = []

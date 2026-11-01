@@ -1,7 +1,7 @@
 """Overfitting - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-overfitting-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Overfitting', 'question': 'Overfitting means a model does what?', 'choices': [{'id': 'memor', 'label': 'Memorises training data and generalises poorly'}, {'id': 'under', 'label': 'Learns nothing'}, {'id': 'fast', 'label': 'Trains too fast'}], 'answer': 'memor', 'explanation': 'An overfit model captures noise in the training set, so it performs worse on new data.'}
+GAME = {"type": "game", 'id': 'ml-overfitting-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Overfitting', 'question': 'Overfitting means a model does what?', 'choices': [{'id': 'memor', 'label': 'Memorises training data and generalises poorly'}, {'id': 'under', 'label': 'Learns nothing'}, {'id': 'fast', 'label': 'Trains too fast'}], 'answer': 'memor', 'explanation': 'An overfit model captures noise in the training set, so it performs worse on new data.'}
 
 CARDS = []
 POLYS = []

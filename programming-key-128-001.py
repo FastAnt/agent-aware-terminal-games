@@ -1,7 +1,7 @@
 """128-Bit Keys - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-key-128-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': '128-Bit Keys', 'question': 'A 128-bit key has roughly how many possibilities?', 'choices': [{'id': 'k128', 'label': '2^128, infeasible to brute force'}, {'id': 'k128b', 'label': '128 thousand'}, {'id': 'k128c', 'label': '128 million'}], 'answer': 'k128', 'explanation': '2^128 is astronomically large; exhaustive search is physically unrealistic.'}
+GAME = {"type": "game", 'id': 'programming-key-128-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': '128-Bit Keys', 'question': 'A 128-bit key has roughly how many possibilities?', 'choices': [{'id': 'k128', 'label': '2^128, infeasible to brute force'}, {'id': 'k128b', 'label': '128 thousand'}, {'id': 'k128c', 'label': '128 million'}], 'answer': 'k128', 'explanation': '2^128 is astronomically large; exhaustive search is physically unrealistic.'}
 
 CARDS = []
 POLYS = []

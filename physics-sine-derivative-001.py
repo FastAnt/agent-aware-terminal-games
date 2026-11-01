@@ -1,7 +1,7 @@
 """Velocity in SHM - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-sine-derivative-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Velocity in SHM', 'question': 'For x = A sin(omega t), the velocity is proportional to what?', 'choices': [{'id': 'cos', 'label': 'A omega cos(omega t)'}, {'id': 'sin', 'label': 'A sin(omega t)'}, {'id': 'neg', 'label': '-A omega sin(omega t)'}], 'answer': 'cos', 'explanation': 'Differentiating sine gives cosine (times omega): fastest at equilibrium.'}
+GAME = {"type": "game", 'id': 'physics-sine-derivative-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Velocity in SHM', 'question': 'For x = A sin(omega t), the velocity is proportional to what?', 'choices': [{'id': 'cos', 'label': 'A omega cos(omega t)'}, {'id': 'sin', 'label': 'A sin(omega t)'}, {'id': 'neg', 'label': '-A omega sin(omega t)'}], 'answer': 'cos', 'explanation': 'Differentiating sine gives cosine (times omega): fastest at equilibrium.'}
 
 CARDS = []
 POLYS = []

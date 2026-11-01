@@ -1,7 +1,7 @@
 """Tautology - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'math-tautology-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Tautology', 'question': 'A statement that is true for every assignment is called what?', 'choices': [{'id': 'taut', 'label': 'A tautology'}, {'id': 'cont', 'label': 'A contradiction'}, {'id': 'cont2', 'label': 'A contingency'}], 'answer': 'taut', 'explanation': 'A tautology (like P OR not P) is always true; a contradiction is always false.'}
+GAME = {"type": "game", 'id': 'math-tautology-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Tautology', 'question': 'A statement that is true for every assignment is called what?', 'choices': [{'id': 'taut', 'label': 'A tautology'}, {'id': 'cont', 'label': 'A contradiction'}, {'id': 'cont2', 'label': 'A contingency'}], 'answer': 'taut', 'explanation': 'A tautology (like P OR not P) is always true; a contradiction is always false.'}
 
 CARDS = []
 POLYS = []

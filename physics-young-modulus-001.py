@@ -1,7 +1,7 @@
 """Young's Modulus - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-young-modulus-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': "Young's Modulus", 'question': "Young's modulus is the ratio of what in the elastic region?", 'choices': [{'id': 'ys', 'label': 'Stress / strain'}, {'id': 'sy', 'label': 'Strain / stress'}, {'id': 'ff', 'label': 'Force / mass'}], 'answer': 'ys', 'explanation': 'E = sigma/epsilon is the slope of the linear stress-strain curve: stiffness of a material.'}
+GAME = {"type": "game", 'id': 'physics-young-modulus-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': "Young's Modulus", 'question': "Young's modulus is the ratio of what in the elastic region?", 'choices': [{'id': 'ys', 'label': 'Stress / strain'}, {'id': 'sy', 'label': 'Strain / stress'}, {'id': 'ff', 'label': 'Force / mass'}], 'answer': 'ys', 'explanation': 'E = sigma/epsilon is the slope of the linear stress-strain curve: stiffness of a material.'}
 
 CARDS = []
 POLYS = []

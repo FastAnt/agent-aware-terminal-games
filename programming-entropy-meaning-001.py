@@ -1,7 +1,7 @@
 """Entropy - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-entropy-meaning-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Entropy', 'question': 'In cryptography, high entropy means the secret is what?', 'choices': [{'id': 'unpred', 'label': 'Unpredictable / many possibilities'}, {'id': 'long', 'label': 'Long in characters'}, {'id': 'known', 'label': 'Well known'}], 'answer': 'unpred', 'explanation': 'Entropy counts uncertainty in bits; a long but predictable password has little.'}
+GAME = {"type": "game", 'id': 'programming-entropy-meaning-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Entropy', 'question': 'In cryptography, high entropy means the secret is what?', 'choices': [{'id': 'unpred', 'label': 'Unpredictable / many possibilities'}, {'id': 'long', 'label': 'Long in characters'}, {'id': 'known', 'label': 'Well known'}], 'answer': 'unpred', 'explanation': 'Entropy counts uncertainty in bits; a long but predictable password has little.'}
 
 CARDS = []
 POLYS = []

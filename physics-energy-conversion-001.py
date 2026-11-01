@@ -5,7 +5,7 @@ Inspiration notes: see games-base/SOURCES.md (original idea, no copied assets).
 """
 import math
 
-GAME = {'id': 'physics-energy-conversion-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Roller-Coaster Energy', 'question': 'At the top of the first hill a coaster has mostly which energy?', 'choices': [{'id': 'pe', 'label': 'Gravitational potential'}, {'id': 'ke', 'label': 'Kinetic'}, {'id': 'heat', 'label': 'Heat'}], 'answer': 'pe', 'explanation': 'Height stores gravitational potential energy, which converts to kinetic energy as the coaster descends.'}
+GAME = {"type": "game", 'id': 'physics-energy-conversion-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Roller-Coaster Energy', 'question': 'At the top of the first hill a coaster has mostly which energy?', 'choices': [{'id': 'pe', 'label': 'Gravitational potential'}, {'id': 'ke', 'label': 'Kinetic'}, {'id': 'heat', 'label': 'Heat'}], 'answer': 'pe', 'explanation': 'Height stores gravitational potential energy, which converts to kinetic energy as the coaster descends.'}
 
 SCENE = "pendulum"
 

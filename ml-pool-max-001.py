@@ -1,7 +1,7 @@
 """Max Pooling - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-pool-max-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Max Pooling', 'question': 'Max pooling over each 2x2 patch keeps which value?', 'choices': [{'id': 'max', 'label': 'The maximum'}, {'id': 'avg', 'label': 'The average'}, {'id': 'sum', 'label': 'The sum'}], 'answer': 'max', 'explanation': 'It keeps the strongest activation per patch, shrinking the map 2x each side.'}
+GAME = {"type": "game", 'id': 'ml-pool-max-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Max Pooling', 'question': 'Max pooling over each 2x2 patch keeps which value?', 'choices': [{'id': 'max', 'label': 'The maximum'}, {'id': 'avg', 'label': 'The average'}, {'id': 'sum', 'label': 'The sum'}], 'answer': 'max', 'explanation': 'It keeps the strongest activation per patch, shrinking the map 2x each side.'}
 
 CARDS = []
 POLYS = []

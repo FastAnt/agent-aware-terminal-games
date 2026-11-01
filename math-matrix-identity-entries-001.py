@@ -1,7 +1,7 @@
 """Identity Matrix - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'math-matrix-identity-entries-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Identity Matrix', 'question': 'The 2x2 identity matrix has which entries?', 'choices': [{'id': 'id', 'label': '[[1,0],[0,1]]'}, {'id': 'id2', 'label': '[[0,1],[1,0]]'}, {'id': 'id3', 'label': '[[1,1],[1,1]]'}], 'answer': 'id', 'explanation': 'Identity: ones where row equals column, zeros elsewhere.'}
+GAME = {"type": "game", 'id': 'math-matrix-identity-entries-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Identity Matrix', 'question': 'The 2x2 identity matrix has which entries?', 'choices': [{'id': 'id', 'label': '[[1,0],[0,1]]'}, {'id': 'id2', 'label': '[[0,1],[1,0]]'}, {'id': 'id3', 'label': '[[1,1],[1,1]]'}], 'answer': 'id', 'explanation': 'Identity: ones where row equals column, zeros elsewhere.'}
 
 CARDS = []
 POLYS = []

@@ -1,7 +1,7 @@
 """Fourier: Square Wave - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-fourier-square-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Fourier: Square Wave', 'question': 'A square wave is built from which harmonics?', 'choices': [{'id': 'odd', 'label': 'Odd harmonics 1, 3, 5...'}, {'id': 'even', 'label': 'Even only'}, {'id': 'all2', 'label': 'Only the fundamental'}], 'answer': 'odd', 'explanation': 'A square wave sums sine waves at odd multiples with shrinking amplitudes 1, 1/3, 1/5.'}
+GAME = {"type": "game", 'id': 'physics-fourier-square-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Fourier: Square Wave', 'question': 'A square wave is built from which harmonics?', 'choices': [{'id': 'odd', 'label': 'Odd harmonics 1, 3, 5...'}, {'id': 'even', 'label': 'Even only'}, {'id': 'all2', 'label': 'Only the fundamental'}], 'answer': 'odd', 'explanation': 'A square wave sums sine waves at odd multiples with shrinking amplitudes 1, 1/3, 1/5.'}
 
 CARDS = []
 POLYS = []

@@ -1,7 +1,7 @@
 """Attention Scores - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-attention-score-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Attention Scores', 'question': 'Attention weights come from comparing what?', 'choices': [{'id': 'qk', 'label': 'Queries against keys'}, {'id': 'vv', 'label': 'Values against values'}, {'id': 'lab', 'label': 'Labels'}], 'answer': 'qk', 'explanation': 'Scores are QK^T similarities, softmaxed into weights that mix the values V.'}
+GAME = {"type": "game", 'id': 'ml-attention-score-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Attention Scores', 'question': 'Attention weights come from comparing what?', 'choices': [{'id': 'qk', 'label': 'Queries against keys'}, {'id': 'vv', 'label': 'Values against values'}, {'id': 'lab', 'label': 'Labels'}], 'answer': 'qk', 'explanation': 'Scores are QK^T similarities, softmaxed into weights that mix the values V.'}
 
 CARDS = []
 POLYS = []

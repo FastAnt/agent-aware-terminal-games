@@ -1,7 +1,7 @@
 """Second Harmonic - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-harmonic-second-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Second Harmonic', 'question': 'The second harmonic of a 100 Hz fundamental has which frequency?', 'choices': [{'id': 'f200', 'label': '200 Hz'}, {'id': 'f150', 'label': '150 Hz'}, {'id': 'f50', 'label': '50 Hz'}], 'answer': 'f200', 'explanation': 'Harmonics are integer multiples: 2 x 100 = 200 Hz.'}
+GAME = {"type": "game", 'id': 'physics-harmonic-second-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Second Harmonic', 'question': 'The second harmonic of a 100 Hz fundamental has which frequency?', 'choices': [{'id': 'f200', 'label': '200 Hz'}, {'id': 'f150', 'label': '150 Hz'}, {'id': 'f50', 'label': '50 Hz'}], 'answer': 'f200', 'explanation': 'Harmonics are integer multiples: 2 x 100 = 200 Hz.'}
 
 CARDS = []
 POLYS = []

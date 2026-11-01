@@ -1,7 +1,7 @@
 """Leaky ReLU - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-leaky-relu-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Leaky ReLU', 'question': 'Leaky ReLU differs from ReLU how?', 'choices': [{'id': 'leak', 'label': 'Negatives keep a small slope'}, {'id': 'zero', 'label': 'Negatives become 1'}, {'id': 'cap', 'label': 'Positives are capped'}], 'answer': 'leak', 'explanation': 'A small slope (like 0.01x) for negatives keeps some gradient alive.'}
+GAME = {"type": "game", 'id': 'ml-leaky-relu-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Leaky ReLU', 'question': 'Leaky ReLU differs from ReLU how?', 'choices': [{'id': 'leak', 'label': 'Negatives keep a small slope'}, {'id': 'zero', 'label': 'Negatives become 1'}, {'id': 'cap', 'label': 'Positives are capped'}], 'answer': 'leak', 'explanation': 'A small slope (like 0.01x) for negatives keeps some gradient alive.'}
 
 CARDS = []
 POLYS = []

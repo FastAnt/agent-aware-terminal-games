@@ -1,7 +1,7 @@
 """Pulley Advantage - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-pulley-advantage-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Pulley Advantage', 'question': 'A gun tackle with 2 rope segments lifting the load halves what?', 'choices': [{'id': 'force', 'label': 'Required pulling force'}, {'id': 'weight', 'label': 'Weight'}, {'id': 'rope', 'label': 'Rope length'}], 'answer': 'force', 'explanation': 'Tension is shared by 2 segments: half the force, but you pull twice the rope.'}
+GAME = {"type": "game", 'id': 'physics-pulley-advantage-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Pulley Advantage', 'question': 'A gun tackle with 2 rope segments lifting the load halves what?', 'choices': [{'id': 'force', 'label': 'Required pulling force'}, {'id': 'weight', 'label': 'Weight'}, {'id': 'rope', 'label': 'Rope length'}], 'answer': 'force', 'explanation': 'Tension is shared by 2 segments: half the force, but you pull twice the rope.'}
 
 CARDS = []
 POLYS = []

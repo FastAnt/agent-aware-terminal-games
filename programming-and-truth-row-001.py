@@ -1,7 +1,7 @@
 """AND Truth Table - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-and-truth-row-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'AND Truth Table', 'question': 'In the AND truth table, the output is 1 for which row?', 'choices': [{'id': 'tt', 'label': 'A=1, B=1 only'}, {'id': 'any', 'label': 'A=1 in any row'}, {'id': 'tf', 'label': 'A=1, B=0'}], 'answer': 'tt', 'explanation': 'AND needs both inputs high; the other three rows all give 0.'}
+GAME = {"type": "game", 'id': 'programming-and-truth-row-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'AND Truth Table', 'question': 'In the AND truth table, the output is 1 for which row?', 'choices': [{'id': 'tt', 'label': 'A=1, B=1 only'}, {'id': 'any', 'label': 'A=1 in any row'}, {'id': 'tf', 'label': 'A=1, B=0'}], 'answer': 'tt', 'explanation': 'AND needs both inputs high; the other three rows all give 0.'}
 
 CARDS = []
 POLYS = []

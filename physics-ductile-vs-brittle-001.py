@@ -1,7 +1,7 @@
 """Ductile vs Brittle - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-ductile-vs-brittle-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Ductile vs Brittle', 'question': 'A ductile material before breaking does what?', 'choices': [{'id': 'stretch', 'label': 'Stretches noticeably (yields)'}, {'id': 'snap', 'label': 'Snaps with no warning'}, {'id': 'melt', 'label': 'Melts'}], 'answer': 'stretch', 'explanation': 'Ductile materials deform plastically and warn you; brittle ones fracture suddenly.'}
+GAME = {"type": "game", 'id': 'physics-ductile-vs-brittle-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Ductile vs Brittle', 'question': 'A ductile material before breaking does what?', 'choices': [{'id': 'stretch', 'label': 'Stretches noticeably (yields)'}, {'id': 'snap', 'label': 'Snaps with no warning'}, {'id': 'melt', 'label': 'Melts'}], 'answer': 'stretch', 'explanation': 'Ductile materials deform plastically and warn you; brittle ones fracture suddenly.'}
 
 CARDS = []
 POLYS = []

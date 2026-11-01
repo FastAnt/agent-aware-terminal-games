@@ -1,7 +1,7 @@
 """Cube Faces - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'geometry-cube-faces-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Geometry', 'title': 'Cube Faces', 'question': 'How many faces does a cube have?', 'choices': [{'id': 'f6', 'label': '6'}, {'id': 'f8', 'label': '8'}, {'id': 'f12', 'label': '12'}], 'answer': 'f6', 'explanation': 'A cube has six square faces; it has 8 vertices and 12 edges, which are easy to confuse with faces.'}
+GAME = {"type": "game", 'id': 'geometry-cube-faces-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Geometry', 'title': 'Cube Faces', 'question': 'How many faces does a cube have?', 'choices': [{'id': 'f6', 'label': '6'}, {'id': 'f8', 'label': '8'}, {'id': 'f12', 'label': '12'}], 'answer': 'f6', 'explanation': 'A cube has six square faces; it has 8 vertices and 12 edges, which are easy to confuse with faces.'}
 
 CARDS = []
 POLYS = []

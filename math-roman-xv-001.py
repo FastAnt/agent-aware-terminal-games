@@ -1,7 +1,7 @@
 """Roman Numerals - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'math-roman-xv-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Roman Numerals', 'question': 'The Roman numeral XV equals what?', 'choices': [{'id': 'r15', 'label': '15'}, {'id': 'r25', 'label': '25'}, {'id': 'r10', 'label': '10'}], 'answer': 'r15', 'explanation': 'X is 10 and V is 5, and they add: XV = 15.'}
+GAME = {"type": "game", 'id': 'math-roman-xv-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Roman Numerals', 'question': 'The Roman numeral XV equals what?', 'choices': [{'id': 'r15', 'label': '15'}, {'id': 'r25', 'label': '25'}, {'id': 'r10', 'label': '10'}], 'answer': 'r15', 'explanation': 'X is 10 and V is 5, and they add: XV = 15.'}
 
 CARDS = []
 POLYS = []

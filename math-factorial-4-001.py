@@ -1,7 +1,7 @@
 """Factorial - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'math-factorial-4-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Factorial', 'question': 'What is 4! (four factorial)?', 'choices': [{'id': 'f24', 'label': '24'}, {'id': 'f12', 'label': '12'}, {'id': 'f16', 'label': '16'}], 'answer': 'f24', 'explanation': '4! = 4*3*2*1 = 24.'}
+GAME = {"type": "game", 'id': 'math-factorial-4-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Factorial', 'question': 'What is 4! (four factorial)?', 'choices': [{'id': 'f24', 'label': '24'}, {'id': 'f12', 'label': '12'}, {'id': 'f16', 'label': '16'}], 'answer': 'f24', 'explanation': '4! = 4*3*2*1 = 24.'}
 
 CARDS = []
 POLYS = []

@@ -5,7 +5,7 @@ Inspiration notes: see games-base/SOURCES.md (original idea, no copied assets).
 """
 import math
 
-GAME = {'id': 'programming-sql-select-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'SQL SELECT', 'question': 'Which SQL keyword reads rows from a table?', 'choices': [{'id': 'sel', 'label': 'SELECT'}, {'id': 'ins', 'label': 'INSERT'}, {'id': 'del', 'label': 'DELETE'}], 'answer': 'sel', 'explanation': 'SELECT queries rows; INSERT adds, UPDATE changes and DELETE removes rows.'}
+GAME = {"type": "game", 'id': 'programming-sql-select-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'SQL SELECT', 'question': 'Which SQL keyword reads rows from a table?', 'choices': [{'id': 'sel', 'label': 'SELECT'}, {'id': 'ins', 'label': 'INSERT'}, {'id': 'del', 'label': 'DELETE'}], 'answer': 'sel', 'explanation': 'SELECT queries rows; INSERT adds, UPDATE changes and DELETE removes rows.'}
 
 SCENE = "grid"
 

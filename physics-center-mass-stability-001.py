@@ -1,7 +1,7 @@
 """Stability - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-center-mass-stability-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Stability', 'question': 'A structure tips over when its centre of mass moves where?', 'choices': [{'id': 'out', 'label': 'Beyond the support base'}, {'id': 'up', 'label': 'Higher'}, {'id': 'down', 'label': 'Lower'}], 'answer': 'out', 'explanation': 'While the vertical from the centre of mass lands inside the base, gravity rights it.'}
+GAME = {"type": "game", 'id': 'physics-center-mass-stability-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Stability', 'question': 'A structure tips over when its centre of mass moves where?', 'choices': [{'id': 'out', 'label': 'Beyond the support base'}, {'id': 'up', 'label': 'Higher'}, {'id': 'down', 'label': 'Lower'}], 'answer': 'out', 'explanation': 'While the vertical from the centre of mass lands inside the base, gravity rights it.'}
 
 CARDS = []
 POLYS = []

@@ -5,7 +5,7 @@ Inspiration notes: see games-base/SOURCES.md (original idea, no copied assets).
 """
 import math
 
-GAME = {'id': 'programming-recursion-base-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Recursion', 'question': 'What stops a recursive function from calling itself forever?', 'choices': [{'id': 'base', 'label': 'The base case'}, {'id': 'loop', 'label': 'The loop'}, {'id': 'print', 'label': 'A print call'}], 'answer': 'base', 'explanation': 'A base case returns directly without recursing, so the call chain eventually unwinds.'}
+GAME = {"type": "game", 'id': 'programming-recursion-base-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Recursion', 'question': 'What stops a recursive function from calling itself forever?', 'choices': [{'id': 'base', 'label': 'The base case'}, {'id': 'loop', 'label': 'The loop'}, {'id': 'print', 'label': 'A print call'}], 'answer': 'base', 'explanation': 'A base case returns directly without recursing, so the call chain eventually unwinds.'}
 
 SCENE = "tree"
 

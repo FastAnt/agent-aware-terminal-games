@@ -1,7 +1,7 @@
 """Diagonal Matrix - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'math-matrix-diagonal-def-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Diagonal Matrix', 'question': 'A diagonal matrix has which entries off the diagonal?', 'choices': [{'id': 'zero', 'label': 'All zero'}, {'id': 'one', 'label': 'All one'}, {'id': 'same', 'label': 'Equal to diagonal'}], 'answer': 'zero', 'explanation': 'Diagonal matrices keep only the a_ii entries; everything else is zero.'}
+GAME = {"type": "game", 'id': 'math-matrix-diagonal-def-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Diagonal Matrix', 'question': 'A diagonal matrix has which entries off the diagonal?', 'choices': [{'id': 'zero', 'label': 'All zero'}, {'id': 'one', 'label': 'All one'}, {'id': 'same', 'label': 'Equal to diagonal'}], 'answer': 'zero', 'explanation': 'Diagonal matrices keep only the a_ii entries; everything else is zero.'}
 
 CARDS = []
 POLYS = []

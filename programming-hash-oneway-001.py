@@ -1,7 +1,7 @@
 """Hashes Are One-Way - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-hash-oneway-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Hashes Are One-Way', 'question': 'A cryptographic hash is designed so that from the output you cannot feasibly do what?', 'choices': [{'id': 'rev', 'label': 'Recover the input'}, {'id': 'cmp', 'label': 'Compare outputs'}, {'id': 'store', 'label': 'Store it'}], 'answer': 'rev', 'explanation': 'Hashes are one-way: easy forward, infeasible to invert (preimage resistance).'}
+GAME = {"type": "game", 'id': 'programming-hash-oneway-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Hashes Are One-Way', 'question': 'A cryptographic hash is designed so that from the output you cannot feasibly do what?', 'choices': [{'id': 'rev', 'label': 'Recover the input'}, {'id': 'cmp', 'label': 'Compare outputs'}, {'id': 'store', 'label': 'Store it'}], 'answer': 'rev', 'explanation': 'Hashes are one-way: easy forward, infeasible to invert (preimage resistance).'}
 
 CARDS = []
 POLYS = []

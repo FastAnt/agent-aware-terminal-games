@@ -1,7 +1,7 @@
 """Supervised Learning - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-supervised-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Supervised Learning', 'question': 'Supervised learning trains on data that has what?', 'choices': [{'id': 'labels', 'label': 'Labels'}, {'id': 'nolabels', 'label': 'No labels'}, {'id': 'images', 'label': 'Only images'}], 'answer': 'labels', 'explanation': 'Labelled examples teach the mapping from inputs to the desired outputs.'}
+GAME = {"type": "game", 'id': 'ml-supervised-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Supervised Learning', 'question': 'Supervised learning trains on data that has what?', 'choices': [{'id': 'labels', 'label': 'Labels'}, {'id': 'nolabels', 'label': 'No labels'}, {'id': 'images', 'label': 'Only images'}], 'answer': 'labels', 'explanation': 'Labelled examples teach the mapping from inputs to the desired outputs.'}
 
 CARDS = []
 POLYS = []

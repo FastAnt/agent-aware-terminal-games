@@ -1,7 +1,7 @@
 """CDN - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'architecture-cdn-role-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Architecture', 'title': 'CDN', 'question': 'A content delivery network reduces latency by doing what?', 'choices': [{'id': 'near', 'label': 'Serving content from nearby servers'}, {'id': 'compress', 'label': 'Only compressing files'}, {'id': 'cachecpu', 'label': 'Caching CPU results'}], 'answer': 'near', 'explanation': 'CDNs copy content to edge locations near users, shortening the network trip.'}
+GAME = {"type": "game", 'id': 'architecture-cdn-role-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Architecture', 'title': 'CDN', 'question': 'A content delivery network reduces latency by doing what?', 'choices': [{'id': 'near', 'label': 'Serving content from nearby servers'}, {'id': 'compress', 'label': 'Only compressing files'}, {'id': 'cachecpu', 'label': 'Caching CPU results'}], 'answer': 'near', 'explanation': 'CDNs copy content to edge locations near users, shortening the network trip.'}
 
 CARDS = []
 POLYS = []

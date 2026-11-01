@@ -1,7 +1,7 @@
 """First Electron Shell — click an orbit. See games-base/SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-electron-shell-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'First Electron Shell', 'hint': 'Choose an orbit', 'question': 'Click the innermost electron shell, which holds at most two electrons.', 'choices': [], 'answer': 'ring-1', 'explanation': 'The innermost shell (n=1) holds at most 2 electrons; outer shells hold more.'}
+GAME = {"type": "game", 'id': 'physics-electron-shell-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'First Electron Shell', 'hint': 'Choose an orbit', 'question': 'Click the innermost electron shell, which holds at most two electrons.', 'choices': [], 'answer': 'ring-1', 'explanation': 'The innermost shell (n=1) holds at most 2 electrons; outer shells hold more.'}
 RINGS = 3
 PLANETS = [(2, 80), (3, 240)]
 

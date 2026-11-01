@@ -5,7 +5,7 @@ Inspiration notes: see games-base/SOURCES.md (original idea, no copied assets).
 """
 import math
 
-GAME = {'id': 'math-log2-32-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Logarithm', 'question': 'What is log2(32)?', 'choices': [{'id': 'l5', 'label': '5'}, {'id': 'l6', 'label': '6'}, {'id': 'l32', 'label': '32'}], 'answer': 'l5', 'explanation': '2^5 = 32, so the power you raise 2 to in order to get 32 is 5.'}
+GAME = {"type": "game", 'id': 'math-log2-32-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Logarithm', 'question': 'What is log2(32)?', 'choices': [{'id': 'l5', 'label': '5'}, {'id': 'l6', 'label': '6'}, {'id': 'l32', 'label': '32'}], 'answer': 'l5', 'explanation': '2^5 = 32, so the power you raise 2 to in order to get 32 is 5.'}
 
 SCENE = "bits"
 

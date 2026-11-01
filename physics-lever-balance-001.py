@@ -1,7 +1,7 @@
 """Lever Balance - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-lever-balance-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Lever Balance', 'question': 'A lever balances when the torques on both sides are what?', 'choices': [{'id': 'eq', 'label': 'Equal and opposite'}, {'id': 'big', 'label': 'Both maximal'}, {'id': 'zero', 'label': 'Both zero always'}], 'answer': 'eq', 'explanation': 'Clockwise and counter-clockwise moments must cancel for balance.'}
+GAME = {"type": "game", 'id': 'physics-lever-balance-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Lever Balance', 'question': 'A lever balances when the torques on both sides are what?', 'choices': [{'id': 'eq', 'label': 'Equal and opposite'}, {'id': 'big', 'label': 'Both maximal'}, {'id': 'zero', 'label': 'Both zero always'}], 'answer': 'eq', 'explanation': 'Clockwise and counter-clockwise moments must cancel for balance.'}
 
 CARDS = []
 POLYS = []

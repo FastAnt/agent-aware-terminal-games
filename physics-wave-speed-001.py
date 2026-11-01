@@ -5,7 +5,7 @@ Inspiration notes: see games-base/SOURCES.md (original idea, no copied assets).
 """
 import math
 
-GAME = {'id': 'physics-wave-speed-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Wave Speed', 'question': 'Which formula gives the speed of a wave?', 'choices': [{'id': 'vf', 'label': 'v = f * lambda'}, {'id': 'va', 'label': 'v = f / lambda'}, {'id': 'vm', 'label': 'v = f + lambda'}], 'answer': 'vf', 'explanation': 'Wave speed equals frequency times wavelength: each second f waves of length lambda pass by.'}
+GAME = {"type": "game", 'id': 'physics-wave-speed-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Wave Speed', 'question': 'Which formula gives the speed of a wave?', 'choices': [{'id': 'vf', 'label': 'v = f * lambda'}, {'id': 'va', 'label': 'v = f / lambda'}, {'id': 'vm', 'label': 'v = f + lambda'}], 'answer': 'vf', 'explanation': 'Wave speed equals frequency times wavelength: each second f waves of length lambda pass by.'}
 
 SCENE = "wave"
 

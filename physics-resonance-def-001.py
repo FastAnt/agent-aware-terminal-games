@@ -1,7 +1,7 @@
 """Resonance - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-resonance-def-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Resonance', 'question': 'Resonance happens when a system is driven at what?', 'choices': [{'id': 'nat', 'label': 'Its natural frequency'}, {'id': 'any', 'label': 'Any frequency'}, {'id': 'zero', 'label': 'Zero frequency'}], 'answer': 'nat', 'explanation': 'Driving at the natural frequency feeds energy in phase each cycle, so amplitude grows large.'}
+GAME = {"type": "game", 'id': 'physics-resonance-def-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Resonance', 'question': 'Resonance happens when a system is driven at what?', 'choices': [{'id': 'nat', 'label': 'Its natural frequency'}, {'id': 'any', 'label': 'Any frequency'}, {'id': 'zero', 'label': 'Zero frequency'}], 'answer': 'nat', 'explanation': 'Driving at the natural frequency feeds energy in phase each cycle, so amplitude grows large.'}
 
 CARDS = []
 POLYS = []

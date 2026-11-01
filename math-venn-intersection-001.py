@@ -1,7 +1,7 @@
 """Intersection - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'math-venn-intersection-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Intersection', 'question': 'The overlap of the two sets A and B is called what?', 'choices': [{'id': 'inter', 'label': 'Intersection A and B'}, {'id': 'union', 'label': 'Union'}, {'id': 'diff', 'label': 'Difference'}], 'answer': 'inter', 'explanation': 'The intersection holds elements in both sets at once, drawn as the lens overlap.'}
+GAME = {"type": "game", 'id': 'math-venn-intersection-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Intersection', 'question': 'The overlap of the two sets A and B is called what?', 'choices': [{'id': 'inter', 'label': 'Intersection A and B'}, {'id': 'union', 'label': 'Union'}, {'id': 'diff', 'label': 'Difference'}], 'answer': 'inter', 'explanation': 'The intersection holds elements in both sets at once, drawn as the lens overlap.'}
 
 CARDS = []
 POLYS = []

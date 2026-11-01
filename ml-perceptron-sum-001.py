@@ -1,7 +1,7 @@
 """Perceptron - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-perceptron-sum-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Perceptron', 'question': 'A perceptron first computes what from its inputs?', 'choices': [{'id': 'ws', 'label': 'A weighted sum plus bias'}, {'id': 'prod', 'label': 'A product'}, {'id': 'sort', 'label': 'A sort'}], 'answer': 'ws', 'explanation': 'It forms z = w.x + b and only then applies the step/activation.'}
+GAME = {"type": "game", 'id': 'ml-perceptron-sum-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Perceptron', 'question': 'A perceptron first computes what from its inputs?', 'choices': [{'id': 'ws', 'label': 'A weighted sum plus bias'}, {'id': 'prod', 'label': 'A product'}, {'id': 'sort', 'label': 'A sort'}], 'answer': 'ws', 'explanation': 'It forms z = w.x + b and only then applies the step/activation.'}
 
 CARDS = []
 POLYS = []

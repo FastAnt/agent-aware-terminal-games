@@ -1,7 +1,7 @@
 """Contradiction - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'math-contradiction-law-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Contradiction', 'question': 'P AND (not P) is always what?', 'choices': [{'id': 'false', 'label': 'False'}, {'id': 'true', 'label': 'True'}, {'id': 'dep', 'label': 'Depends on P'}], 'answer': 'false', 'explanation': 'A proposition and its negation cannot both hold, so the conjunction is always false.'}
+GAME = {"type": "game", 'id': 'math-contradiction-law-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Contradiction', 'question': 'P AND (not P) is always what?', 'choices': [{'id': 'false', 'label': 'False'}, {'id': 'true', 'label': 'True'}, {'id': 'dep', 'label': 'Depends on P'}], 'answer': 'false', 'explanation': 'A proposition and its negation cannot both hold, so the conjunction is always false.'}
 
 CARDS = []
 POLYS = []

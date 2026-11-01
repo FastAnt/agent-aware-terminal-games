@@ -1,7 +1,7 @@
 """Gradient Step - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-gradient-step-nn-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Gradient Step', 'question': 'One gradient descent step moves parameters how?', 'choices': [{'id': 'against', 'label': 'Opposite the gradient, scaled by lr'}, {'id': 'along', 'label': 'Along the gradient'}, {'id': 'rand', 'label': 'Randomly'}], 'answer': 'against', 'explanation': 'The gradient points uphill in loss, so the update subtracts it: theta -= lr * grad.'}
+GAME = {"type": "game", 'id': 'ml-gradient-step-nn-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Gradient Step', 'question': 'One gradient descent step moves parameters how?', 'choices': [{'id': 'against', 'label': 'Opposite the gradient, scaled by lr'}, {'id': 'along', 'label': 'Along the gradient'}, {'id': 'rand', 'label': 'Randomly'}], 'answer': 'against', 'explanation': 'The gradient points uphill in loss, so the update subtracts it: theta -= lr * grad.'}
 
 CARDS = []
 POLYS = []

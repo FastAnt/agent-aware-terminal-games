@@ -1,7 +1,7 @@
 """Cache - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'architecture-cache-purpose-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Architecture', 'title': 'Cache', 'question': 'The main purpose of a cache is to do what?', 'choices': [{'id': 'fast', 'label': 'Serve repeated data faster'}, {'id': 'sec', 'label': 'Encrypt data'}, {'id': 'backup', 'label': 'Back up disks'}], 'answer': 'fast', 'explanation': 'A cache keeps copies close and quick to reach, trading a little freshness for speed.'}
+GAME = {"type": "game", 'id': 'architecture-cache-purpose-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Architecture', 'title': 'Cache', 'question': 'The main purpose of a cache is to do what?', 'choices': [{'id': 'fast', 'label': 'Serve repeated data faster'}, {'id': 'sec', 'label': 'Encrypt data'}, {'id': 'backup', 'label': 'Back up disks'}], 'answer': 'fast', 'explanation': 'A cache keeps copies close and quick to reach, trading a little freshness for speed.'}
 
 CARDS = []
 POLYS = []

@@ -1,7 +1,7 @@
 """Equilateral Triangle - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'geometry-equilateral-angles-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Geometry', 'title': 'Equilateral Triangle', 'question': 'Each angle of an equilateral triangle measures what?', 'choices': [{'id': 'a60', 'label': '60 degrees'}, {'id': 'a90', 'label': '90 degrees'}, {'id': 'a45', 'label': '45 degrees'}], 'answer': 'a60', 'explanation': 'All three angles are equal and sum to 180, so each is 60 degrees.'}
+GAME = {"type": "game", 'id': 'geometry-equilateral-angles-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Geometry', 'title': 'Equilateral Triangle', 'question': 'Each angle of an equilateral triangle measures what?', 'choices': [{'id': 'a60', 'label': '60 degrees'}, {'id': 'a90', 'label': '90 degrees'}, {'id': 'a45', 'label': '45 degrees'}], 'answer': 'a60', 'explanation': 'All three angles are equal and sum to 180, so each is 60 degrees.'}
 
 CARDS = []
 POLYS = []

@@ -1,7 +1,7 @@
 """Row Times Column - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'math-matrix-dot-view-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Row Times Column', 'question': 'One entry of AB is computed as what?', 'choices': [{'id': 'dot', 'label': 'A row of A dotted with a column of B'}, {'id': 'add', 'label': 'Entry plus entry'}, {'id': 'diag', 'label': 'Diagonal entries multiplied'}], 'answer': 'dot', 'explanation': 'Entry (i,j) pairs row i of A with column j of B, multiplies and sums.'}
+GAME = {"type": "game", 'id': 'math-matrix-dot-view-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Row Times Column', 'question': 'One entry of AB is computed as what?', 'choices': [{'id': 'dot', 'label': 'A row of A dotted with a column of B'}, {'id': 'add', 'label': 'Entry plus entry'}, {'id': 'diag', 'label': 'Diagonal entries multiplied'}], 'answer': 'dot', 'explanation': 'Entry (i,j) pairs row i of A with column j of B, multiplies and sums.'}
 
 CARDS = []
 POLYS = []

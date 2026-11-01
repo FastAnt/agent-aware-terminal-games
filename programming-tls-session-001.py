@@ -1,7 +1,7 @@
 """TLS Handshake Idea - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-tls-session-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'TLS Handshake Idea', 'question': 'In TLS, asymmetric crypto is mainly used at the start to do what?', 'choices': [{'id': 'sess', 'label': 'Establish a shared symmetric session key'}, {'id': 'bulk', 'label': 'Encrypt all data slowly'}, {'id': 'sign', 'label': 'Sign web pages'}], 'answer': 'sess', 'explanation': 'Public-key steps authenticate and agree a secret; fast symmetric ciphers then carry the traffic.'}
+GAME = {"type": "game", 'id': 'programming-tls-session-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'TLS Handshake Idea', 'question': 'In TLS, asymmetric crypto is mainly used at the start to do what?', 'choices': [{'id': 'sess', 'label': 'Establish a shared symmetric session key'}, {'id': 'bulk', 'label': 'Encrypt all data slowly'}, {'id': 'sign', 'label': 'Sign web pages'}], 'answer': 'sess', 'explanation': 'Public-key steps authenticate and agree a secret; fast symmetric ciphers then carry the traffic.'}
 
 CARDS = []
 POLYS = []

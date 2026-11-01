@@ -6,6 +6,7 @@ inputs (left) to outputs (right), endlessly.
 import math
 
 GAME = {
+    "type": "game",
     "id": "ml-gradient-001",
     "kind": "quiz",
     "kicker": "ML BASICS",

@@ -1,7 +1,7 @@
 """Pressure - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-pressure-formula-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Pressure', 'question': 'Pressure is defined as which ratio?', 'choices': [{'id': 'fa', 'label': 'Force / area'}, {'id': 'af', 'label': 'Area / force'}, {'id': 'fm', 'label': 'Force * mass'}], 'answer': 'fa', 'explanation': 'Pressure is force spread over area, P = F/A; the same force hurts more on a smaller area.'}
+GAME = {"type": "game", 'id': 'physics-pressure-formula-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Pressure', 'question': 'Pressure is defined as which ratio?', 'choices': [{'id': 'fa', 'label': 'Force / area'}, {'id': 'af', 'label': 'Area / force'}, {'id': 'fm', 'label': 'Force * mass'}], 'answer': 'fa', 'explanation': 'Pressure is force spread over area, P = F/A; the same force hurts more on a smaller area.'}
 
 CARDS = []
 POLYS = []

@@ -1,7 +1,7 @@
 """Dangerous Resonance - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-resonance-bridge-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Dangerous Resonance', 'question': 'Soldiers break step on bridges to avoid what?', 'choices': [{'id': 'res', 'label': 'Resonant build-up at a natural frequency'}, {'id': 'weight', 'label': 'Extra weight'}, {'id': 'wind', 'label': 'Wind'}], 'answer': 'res', 'explanation': 'Marching in step can pump a bridge at its natural frequency, growing the swing dangerously.'}
+GAME = {"type": "game", 'id': 'physics-resonance-bridge-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Dangerous Resonance', 'question': 'Soldiers break step on bridges to avoid what?', 'choices': [{'id': 'res', 'label': 'Resonant build-up at a natural frequency'}, {'id': 'weight', 'label': 'Extra weight'}, {'id': 'wind', 'label': 'Wind'}], 'answer': 'res', 'explanation': 'Marching in step can pump a bridge at its natural frequency, growing the swing dangerously.'}
 
 CARDS = []
 POLYS = []

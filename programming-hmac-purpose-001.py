@@ -1,7 +1,7 @@
 """HMAC - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-hmac-purpose-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'HMAC', 'question': 'HMAC adds a secret key to a hash to provide what?', 'choices': [{'id': 'int', 'label': 'Integrity + authenticity'}, {'id': 'enc', 'label': 'Encryption'}, {'id': 'comp', 'label': 'Compression'}], 'answer': 'int', 'explanation': 'Only key holders can produce or verify the tag, proving data was not altered.'}
+GAME = {"type": "game", 'id': 'programming-hmac-purpose-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'HMAC', 'question': 'HMAC adds a secret key to a hash to provide what?', 'choices': [{'id': 'int', 'label': 'Integrity + authenticity'}, {'id': 'enc', 'label': 'Encryption'}, {'id': 'comp', 'label': 'Compression'}], 'answer': 'int', 'explanation': 'Only key holders can produce or verify the tag, proving data was not altered.'}
 
 CARDS = []
 POLYS = []

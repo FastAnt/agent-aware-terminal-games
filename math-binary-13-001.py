@@ -5,7 +5,7 @@ Inspiration notes: see games-base/SOURCES.md (original idea, no copied assets).
 """
 import math
 
-GAME = {'id': 'math-binary-13-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Binary 13', 'question': 'What is 13 written in binary?', 'choices': [{'id': 'b1101', 'label': '1101'}, {'id': 'b1011', 'label': '1011'}, {'id': 'b1110', 'label': '1110'}], 'answer': 'b1101', 'explanation': '13 = 8 + 4 + 1, so bits 1101 (one eight, one four, no two, one one).'}
+GAME = {"type": "game", 'id': 'math-binary-13-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Binary 13', 'question': 'What is 13 written in binary?', 'choices': [{'id': 'b1101', 'label': '1101'}, {'id': 'b1011', 'label': '1011'}, {'id': 'b1110', 'label': '1110'}], 'answer': 'b1101', 'explanation': '13 = 8 + 4 + 1, so bits 1101 (one eight, one four, no two, one one).'}
 
 SCENE = "bits"
 

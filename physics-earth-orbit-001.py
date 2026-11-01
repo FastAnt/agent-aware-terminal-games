@@ -1,7 +1,7 @@
 """Earth's Orbit - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-earth-orbit-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': "Earth's Orbit", 'hint': 'Choose an orbit', 'question': "Three planets are placed. Click Earth's orbit.", 'choices': [], 'answer': 'ring-3', 'explanation': 'Earth is the third planet from the Sun, after Mercury and Venus and before Mars.'}
+GAME = {"type": "game", 'id': 'physics-earth-orbit-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': "Earth's Orbit", 'hint': 'Choose an orbit', 'question': "Three planets are placed. Click Earth's orbit.", 'choices': [], 'answer': 'ring-3', 'explanation': 'Earth is the third planet from the Sun, after Mercury and Venus and before Mars.'}
 
 CARDS = []
 POLYS = []

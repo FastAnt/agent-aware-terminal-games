@@ -1,7 +1,7 @@
 """Angular Frequency - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-wave-angular-freq-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Angular Frequency', 'question': 'Angular frequency omega is related to f by what?', 'choices': [{'id': 'w', 'label': 'omega = 2 pi f'}, {'id': 'w2', 'label': 'omega = f / 2 pi'}, {'id': 'w3', 'label': 'omega = pi f'}], 'answer': 'w', 'explanation': 'One cycle is 2 pi radians, so omega = 2 pi f radians per second.'}
+GAME = {"type": "game", 'id': 'physics-wave-angular-freq-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Angular Frequency', 'question': 'Angular frequency omega is related to f by what?', 'choices': [{'id': 'w', 'label': 'omega = 2 pi f'}, {'id': 'w2', 'label': 'omega = f / 2 pi'}, {'id': 'w3', 'label': 'omega = pi f'}], 'answer': 'w', 'explanation': 'One cycle is 2 pi radians, so omega = 2 pi f radians per second.'}
 
 CARDS = []
 POLYS = []

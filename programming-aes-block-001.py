@@ -1,7 +1,7 @@
 """Block Ciphers - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-aes-block-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Block Ciphers', 'question': 'AES encrypts data in blocks of which size?', 'choices': [{'id': 'b128', 'label': '128 bits'}, {'id': 'b64', 'label': '64 bits'}, {'id': 'b8', 'label': '8 bits'}], 'answer': 'b128', 'explanation': 'AES has a fixed 128-bit block; modes of operation chain blocks for longer data.'}
+GAME = {"type": "game", 'id': 'programming-aes-block-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Block Ciphers', 'question': 'AES encrypts data in blocks of which size?', 'choices': [{'id': 'b128', 'label': '128 bits'}, {'id': 'b64', 'label': '64 bits'}, {'id': 'b8', 'label': '8 bits'}], 'answer': 'b128', 'explanation': 'AES has a fixed 128-bit block; modes of operation chain blocks for longer data.'}
 
 CARDS = []
 POLYS = []

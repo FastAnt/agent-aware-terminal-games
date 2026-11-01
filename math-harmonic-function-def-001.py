@@ -1,7 +1,7 @@
 """Harmonic Function - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'math-harmonic-function-def-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Harmonic Function', 'question': 'A harmonic function u satisfies which equation?', 'choices': [{'id': 'lap', 'label': 'Laplace: Laplacian of u = 0'}, {'id': 'lap2', 'label': 'Laplacian of u = u'}, {'id': 'lap3', 'label': 'Gradient of u = 0'}], 'answer': 'lap', 'explanation': "Harmonic functions solve Laplace's equation; they model steady heat and electrostatic potentials."}
+GAME = {"type": "game", 'id': 'math-harmonic-function-def-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Harmonic Function', 'question': 'A harmonic function u satisfies which equation?', 'choices': [{'id': 'lap', 'label': 'Laplace: Laplacian of u = 0'}, {'id': 'lap2', 'label': 'Laplacian of u = u'}, {'id': 'lap3', 'label': 'Gradient of u = 0'}], 'answer': 'lap', 'explanation': "Harmonic functions solve Laplace's equation; they model steady heat and electrostatic potentials."}
 
 CARDS = []
 POLYS = []

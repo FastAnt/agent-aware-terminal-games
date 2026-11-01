@@ -1,7 +1,7 @@
 """Mini-Batch - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-batch-iteration-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Mini-Batch', 'question': 'Training on mini-batches of 32 means each step uses how many examples?', 'choices': [{'id': 'b32', 'label': '32'}, {'id': 'all', 'label': 'All of them'}, {'id': 'one', 'label': '1'}], 'answer': 'b32', 'explanation': 'Mini-batches balance stable gradients with many updates per epoch.'}
+GAME = {"type": "game", 'id': 'ml-batch-iteration-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Mini-Batch', 'question': 'Training on mini-batches of 32 means each step uses how many examples?', 'choices': [{'id': 'b32', 'label': '32'}, {'id': 'all', 'label': 'All of them'}, {'id': 'one', 'label': '1'}], 'answer': 'b32', 'explanation': 'Mini-batches balance stable gradients with many updates per epoch.'}
 
 CARDS = []
 POLYS = []

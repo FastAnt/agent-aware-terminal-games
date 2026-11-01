@@ -1,7 +1,7 @@
 """Fatigue - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-fatigue-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Fatigue', 'question': 'Metal fatigue is failure caused by what?', 'choices': [{'id': 'cyc', 'label': 'Repeated cyclic loading below the static limit'}, {'id': 'one', 'label': 'One huge load'}, {'id': 'rust', 'label': 'Rust only'}], 'answer': 'cyc', 'explanation': "Cycles grow microscopic cracks until sudden fracture, even under 'safe' stresses."}
+GAME = {"type": "game", 'id': 'physics-fatigue-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Fatigue', 'question': 'Metal fatigue is failure caused by what?', 'choices': [{'id': 'cyc', 'label': 'Repeated cyclic loading below the static limit'}, {'id': 'one', 'label': 'One huge load'}, {'id': 'rust', 'label': 'Rust only'}], 'answer': 'cyc', 'explanation': "Cycles grow microscopic cracks until sudden fracture, even under 'safe' stresses."}
 
 CARDS = []
 POLYS = []

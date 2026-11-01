@@ -1,7 +1,7 @@
 """Arch Bridges - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'architecture-arch-compression-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Architecture', 'title': 'Arch Bridges', 'question': 'An arch bridge mainly carries loads through what force in its stones?', 'choices': [{'id': 'comp', 'label': 'Compression'}, {'id': 'tens', 'label': 'Tension'}, {'id': 'tors', 'label': 'Torsion'}], 'answer': 'comp', 'explanation': 'The arch funnels weight into compression along the curve into the abutments.'}
+GAME = {"type": "game", 'id': 'architecture-arch-compression-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Architecture', 'title': 'Arch Bridges', 'question': 'An arch bridge mainly carries loads through what force in its stones?', 'choices': [{'id': 'comp', 'label': 'Compression'}, {'id': 'tens', 'label': 'Tension'}, {'id': 'tors', 'label': 'Torsion'}], 'answer': 'comp', 'explanation': 'The arch funnels weight into compression along the curve into the abutments.'}
 
 CARDS = []
 POLYS = []

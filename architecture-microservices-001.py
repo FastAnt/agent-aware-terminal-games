@@ -1,7 +1,7 @@
 """Microservices - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'architecture-microservices-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Architecture', 'title': 'Microservices', 'question': 'Microservices are mainly characterised by what?', 'choices': [{'id': 'indep', 'label': 'Small, independently deployable services'}, {'id': 'one', 'label': 'One huge process'}, {'id': 'dbonly', 'label': 'Database-only code'}], 'answer': 'indep', 'explanation': 'Each service owns a bounded capability and can be deployed and scaled independently.'}
+GAME = {"type": "game", 'id': 'architecture-microservices-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Architecture', 'title': 'Microservices', 'question': 'Microservices are mainly characterised by what?', 'choices': [{'id': 'indep', 'label': 'Small, independently deployable services'}, {'id': 'one', 'label': 'One huge process'}, {'id': 'dbonly', 'label': 'Database-only code'}], 'answer': 'indep', 'explanation': 'Each service owns a bounded capability and can be deployed and scaled independently.'}
 
 CARDS = []
 POLYS = []

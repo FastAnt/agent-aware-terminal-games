@@ -1,7 +1,7 @@
 """Strain - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-strain-def-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Strain', 'question': 'Strain measures what?', 'choices': [{'id': 'rel', 'label': 'Relative elongation (change/original)'}, {'id': 'abs', 'label': 'Absolute length'}, {'id': 'force', 'label': 'Applied force'}], 'answer': 'rel', 'explanation': 'Strain epsilon = delta L / L, a dimensionless ratio of deformation.'}
+GAME = {"type": "game", 'id': 'physics-strain-def-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Strain', 'question': 'Strain measures what?', 'choices': [{'id': 'rel', 'label': 'Relative elongation (change/original)'}, {'id': 'abs', 'label': 'Absolute length'}, {'id': 'force', 'label': 'Applied force'}], 'answer': 'rel', 'explanation': 'Strain epsilon = delta L / L, a dimensionless ratio of deformation.'}
 
 CARDS = []
 POLYS = []

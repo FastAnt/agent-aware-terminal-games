@@ -1,7 +1,7 @@
 """Wave Speed Revisited - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-wave-speed-harmonic-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Wave Speed Revisited', 'question': 'A harmonic wave with f=2 Hz and wavelength 3 m travels at what speed?', 'choices': [{'id': 'v6', 'label': '6 m/s'}, {'id': 'v5', 'label': '5 m/s'}, {'id': 'v23', 'label': '2/3 m/s'}], 'answer': 'v6', 'explanation': 'v = f lambda = 2 x 3 = 6 m/s.'}
+GAME = {"type": "game", 'id': 'physics-wave-speed-harmonic-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Wave Speed Revisited', 'question': 'A harmonic wave with f=2 Hz and wavelength 3 m travels at what speed?', 'choices': [{'id': 'v6', 'label': '6 m/s'}, {'id': 'v5', 'label': '5 m/s'}, {'id': 'v23', 'label': '2/3 m/s'}], 'answer': 'v6', 'explanation': 'v = f lambda = 2 x 3 = 6 m/s.'}
 
 CARDS = []
 POLYS = []

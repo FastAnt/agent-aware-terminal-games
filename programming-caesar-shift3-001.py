@@ -1,7 +1,7 @@
 """Caesar Cipher - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-caesar-shift3-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Caesar Cipher', 'question': 'In a Caesar cipher with shift 3, the letter A becomes what?', 'choices': [{'id': 'd', 'label': 'D'}, {'id': 'c', 'label': 'C'}, {'id': 'e', 'label': 'E'}], 'answer': 'd', 'explanation': 'Every letter moves 3 places: A->B->C->D.'}
+GAME = {"type": "game", 'id': 'programming-caesar-shift3-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Caesar Cipher', 'question': 'In a Caesar cipher with shift 3, the letter A becomes what?', 'choices': [{'id': 'd', 'label': 'D'}, {'id': 'c', 'label': 'C'}, {'id': 'e', 'label': 'E'}], 'answer': 'd', 'explanation': 'Every letter moves 3 places: A->B->C->D.'}
 
 CARDS = []
 POLYS = []

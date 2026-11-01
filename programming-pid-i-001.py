@@ -1,7 +1,7 @@
 """PID: I Term - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-pid-i-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'PID: I Term', 'question': 'The I term mainly fixes which problem?', 'choices': [{'id': 'steady', 'label': 'Persistent steady-state error'}, {'id': 'noise', 'label': 'Sensor noise'}, {'id': 'speed', 'label': 'Slow sensors'}], 'answer': 'steady', 'explanation': 'Integrating error over time removes a lasting offset P alone leaves behind.'}
+GAME = {"type": "game", 'id': 'programming-pid-i-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'PID: I Term', 'question': 'The I term mainly fixes which problem?', 'choices': [{'id': 'steady', 'label': 'Persistent steady-state error'}, {'id': 'noise', 'label': 'Sensor noise'}, {'id': 'speed', 'label': 'Slow sensors'}], 'answer': 'steady', 'explanation': 'Integrating error over time removes a lasting offset P alone leaves behind.'}
 
 CARDS = []
 POLYS = []

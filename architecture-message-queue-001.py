@@ -1,7 +1,7 @@
 """Message Queue - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'architecture-message-queue-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Architecture', 'title': 'Message Queue', 'question': 'A message queue helps systems by doing what?', 'choices': [{'id': 'decouple', 'label': 'Decoupling sender and receiver in time'}, {'id': 'speedcpu', 'label': 'Speeding up CPUs'}, {'id': 'ui', 'label': 'Drawing UI'}], 'answer': 'decouple', 'explanation': 'Producers enqueue work and consumers process it later, smoothing bursts and failures.'}
+GAME = {"type": "game", 'id': 'architecture-message-queue-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Architecture', 'title': 'Message Queue', 'question': 'A message queue helps systems by doing what?', 'choices': [{'id': 'decouple', 'label': 'Decoupling sender and receiver in time'}, {'id': 'speedcpu', 'label': 'Speeding up CPUs'}, {'id': 'ui', 'label': 'Drawing UI'}], 'answer': 'decouple', 'explanation': 'Producers enqueue work and consumers process it later, smoothing bursts and failures.'}
 
 CARDS = []
 POLYS = []

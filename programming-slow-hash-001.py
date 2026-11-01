@@ -1,7 +1,7 @@
 """Slow Password Hashing - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-slow-hash-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Slow Password Hashing', 'question': 'Password hashes like bcrypt are deliberately what?', 'choices': [{'id': 'slow', 'label': 'Slow and tunable'}, {'id': 'fast', 'label': 'As fast as possible'}, {'id': 'short', 'label': 'Short'}], 'answer': 'slow', 'explanation': 'Slowness is cheap for one login but ruinous for billions of guesses.'}
+GAME = {"type": "game", 'id': 'programming-slow-hash-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Slow Password Hashing', 'question': 'Password hashes like bcrypt are deliberately what?', 'choices': [{'id': 'slow', 'label': 'Slow and tunable'}, {'id': 'fast', 'label': 'As fast as possible'}, {'id': 'short', 'label': 'Short'}], 'answer': 'slow', 'explanation': 'Slowness is cheap for one login but ruinous for billions of guesses.'}
 
 CARDS = []
 POLYS = []

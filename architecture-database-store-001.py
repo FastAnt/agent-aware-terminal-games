@@ -1,7 +1,7 @@
 """Where Data Lives — click a component. See games-base/SOURCES.md."""
 import math
 
-GAME = {'id': 'architecture-database-store-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Architecture', 'title': 'Where Data Lives', 'question': 'Click the component that stores data permanently.', 'choices': [{'id': 'db', 'label': 'Database'}, {'id': 'client', 'label': 'Client'}, {'id': 'api', 'label': 'API'}], 'answer': 'db', 'explanation': 'The database persists data; clients display it and APIs mediate access to it.'}
+GAME = {"type": "game", 'id': 'architecture-database-store-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Architecture', 'title': 'Where Data Lives', 'question': 'Click the component that stores data permanently.', 'choices': [{'id': 'db', 'label': 'Database'}, {'id': 'client', 'label': 'Client'}, {'id': 'api', 'label': 'API'}], 'answer': 'db', 'explanation': 'The database persists data; clients display it and APIs mediate access to it.'}
 
 NODES = [('db', 'Database'), ('client', 'Client'), ('api', 'API')]
 EDGES = [('db', 'client'), ('client', 'api'), ('api', 'db')]

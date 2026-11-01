@@ -1,7 +1,7 @@
 """Transpose Computed - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'math-matrix-transpose-compute-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Transpose Computed', 'question': 'The transpose of [[1,2],[3,4]] is what?', 'choices': [{'id': 't1', 'label': '[[1,3],[2,4]]'}, {'id': 't2', 'label': '[[4,3],[2,1]]'}, {'id': 't3', 'label': '[[1,2],[3,4]]'}], 'answer': 't1', 'explanation': 'Rows become columns: first row 1,2 becomes first column, giving [[1,3],[2,4]].'}
+GAME = {"type": "game", 'id': 'math-matrix-transpose-compute-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Transpose Computed', 'question': 'The transpose of [[1,2],[3,4]] is what?', 'choices': [{'id': 't1', 'label': '[[1,3],[2,4]]'}, {'id': 't2', 'label': '[[4,3],[2,1]]'}, {'id': 't3', 'label': '[[1,2],[3,4]]'}], 'answer': 't1', 'explanation': 'Rows become columns: first row 1,2 becomes first column, giving [[1,3],[2,4]].'}
 
 CARDS = []
 POLYS = []

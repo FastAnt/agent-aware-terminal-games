@@ -1,7 +1,7 @@
 """Supplementary Angles - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'geometry-supplementary-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Geometry', 'title': 'Supplementary Angles', 'question': 'Two supplementary angles add up to what?', 'choices': [{'id': 'a180', 'label': '180 degrees'}, {'id': 'a90', 'label': '90 degrees'}, {'id': 'a360', 'label': '360 degrees'}], 'answer': 'a180', 'explanation': 'Supplementary angles sum to 180 degrees; complementary angles sum to 90.'}
+GAME = {"type": "game", 'id': 'geometry-supplementary-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Geometry', 'title': 'Supplementary Angles', 'question': 'Two supplementary angles add up to what?', 'choices': [{'id': 'a180', 'label': '180 degrees'}, {'id': 'a90', 'label': '90 degrees'}, {'id': 'a360', 'label': '360 degrees'}], 'answer': 'a180', 'explanation': 'Supplementary angles sum to 180 degrees; complementary angles sum to 90.'}
 
 CARDS = []
 POLYS = []

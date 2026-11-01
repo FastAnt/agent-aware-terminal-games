@@ -1,7 +1,7 @@
 """Energy in SHM - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-energy-shm-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Energy in SHM', 'question': "At the equilibrium point, an oscillator's energy is mostly what?", 'choices': [{'id': 'kin', 'label': 'Kinetic'}, {'id': 'pot', 'label': 'Potential'}, {'id': 'heat', 'label': 'Heat'}], 'answer': 'kin', 'explanation': 'Passing through equilibrium it moves fastest: potential has fully converted to kinetic.'}
+GAME = {"type": "game", 'id': 'physics-energy-shm-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Energy in SHM', 'question': "At the equilibrium point, an oscillator's energy is mostly what?", 'choices': [{'id': 'kin', 'label': 'Kinetic'}, {'id': 'pot', 'label': 'Potential'}, {'id': 'heat', 'label': 'Heat'}], 'answer': 'kin', 'explanation': 'Passing through equilibrium it moves fastest: potential has fully converted to kinetic.'}
 
 CARDS = []
 POLYS = []

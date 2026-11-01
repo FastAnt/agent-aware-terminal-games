@@ -1,7 +1,7 @@
 """Negative Feedback - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-negative-feedback-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Negative Feedback', 'question': 'Negative feedback compares output to setpoint and drives error toward what?', 'choices': [{'id': 'zero', 'label': 'Zero'}, {'id': 'big', 'label': 'Large'}, {'id': 'osc', 'label': 'Oscillation always'}], 'answer': 'zero', 'explanation': 'Subtracting the measurement and correcting the gap stabilises the system around the target.'}
+GAME = {"type": "game", 'id': 'programming-negative-feedback-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Negative Feedback', 'question': 'Negative feedback compares output to setpoint and drives error toward what?', 'choices': [{'id': 'zero', 'label': 'Zero'}, {'id': 'big', 'label': 'Large'}, {'id': 'osc', 'label': 'Oscillation always'}], 'answer': 'zero', 'explanation': 'Subtracting the measurement and correcting the gap stabilises the system around the target.'}
 
 CARDS = []
 POLYS = []

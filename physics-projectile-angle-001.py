@@ -5,7 +5,7 @@ Inspiration notes: see games-base/SOURCES.md (original idea, no copied assets).
 """
 import math
 
-GAME = {'id': 'physics-projectile-angle-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Best Launch Angle', 'question': 'At which launch angle does a projectile fly farthest on flat ground?', 'choices': [{'id': 'a45', 'label': '45 degrees'}, {'id': 'a30', 'label': '30 degrees'}, {'id': 'a90', 'label': '90 degrees'}], 'answer': 'a45', 'explanation': 'Without air resistance the range is maximal at 45 degrees, balancing horizontal speed and flight time.'}
+GAME = {"type": "game", 'id': 'physics-projectile-angle-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Best Launch Angle', 'question': 'At which launch angle does a projectile fly farthest on flat ground?', 'choices': [{'id': 'a45', 'label': '45 degrees'}, {'id': 'a30', 'label': '30 degrees'}, {'id': 'a90', 'label': '90 degrees'}], 'answer': 'a45', 'explanation': 'Without air resistance the range is maximal at 45 degrees, balancing horizontal speed and flight time.'}
 
 SCENE = "parabola"
 

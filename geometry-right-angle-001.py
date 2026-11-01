@@ -1,7 +1,7 @@
 """Right Angle - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'geometry-right-angle-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Geometry', 'title': 'Right Angle', 'question': 'A right angle measures how many degrees?', 'choices': [{'id': 'a90', 'label': '90'}, {'id': 'a180', 'label': '180'}, {'id': 'a45', 'label': '45'}], 'answer': 'a90', 'explanation': 'A right angle is a quarter turn, 90 degrees, like the corner of a sheet of paper.'}
+GAME = {"type": "game", 'id': 'geometry-right-angle-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Geometry', 'title': 'Right Angle', 'question': 'A right angle measures how many degrees?', 'choices': [{'id': 'a90', 'label': '90'}, {'id': 'a180', 'label': '180'}, {'id': 'a45', 'label': '45'}], 'answer': 'a90', 'explanation': 'A right angle is a quarter turn, 90 degrees, like the corner of a sheet of paper.'}
 
 CARDS = []
 POLYS = []

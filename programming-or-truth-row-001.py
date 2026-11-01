@@ -1,7 +1,7 @@
 """OR Truth Table - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-or-truth-row-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'OR Truth Table', 'question': 'In the OR truth table, the output is 0 for which row?', 'choices': [{'id': 'ff', 'label': 'A=0, B=0 only'}, {'id': 'tt', 'label': 'A=1, B=1'}, {'id': 'tf', 'label': 'A=1, B=0'}], 'answer': 'ff', 'explanation': 'OR fails only when nobody raises a hand: both inputs 0.'}
+GAME = {"type": "game", 'id': 'programming-or-truth-row-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'OR Truth Table', 'question': 'In the OR truth table, the output is 0 for which row?', 'choices': [{'id': 'ff', 'label': 'A=0, B=0 only'}, {'id': 'tt', 'label': 'A=1, B=1'}, {'id': 'tf', 'label': 'A=1, B=0'}], 'answer': 'ff', 'explanation': 'OR fails only when nobody raises a hand: both inputs 0.'}
 
 CARDS = []
 POLYS = []

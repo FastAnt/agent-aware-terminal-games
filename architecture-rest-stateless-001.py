@@ -1,7 +1,7 @@
 """REST Statelessness - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'architecture-rest-stateless-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Architecture', 'title': 'REST Statelessness', 'question': 'REST requests are designed to be what?', 'choices': [{'id': 'stateless', 'label': 'Stateless'}, {'id': 'stateful', 'label': 'Stateful on the server'}, {'id': 'encrypted', 'label': 'Always encrypted'}], 'answer': 'stateless', 'explanation': 'Each REST request carries all it needs; the server keeps no client session between calls.'}
+GAME = {"type": "game", 'id': 'architecture-rest-stateless-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Architecture', 'title': 'REST Statelessness', 'question': 'REST requests are designed to be what?', 'choices': [{'id': 'stateless', 'label': 'Stateless'}, {'id': 'stateful', 'label': 'Stateful on the server'}, {'id': 'encrypted', 'label': 'Always encrypted'}], 'answer': 'stateless', 'explanation': 'Each REST request carries all it needs; the server keeps no client session between calls.'}
 
 CARDS = []
 POLYS = []

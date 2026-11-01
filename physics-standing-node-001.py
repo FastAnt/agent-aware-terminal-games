@@ -1,7 +1,7 @@
 """Nodes - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-standing-node-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Nodes', 'question': 'A node in a standing wave is a point that does what?', 'choices': [{'id': 'still', 'label': 'Stays (nearly) still'}, {'id': 'most', 'label': 'Moves the most'}, {'id': 'travel', 'label': 'Travels along'}], 'answer': 'still', 'explanation': 'Nodes are where the two travelling waves always cancel; antinodes swing most.'}
+GAME = {"type": "game", 'id': 'physics-standing-node-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Nodes', 'question': 'A node in a standing wave is a point that does what?', 'choices': [{'id': 'still', 'label': 'Stays (nearly) still'}, {'id': 'most', 'label': 'Moves the most'}, {'id': 'travel', 'label': 'Travels along'}], 'answer': 'still', 'explanation': 'Nodes are where the two travelling waves always cancel; antinodes swing most.'}
 
 CARDS = []
 POLYS = []

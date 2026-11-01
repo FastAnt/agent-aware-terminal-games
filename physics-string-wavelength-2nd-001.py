@@ -1,7 +1,7 @@
 """String Wavelength - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-string-wavelength-2nd-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'String Wavelength', 'question': 'For the second harmonic on a string of length L, the wavelength is what?', 'choices': [{'id': 'l', 'label': 'L'}, {'id': 'll', 'label': 'L/2'}, {'id': 'l2', 'label': '2L'}], 'answer': 'l', 'explanation': 'Two half-wavelengths fit in L, so one wavelength equals L.'}
+GAME = {"type": "game", 'id': 'physics-string-wavelength-2nd-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'String Wavelength', 'question': 'For the second harmonic on a string of length L, the wavelength is what?', 'choices': [{'id': 'l', 'label': 'L'}, {'id': 'll', 'label': 'L/2'}, {'id': 'l2', 'label': '2L'}], 'answer': 'l', 'explanation': 'Two half-wavelengths fit in L, so one wavelength equals L.'}
 
 CARDS = []
 POLYS = []

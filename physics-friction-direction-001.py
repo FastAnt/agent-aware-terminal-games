@@ -1,7 +1,7 @@
 """Friction Direction - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-friction-direction-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Friction Direction', 'question': 'Kinetic friction on a sliding box acts in which direction?', 'choices': [{'id': 'opp', 'label': 'Opposite the motion'}, {'id': 'same', 'label': 'Along the motion'}, {'id': 'down', 'label': 'Straight down'}], 'answer': 'opp', 'explanation': 'Kinetic friction opposes relative sliding, which is why moving objects slow down without a push.'}
+GAME = {"type": "game", 'id': 'physics-friction-direction-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Friction Direction', 'question': 'Kinetic friction on a sliding box acts in which direction?', 'choices': [{'id': 'opp', 'label': 'Opposite the motion'}, {'id': 'same', 'label': 'Along the motion'}, {'id': 'down', 'label': 'Straight down'}], 'answer': 'opp', 'explanation': 'Kinetic friction opposes relative sliding, which is why moving objects slow down without a push.'}
 
 CARDS = []
 POLYS = []

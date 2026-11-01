@@ -1,7 +1,7 @@
 """Padding - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-conv-padding-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Padding', 'question': 'Padding a convolution with a border of zeros mainly lets it do what?', 'choices': [{'id': 'keep', 'label': 'Keep the output size (with 3x3)'}, {'id': 'shrink', 'label': 'Shrink faster'}, {'id': 'skip', 'label': 'Skip the kernel'}], 'answer': 'keep', 'explanation': 'One zero ring compensates the 3x3 shrinkage, so borders get processed fully.'}
+GAME = {"type": "game", 'id': 'ml-conv-padding-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Padding', 'question': 'Padding a convolution with a border of zeros mainly lets it do what?', 'choices': [{'id': 'keep', 'label': 'Keep the output size (with 3x3)'}, {'id': 'shrink', 'label': 'Shrink faster'}, {'id': 'skip', 'label': 'Skip the kernel'}], 'answer': 'keep', 'explanation': 'One zero ring compensates the 3x3 shrinkage, so borders get processed fully.'}
 
 CARDS = []
 POLYS = []

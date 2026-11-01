@@ -1,7 +1,7 @@
 """Load Balancer - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'architecture-load-balancer-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Architecture', 'title': 'Load Balancer', 'question': 'A load balancer mainly does what?', 'choices': [{'id': 'dist', 'label': 'Distributes traffic across servers'}, {'id': 'store', 'label': 'Stores passwords'}, {'id': 'compile', 'label': 'Compiles code'}], 'answer': 'dist', 'explanation': 'It spreads incoming requests over several servers so none is overwhelmed and failures can be routed around.'}
+GAME = {"type": "game", 'id': 'architecture-load-balancer-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Architecture', 'title': 'Load Balancer', 'question': 'A load balancer mainly does what?', 'choices': [{'id': 'dist', 'label': 'Distributes traffic across servers'}, {'id': 'store', 'label': 'Stores passwords'}, {'id': 'compile', 'label': 'Compiles code'}], 'answer': 'dist', 'explanation': 'It spreads incoming requests over several servers so none is overwhelmed and failures can be routed around.'}
 
 CARDS = []
 POLYS = []

@@ -1,7 +1,7 @@
 """What Convolution Detects - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-conv-purpose-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'What Convolution Detects', 'question': 'A convolution kernel sliding over an image mainly extracts what?', 'choices': [{'id': 'feat', 'label': 'Local features like edges'}, {'id': 'glob', 'label': 'Global colour only'}, {'id': 'txt', 'label': 'Text labels'}], 'answer': 'feat', 'explanation': 'Each position computes a weighted sum of a patch, responding to patterns like edges.'}
+GAME = {"type": "game", 'id': 'ml-conv-purpose-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'What Convolution Detects', 'question': 'A convolution kernel sliding over an image mainly extracts what?', 'choices': [{'id': 'feat', 'label': 'Local features like edges'}, {'id': 'glob', 'label': 'Global colour only'}, {'id': 'txt', 'label': 'Text labels'}], 'answer': 'feat', 'explanation': 'Each position computes a weighted sum of a patch, responding to patterns like edges.'}
 
 CARDS = []
 POLYS = []

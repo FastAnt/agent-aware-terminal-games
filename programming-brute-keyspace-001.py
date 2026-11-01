@@ -1,7 +1,7 @@
 """Keyspace - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-brute-keyspace-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Keyspace', 'question': 'Each extra key bit does what to brute-force work?', 'choices': [{'id': 'dbl', 'label': 'Doubles it'}, {'id': 'add', 'label': 'Adds one step'}, {'id': 'ten', 'label': 'Multiplies by ten'}], 'answer': 'dbl', 'explanation': 'n bits have 2^n keys: one more bit, twice the haystack.'}
+GAME = {"type": "game", 'id': 'programming-brute-keyspace-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Keyspace', 'question': 'Each extra key bit does what to brute-force work?', 'choices': [{'id': 'dbl', 'label': 'Doubles it'}, {'id': 'add', 'label': 'Adds one step'}, {'id': 'ten', 'label': 'Multiplies by ten'}], 'answer': 'dbl', 'explanation': 'n bits have 2^n keys: one more bit, twice the haystack.'}
 
 CARDS = []
 POLYS = []

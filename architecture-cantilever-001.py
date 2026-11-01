@@ -1,7 +1,7 @@
 """Cantilever - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'architecture-cantilever-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Architecture', 'title': 'Cantilever', 'question': 'A cantilever beam is supported how?', 'choices': [{'id': 'one', 'label': 'Fixed at one end only'}, {'id': 'both', 'label': 'Both ends simply'}, {'id': 'none', 'label': 'Not supported'}], 'answer': 'one', 'explanation': 'Like a diving board: one clamped end carries all the moment.'}
+GAME = {"type": "game", 'id': 'architecture-cantilever-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Architecture', 'title': 'Cantilever', 'question': 'A cantilever beam is supported how?', 'choices': [{'id': 'one', 'label': 'Fixed at one end only'}, {'id': 'both', 'label': 'Both ends simply'}, {'id': 'none', 'label': 'Not supported'}], 'answer': 'one', 'explanation': 'Like a diving board: one clamped end carries all the moment.'}
 
 CARDS = []
 POLYS = []

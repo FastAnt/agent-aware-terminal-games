@@ -1,7 +1,7 @@
 """Bernoulli Effect - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-bernoulli-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Bernoulli Effect', 'question': 'Where a fluid flows faster through a constriction, its pressure does what?', 'choices': [{'id': 'drop', 'label': 'Drops'}, {'id': 'rise', 'label': 'Rises'}, {'id': 'same', 'label': 'Stays'}], 'answer': 'drop', 'explanation': 'Bernoulli: speed and pressure trade off along a streamline, which lifts aircraft wings.'}
+GAME = {"type": "game", 'id': 'physics-bernoulli-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Bernoulli Effect', 'question': 'Where a fluid flows faster through a constriction, its pressure does what?', 'choices': [{'id': 'drop', 'label': 'Drops'}, {'id': 'rise', 'label': 'Rises'}, {'id': 'same', 'label': 'Stays'}], 'answer': 'drop', 'explanation': 'Bernoulli: speed and pressure trade off along a streamline, which lifts aircraft wings.'}
 
 CARDS = []
 POLYS = []

@@ -1,7 +1,7 @@
 """Even Number - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'math-even-number-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Even Number', 'question': 'Click the even number.', 'choices': [{'id': 'n42', 'label': '42'}, {'id': 'n17', 'label': '17'}, {'id': 'n29b', 'label': '29'}], 'answer': 'n42', 'explanation': 'Even numbers are divisible by 2; 42 is, while 17 and 29 are odd.'}
+GAME = {"type": "game", 'id': 'math-even-number-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Even Number', 'question': 'Click the even number.', 'choices': [{'id': 'n42', 'label': '42'}, {'id': 'n17', 'label': '17'}, {'id': 'n29b', 'label': '29'}], 'answer': 'n42', 'explanation': 'Even numbers are divisible by 2; 42 is, while 17 and 29 are odd.'}
 
 CARDS = []
 POLYS = []

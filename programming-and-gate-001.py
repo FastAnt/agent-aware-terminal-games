@@ -1,7 +1,7 @@
 """AND Gate - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-and-gate-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'AND Gate', 'question': 'Inputs are A=1 and B=0. What does the AND gate output?', 'choices': [{'id': 'one', 'label': '1'}, {'id': 'zero', 'label': '0'}], 'answer': 'zero', 'explanation': 'AND outputs 1 only when every input is 1; here B=0, so the output is 0.'}
+GAME = {"type": "game", 'id': 'programming-and-gate-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'AND Gate', 'question': 'Inputs are A=1 and B=0. What does the AND gate output?', 'choices': [{'id': 'one', 'label': '1'}, {'id': 'zero', 'label': '0'}], 'answer': 'zero', 'explanation': 'AND outputs 1 only when every input is 1; here B=0, so the output is 0.'}
 
 CARDS = []
 POLYS = []

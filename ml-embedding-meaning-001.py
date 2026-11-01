@@ -1,7 +1,7 @@
 """Embeddings - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-embedding-meaning-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Embeddings', 'question': 'An embedding turns a token into what?', 'choices': [{'id': 'vec', 'label': 'A dense learned vector'}, {'id': 'one', 'label': 'A one-hot only'}, {'id': 'num', 'label': 'A single number'}], 'answer': 'vec', 'explanation': 'Tokens become points in a space where similar meanings sit close together.'}
+GAME = {"type": "game", 'id': 'ml-embedding-meaning-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Embeddings', 'question': 'An embedding turns a token into what?', 'choices': [{'id': 'vec', 'label': 'A dense learned vector'}, {'id': 'one', 'label': 'A one-hot only'}, {'id': 'num', 'label': 'A single number'}], 'answer': 'vec', 'explanation': 'Tokens become points in a space where similar meanings sit close together.'}
 
 CARDS = []
 POLYS = []

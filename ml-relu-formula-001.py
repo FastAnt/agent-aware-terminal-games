@@ -1,7 +1,7 @@
 """ReLU Formula - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-relu-formula-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'ReLU Formula', 'question': 'ReLU(x) is defined as what?', 'choices': [{'id': 'relu', 'label': 'max(0, x)'}, {'id': 'abs', 'label': 'abs(x)'}, {'id': 'sq', 'label': 'x squared'}], 'answer': 'relu', 'explanation': 'Rectified linear unit: negative values become 0, positives pass unchanged.'}
+GAME = {"type": "game", 'id': 'ml-relu-formula-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'ReLU Formula', 'question': 'ReLU(x) is defined as what?', 'choices': [{'id': 'relu', 'label': 'max(0, x)'}, {'id': 'abs', 'label': 'abs(x)'}, {'id': 'sq', 'label': 'x squared'}], 'answer': 'relu', 'explanation': 'Rectified linear unit: negative values become 0, positives pass unchanged.'}
 
 CARDS = []
 POLYS = []

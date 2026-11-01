@@ -1,7 +1,7 @@
 """Hydrostatic Pressure - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-hydrostatic-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Hydrostatic Pressure', 'question': 'Pressure in a still liquid grows with what?', 'choices': [{'id': 'depth', 'label': 'Depth'}, {'id': 'width', 'label': 'Container width'}, {'id': 'surf', 'label': 'Surface area only'}], 'answer': 'depth', 'explanation': 'p = rho g h: deeper means a taller column of fluid pressing down.'}
+GAME = {"type": "game", 'id': 'physics-hydrostatic-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Hydrostatic Pressure', 'question': 'Pressure in a still liquid grows with what?', 'choices': [{'id': 'depth', 'label': 'Depth'}, {'id': 'width', 'label': 'Container width'}, {'id': 'surf', 'label': 'Surface area only'}], 'answer': 'depth', 'explanation': 'p = rho g h: deeper means a taller column of fluid pressing down.'}
 
 CARDS = []
 POLYS = []

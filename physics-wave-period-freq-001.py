@@ -1,7 +1,7 @@
 """Frequency and Period - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-wave-period-freq-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Frequency and Period', 'question': "If a wave's period is 0.5 s, its frequency is what?", 'choices': [{'id': 'f2', 'label': '2 Hz'}, {'id': 'f05', 'label': '0.5 Hz'}, {'id': 'f4', 'label': '4 Hz'}], 'answer': 'f2', 'explanation': 'f = 1/T = 1/0.5 = 2 cycles per second.'}
+GAME = {"type": "game", 'id': 'physics-wave-period-freq-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Frequency and Period', 'question': "If a wave's period is 0.5 s, its frequency is what?", 'choices': [{'id': 'f2', 'label': '2 Hz'}, {'id': 'f05', 'label': '0.5 Hz'}, {'id': 'f4', 'label': '4 Hz'}], 'answer': 'f2', 'explanation': 'f = 1/T = 1/0.5 = 2 cycles per second.'}
 
 CARDS = []
 POLYS = []

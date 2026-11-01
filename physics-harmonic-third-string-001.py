@@ -1,7 +1,7 @@
 """Third Harmonic - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-harmonic-third-string-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Third Harmonic', 'question': 'In the third harmonic of a string, how many nodes are at the ends plus inside?', 'choices': [{'id': 'n4', 'label': '4 counting both ends'}, {'id': 'n3', 'label': '3'}, {'id': 'n2', 'label': '2'}], 'answer': 'n4', 'explanation': 'The third harmonic has 3 half-waves: nodes at both ends and 2 inside, 4 in total shown.'}
+GAME = {"type": "game", 'id': 'physics-harmonic-third-string-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Third Harmonic', 'question': 'In the third harmonic of a string, how many nodes are at the ends plus inside?', 'choices': [{'id': 'n4', 'label': '4 counting both ends'}, {'id': 'n3', 'label': '3'}, {'id': 'n2', 'label': '2'}], 'answer': 'n4', 'explanation': 'The third harmonic has 3 half-waves: nodes at both ends and 2 inside, 4 in total shown.'}
 
 CARDS = []
 POLYS = []

@@ -1,7 +1,7 @@
 """Stable Sort - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-stable-sort-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Stable Sort', 'question': 'A stable sorting algorithm preserves what?', 'choices': [{'id': 'order', 'label': 'Order of equal items'}, {'id': 'speed', 'label': 'Speed'}, {'id': 'memory', 'label': 'Memory use'}], 'answer': 'order', 'explanation': 'Stability means equal keys keep their original relative order after sorting.'}
+GAME = {"type": "game", 'id': 'programming-stable-sort-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Stable Sort', 'question': 'A stable sorting algorithm preserves what?', 'choices': [{'id': 'order', 'label': 'Order of equal items'}, {'id': 'speed', 'label': 'Speed'}, {'id': 'memory', 'label': 'Memory use'}], 'answer': 'order', 'explanation': 'Stability means equal keys keep their original relative order after sorting.'}
 
 CARDS = []
 POLYS = []

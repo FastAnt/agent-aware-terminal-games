@@ -1,7 +1,7 @@
 """Generalisation - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-generalization-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Generalisation', 'question': 'Good generalisation means the model does what?', 'choices': [{'id': 'new', 'label': 'Performs well on new data'}, {'id': 'train', 'label': 'Only fits training data'}, {'id': 'mem', 'label': 'Memorises examples'}], 'answer': 'new', 'explanation': 'The goal is performance on unseen data, not merely fitting the examples already seen.'}
+GAME = {"type": "game", 'id': 'ml-generalization-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Generalisation', 'question': 'Good generalisation means the model does what?', 'choices': [{'id': 'new', 'label': 'Performs well on new data'}, {'id': 'train', 'label': 'Only fits training data'}, {'id': 'mem', 'label': 'Memorises examples'}], 'answer': 'new', 'explanation': 'The goal is performance on unseen data, not merely fitting the examples already seen.'}
 
 CARDS = []
 POLYS = []

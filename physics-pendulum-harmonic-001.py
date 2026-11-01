@@ -1,7 +1,7 @@
 """Pendulum as SHM - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-pendulum-harmonic-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Pendulum as SHM', 'question': 'A pendulum is harmonic (isochronous) only under which condition?', 'choices': [{'id': 'small', 'label': 'Small swing angles'}, {'id': 'big', 'label': 'Very large swings'}, {'id': 'fast', 'label': 'Fast pushes'}], 'answer': 'small', 'explanation': 'For small angles sin(theta) is approx theta, giving true SHM independent of amplitude.'}
+GAME = {"type": "game", 'id': 'physics-pendulum-harmonic-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Pendulum as SHM', 'question': 'A pendulum is harmonic (isochronous) only under which condition?', 'choices': [{'id': 'small', 'label': 'Small swing angles'}, {'id': 'big', 'label': 'Very large swings'}, {'id': 'fast', 'label': 'Fast pushes'}], 'answer': 'small', 'explanation': 'For small angles sin(theta) is approx theta, giving true SHM independent of amplitude.'}
 
 CARDS = []
 POLYS = []

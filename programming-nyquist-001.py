@@ -1,7 +1,7 @@
 """Nyquist Sampling - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-nyquist-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Nyquist Sampling', 'question': 'To capture a 100 Hz signal you must sample at least at what rate?', 'choices': [{'id': 'nyq', 'label': 'Over 200 Hz'}, {'id': 'n100', 'label': '100 Hz'}, {'id': 'n50', 'label': '50 Hz'}], 'answer': 'nyq', 'explanation': 'Nyquist: sample faster than twice the highest frequency, or aliases fake lower tones.'}
+GAME = {"type": "game", 'id': 'programming-nyquist-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Nyquist Sampling', 'question': 'To capture a 100 Hz signal you must sample at least at what rate?', 'choices': [{'id': 'nyq', 'label': 'Over 200 Hz'}, {'id': 'n100', 'label': '100 Hz'}, {'id': 'n50', 'label': '50 Hz'}], 'answer': 'nyq', 'explanation': 'Nyquist: sample faster than twice the highest frequency, or aliases fake lower tones.'}
 
 CARDS = []
 POLYS = []

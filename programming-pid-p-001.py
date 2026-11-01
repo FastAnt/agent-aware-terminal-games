@@ -1,7 +1,7 @@
 """PID: P Term - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-pid-p-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'PID: P Term', 'question': 'The P term of a PID controller reacts to what?', 'choices': [{'id': 'now', 'label': 'Current error'}, {'id': 'past', 'label': 'Sum of past errors'}, {'id': 'future', 'label': 'Rate of change'}], 'answer': 'now', 'explanation': 'Proportional control pushes in proportion to the present error.'}
+GAME = {"type": "game", 'id': 'programming-pid-p-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'PID: P Term', 'question': 'The P term of a PID controller reacts to what?', 'choices': [{'id': 'now', 'label': 'Current error'}, {'id': 'past', 'label': 'Sum of past errors'}, {'id': 'future', 'label': 'Rate of change'}], 'answer': 'now', 'explanation': 'Proportional control pushes in proportion to the present error.'}
 
 CARDS = []
 POLYS = []

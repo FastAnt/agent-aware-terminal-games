@@ -1,7 +1,7 @@
 """Square Symmetry - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'geometry-square-symmetry-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Geometry', 'title': 'Square Symmetry', 'question': 'How many lines of symmetry does a square have?', 'choices': [{'id': 's4', 'label': '4'}, {'id': 's2', 'label': '2'}, {'id': 's1', 'label': '1'}], 'answer': 's4', 'explanation': 'A square has four symmetry lines: two diagonals and two through opposite side midpoints.'}
+GAME = {"type": "game", 'id': 'geometry-square-symmetry-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Geometry', 'title': 'Square Symmetry', 'question': 'How many lines of symmetry does a square have?', 'choices': [{'id': 's4', 'label': '4'}, {'id': 's2', 'label': '2'}, {'id': 's1', 'label': '1'}], 'answer': 's4', 'explanation': 'A square has four symmetry lines: two diagonals and two through opposite side midpoints.'}
 
 CARDS = []
 POLYS = []

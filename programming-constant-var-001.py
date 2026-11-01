@@ -1,7 +1,7 @@
 """Constant - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-constant-var-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Constant', 'question': 'Declaring a value constant mainly promises what?', 'choices': [{'id': 'nochange', 'label': 'It will not change'}, {'id': 'fast', 'label': 'It runs faster'}, {'id': 'global', 'label': 'It is global'}], 'answer': 'nochange', 'explanation': 'A constant binding signals and enforces that the value is not reassigned after creation.'}
+GAME = {"type": "game", 'id': 'programming-constant-var-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Constant', 'question': 'Declaring a value constant mainly promises what?', 'choices': [{'id': 'nochange', 'label': 'It will not change'}, {'id': 'fast', 'label': 'It runs faster'}, {'id': 'global', 'label': 'It is global'}], 'answer': 'nochange', 'explanation': 'A constant binding signals and enforces that the value is not reassigned after creation.'}
 
 CARDS = []
 POLYS = []

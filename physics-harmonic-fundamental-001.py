@@ -1,7 +1,7 @@
 """Fundamental - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-harmonic-fundamental-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Fundamental', 'question': 'The fundamental frequency of a vibrating string is its what?', 'choices': [{'id': 'low', 'label': 'Lowest natural frequency'}, {'id': 'high', 'label': 'Highest'}, {'id': 'avg', 'label': 'Average overtone'}], 'answer': 'low', 'explanation': 'The fundamental (first harmonic) is the slowest whole-string vibration; overtones build on it.'}
+GAME = {"type": "game", 'id': 'physics-harmonic-fundamental-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Fundamental', 'question': 'The fundamental frequency of a vibrating string is its what?', 'choices': [{'id': 'low', 'label': 'Lowest natural frequency'}, {'id': 'high', 'label': 'Highest'}, {'id': 'avg', 'label': 'Average overtone'}], 'answer': 'low', 'explanation': 'The fundamental (first harmonic) is the slowest whole-string vibration; overtones build on it.'}
 
 CARDS = []
 POLYS = []

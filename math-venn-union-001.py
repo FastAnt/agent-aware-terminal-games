@@ -1,7 +1,7 @@
 """Union - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'math-venn-union-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Union', 'question': 'The union of A and B contains elements that are where?', 'choices': [{'id': 'either', 'label': 'In A, in B, or both'}, {'id': 'both', 'label': 'Only in both'}, {'id': 'onlya', 'label': 'Only in A'}], 'answer': 'either', 'explanation': 'Union collects everything in either set, counting shared elements once.'}
+GAME = {"type": "game", 'id': 'math-venn-union-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Union', 'question': 'The union of A and B contains elements that are where?', 'choices': [{'id': 'either', 'label': 'In A, in B, or both'}, {'id': 'both', 'label': 'Only in both'}, {'id': 'onlya', 'label': 'Only in A'}], 'answer': 'either', 'explanation': 'Union collects everything in either set, counting shared elements once.'}
 
 CARDS = []
 POLYS = []

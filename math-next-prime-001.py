@@ -5,7 +5,7 @@ Inspiration notes: see games-base/SOURCES.md (original idea, no copied assets).
 """
 import math
 
-GAME = {'id': 'math-next-prime-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Next Prime', 'question': 'What is the smallest prime greater than 10?', 'choices': [{'id': 'p11', 'label': '11'}, {'id': 'p12', 'label': '12'}, {'id': 'p15', 'label': '15'}], 'answer': 'p11', 'explanation': '11 is prime; 12 and 15 are composite, and primes start 2,3,5,7,11.'}
+GAME = {"type": "game", 'id': 'math-next-prime-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Next Prime', 'question': 'What is the smallest prime greater than 10?', 'choices': [{'id': 'p11', 'label': '11'}, {'id': 'p12', 'label': '12'}, {'id': 'p15', 'label': '15'}], 'answer': 'p11', 'explanation': '11 is prime; 12 and 15 are composite, and primes start 2,3,5,7,11.'}
 
 SCENE = "spiral"
 

@@ -1,7 +1,7 @@
 """Same Medium - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-two-waves-speed-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Same Medium', 'question': 'Two harmonic waves in the same medium with different frequencies have what?', 'choices': [{'id': 'same', 'label': 'Same speed'}, {'id': 'fast', 'label': 'Higher f is faster'}, {'id': 'slow', 'label': 'Higher f is slower'}], 'answer': 'same', 'explanation': 'In a non-dispersive medium speed is set by the medium, so wavelength adjusts instead.'}
+GAME = {"type": "game", 'id': 'physics-two-waves-speed-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Same Medium', 'question': 'Two harmonic waves in the same medium with different frequencies have what?', 'choices': [{'id': 'same', 'label': 'Same speed'}, {'id': 'fast', 'label': 'Higher f is faster'}, {'id': 'slow', 'label': 'Higher f is slower'}], 'answer': 'same', 'explanation': 'In a non-dispersive medium speed is set by the medium, so wavelength adjusts instead.'}
 
 CARDS = []
 POLYS = []

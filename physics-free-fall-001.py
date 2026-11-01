@@ -1,7 +1,7 @@
 """Falling in a Vacuum - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-free-fall-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Falling in a Vacuum', 'question': 'In a vacuum, a hammer and a feather are dropped together. What happens?', 'choices': [{'id': 'same', 'label': 'They fall together'}, {'id': 'hammer', 'label': 'Hammer lands first'}, {'id': 'feather', 'label': 'Feather lands first'}], 'answer': 'same', 'explanation': 'Without air resistance all objects accelerate at g, whatever their mass; Apollo 15 demonstrated this on the Moon.'}
+GAME = {"type": "game", 'id': 'physics-free-fall-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Falling in a Vacuum', 'question': 'In a vacuum, a hammer and a feather are dropped together. What happens?', 'choices': [{'id': 'same', 'label': 'They fall together'}, {'id': 'hammer', 'label': 'Hammer lands first'}, {'id': 'feather', 'label': 'Feather lands first'}], 'answer': 'same', 'explanation': 'Without air resistance all objects accelerate at g, whatever their mass; Apollo 15 demonstrated this on the Moon.'}
 
 CARDS = []
 POLYS = []

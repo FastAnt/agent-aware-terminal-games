@@ -1,7 +1,7 @@
 """Bubble Sort - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-bubble-sort-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Bubble Sort', 'question': 'Bubble sort repeatedly compares which elements?', 'choices': [{'id': 'neigh', 'label': 'Neighbouring pairs'}, {'id': 'ends', 'label': 'First and last'}, {'id': 'random', 'label': 'Random pairs'}], 'answer': 'neigh', 'explanation': 'Bubble sort swaps adjacent out-of-order pairs, bubbling the largest remaining value to the end.'}
+GAME = {"type": "game", 'id': 'programming-bubble-sort-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Bubble Sort', 'question': 'Bubble sort repeatedly compares which elements?', 'choices': [{'id': 'neigh', 'label': 'Neighbouring pairs'}, {'id': 'ends', 'label': 'First and last'}, {'id': 'random', 'label': 'Random pairs'}], 'answer': 'neigh', 'explanation': 'Bubble sort swaps adjacent out-of-order pairs, bubbling the largest remaining value to the end.'}
 
 CARDS = []
 POLYS = []

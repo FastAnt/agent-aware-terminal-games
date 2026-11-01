@@ -1,7 +1,7 @@
 """Backups - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'architecture-backup-purpose-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Architecture', 'title': 'Backups', 'question': 'The main purpose of a backup is to do what?', 'choices': [{'id': 'recover', 'label': 'Recover after loss or failure'}, {'id': 'speed', 'label': 'Serve traffic faster'}, {'id': 'monitor', 'label': 'Monitor logs'}], 'answer': 'recover', 'explanation': 'Backups let you restore data after deletion, corruption or hardware failure; untested backups are a gamble.'}
+GAME = {"type": "game", 'id': 'architecture-backup-purpose-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Architecture', 'title': 'Backups', 'question': 'The main purpose of a backup is to do what?', 'choices': [{'id': 'recover', 'label': 'Recover after loss or failure'}, {'id': 'speed', 'label': 'Serve traffic faster'}, {'id': 'monitor', 'label': 'Monitor logs'}], 'answer': 'recover', 'explanation': 'Backups let you restore data after deletion, corruption or hardware failure; untested backups are a gamble.'}
 
 CARDS = []
 POLYS = []

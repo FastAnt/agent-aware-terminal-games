@@ -1,7 +1,7 @@
 """Avalanche Effect - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-hash-avalanche-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Avalanche Effect', 'question': 'Changing one input bit of a good hash changes the output how?', 'choices': [{'id': 'half', 'label': 'About half the bits, unpredictably'}, {'id': 'one', 'label': 'Exactly one bit'}, {'id': 'none', 'label': 'Not at all'}], 'answer': 'half', 'explanation': 'The avalanche effect decorrelates outputs: neighbours in input look unrelated in output.'}
+GAME = {"type": "game", 'id': 'programming-hash-avalanche-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Avalanche Effect', 'question': 'Changing one input bit of a good hash changes the output how?', 'choices': [{'id': 'half', 'label': 'About half the bits, unpredictably'}, {'id': 'one', 'label': 'Exactly one bit'}, {'id': 'none', 'label': 'Not at all'}], 'answer': 'half', 'explanation': 'The avalanche effect decorrelates outputs: neighbours in input look unrelated in output.'}
 
 CARDS = []
 POLYS = []

@@ -1,7 +1,7 @@
 """Precision - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-precision-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Precision', 'question': 'Precision answers which question?', 'choices': [{'id': 'prec', 'label': 'Of predicted positives, how many were right?'}, {'id': 'rec', 'label': 'Of real positives, how many were found?'}, {'id': 'acc', 'label': 'Overall accuracy?'}], 'answer': 'prec', 'explanation': 'Precision is true positives over all predicted positives; recall divides by all real positives instead.'}
+GAME = {"type": "game", 'id': 'ml-precision-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Precision', 'question': 'Precision answers which question?', 'choices': [{'id': 'prec', 'label': 'Of predicted positives, how many were right?'}, {'id': 'rec', 'label': 'Of real positives, how many were found?'}, {'id': 'acc', 'label': 'Overall accuracy?'}], 'answer': 'prec', 'explanation': 'Precision is true positives over all predicted positives; recall divides by all real positives instead.'}
 
 CARDS = []
 POLYS = []

@@ -1,7 +1,7 @@
 """Diffie-Hellman - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-diffie-hellman-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Diffie-Hellman', 'question': 'Diffie-Hellman lets two parties create what over a public channel?', 'choices': [{'id': 'shared', 'label': 'A shared secret'}, {'id': 'keypair', 'label': "Each other's private keys"}, {'id': 'cert', 'label': 'A certificate'}], 'answer': 'shared', 'explanation': 'Public exchanges combine with private values so both derive the same secret eavesdroppers cannot feasibly get.'}
+GAME = {"type": "game", 'id': 'programming-diffie-hellman-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Diffie-Hellman', 'question': 'Diffie-Hellman lets two parties create what over a public channel?', 'choices': [{'id': 'shared', 'label': 'A shared secret'}, {'id': 'keypair', 'label': "Each other's private keys"}, {'id': 'cert', 'label': 'A certificate'}], 'answer': 'shared', 'explanation': 'Public exchanges combine with private values so both derive the same secret eavesdroppers cannot feasibly get.'}
 
 CARDS = []
 POLYS = []

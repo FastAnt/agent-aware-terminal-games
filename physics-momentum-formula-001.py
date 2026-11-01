@@ -1,7 +1,7 @@
 """Momentum - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-momentum-formula-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Momentum', 'question': 'Momentum of a moving object equals what?', 'choices': [{'id': 'mv', 'label': 'mass * velocity'}, {'id': 'mvv', 'label': 'mass * velocity^2'}, {'id': 'ma', 'label': 'mass * acceleration'}], 'answer': 'mv', 'explanation': 'Momentum p = m*v; the squared formula belongs to kinetic energy, not momentum.'}
+GAME = {"type": "game", 'id': 'physics-momentum-formula-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Momentum', 'question': 'Momentum of a moving object equals what?', 'choices': [{'id': 'mv', 'label': 'mass * velocity'}, {'id': 'mvv', 'label': 'mass * velocity^2'}, {'id': 'ma', 'label': 'mass * acceleration'}], 'answer': 'mv', 'explanation': 'Momentum p = m*v; the squared formula belongs to kinetic energy, not momentum.'}
 
 CARDS = []
 POLYS = []

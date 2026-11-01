@@ -1,7 +1,7 @@
 """XOR Gate - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-xor-gate-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'XOR Gate', 'question': 'Inputs are A=1 and B=1. What does the XOR gate output?', 'choices': [{'id': 'zero', 'label': '0'}, {'id': 'one', 'label': '1'}], 'answer': 'zero', 'explanation': 'XOR means exactly one input is 1; with both 1 the output is 0.'}
+GAME = {"type": "game", 'id': 'programming-xor-gate-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'XOR Gate', 'question': 'Inputs are A=1 and B=1. What does the XOR gate output?', 'choices': [{'id': 'zero', 'label': '0'}, {'id': 'one', 'label': '1'}], 'answer': 'zero', 'explanation': 'XOR means exactly one input is 1; with both 1 the output is 0.'}
 
 CARDS = []
 POLYS = []

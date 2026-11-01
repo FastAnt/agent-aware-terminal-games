@@ -1,7 +1,7 @@
 """Stress - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-stress-def-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Stress', 'question': 'Mechanical stress is defined as what?', 'choices': [{'id': 'fa', 'label': 'Force per unit area'}, {'id': 'fv', 'label': 'Force times volume'}, {'id': 'fd', 'label': 'Force per density'}], 'answer': 'fa', 'explanation': 'Stress sigma = F/A; the same force concentrated on a smaller area raises stress.'}
+GAME = {"type": "game", 'id': 'physics-stress-def-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Stress', 'question': 'Mechanical stress is defined as what?', 'choices': [{'id': 'fa', 'label': 'Force per unit area'}, {'id': 'fv', 'label': 'Force times volume'}, {'id': 'fd', 'label': 'Force per density'}], 'answer': 'fa', 'explanation': 'Stress sigma = F/A; the same force concentrated on a smaller area raises stress.'}
 
 CARDS = []
 POLYS = []

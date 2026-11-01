@@ -1,7 +1,7 @@
 """PID: D Term - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-pid-d-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'PID: D Term', 'question': 'The D term reacts to what?', 'choices': [{'id': 'rate', 'label': "The error's rate of change"}, {'id': 'sum', 'label': 'Total error'}, {'id': 'target', 'label': 'The setpoint value'}], 'answer': 'rate', 'explanation': 'Derivative action brakes as error shrinks fast, damping overshoot.'}
+GAME = {"type": "game", 'id': 'programming-pid-d-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'PID: D Term', 'question': 'The D term reacts to what?', 'choices': [{'id': 'rate', 'label': "The error's rate of change"}, {'id': 'sum', 'label': 'Total error'}, {'id': 'target', 'label': 'The setpoint value'}], 'answer': 'rate', 'explanation': 'Derivative action brakes as error shrinks fast, damping overshoot.'}
 
 CARDS = []
 POLYS = []

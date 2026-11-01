@@ -1,7 +1,7 @@
 """Square Sequence - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'math-square-sequence-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Square Sequence', 'question': 'What comes next: 1, 4, 9, 16, 25, ...?', 'choices': [{'id': 'n36', 'label': '36'}, {'id': 'n30', 'label': '30'}, {'id': 'n49', 'label': '49'}], 'answer': 'n36', 'explanation': 'These are squares 1^2..5^2, so next is 6^2 = 36.'}
+GAME = {"type": "game", 'id': 'math-square-sequence-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Square Sequence', 'question': 'What comes next: 1, 4, 9, 16, 25, ...?', 'choices': [{'id': 'n36', 'label': '36'}, {'id': 'n30', 'label': '30'}, {'id': 'n49', 'label': '49'}], 'answer': 'n36', 'explanation': 'These are squares 1^2..5^2, so next is 6^2 = 36.'}
 
 CARDS = []
 POLYS = []

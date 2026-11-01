@@ -1,7 +1,7 @@
 """Spring Period - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-shm-period-spring-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Spring Period', 'question': 'Doubling the mass on a spring does what to the period?', 'choices': [{'id': 'long', 'label': 'Makes it longer (x sqrt 2)'}, {'id': 'short', 'label': 'Makes it shorter'}, {'id': 'same', 'label': 'Nothing'}], 'answer': 'long', 'explanation': 'T = 2 pi sqrt(m/k): more mass oscillates slower, by sqrt of the mass ratio.'}
+GAME = {"type": "game", 'id': 'physics-shm-period-spring-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Spring Period', 'question': 'Doubling the mass on a spring does what to the period?', 'choices': [{'id': 'long', 'label': 'Makes it longer (x sqrt 2)'}, {'id': 'short', 'label': 'Makes it shorter'}, {'id': 'same', 'label': 'Nothing'}], 'answer': 'long', 'explanation': 'T = 2 pi sqrt(m/k): more mass oscillates slower, by sqrt of the mass ratio.'}
 
 CARDS = []
 POLYS = []

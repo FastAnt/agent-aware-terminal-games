@@ -1,7 +1,7 @@
 """Damping - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-damping-effect-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Damping', 'question': 'Damping in an oscillator mainly does what?', 'choices': [{'id': 'decay', 'label': 'Shrinks the amplitude over time'}, {'id': 'grow', 'label': 'Grows it'}, {'id': 'freq', 'label': 'Doubles frequency'}], 'answer': 'decay', 'explanation': 'Friction-like losses drain energy, so swings die away exponentially.'}
+GAME = {"type": "game", 'id': 'physics-damping-effect-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Damping', 'question': 'Damping in an oscillator mainly does what?', 'choices': [{'id': 'decay', 'label': 'Shrinks the amplitude over time'}, {'id': 'grow', 'label': 'Grows it'}, {'id': 'freq', 'label': 'Doubles frequency'}], 'answer': 'decay', 'explanation': 'Friction-like losses drain energy, so swings die away exponentially.'}
 
 CARDS = []
 POLYS = []

@@ -1,7 +1,7 @@
 """Symmetric Encryption - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-symmetric-key-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Symmetric Encryption', 'question': 'Symmetric encryption uses what keys for encrypt and decrypt?', 'choices': [{'id': 'same', 'label': 'The same key'}, {'id': 'pair', 'label': 'A public/private pair'}, {'id': 'none', 'label': 'No key'}], 'answer': 'same', 'explanation': 'One shared secret both locks and unlocks; distributing it safely is the hard part.'}
+GAME = {"type": "game", 'id': 'programming-symmetric-key-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Symmetric Encryption', 'question': 'Symmetric encryption uses what keys for encrypt and decrypt?', 'choices': [{'id': 'same', 'label': 'The same key'}, {'id': 'pair', 'label': 'A public/private pair'}, {'id': 'none', 'label': 'No key'}], 'answer': 'same', 'explanation': 'One shared secret both locks and unlocks; distributing it safely is the hard part.'}
 
 CARDS = []
 POLYS = []

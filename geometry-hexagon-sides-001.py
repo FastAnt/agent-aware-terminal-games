@@ -1,7 +1,7 @@
 """Hexagon - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'geometry-hexagon-sides-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Geometry', 'title': 'Hexagon', 'question': 'Click the polygon with exactly six sides.', 'choices': [{'id': 'hexagon', 'label': 'Hexagon'}, {'id': 'square', 'label': 'Square'}, {'id': 'octagon', 'label': 'Octagon'}], 'answer': 'hexagon', 'explanation': 'Hexa means six: a hexagon has six sides, a square four and an octagon eight.'}
+GAME = {"type": "game", 'id': 'geometry-hexagon-sides-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Geometry', 'title': 'Hexagon', 'question': 'Click the polygon with exactly six sides.', 'choices': [{'id': 'hexagon', 'label': 'Hexagon'}, {'id': 'square', 'label': 'Square'}, {'id': 'octagon', 'label': 'Octagon'}], 'answer': 'hexagon', 'explanation': 'Hexa means six: a hexagon has six sides, a square four and an octagon eight.'}
 
 CARDS = []
 POLYS = []

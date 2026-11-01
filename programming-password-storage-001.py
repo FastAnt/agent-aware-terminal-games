@@ -1,7 +1,7 @@
 """Storing Passwords - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-password-storage-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Storing Passwords', 'question': 'Websites should store passwords as what?', 'choices': [{'id': 'salted', 'label': 'Salted slow hashes'}, {'id': 'plain', 'label': 'Encrypted plaintext'}, {'id': 'plain2', 'label': 'Plaintext for support'}], 'answer': 'salted', 'explanation': 'Salted slow hashes mean a database leak does not hand attackers the passwords.'}
+GAME = {"type": "game", 'id': 'programming-password-storage-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Storing Passwords', 'question': 'Websites should store passwords as what?', 'choices': [{'id': 'salted', 'label': 'Salted slow hashes'}, {'id': 'plain', 'label': 'Encrypted plaintext'}, {'id': 'plain2', 'label': 'Plaintext for support'}], 'answer': 'salted', 'explanation': 'Salted slow hashes mean a database leak does not hand attackers the passwords.'}
 
 CARDS = []
 POLYS = []

@@ -1,7 +1,7 @@
 """Absolute Value - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'math-absolute-value-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Absolute Value', 'question': 'What is |-7|?', 'choices': [{'id': 'a7', 'label': '7'}, {'id': 'am7', 'label': '-7'}, {'id': 'a0', 'label': '0'}], 'answer': 'a7', 'explanation': 'Absolute value is distance from zero, so |-7| = 7.'}
+GAME = {"type": "game", 'id': 'math-absolute-value-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Absolute Value', 'question': 'What is |-7|?', 'choices': [{'id': 'a7', 'label': '7'}, {'id': 'am7', 'label': '-7'}, {'id': 'a0', 'label': '0'}], 'answer': 'a7', 'explanation': 'Absolute value is distance from zero, so |-7| = 7.'}
 
 CARDS = []
 POLYS = []

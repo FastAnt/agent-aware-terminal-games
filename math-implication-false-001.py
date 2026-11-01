@@ -1,7 +1,7 @@
 """Implication - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'math-implication-false-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Implication', 'question': 'An implication P -> Q is false in exactly which case?', 'choices': [{'id': 'tf', 'label': 'P true, Q false'}, {'id': 'ft', 'label': 'P false, Q true'}, {'id': 'tt', 'label': 'P true, Q true'}], 'answer': 'tf', 'explanation': 'P -> Q promises Q whenever P holds; it is broken only by P true and Q false.'}
+GAME = {"type": "game", 'id': 'math-implication-false-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Implication', 'question': 'An implication P -> Q is false in exactly which case?', 'choices': [{'id': 'tf', 'label': 'P true, Q false'}, {'id': 'ft', 'label': 'P false, Q true'}, {'id': 'tt', 'label': 'P true, Q true'}], 'answer': 'tf', 'explanation': 'P -> Q promises Q whenever P holds; it is broken only by P true and Q false.'}
 
 CARDS = []
 POLYS = []

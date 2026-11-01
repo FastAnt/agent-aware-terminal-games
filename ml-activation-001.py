@@ -1,7 +1,7 @@
 """Activation Function - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-activation-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Activation Function', 'question': 'An activation function such as ReLU mainly adds what?', 'choices': [{'id': 'nonlin', 'label': 'Non-linearity'}, {'id': 'data2', 'label': 'More data'}, {'id': 'labels2', 'label': 'More labels'}], 'answer': 'nonlin', 'explanation': 'Without non-linear activations, stacked layers would collapse into a single linear map.'}
+GAME = {"type": "game", 'id': 'ml-activation-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Activation Function', 'question': 'An activation function such as ReLU mainly adds what?', 'choices': [{'id': 'nonlin', 'label': 'Non-linearity'}, {'id': 'data2', 'label': 'More data'}, {'id': 'labels2', 'label': 'More labels'}], 'answer': 'nonlin', 'explanation': 'Without non-linear activations, stacked layers would collapse into a single linear map.'}
 
 CARDS = []
 POLYS = []

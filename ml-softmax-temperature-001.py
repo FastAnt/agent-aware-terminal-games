@@ -1,7 +1,7 @@
 """Temperature - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-softmax-temperature-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Temperature', 'question': 'Raising softmax temperature (dividing logits by T>1) makes the distribution what?', 'choices': [{'id': 'flat', 'label': 'Flatter / softer'}, {'id': 'sharp', 'label': 'Sharper'}, {'id': 'neg', 'label': 'Negative'}], 'answer': 'flat', 'explanation': 'Larger T shrinks logit gaps, spreading probability more evenly.'}
+GAME = {"type": "game", 'id': 'ml-softmax-temperature-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Temperature', 'question': 'Raising softmax temperature (dividing logits by T>1) makes the distribution what?', 'choices': [{'id': 'flat', 'label': 'Flatter / softer'}, {'id': 'sharp', 'label': 'Sharper'}, {'id': 'neg', 'label': 'Negative'}], 'answer': 'flat', 'explanation': 'Larger T shrinks logit gaps, spreading probability more evenly.'}
 
 CARDS = []
 POLYS = []

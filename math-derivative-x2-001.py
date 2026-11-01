@@ -5,7 +5,7 @@ Inspiration notes: see games-base/SOURCES.md (original idea, no copied assets).
 """
 import math
 
-GAME = {'id': 'math-derivative-x2-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Derivative', 'question': 'The derivative of x^2 is what?', 'choices': [{'id': 'd2x', 'label': '2x'}, {'id': 'dx', 'label': 'x'}, {'id': 'dx2', 'label': 'x^2'}], 'answer': 'd2x', 'explanation': 'By the power rule, d/dx x^2 = 2x; the exponent comes down and drops by one.'}
+GAME = {"type": "game", 'id': 'math-derivative-x2-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Derivative', 'question': 'The derivative of x^2 is what?', 'choices': [{'id': 'd2x', 'label': '2x'}, {'id': 'dx', 'label': 'x'}, {'id': 'dx2', 'label': 'x^2'}], 'answer': 'd2x', 'explanation': 'By the power rule, d/dx x^2 = 2x; the exponent comes down and drops by one.'}
 
 SCENE = "parabola"
 

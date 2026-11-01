@@ -1,7 +1,7 @@
 """XNOR Gate - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-xnor-gate-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'XNOR Gate', 'question': 'Inputs are A=1 and B=0. What does the XNOR gate output?', 'choices': [{'id': 'zero', 'label': '0'}, {'id': 'one', 'label': '1'}], 'answer': 'zero', 'explanation': 'XNOR outputs 1 when inputs are equal; 1 and 0 differ, so 0.'}
+GAME = {"type": "game", 'id': 'programming-xnor-gate-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'XNOR Gate', 'question': 'Inputs are A=1 and B=0. What does the XNOR gate output?', 'choices': [{'id': 'zero', 'label': '0'}, {'id': 'one', 'label': '1'}], 'answer': 'zero', 'explanation': 'XNOR outputs 1 when inputs are equal; 1 and 0 differ, so 0.'}
 
 CARDS = []
 POLYS = []

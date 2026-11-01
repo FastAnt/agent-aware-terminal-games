@@ -5,7 +5,7 @@ Inspiration notes: see games-base/SOURCES.md (original idea, no copied assets).
 """
 import math
 
-GAME = {'id': 'geometry-triangle-angles-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Geometry', 'title': 'Triangle Angles', 'question': 'The three interior angles of any triangle add up to what?', 'choices': [{'id': 'a180', 'label': '180 degrees'}, {'id': 'a360', 'label': '360 degrees'}, {'id': 'a90', 'label': '90 degrees'}], 'answer': 'a180', 'explanation': 'Interior angles of a Euclidean triangle always sum to 180 degrees.'}
+GAME = {"type": "game", 'id': 'geometry-triangle-angles-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Geometry', 'title': 'Triangle Angles', 'question': 'The three interior angles of any triangle add up to what?', 'choices': [{'id': 'a180', 'label': '180 degrees'}, {'id': 'a360', 'label': '360 degrees'}, {'id': 'a90', 'label': '90 degrees'}], 'answer': 'a180', 'explanation': 'Interior angles of a Euclidean triangle always sum to 180 degrees.'}
 
 SCENE = "triangle"
 

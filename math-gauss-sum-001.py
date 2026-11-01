@@ -1,7 +1,7 @@
 """Gauss Sum - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'math-gauss-sum-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Gauss Sum', 'question': 'What is 1 + 2 + ... + 10?', 'choices': [{'id': 's55', 'label': '55'}, {'id': 's50', 'label': '50'}, {'id': 's100', 'label': '100'}], 'answer': 's55', 'explanation': 'Pair 1+10, 2+9, ... : five pairs each summing to 11 give 55.'}
+GAME = {"type": "game", 'id': 'math-gauss-sum-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Gauss Sum', 'question': 'What is 1 + 2 + ... + 10?', 'choices': [{'id': 's55', 'label': '55'}, {'id': 's50', 'label': '50'}, {'id': 's100', 'label': '100'}], 'answer': 's55', 'explanation': 'Pair 1+10, 2+9, ... : five pairs each summing to 11 give 55.'}
 
 CARDS = []
 POLYS = []

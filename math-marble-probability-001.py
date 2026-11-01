@@ -1,7 +1,7 @@
 """Marble Probability - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'math-marble-probability-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Marble Probability', 'question': 'A bag has 2 red and 3 blue marbles. What is the chance of drawing red?', 'choices': [{'id': 'p25', 'label': '2/5'}, {'id': 'p23', 'label': '2/3'}, {'id': 'p12', 'label': '1/2'}], 'answer': 'p25', 'explanation': 'Two of the five equally likely marbles are red, giving probability 2/5.'}
+GAME = {"type": "game", 'id': 'math-marble-probability-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Marble Probability', 'question': 'A bag has 2 red and 3 blue marbles. What is the chance of drawing red?', 'choices': [{'id': 'p25', 'label': '2/5'}, {'id': 'p23', 'label': '2/3'}, {'id': 'p12', 'label': '1/2'}], 'answer': 'p25', 'explanation': 'Two of the five equally likely marbles are red, giving probability 2/5.'}
 
 CARDS = []
 POLYS = []

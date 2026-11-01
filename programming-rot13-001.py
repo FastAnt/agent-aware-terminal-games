@@ -1,7 +1,7 @@
 """ROT13 - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-rot13-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'ROT13', 'question': 'Applying ROT13 twice gives what?', 'choices': [{'id': 'orig', 'label': 'The original text'}, {'id': 'c13', 'label': 'Another cipher'}, {'id': 'half', 'label': 'Half the text'}], 'answer': 'orig', 'explanation': '13 is half of 26, so ROT13 is its own inverse.'}
+GAME = {"type": "game", 'id': 'programming-rot13-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'ROT13', 'question': 'Applying ROT13 twice gives what?', 'choices': [{'id': 'orig', 'label': 'The original text'}, {'id': 'c13', 'label': 'Another cipher'}, {'id': 'half', 'label': 'Half the text'}], 'answer': 'orig', 'explanation': '13 is half of 26, so ROT13 is its own inverse.'}
 
 CARDS = []
 POLYS = []

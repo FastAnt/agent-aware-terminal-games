@@ -1,7 +1,7 @@
 """Sigmoid Range - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-sigmoid-range-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Sigmoid Range', 'question': 'The sigmoid function maps any real input into which range?', 'choices': [{'id': 'r01', 'label': '(0, 1)'}, {'id': 'r11', 'label': '(-1, 1)'}, {'id': 'rinf', 'label': '(0, infinity)'}], 'answer': 'r01', 'explanation': 'Sigmoid squashes to a probability-like range between 0 and 1.'}
+GAME = {"type": "game", 'id': 'ml-sigmoid-range-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Sigmoid Range', 'question': 'The sigmoid function maps any real input into which range?', 'choices': [{'id': 'r01', 'label': '(0, 1)'}, {'id': 'r11', 'label': '(-1, 1)'}, {'id': 'rinf', 'label': '(0, infinity)'}], 'answer': 'r01', 'explanation': 'Sigmoid squashes to a probability-like range between 0 and 1.'}
 
 CARDS = []
 POLYS = []

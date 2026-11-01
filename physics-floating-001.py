@@ -1,7 +1,7 @@
 """Will It Float? - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-floating-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Will It Float?', 'question': 'An object floats in water when its average density is what?', 'choices': [{'id': 'less', 'label': 'Less than water'}, {'id': 'more', 'label': 'More than water'}, {'id': 'equal2', 'label': 'Exactly zero'}], 'answer': 'less', 'explanation': "It floats when its average density is below water's, so buoyancy can balance its weight."}
+GAME = {"type": "game", 'id': 'physics-floating-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Will It Float?', 'question': 'An object floats in water when its average density is what?', 'choices': [{'id': 'less', 'label': 'Less than water'}, {'id': 'more', 'label': 'More than water'}, {'id': 'equal2', 'label': 'Exactly zero'}], 'answer': 'less', 'explanation': "It floats when its average density is below water's, so buoyancy can balance its weight."}
 
 CARDS = []
 POLYS = []

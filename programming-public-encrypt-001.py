@@ -1,7 +1,7 @@
 """Encrypt to a Public Key - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-public-encrypt-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Encrypt to a Public Key', 'question': 'To send someone a secret, you encrypt with which key?', 'choices': [{'id': 'pub', 'label': 'Their public key'}, {'id': 'own', 'label': 'Your private key'}, {'id': 'pub2', 'label': 'Your public key'}], 'answer': 'pub', 'explanation': "Anyone may lock with the public key; only the owner's private key opens it."}
+GAME = {"type": "game", 'id': 'programming-public-encrypt-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Encrypt to a Public Key', 'question': 'To send someone a secret, you encrypt with which key?', 'choices': [{'id': 'pub', 'label': 'Their public key'}, {'id': 'own', 'label': 'Your private key'}, {'id': 'pub2', 'label': 'Your public key'}], 'answer': 'pub', 'explanation': "Anyone may lock with the public key; only the owner's private key opens it."}
 
 CARDS = []
 POLYS = []

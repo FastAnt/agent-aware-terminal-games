@@ -1,7 +1,7 @@
 """Randomness - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-crypto-random-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Randomness', 'question': 'Keys should be generated with what kind of randomness?', 'choices': [{'id': 'csprng', 'label': 'A cryptographic RNG (CSPRNG)'}, {'id': 'rand', 'label': 'Math.random is fine'}, {'id': 'time', 'label': 'Current time'}], 'answer': 'csprng', 'explanation': 'Predictable randomness makes keys guessable; CSPRNGs are designed to resist prediction.'}
+GAME = {"type": "game", 'id': 'programming-crypto-random-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Randomness', 'question': 'Keys should be generated with what kind of randomness?', 'choices': [{'id': 'csprng', 'label': 'A cryptographic RNG (CSPRNG)'}, {'id': 'rand', 'label': 'Math.random is fine'}, {'id': 'time', 'label': 'Current time'}], 'answer': 'csprng', 'explanation': 'Predictable randomness makes keys guessable; CSPRNGs are designed to resist prediction.'}
 
 CARDS = []
 POLYS = []

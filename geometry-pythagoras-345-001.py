@@ -1,7 +1,7 @@
 """3-4-5 Triangle - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'geometry-pythagoras-345-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Geometry', 'title': '3-4-5 Triangle', 'question': 'A right triangle has legs 3 and 4. How long is the hypotenuse?', 'choices': [{'id': 'h5', 'label': '5'}, {'id': 'h7', 'label': '7'}, {'id': 'h6', 'label': '6'}], 'answer': 'h5', 'explanation': 'By Pythagoras 3^2 + 4^2 = 25, so the hypotenuse is sqrt(25) = 5.'}
+GAME = {"type": "game", 'id': 'geometry-pythagoras-345-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Geometry', 'title': '3-4-5 Triangle', 'question': 'A right triangle has legs 3 and 4. How long is the hypotenuse?', 'choices': [{'id': 'h5', 'label': '5'}, {'id': 'h7', 'label': '7'}, {'id': 'h6', 'label': '6'}], 'answer': 'h5', 'explanation': 'By Pythagoras 3^2 + 4^2 = 25, so the hypotenuse is sqrt(25) = 5.'}
 
 CARDS = []
 POLYS = []

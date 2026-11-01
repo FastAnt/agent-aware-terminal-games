@@ -16,8 +16,9 @@ you draw with cairo and compute anything you like:
 import math
 
 GAME = {
+    "type": "game",                    # game|news|idea|fact (see below)
     "id": "physics-orbits-001",
-    "kind": "quiz",                    # or "card" (unscored)
+    "kind": "quiz",                    # legacy alias, kept
     "kicker": "MINI GAME",
     "title": "Click the orbit where Mercury should be",
     "hint": "Choose the innermost orbit",

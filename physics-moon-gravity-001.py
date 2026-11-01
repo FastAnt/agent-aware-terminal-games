@@ -1,7 +1,7 @@
 """Why the Moon Orbits - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-moon-gravity-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Why the Moon Orbits', 'question': 'What mainly keeps the Moon in orbit around Earth?', 'choices': [{'id': 'grav', 'label': 'Gravity'}, {'id': 'mag', 'label': 'Magnetism'}, {'id': 'air', 'label': 'Air pressure'}], 'answer': 'grav', 'explanation': 'Gravity pulls the Moon toward Earth while its sideways motion keeps it falling around, not into, Earth.'}
+GAME = {"type": "game", 'id': 'physics-moon-gravity-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Why the Moon Orbits', 'question': 'What mainly keeps the Moon in orbit around Earth?', 'choices': [{'id': 'grav', 'label': 'Gravity'}, {'id': 'mag', 'label': 'Magnetism'}, {'id': 'air', 'label': 'Air pressure'}], 'answer': 'grav', 'explanation': 'Gravity pulls the Moon toward Earth while its sideways motion keeps it falling around, not into, Earth.'}
 
 CARDS = []
 POLYS = []

@@ -1,7 +1,7 @@
 """Torque - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-torque-def-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Torque', 'question': 'Torque from a force grows with what besides force size?', 'choices': [{'id': 'dist', 'label': 'Distance from the pivot'}, {'id': 'mass', 'label': 'Mass of the wrench'}, {'id': 'col', 'label': 'Colour'}], 'answer': 'dist', 'explanation': 'Torque = force x lever arm; pushing far from the pivot (fulcrum here) turns harder.'}
+GAME = {"type": "game", 'id': 'physics-torque-def-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Torque', 'question': 'Torque from a force grows with what besides force size?', 'choices': [{'id': 'dist', 'label': 'Distance from the pivot'}, {'id': 'mass', 'label': 'Mass of the wrench'}, {'id': 'col', 'label': 'Colour'}], 'answer': 'dist', 'explanation': 'Torque = force x lever arm; pushing far from the pivot (fulcrum here) turns harder.'}
 
 CARDS = []
 POLYS = []

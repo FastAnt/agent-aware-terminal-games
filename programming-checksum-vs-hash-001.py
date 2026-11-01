@@ -1,7 +1,7 @@
 """Checksum vs Crypto Hash - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-checksum-vs-hash-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Checksum vs Crypto Hash', 'question': 'A CRC checksum protects against what, unlike a crypto hash?', 'choices': [{'id': 'accid', 'label': 'Accidental corruption only'}, {'id': 'attacker', 'label': 'Determined attackers'}, {'id': 'both2', 'label': 'Both equally'}], 'answer': 'accid', 'explanation': 'Checksums lack collision resistance against adversaries; anyone can forge a matching CRC.'}
+GAME = {"type": "game", 'id': 'programming-checksum-vs-hash-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Checksum vs Crypto Hash', 'question': 'A CRC checksum protects against what, unlike a crypto hash?', 'choices': [{'id': 'accid', 'label': 'Accidental corruption only'}, {'id': 'attacker', 'label': 'Determined attackers'}, {'id': 'both2', 'label': 'Both equally'}], 'answer': 'accid', 'explanation': 'Checksums lack collision resistance against adversaries; anyone can forge a matching CRC.'}
 
 CARDS = []
 POLYS = []

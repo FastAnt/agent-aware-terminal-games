@@ -1,7 +1,7 @@
 """Clustering - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-clustering-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Clustering', 'question': 'Clustering is used to do what?', 'choices': [{'id': 'group', 'label': 'Group similar unlabelled items'}, {'id': 'label2', 'label': 'Predict exact prices'}, {'id': 'sort2', 'label': 'Sort arrays'}], 'answer': 'group', 'explanation': 'Clustering discovers structure by grouping similar points without given labels.'}
+GAME = {"type": "game", 'id': 'ml-clustering-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Clustering', 'question': 'Clustering is used to do what?', 'choices': [{'id': 'group', 'label': 'Group similar unlabelled items'}, {'id': 'label2', 'label': 'Predict exact prices'}, {'id': 'sort2', 'label': 'Sort arrays'}], 'answer': 'group', 'explanation': 'Clustering discovers structure by grouping similar points without given labels.'}
 
 CARDS = []
 POLYS = []

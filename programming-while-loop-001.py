@@ -1,7 +1,7 @@
 """While Loop - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-while-loop-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'While Loop', 'question': 'A while loop repeats as long as what holds?', 'choices': [{'id': 'cond', 'label': 'Its condition is true'}, {'id': 'once', 'label': 'It ran once'}, {'id': 'never2', 'label': 'Nothing'}], 'answer': 'cond', 'explanation': 'The condition is checked before each iteration; the loop stops as soon as it becomes false.'}
+GAME = {"type": "game", 'id': 'programming-while-loop-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'While Loop', 'question': 'A while loop repeats as long as what holds?', 'choices': [{'id': 'cond', 'label': 'Its condition is true'}, {'id': 'once', 'label': 'It ran once'}, {'id': 'never2', 'label': 'Nothing'}], 'answer': 'cond', 'explanation': 'The condition is checked before each iteration; the loop stops as soon as it becomes false.'}
 
 CARDS = []
 POLYS = []

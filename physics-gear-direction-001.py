@@ -1,7 +1,7 @@
 """Gear Direction - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-gear-direction-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Gear Direction', 'question': 'Two meshing external gears rotate how relative to each other?', 'choices': [{'id': 'opp', 'label': 'In opposite directions'}, {'id': 'same', 'label': 'Same direction'}, {'id': 'still', 'label': 'One stays still'}], 'answer': 'opp', 'explanation': 'Teeth interlock, so meshing flips the rotation sense at every mesh.'}
+GAME = {"type": "game", 'id': 'physics-gear-direction-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Gear Direction', 'question': 'Two meshing external gears rotate how relative to each other?', 'choices': [{'id': 'opp', 'label': 'In opposite directions'}, {'id': 'same', 'label': 'Same direction'}, {'id': 'still', 'label': 'One stays still'}], 'answer': 'opp', 'explanation': 'Teeth interlock, so meshing flips the rotation sense at every mesh.'}
 
 CARDS = []
 POLYS = []

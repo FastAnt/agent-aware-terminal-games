@@ -1,7 +1,7 @@
 """Softmax Largest - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-softmax-largest-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Softmax Largest', 'question': 'In a softmax, the largest logit gets what?', 'choices': [{'id': 'lp', 'label': 'The largest probability'}, {'id': 'sp', 'label': 'The smallest'}, {'id': 'eq', 'label': 'Equal share'}], 'answer': 'lp', 'explanation': 'Softmax is monotonic: bigger logit, bigger share, though never exactly 1.'}
+GAME = {"type": "game", 'id': 'ml-softmax-largest-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Softmax Largest', 'question': 'In a softmax, the largest logit gets what?', 'choices': [{'id': 'lp', 'label': 'The largest probability'}, {'id': 'sp', 'label': 'The smallest'}, {'id': 'eq', 'label': 'Equal share'}], 'answer': 'lp', 'explanation': 'Softmax is monotonic: bigger logit, bigger share, though never exactly 1.'}
 
 CARDS = []
 POLYS = []

@@ -1,7 +1,7 @@
 """Prime Number - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'math-prime-29-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Prime Number', 'question': 'Click the prime number.', 'choices': [{'id': 'n29', 'label': '29'}, {'id': 'n21', 'label': '21'}, {'id': 'n33', 'label': '33'}], 'answer': 'n29', 'explanation': '29 has no divisors besides 1 and itself; 21 = 3*7 and 33 = 3*11.'}
+GAME = {"type": "game", 'id': 'math-prime-29-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Prime Number', 'question': 'Click the prime number.', 'choices': [{'id': 'n29', 'label': '29'}, {'id': 'n21', 'label': '21'}, {'id': 'n33', 'label': '33'}], 'answer': 'n29', 'explanation': '29 has no divisors besides 1 and itself; 21 = 3*7 and 33 = 3*11.'}
 
 CARDS = []
 POLYS = []

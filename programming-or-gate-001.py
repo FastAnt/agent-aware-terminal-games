@@ -1,7 +1,7 @@
 """OR Gate - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-or-gate-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'OR Gate', 'question': 'Inputs are A=1 and B=0. What does the OR gate output?', 'choices': [{'id': 'one', 'label': '1'}, {'id': 'zero', 'label': '0'}], 'answer': 'one', 'explanation': 'OR outputs 1 when at least one input is 1; A=1 is enough.'}
+GAME = {"type": "game", 'id': 'programming-or-gate-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'OR Gate', 'question': 'Inputs are A=1 and B=0. What does the OR gate output?', 'choices': [{'id': 'one', 'label': '1'}, {'id': 'zero', 'label': '0'}], 'answer': 'one', 'explanation': 'OR outputs 1 when at least one input is 1; A=1 is enough.'}
 
 CARDS = []
 POLYS = []

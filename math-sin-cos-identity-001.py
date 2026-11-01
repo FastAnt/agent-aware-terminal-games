@@ -1,7 +1,7 @@
 """Key Identity - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'math-sin-cos-identity-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Key Identity', 'question': 'sin^2(x) + cos^2(x) equals what for all x?', 'choices': [{'id': 'one', 'label': '1'}, {'id': 'zero', 'label': '0'}, {'id': 'x', 'label': 'x'}], 'answer': 'one', 'explanation': 'It is Pythagoras on the unit circle: the point (cos, sin) sits at distance 1.'}
+GAME = {"type": "game", 'id': 'math-sin-cos-identity-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Key Identity', 'question': 'sin^2(x) + cos^2(x) equals what for all x?', 'choices': [{'id': 'one', 'label': '1'}, {'id': 'zero', 'label': '0'}, {'id': 'x', 'label': 'x'}], 'answer': 'one', 'explanation': 'It is Pythagoras on the unit circle: the point (cos, sin) sits at distance 1.'}
 
 CARDS = []
 POLYS = []

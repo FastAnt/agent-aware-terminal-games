@@ -1,7 +1,7 @@
 """L2 Regularization - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-l2-regularization-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'L2 Regularization', 'question': 'L2 regularization (weight decay) penalises what?', 'choices': [{'id': 'big', 'label': 'Large weights'}, {'id': 'small', 'label': 'Small weights'}, {'id': 'bias', 'label': 'Biases mainly'}], 'answer': 'big', 'explanation': 'Adding lambda * sum(w^2) to the loss pressures weights to stay small and smooth.'}
+GAME = {"type": "game", 'id': 'ml-l2-regularization-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'L2 Regularization', 'question': 'L2 regularization (weight decay) penalises what?', 'choices': [{'id': 'big', 'label': 'Large weights'}, {'id': 'small', 'label': 'Small weights'}, {'id': 'bias', 'label': 'Biases mainly'}], 'answer': 'big', 'explanation': 'Adding lambda * sum(w^2) to the loss pressures weights to stay small and smooth.'}
 
 CARDS = []
 POLYS = []

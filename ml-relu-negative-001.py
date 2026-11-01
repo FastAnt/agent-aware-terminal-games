@@ -1,7 +1,7 @@
 """ReLU of a Negative - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-relu-negative-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'ReLU of a Negative', 'question': 'ReLU(-3) equals what?', 'choices': [{'id': 'z', 'label': '0'}, {'id': 'm3', 'label': '-3'}, {'id': 'p3', 'label': '3'}], 'answer': 'z', 'explanation': 'Negatives are clamped to zero by max(0, x).'}
+GAME = {"type": "game", 'id': 'ml-relu-negative-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'ReLU of a Negative', 'question': 'ReLU(-3) equals what?', 'choices': [{'id': 'z', 'label': '0'}, {'id': 'm3', 'label': '-3'}, {'id': 'p3', 'label': '3'}], 'answer': 'z', 'explanation': 'Negatives are clamped to zero by max(0, x).'}
 
 CARDS = []
 POLYS = []

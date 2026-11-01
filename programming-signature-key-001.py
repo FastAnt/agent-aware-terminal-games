@@ -1,7 +1,7 @@
 """Signing - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-signature-key-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Signing', 'question': 'To create a digital signature you use which key?', 'choices': [{'id': 'priv', 'label': 'Your private key'}, {'id': 'pub', 'label': 'Your public key'}, {'id': 'their', 'label': 'Their private key'}], 'answer': 'priv', 'explanation': 'Signing with the private key lets anyone verify with your public key that it was you.'}
+GAME = {"type": "game", 'id': 'programming-signature-key-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Signing', 'question': 'To create a digital signature you use which key?', 'choices': [{'id': 'priv', 'label': 'Your private key'}, {'id': 'pub', 'label': 'Your public key'}, {'id': 'their', 'label': 'Their private key'}], 'answer': 'priv', 'explanation': 'Signing with the private key lets anyone verify with your public key that it was you.'}
 
 CARDS = []
 POLYS = []

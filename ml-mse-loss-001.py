@@ -1,7 +1,7 @@
 """MSE Loss - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-mse-loss-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'MSE Loss', 'question': 'Mean squared error penalises an error of 2 how much relative to an error of 1?', 'choices': [{'id': 'four', 'label': '4 times as much'}, {'id': 'two', 'label': '2 times'}, {'id': 'same', 'label': 'The same'}], 'answer': 'four', 'explanation': 'Squaring makes 2^2=4 versus 1^2=1: big errors dominate MSE.'}
+GAME = {"type": "game", 'id': 'ml-mse-loss-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'MSE Loss', 'question': 'Mean squared error penalises an error of 2 how much relative to an error of 1?', 'choices': [{'id': 'four', 'label': '4 times as much'}, {'id': 'two', 'label': '2 times'}, {'id': 'same', 'label': 'The same'}], 'answer': 'four', 'explanation': 'Squaring makes 2^2=4 versus 1^2=1: big errors dominate MSE.'}
 
 CARDS = []
 POLYS = []

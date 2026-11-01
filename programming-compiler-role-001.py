@@ -1,7 +1,7 @@
 """Compiler - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-compiler-role-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Compiler', 'question': 'A compiler mainly does what?', 'choices': [{'id': 'trans', 'label': 'Translates source to machine code'}, {'id': 'runs', 'label': 'Runs the app for users'}, {'id': 'draws', 'label': 'Draws the UI'}], 'answer': 'trans', 'explanation': 'A compiler translates source code into machine code ahead of time, unlike an interpreter that runs it on the fly.'}
+GAME = {"type": "game", 'id': 'programming-compiler-role-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Compiler', 'question': 'A compiler mainly does what?', 'choices': [{'id': 'trans', 'label': 'Translates source to machine code'}, {'id': 'runs', 'label': 'Runs the app for users'}, {'id': 'draws', 'label': 'Draws the UI'}], 'answer': 'trans', 'explanation': 'A compiler translates source code into machine code ahead of time, unlike an interpreter that runs it on the fly.'}
 
 CARDS = []
 POLYS = []

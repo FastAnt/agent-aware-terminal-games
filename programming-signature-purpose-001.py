@@ -1,7 +1,7 @@
 """What a Signature Proves - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-signature-purpose-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'What a Signature Proves', 'question': 'A valid digital signature proves which two things?', 'choices': [{'id': 'both', 'label': 'Authorship and that data is unchanged'}, {'id': 'speed', 'label': 'Speed and size'}, {'id': 'anon', 'label': 'Anonymity'}], 'answer': 'both', 'explanation': 'It binds identity to content: tampering after signing breaks verification.'}
+GAME = {"type": "game", 'id': 'programming-signature-purpose-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'What a Signature Proves', 'question': 'A valid digital signature proves which two things?', 'choices': [{'id': 'both', 'label': 'Authorship and that data is unchanged'}, {'id': 'speed', 'label': 'Speed and size'}, {'id': 'anon', 'label': 'Anonymity'}], 'answer': 'both', 'explanation': 'It binds identity to content: tampering after signing breaks verification.'}
 
 CARDS = []
 POLYS = []

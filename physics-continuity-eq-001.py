@@ -1,7 +1,7 @@
 """Continuity - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-continuity-eq-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Continuity', 'question': 'For incompressible flow, narrowing the tube makes the fluid do what?', 'choices': [{'id': 'speed', 'label': 'Speed up (A v constant)'}, {'id': 'slow', 'label': 'Slow down'}, {'id': 'stop', 'label': 'Stop'}], 'answer': 'speed', 'explanation': 'What flows in must flow out: A1 v1 = A2 v2, so smaller area means larger velocity.'}
+GAME = {"type": "game", 'id': 'physics-continuity-eq-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Continuity', 'question': 'For incompressible flow, narrowing the tube makes the fluid do what?', 'choices': [{'id': 'speed', 'label': 'Speed up (A v constant)'}, {'id': 'slow', 'label': 'Slow down'}, {'id': 'stop', 'label': 'Stop'}], 'answer': 'speed', 'explanation': 'What flows in must flow out: A1 v1 = A2 v2, so smaller area means larger velocity.'}
 
 CARDS = []
 POLYS = []

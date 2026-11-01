@@ -1,7 +1,7 @@
 """Compute XOR - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-xor-compute-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Compute XOR', 'question': '1010 XOR 1100 equals what?', 'choices': [{'id': 'x0110', 'label': '0110'}, {'id': 'x1110', 'label': '1110'}, {'id': 'x1010', 'label': '1010'}], 'answer': 'x0110', 'explanation': 'Bit by bit: equal bits give 0, different give 1 -> 0110.'}
+GAME = {"type": "game", 'id': 'programming-xor-compute-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Compute XOR', 'question': '1010 XOR 1100 equals what?', 'choices': [{'id': 'x0110', 'label': '0110'}, {'id': 'x1110', 'label': '1110'}, {'id': 'x1010', 'label': '1010'}], 'answer': 'x0110', 'explanation': 'Bit by bit: equal bits give 0, different give 1 -> 0110.'}
 
 CARDS = []
 POLYS = []

@@ -1,7 +1,7 @@
 """Authentication vs Authorization - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'architecture-authn-authz-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Architecture', 'title': 'Authentication vs Authorization', 'question': 'Authentication answers which question?', 'choices': [{'id': 'who', 'label': 'Who are you?'}, {'id': 'perm', 'label': 'What may you do?'}, {'id': 'where', 'label': 'Where is the server?'}], 'answer': 'who', 'explanation': 'Authentication proves identity (who), while authorization decides permissions (what).'}
+GAME = {"type": "game", 'id': 'architecture-authn-authz-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Architecture', 'title': 'Authentication vs Authorization', 'question': 'Authentication answers which question?', 'choices': [{'id': 'who', 'label': 'Who are you?'}, {'id': 'perm', 'label': 'What may you do?'}, {'id': 'where', 'label': 'Where is the server?'}], 'answer': 'who', 'explanation': 'Authentication proves identity (who), while authorization decides permissions (what).'}
 
 CARDS = []
 POLYS = []

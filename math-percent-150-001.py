@@ -1,7 +1,7 @@
 """Percent - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'math-percent-150-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Percent', 'question': 'What is 20% of 150?', 'choices': [{'id': 'p30', 'label': '30'}, {'id': 'p20', 'label': '20'}, {'id': 'p75', 'label': '75'}], 'answer': 'p30', 'explanation': '20% is one fifth, and 150 / 5 = 30.'}
+GAME = {"type": "game", 'id': 'math-percent-150-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Percent', 'question': 'What is 20% of 150?', 'choices': [{'id': 'p30', 'label': '30'}, {'id': 'p20', 'label': '20'}, {'id': 'p75', 'label': '75'}], 'answer': 'p30', 'explanation': '20% is one fifth, and 150 / 5 = 30.'}
 
 CARDS = []
 POLYS = []

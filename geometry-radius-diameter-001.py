@@ -1,7 +1,7 @@
 """Radius and Diameter - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'geometry-radius-diameter-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Geometry', 'title': 'Radius and Diameter', 'question': 'The radius of a circle is what part of its diameter?', 'choices': [{'id': 'half', 'label': 'One half'}, {'id': 'double', 'label': 'Twice'}, {'id': 'third', 'label': 'One third'}], 'answer': 'half', 'explanation': 'The diameter crosses the whole circle through the centre, so the radius is exactly half of it.'}
+GAME = {"type": "game", 'id': 'geometry-radius-diameter-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Geometry', 'title': 'Radius and Diameter', 'question': 'The radius of a circle is what part of its diameter?', 'choices': [{'id': 'half', 'label': 'One half'}, {'id': 'double', 'label': 'Twice'}, {'id': 'third', 'label': 'One third'}], 'answer': 'half', 'explanation': 'The diameter crosses the whole circle through the centre, so the radius is exactly half of it.'}
 
 CARDS = []
 POLYS = []

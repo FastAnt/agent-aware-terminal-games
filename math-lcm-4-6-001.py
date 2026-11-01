@@ -1,7 +1,7 @@
 """Least Common Multiple - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'math-lcm-4-6-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Least Common Multiple', 'question': 'What is the least common multiple of 4 and 6?', 'choices': [{'id': 'l12', 'label': '12'}, {'id': 'l24', 'label': '24'}, {'id': 'l10', 'label': '10'}], 'answer': 'l12', 'explanation': 'Multiples of 4 are 4,8,12 and of 6 are 6,12; the first shared multiple is 12.'}
+GAME = {"type": "game", 'id': 'math-lcm-4-6-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Least Common Multiple', 'question': 'What is the least common multiple of 4 and 6?', 'choices': [{'id': 'l12', 'label': '12'}, {'id': 'l24', 'label': '24'}, {'id': 'l10', 'label': '10'}], 'answer': 'l12', 'explanation': 'Multiples of 4 are 4,8,12 and of 6 are 6,12; the first shared multiple is 12.'}
 
 CARDS = []
 POLYS = []

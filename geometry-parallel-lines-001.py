@@ -1,7 +1,7 @@
 """Parallel Lines - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'geometry-parallel-lines-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Geometry', 'title': 'Parallel Lines', 'question': 'In Euclidean geometry, parallel lines do what?', 'choices': [{'id': 'never', 'label': 'Never meet'}, {'id': 'once', 'label': 'Meet once'}, {'id': 'cross', 'label': 'Cross twice'}], 'answer': 'never', 'explanation': 'Parallel lines keep a constant distance and never intersect in the Euclidean plane.'}
+GAME = {"type": "game", 'id': 'geometry-parallel-lines-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Geometry', 'title': 'Parallel Lines', 'question': 'In Euclidean geometry, parallel lines do what?', 'choices': [{'id': 'never', 'label': 'Never meet'}, {'id': 'once', 'label': 'Meet once'}, {'id': 'cross', 'label': 'Cross twice'}], 'answer': 'never', 'explanation': 'Parallel lines keep a constant distance and never intersect in the Euclidean plane.'}
 
 CARDS = []
 POLYS = []

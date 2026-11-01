@@ -1,7 +1,7 @@
 """Big O - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-big-o-binary-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Big O', 'question': 'The time complexity of binary search is what?', 'choices': [{'id': 'logn', 'label': 'O(log n)'}, {'id': 'on', 'label': 'O(n)'}, {'id': 'on2', 'label': 'O(n^2)'}], 'answer': 'logn', 'explanation': 'Halving the input each step needs about log2(n) steps, so O(log n).'}
+GAME = {"type": "game", 'id': 'programming-big-o-binary-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Big O', 'question': 'The time complexity of binary search is what?', 'choices': [{'id': 'logn', 'label': 'O(log n)'}, {'id': 'on', 'label': 'O(n)'}, {'id': 'on2', 'label': 'O(n^2)'}], 'answer': 'logn', 'explanation': 'Halving the input each step needs about log2(n) steps, so O(log n).'}
 
 CARDS = []
 POLYS = []

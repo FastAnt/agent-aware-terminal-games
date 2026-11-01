@@ -1,7 +1,7 @@
 """Beam Moment - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-simple-supported-max-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Beam Moment', 'question': 'For a centre-loaded simple beam, bending moment is largest where?', 'choices': [{'id': 'mid', 'label': 'At mid-span'}, {'id': 'ends', 'label': 'At supports'}, {'id': 'quarter', 'label': 'At quarter points'}], 'answer': 'mid', 'explanation': 'The moment diagram peaks under the central load; supports have zero moment in a simple beam.'}
+GAME = {"type": "game", 'id': 'physics-simple-supported-max-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Beam Moment', 'question': 'For a centre-loaded simple beam, bending moment is largest where?', 'choices': [{'id': 'mid', 'label': 'At mid-span'}, {'id': 'ends', 'label': 'At supports'}, {'id': 'quarter', 'label': 'At quarter points'}], 'answer': 'mid', 'explanation': 'The moment diagram peaks under the central load; supports have zero moment in a simple beam.'}
 
 CARDS = []
 POLYS = []

@@ -1,7 +1,7 @@
 """Fourier Idea - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-fourier-idea-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Fourier Idea', 'question': "Fourier's idea is that a periodic signal can be written as what?", 'choices': [{'id': 'sum', 'label': 'A sum of sines and cosines'}, {'id': 'prod', 'label': 'A product of pulses'}, {'id': 'one', 'label': 'One sine only'}], 'answer': 'sum', 'explanation': 'Any periodic waveform decomposes into harmonic sines/cosines at integer multiples of the fundamental.'}
+GAME = {"type": "game", 'id': 'physics-fourier-idea-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Fourier Idea', 'question': "Fourier's idea is that a periodic signal can be written as what?", 'choices': [{'id': 'sum', 'label': 'A sum of sines and cosines'}, {'id': 'prod', 'label': 'A product of pulses'}, {'id': 'one', 'label': 'One sine only'}], 'answer': 'sum', 'explanation': 'Any periodic waveform decomposes into harmonic sines/cosines at integer multiples of the fundamental.'}
 
 CARDS = []
 POLYS = []

@@ -1,7 +1,7 @@
 """Stopped Pipe - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-organ-pipe-fundamental-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Stopped Pipe', 'question': 'A pipe closed at one end has its fundamental wavelength equal to what?', 'choices': [{'id': 'p4', 'label': '4 x pipe length'}, {'id': 'p2', 'label': '2 x pipe length'}, {'id': 'p1', 'label': 'Pipe length'}], 'answer': 'p4', 'explanation': 'Only a quarter wave fits with a node at the closed end and antinode at the open end.'}
+GAME = {"type": "game", 'id': 'physics-organ-pipe-fundamental-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Stopped Pipe', 'question': 'A pipe closed at one end has its fundamental wavelength equal to what?', 'choices': [{'id': 'p4', 'label': '4 x pipe length'}, {'id': 'p2', 'label': '2 x pipe length'}, {'id': 'p1', 'label': 'Pipe length'}], 'answer': 'p4', 'explanation': 'Only a quarter wave fits with a node at the closed end and antinode at the open end.'}
 
 CARDS = []
 POLYS = []

@@ -1,7 +1,7 @@
 """PKI - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-pki-trust-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'PKI', 'question': "In public-key infrastructure, users trust a site's key because what?", 'choices': [{'id': 'ca', 'label': 'A trusted CA signed its certificate'}, {'id': 'site', 'label': 'The site says so'}, {'id': 'dns', 'label': 'DNS resolved'}], 'answer': 'ca', 'explanation': 'Trust chains from a pre-trusted root CA through the certificate signature.'}
+GAME = {"type": "game", 'id': 'programming-pki-trust-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'PKI', 'question': "In public-key infrastructure, users trust a site's key because what?", 'choices': [{'id': 'ca', 'label': 'A trusted CA signed its certificate'}, {'id': 'site', 'label': 'The site says so'}, {'id': 'dns', 'label': 'DNS resolved'}], 'answer': 'ca', 'explanation': 'Trust chains from a pre-trusted root CA through the certificate signature.'}
 
 CARDS = []
 POLYS = []

@@ -1,7 +1,7 @@
 """Tanh Range - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-tanh-range-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Tanh Range', 'question': 'Tanh maps inputs into which range?', 'choices': [{'id': 'r11', 'label': '(-1, 1)'}, {'id': 'r01', 'label': '(0, 1)'}, {'id': 'r22', 'label': '(-2, 2)'}], 'answer': 'r11', 'explanation': 'Tanh is a centred sigmoid: strong negative to -1, strong positive to +1.'}
+GAME = {"type": "game", 'id': 'ml-tanh-range-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Tanh Range', 'question': 'Tanh maps inputs into which range?', 'choices': [{'id': 'r11', 'label': '(-1, 1)'}, {'id': 'r01', 'label': '(0, 1)'}, {'id': 'r22', 'label': '(-2, 2)'}], 'answer': 'r11', 'explanation': 'Tanh is a centred sigmoid: strong negative to -1, strong positive to +1.'}
 
 CARDS = []
 POLYS = []

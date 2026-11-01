@@ -1,7 +1,7 @@
 """XOR Meaning - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-xor-exactly-one-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'XOR Meaning', 'question': 'XOR outputs 1 exactly when what?', 'choices': [{'id': 'one', 'label': 'Exactly one input is 1'}, {'id': 'both', 'label': 'Both inputs are 1'}, {'id': 'any', 'label': 'At least one input is 1'}], 'answer': 'one', 'explanation': 'Exclusive or excludes the both-1 case that inclusive OR allows.'}
+GAME = {"type": "game", 'id': 'programming-xor-exactly-one-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'XOR Meaning', 'question': 'XOR outputs 1 exactly when what?', 'choices': [{'id': 'one', 'label': 'Exactly one input is 1'}, {'id': 'both', 'label': 'Both inputs are 1'}, {'id': 'any', 'label': 'At least one input is 1'}], 'answer': 'one', 'explanation': 'Exclusive or excludes the both-1 case that inclusive OR allows.'}
 
 CARDS = []
 POLYS = []

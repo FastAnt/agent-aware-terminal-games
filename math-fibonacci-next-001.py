@@ -5,7 +5,7 @@ Inspiration notes: see games-base/SOURCES.md (original idea, no copied assets).
 """
 import math
 
-GAME = {'id': 'math-fibonacci-next-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Fibonacci', 'question': 'What comes next: 1, 1, 2, 3, 5, 8, ...?', 'choices': [{'id': 'n13', 'label': '13'}, {'id': 'n11', 'label': '11'}, {'id': 'n16', 'label': '16'}], 'answer': 'n13', 'explanation': 'Each Fibonacci term is the sum of the two before it: 5 + 8 = 13.'}
+GAME = {"type": "game", 'id': 'math-fibonacci-next-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Math', 'title': 'Fibonacci', 'question': 'What comes next: 1, 1, 2, 3, 5, 8, ...?', 'choices': [{'id': 'n13', 'label': '13'}, {'id': 'n11', 'label': '11'}, {'id': 'n16', 'label': '16'}], 'answer': 'n13', 'explanation': 'Each Fibonacci term is the sum of the two before it: 5 + 8 = 13.'}
 
 SCENE = "spiral"
 

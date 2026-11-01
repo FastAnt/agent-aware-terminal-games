@@ -1,7 +1,7 @@
 """Certificates - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-certificate-role-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Certificates', 'question': 'A certificate mainly binds what together?', 'choices': [{'id': 'bind', 'label': 'An identity and its public key'}, {'id': 'files', 'label': 'Two files'}, {'id': 'keys2', 'label': 'Two private keys'}], 'answer': 'bind', 'explanation': 'A certificate authority signs the binding so browsers can trust whose key it is.'}
+GAME = {"type": "game", 'id': 'programming-certificate-role-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Certificates', 'question': 'A certificate mainly binds what together?', 'choices': [{'id': 'bind', 'label': 'An identity and its public key'}, {'id': 'files', 'label': 'Two files'}, {'id': 'keys2', 'label': 'Two private keys'}], 'answer': 'bind', 'explanation': 'A certificate authority signs the binding so browsers can trust whose key it is.'}
 
 CARDS = []
 POLYS = []

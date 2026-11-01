@@ -1,7 +1,7 @@
 """Beats - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-beats-frequency-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Beats', 'question': 'Waves of 100 Hz and 103 Hz together produce beats at what rate?', 'choices': [{'id': 'b3', 'label': '3 per second'}, {'id': 'b100', 'label': '100 per second'}, {'id': 'b203', 'label': '203 per second'}], 'answer': 'b3', 'explanation': 'The beat rate is the difference |103-100| = 3 loud-soft cycles per second.'}
+GAME = {"type": "game", 'id': 'physics-beats-frequency-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Beats', 'question': 'Waves of 100 Hz and 103 Hz together produce beats at what rate?', 'choices': [{'id': 'b3', 'label': '3 per second'}, {'id': 'b100', 'label': '100 per second'}, {'id': 'b203', 'label': '203 per second'}], 'answer': 'b3', 'explanation': 'The beat rate is the difference |103-100| = 3 loud-soft cycles per second.'}
 
 CARDS = []
 POLYS = []

@@ -1,7 +1,7 @@
 """Density - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-density-formula-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Density', 'question': 'Density is calculated as which ratio?', 'choices': [{'id': 'mv2', 'label': 'mass / volume'}, {'id': 'vm', 'label': 'volume / mass'}, {'id': 'mg', 'label': 'mass * gravity'}], 'answer': 'mv2', 'explanation': 'Density is mass per unit volume; it tells how tightly matter is packed.'}
+GAME = {"type": "game", 'id': 'physics-density-formula-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Density', 'question': 'Density is calculated as which ratio?', 'choices': [{'id': 'mv2', 'label': 'mass / volume'}, {'id': 'vm', 'label': 'volume / mass'}, {'id': 'mg', 'label': 'mass * gravity'}], 'answer': 'mv2', 'explanation': 'Density is mass per unit volume; it tells how tightly matter is packed.'}
 
 CARDS = []
 POLYS = []

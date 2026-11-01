@@ -1,7 +1,7 @@
 """Cosine Start - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-cosine-start-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Cosine Start', 'question': 'At t=0 a cosine oscillation starts at what?', 'choices': [{'id': 'max', 'label': 'Its maximum displacement'}, {'id': 'zero', 'label': 'Zero'}, {'id': 'neg', 'label': 'Its minimum'}], 'answer': 'max', 'explanation': 'cos(0)=1, unlike sine which starts at zero crossing.'}
+GAME = {"type": "game", 'id': 'physics-cosine-start-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Cosine Start', 'question': 'At t=0 a cosine oscillation starts at what?', 'choices': [{'id': 'max', 'label': 'Its maximum displacement'}, {'id': 'zero', 'label': 'Zero'}, {'id': 'neg', 'label': 'Its minimum'}], 'answer': 'max', 'explanation': 'cos(0)=1, unlike sine which starts at zero crossing.'}
 
 CARDS = []
 POLYS = []

@@ -1,7 +1,7 @@
 """Queue Order - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-queue-fifo-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Queue Order', 'question': 'Click the structure that serves items first-in, first-out.', 'choices': [{'id': 'queue', 'label': 'Queue'}, {'id': 'stack', 'label': 'Stack'}, {'id': 'tree', 'label': 'Tree'}], 'answer': 'queue', 'explanation': 'A queue is FIFO like a checkout line; a stack is last-in, first-out.'}
+GAME = {"type": "game", 'id': 'programming-queue-fifo-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Queue Order', 'question': 'Click the structure that serves items first-in, first-out.', 'choices': [{'id': 'queue', 'label': 'Queue'}, {'id': 'stack', 'label': 'Stack'}, {'id': 'tree', 'label': 'Tree'}], 'answer': 'queue', 'explanation': 'A queue is FIFO like a checkout line; a stack is last-in, first-out.'}
 
 CARDS = []
 POLYS = []

@@ -1,7 +1,7 @@
 """Batch Normalization - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-batch-norm-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Batch Normalization', 'question': 'Batch norm normalises activations across which group?', 'choices': [{'id': 'batch', 'label': 'The batch, per feature'}, {'id': 'one', 'label': 'Each single example'}, {'id': 'all', 'label': 'All features together'}], 'answer': 'batch', 'explanation': 'For each feature it standardises over the batch, then learns scale and shift.'}
+GAME = {"type": "game", 'id': 'ml-batch-norm-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Batch Normalization', 'question': 'Batch norm normalises activations across which group?', 'choices': [{'id': 'batch', 'label': 'The batch, per feature'}, {'id': 'one', 'label': 'Each single example'}, {'id': 'all', 'label': 'All features together'}], 'answer': 'batch', 'explanation': 'For each feature it standardises over the batch, then learns scale and shift.'}
 
 CARDS = []
 POLYS = []

@@ -1,7 +1,7 @@
 """NOT Gate - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-not-gate-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'NOT Gate', 'question': 'The input is 1. What does a NOT gate output?', 'choices': [{'id': 'zero', 'label': '0'}, {'id': 'one', 'label': '1'}], 'answer': 'zero', 'explanation': 'NOT inverts its single input: 1 becomes 0 and 0 becomes 1.'}
+GAME = {"type": "game", 'id': 'programming-not-gate-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'NOT Gate', 'question': 'The input is 1. What does a NOT gate output?', 'choices': [{'id': 'zero', 'label': '0'}, {'id': 'one', 'label': '1'}], 'answer': 'zero', 'explanation': 'NOT inverts its single input: 1 becomes 0 and 0 becomes 1.'}
 
 CARDS = []
 POLYS = []

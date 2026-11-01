@@ -1,7 +1,7 @@
 """Gears Trade - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-gear-torque-trade-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Gears Trade', 'question': 'Gearing down (slower output) trades speed for what?', 'choices': [{'id': 'torque', 'label': 'More torque'}, {'id': 'heat', 'label': 'Less friction'}, {'id': 'mass', 'label': 'Less mass'}], 'answer': 'torque', 'explanation': 'Power is conserved (minus losses): slower turning means proportionally more twist.'}
+GAME = {"type": "game", 'id': 'physics-gear-torque-trade-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Gears Trade', 'question': 'Gearing down (slower output) trades speed for what?', 'choices': [{'id': 'torque', 'label': 'More torque'}, {'id': 'heat', 'label': 'Less friction'}, {'id': 'mass', 'label': 'Less mass'}], 'answer': 'torque', 'explanation': 'Power is conserved (minus losses): slower turning means proportionally more twist.'}
 
 CARDS = []
 POLYS = []

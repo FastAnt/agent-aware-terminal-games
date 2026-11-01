@@ -1,7 +1,7 @@
 """Parallel Branches - bespoke scene per REVIEW.md. See SOURCES.md."""
 import math
 
-GAME = {'id': 'physics-parallel-voltage-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Parallel Branches', 'question': 'In a parallel circuit, what is true of the voltage across each branch?', 'choices': [{'id': 'full', 'label': 'Each gets the full voltage'}, {'id': 'split', 'label': 'It splits by resistance'}, {'id': 'zero', 'label': 'It is zero'}], 'answer': 'full', 'explanation': 'Parallel branches connect the same two points, so each branch sees the full source voltage.'}
+GAME = {"type": "game", 'id': 'physics-parallel-voltage-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Physics', 'title': 'Parallel Branches', 'question': 'In a parallel circuit, what is true of the voltage across each branch?', 'choices': [{'id': 'full', 'label': 'Each gets the full voltage'}, {'id': 'split', 'label': 'It splits by resistance'}, {'id': 'zero', 'label': 'It is zero'}], 'answer': 'full', 'explanation': 'Parallel branches connect the same two points, so each branch sees the full source voltage.'}
 
 CARDS = []
 POLYS = []

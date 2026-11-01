@@ -1,7 +1,7 @@
 """Asymmetric Encryption - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'programming-asymmetric-pair-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Asymmetric Encryption', 'question': 'Asymmetric encryption uses what keys?', 'choices': [{'id': 'pair', 'label': 'A linked public/private pair'}, {'id': 'same', 'label': 'One shared key'}, {'id': 'pass', 'label': 'A password only'}], 'answer': 'pair', 'explanation': 'Whatever one key locks, only the other unlocks; one can be published.'}
+GAME = {"type": "game", 'id': 'programming-asymmetric-pair-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Programming', 'title': 'Asymmetric Encryption', 'question': 'Asymmetric encryption uses what keys?', 'choices': [{'id': 'pair', 'label': 'A linked public/private pair'}, {'id': 'same', 'label': 'One shared key'}, {'id': 'pass', 'label': 'A password only'}], 'answer': 'pair', 'explanation': 'Whatever one key locks, only the other unlocks; one can be published.'}
 
 CARDS = []
 POLYS = []

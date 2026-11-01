@@ -1,7 +1,7 @@
 """Backpropagation - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-backprop-chain-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Backpropagation', 'question': 'Backpropagation computes gradients efficiently using what?', 'choices': [{'id': 'chain', 'label': 'The chain rule, layer by layer'}, {'id': 'rand', 'label': 'Random search'}, {'id': 'fwd', 'label': 'Extra forward passes only'}], 'answer': 'chain', 'explanation': "It reuses the forward pass's values and multiplies local derivatives backwards."}
+GAME = {"type": "game", 'id': 'ml-backprop-chain-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Backpropagation', 'question': 'Backpropagation computes gradients efficiently using what?', 'choices': [{'id': 'chain', 'label': 'The chain rule, layer by layer'}, {'id': 'rand', 'label': 'Random search'}, {'id': 'fwd', 'label': 'Extra forward passes only'}], 'answer': 'chain', 'explanation': "It reuses the forward pass's values and multiplies local derivatives backwards."}
 
 CARDS = []
 POLYS = []

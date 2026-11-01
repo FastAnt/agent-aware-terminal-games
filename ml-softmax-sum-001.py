@@ -1,7 +1,7 @@
 """Softmax Sums - bespoke scene (logic/matrices/harmonics/NN/crypto/engineering batch). See SOURCES.md."""
 import math
 
-GAME = {'id': 'ml-softmax-sum-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Softmax Sums', 'question': 'The outputs of a softmax always sum to what?', 'choices': [{'id': 'one', 'label': '1'}, {'id': 'n', 'label': 'Number of classes'}, {'id': 'zero', 'label': '0'}], 'answer': 'one', 'explanation': 'Exponentials are normalised by their total, forming a probability distribution.'}
+GAME = {"type": "game", 'id': 'ml-softmax-sum-001', 'kind': 'quiz', 'kicker': 'MINI GAME', 'topic': 'Machine learning', 'title': 'Softmax Sums', 'question': 'The outputs of a softmax always sum to what?', 'choices': [{'id': 'one', 'label': '1'}, {'id': 'n', 'label': 'Number of classes'}, {'id': 'zero', 'label': '0'}], 'answer': 'one', 'explanation': 'Exponentials are normalised by their total, forming a probability distribution.'}
 
 CARDS = []
 POLYS = []
