@@ -233,18 +233,18 @@ physics-fact-metal-cold-001 · Physics · Metal feels colder than wood at the sa
 physics-fact-glass-not-liquid-001 · Physics · Old window panes are not slowly flowing glass · visual: bespoke
 physics-fact-microwave-frequency-001 · Physics · Microwaves heat food at 2.45 GHz, and not by resonance · visual: bespoke
 physics-fact-lightning-hot-001 · Physics · Lightning is several times hotter than the Sun's surface · visual: bespoke
-physics-fact-static-shock-001 · Physics · A doorknob shock is thousands of volts and harmless
-physics-fact-frog-levitation-001 · Physics · A live frog has floated in a magnet
-physics-fact-superconductor-meissner-001 · Physics · Superconductors expel magnetic fields
-physics-fact-pressure-cooker-001 · Physics · Pressure cookers cook by letting water get hotter
-physics-fact-sweat-cooling-001 · Physics · Sweat cools by taking the fastest molecules
-physics-fact-boomerang-nebula-001 · Physics · The coldest natural place is a star's outflow
-physics-fact-sun-sound-delay-001 · Physics · Sun storms would take a month to hear
+physics-fact-static-shock-001 · Physics · A doorknob shock is thousands of volts and harmless · visual: bespoke
+physics-fact-frog-levitation-001 · Physics · A live frog has floated in a magnet · visual: bespoke
+physics-fact-superconductor-meissner-001 · Physics · Superconductors expel magnetic fields · visual: bespoke
+physics-fact-pressure-cooker-001 · Physics · Pressure cookers cook by letting water get hotter · visual: bespoke
+physics-fact-sweat-cooling-001 · Physics · Sweat cools by taking the fastest molecules · visual: bespoke
+physics-fact-boomerang-nebula-001 · Physics · The coldest natural place is a star's outflow · visual: bespoke
+physics-fact-sun-sound-delay-001 · Physics · Sun storms would take a month to hear · visual: bespoke
 physics-fact-earth-rotation-speed-001 · Physics · You are moving at 1,600 km/h and feel nothing · visual: bespoke
 physics-fact-iss-falling-001 · Physics · Astronauts float because they never stop falling · visual: bespoke
-physics-fact-escape-velocity-001 · Physics · Escape velocity is about not coming back, not about engines
-physics-fact-coriolis-myth-001 · Physics · Toilet bowls do not reveal the hemisphere
-physics-fact-cmb-temperature-001 · Physics · The universe has a temperature: 2.725 kelvin
+physics-fact-escape-velocity-001 · Physics · Escape velocity is about not coming back, not about engines · visual: bespoke
+physics-fact-coriolis-myth-001 · Physics · Toilet bowls do not reveal the hemisphere · visual: bespoke
+physics-fact-cmb-temperature-001 · Physics · The universe has a temperature: 2.725 kelvin · visual: bespoke
 physics-fact-dark-matter-rotation-001 · Physics · Galaxies spin too fast for the stars we see · visual: bespoke
 physics-fact-sun-fate-white-dwarf-001 · Physics · The Sun will end as a white dwarf, quietly · visual: bespoke
 physics-fact-fusion-pp-chain-001 · Physics · Sunlight began as gamma rays a hundred millennia ago · visual: bespoke
@@ -257,12 +257,12 @@ physics-fact-snowball-earth-001 · Physics · Earth may once have frozen nearly 
 physics-fact-milankovitch-001 · Physics · Ice ages keep time with wobbles in Earth's orbit · visual: bespoke
 physics-fact-tidal-locking-001 · Physics · The Moon was once much closer and days much shorter · visual: bespoke
 physics-fact-aurora-sound-001 · Physics · Auroras are Earth's magnetic shield made visible · visual: bespoke
-physics-fact-lightning-sprites-001 · Physics · Above thunderstorms, red sprites flash toward space
-physics-fact-volcano-cooling-001 · Physics · Big eruptions cool the planet for years
+physics-fact-lightning-sprites-001 · Physics · Above thunderstorms, red sprites flash toward space · visual: bespoke
+physics-fact-volcano-cooling-001 · Physics · Big eruptions cool the planet for years · visual: bespoke
 physics-fact-ocean-tides-two-001 · Physics · There are two high tides because water bulges twice · visual: bespoke
-physics-fact-sound-speed-water-001 · Physics · Sound travels about 4.4 times faster in water than air
-physics-fact-deep-ocean-pressure-001 · Physics · The deep ocean presses with a tonne per square centimetre
-physics-fact-ice-floats-anomaly-001 · Physics · Ice floats because water expands as it freezes
+physics-fact-sound-speed-water-001 · Physics · Sound travels about 4.4 times faster in water than air · visual: bespoke
+physics-fact-deep-ocean-pressure-001 · Physics · The deep ocean presses with a tonne per square centimetre · visual: bespoke
+physics-fact-ice-floats-anomaly-001 · Physics · Ice floats because water expands as it freezes · visual: bespoke
 physics-fact-diamond-rain-001 · Physics · It may rain diamonds inside Neptune and Uranus · visual: bespoke
 physics-fact-great-red-spot-001 · Physics · Jupiter's storm is wider than Earth and centuries old · visual: bespoke
 physics-fact-saturn-floats-001 · Physics · Saturn would float, in a large enough bathtub · visual: bespoke
@@ -271,26 +271,26 @@ physics-fact-mars-olympus-001 · Physics · Olympus Mons is nearly three Everest
 physics-fact-io-volcanic-001 · Physics · Io kneads itself into the most volcanic body known · visual: bespoke
 physics-fact-pulsar-clocks-001 · Physics · Some pulsars keep time rivaling atomic clocks · visual: bespoke
 physics-fact-gravitational-waves-2015-001 · Physics · In 2015 we heard two black holes collide · visual: bespoke
-physics-fact-time-crystal-space-001 · Physics · The oldest light we see left before Earth existed
-physics-fact-antimatter-banana-001 · Physics · Bananas emit antimatter, at a homeopathic rate
-architecture-fact-two-generals-001 · Architecture · Two generals cannot agree over an unreliable messenger
+physics-fact-time-crystal-space-001 · Physics · The oldest light we see left before Earth existed · visual: bespoke
+physics-fact-antimatter-banana-001 · Physics · Bananas emit antimatter, at a homeopathic rate · visual: bespoke
+architecture-fact-two-generals-001 · Architecture · Two generals cannot agree over an unreliable messenger · visual: bespoke
 architecture-fact-byzantine-third-001 · Architecture · Tolerating traitors takes more than triple the traitors · visual: bespoke
 architecture-fact-cap-partition-001 · Architecture · Under a network partition, you must pick a poison · visual: bespoke
 architecture-fact-dynamo-cart-001 · Architecture · Amazon's cart chose 'always writable' over always consistent · visual: bespoke
-architecture-fact-lamport-clocks-001 · Architecture · Lamport ordered events without trusting any clock
+architecture-fact-lamport-clocks-001 · Architecture · Lamport ordered events without trusting any clock · visual: bespoke
 architecture-fact-exactly-once-myth-001 · Architecture · Exactly-once delivery is impossible; dedup is the trick · visual: bespoke
 architecture-fact-consistent-hashing-001 · Architecture · Consistent hashing moves only 1/n of keys when a node joins · visual: bespoke
 architecture-fact-circuit-breaker-001 · Architecture · Circuit breakers exist because retries can be an attack · visual: bespoke
-architecture-fact-thundering-herd-001 · Architecture · When a hot cache entry expires, the database gets mobbed
-architecture-fact-paxos-simple-001 · Architecture · Paxos was so hard to explain it needed a sequel paper
-architecture-fact-idempotency-keys-001 · Architecture · A good retry button is really an idempotency key
-architecture-fact-lsm-vs-btree-001 · Architecture · Write-heavy stores trade read work for write speed
+architecture-fact-thundering-herd-001 · Architecture · When a hot cache entry expires, the database gets mobbed · visual: bespoke
+architecture-fact-paxos-simple-001 · Architecture · Paxos was so hard to explain it needed a sequel paper · visual: bespoke
+architecture-fact-idempotency-keys-001 · Architecture · A good retry button is really an idempotency key · visual: bespoke
+architecture-fact-lsm-vs-btree-001 · Architecture · Write-heavy stores trade read work for write speed · visual: bespoke
 architecture-fact-gossip-spread-001 · Architecture · Cluster gossip spreads news like a rumour, on purpose · visual: bespoke
 architecture-fact-anycast-001 · Architecture · The same IP address can live in a hundred cities · visual: bespoke
 architecture-fact-bulkheads-001 · Architecture · Ships' bulkheads became a software pattern · visual: bespoke
 architecture-fact-backpressure-001 · Architecture · Fast producers must be told to slow down · visual: bespoke
-architecture-fact-two-phase-commit-001 · Architecture · Two-phase commit can block everyone on one coordinator
-architecture-fact-saga-compensate-001 · Architecture · Sagas undo work with new work, never by time travel
+architecture-fact-two-phase-commit-001 · Architecture · Two-phase commit can block everyone on one coordinator · visual: bespoke
+architecture-fact-saga-compensate-001 · Architecture · Sagas undo work with new work, never by time travel · visual: bespoke
 architecture-fact-spanner-truetime-001 · Architecture · Google put atomic clocks and GPS into its datacenters
 architecture-fact-snowflake-ids-001 · Architecture · Twitter's Snowflake IDs sort themselves by time
 architecture-fact-uuid-collision-001 · Architecture · Random UUIDs collide about when hell freezes over

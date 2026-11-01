@@ -960,3 +960,62 @@ that. Status is tracked in FACTS_INDEX.md ("visual: bespoke").
 - physics-fact-lightning-hot-001 — Lightning bolt with
   thermometer bursting past Sun-surface marker 30,000 K vs
   5,500 K.
+
+## Batch C10 — chains, part 10 (25)
+
+- physics-fact-static-shock-001 — Hand approaching a doorknob,
+  spark gap; gauge showing ~10 kV but tiny charge (harmless).
+- physics-fact-frog-levitation-001 — Magnet bore circle, a
+  frog silhouette floating centre with diamagnetic arrows.
+- physics-fact-superconductor-meissner-001 — A disc with field
+  lines bending around it, a magnet hovering above.
+- physics-fact-pressure-cooker-001 — Pot cross-section, sealed
+  lid, thermometer rising past 100C to 120C as pressure builds.
+- physics-fact-sweat-cooling-001 — Skin surface, water molecules
+  escaping; fastest ones leave, average energy falls.
+- physics-fact-boomerang-nebula-001 — Star with outflowing cone,
+  thermometer at ~1 K against space 2.7 K.
+- physics-fact-sun-sound-delay-001 — Sun blast icon, sound wave
+  crawling along timeline vs light arriving in 8 minutes.
+- physics-fact-escape-velocity-001 — Planet with trajectories:
+  fall back, orbit ellipse, escape hyperbola at 11.2 km/s.
+- physics-fact-coriolis-myth-001 — Two sinks draining both ways
+  in both hemispheres, Earth Coriolis arrows dwarfed by tap
+  geometry.
+- physics-fact-cmb-temperature-001 — Early universe hot glow
+  fading along timeline to a thermometer at 2.725 K, microwave
+  sky.
+- physics-fact-lightning-sprites-001 — Thundercloud with normal
+  lightning down and red (bright) sprite jellyfish above toward
+  space.
+- physics-fact-volcano-cooling-001 — Volcano plume into
+  stratosphere, aerosol veil around globe, temperature dip
+  chart for years.
+- physics-fact-sound-speed-water-001 — Two lanes, air vs water
+  sound wavefronts, water front 4.4x ahead after 1 second.
+- physics-fact-deep-ocean-pressure-001 — Ocean depth column,
+  diver crushing gauge, "1 tonne per cm2 at 10 km".
+- physics-fact-ice-floats-anomaly-001 — Water molecules lattice
+  expanding on freezing; ice cube floating with 9/10 submerged.
+- physics-fact-time-crystal-space-001 — Telescope receiving old
+  light cone from early galaxy while Earth icon forms later;
+  label about oldest light (time crystal renamed by theme).
+- physics-fact-antimatter-banana-001 — Banana with rare positron
+  spark every ~75 minutes, potassium-40 tag.
+- architecture-fact-two-generals-001 — Two generals on hills,
+  messenger crossing valley captured; infinite ack regress.
+- architecture-fact-lamport-clocks-001 — Three process timelines
+  with logical counters increasing on message arrows, no
+  wall clocks.
+- architecture-fact-thundering-herd-001 — Cache key expiring
+  clock; crowd of request arrows stampeding to database.
+- architecture-fact-paxos-simple-001 — Paper stack "Paxos Made
+  Simple" with proposer/acceptor ballot rounds.
+- architecture-fact-idempotency-keys-001 — Retry button pressed
+  three times, same key header, server applies once.
+- architecture-fact-lsm-vs-btree-001 — LSM: sequential write
+  segments stacking; B-tree random writes, read arrows trade.
+- architecture-fact-two-phase-commit-001 — Coordinator asking
+  prepare, one participant silent, all locked waiting.
+- architecture-fact-saga-compensate-001 — Booking chain flight+
+  hotel+car; one fails, compensations run backwards.
