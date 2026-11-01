@@ -627,3 +627,80 @@ that. Status is tracked in FACTS_INDEX.md ("visual: bespoke").
 - programming-fact-majority-vote-001 — A stream of votes, one
   counter and one candidate name; mismatches decrement,
   matches increment (Boyer-Moore).
+
+## Batch C5 — chains, part 5 (25)
+
+- programming-fact-fisher-yates-001 — A row of cards; from
+  the right end, the highlighted card swaps with a random
+  earlier one, shuffled region grows.
+- programming-fact-sieve-eratosthenes-001 — Number grid 2..30
+  with multiples of 2,3,5 crossed in waves; primes stay lit.
+- programming-fact-duffs-device-001 — A switch staircase
+  falling through into loop iterations, cases stacked inside
+  a do-while outline.
+- programming-fact-wal-survival-001 — Diary (log) written
+  first, then the database page; a crash bolt between them
+  shows replay arrows.
+- programming-fact-btree-width-001 — One disk page as a wide
+  box holding many keys and many child pointers; depth only
+  3-4 for millions.
+- programming-fact-fork-exec-split-001 — A process splitting
+  (fork) into a copy, then the copy's body replaced (exec)
+  by a new program icon.
+- programming-fact-zerocopy-sendfile-001 — File on disk arrow
+  straight to network socket; the user program box bypassed
+  with a dashed fading path through it.
+- programming-fact-overcommit-001 — Many promise notes (virtual
+  memory) stacked against a smaller pile of real RAM chips;
+  most promises never called in.
+- programming-fact-pagecache-invisible-001 — First read arrow
+  goes to disk; second read arrow stops at a glowing cache
+  layer in RAM.
+- programming-fact-context-switch-cost-001 — Two thread ribbons
+  alternating; each switch drops a toll: cache lines cooling
+  from lit to dim.
+- programming-fact-timer-interrupts-001 — A clock with tick
+  marks interrupting a running task ribbon; scheduler hands
+  the CPU round the circle.
+- programming-fact-inode-no-name-001 — An inode box (data +
+  metadata) with two directory entries (names) pointing to
+  it; name tags outside the box.
+- programming-fact-deleted-open-file-001 — A file entry
+  crossed "deleted" while an open handle keeps the inode
+  alive; it fades only when the handle closes.
+- programming-fact-signals-coarse-001 — A doorbell button and
+  a bell above a process; multiple presses merge to one
+  ring: no payload envelope.
+- programming-fact-everything-file-001 — Keyboard, disk,
+  network, printer all drawn as identical file icons with
+  read/write arrows.
+- programming-fact-chmod-bits-001 — Nine bit cells rwxrwxrwx
+  grouped in threes: owner/group/others; flipping bits
+  lights the letters.
+- programming-fact-init-systemd-001 — A tree of processes all
+  rooted at PID 1; an orphan child arrow re-attaches to the
+  root.
+- programming-fact-apollo-rope-memory-001 — Woven wire grid
+  through ferrite rings (core rope), a hand threading it;
+  read-only by construction.
+- programming-fact-voyager-memory-001 — A tiny memory bar
+  labelled ~68 KB against a huge modern phone bar off-chart;
+  a signal dot travelling far.
+- programming-fact-tech-debt-metaphor-001 — A loan ledger:
+  shipping fast now, interest payments as extra work later,
+  principal repaid by refactoring (Ward Cunningham).
+- programming-fact-rubber-duck-001 — A code listing on the
+  left, speech lines toward a duck outline on the desk; the
+  bug line lights as explained.
+- programming-fact-heisenbug-001 — A bug icon under a
+  magnifying glass that fades when the glass is over it,
+  reappearing at the edge.
+- programming-fact-worse-is-better-001 — Two columns: perfect-
+  but-unfinished cathedral vs simple-shipped tool with users;
+  the shipped one ticked.
+- programming-fact-second-system-001 — First system lean box,
+  second system bloated with every feature bauble, creaking;
+  third lean again (Brooks).
+- programming-fact-os360-lesson-001 — A schedule Gantt and a
+  staffing curve: adding people to the late project moves
+  the finish later (Brooks's law graph).
