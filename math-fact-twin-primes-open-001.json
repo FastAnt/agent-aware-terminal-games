@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "math-fact-twin-primes-open-001",
+  "kicker": "FACT",
+  "topic": "Math",
+  "title": "Twin primes are unproven after two thousand years",
+  "body": "Primes like 11 and 13, or 17 and 19, differ by two. Infinitely many such pairs are conjectured and none can prove it yet, though Zhang Yitang showed in 2013 that infinitely many prime pairs occur within a bounded gap, later squeezed to a few hundred. The full gap of two still refuses.",
+  "source_hint": "Zhang (2013), bounded gaps between primes",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "p and p+2",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "infinitely many?",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "bounded gaps proven",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

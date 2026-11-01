@@ -1,0 +1,27 @@
+{
+  "type": "fact",
+  "id": "math-fact-euler-identity-001",
+  "kicker": "FACT",
+  "topic": "Math",
+  "title": "Euler's identity compresses five constants into one line",
+  "body": "e to the i pi plus one equals zero, joining e, pi, i, 1 and 0, analysis, geometry and algebra in a single breath. It is a special case of Euler's formula e^{ix} = cos x + i sin x, which turns rotation into multiplication. The formula, not the slogan, is what engineers actually use daily.",
+  "source_hint": "Euler, Introductio in analysin infinitorum (1748)",
+  "scene": {
+    "type": "orbits",
+    "rings": 3,
+    "dots": [
+      {
+        "ring": 2,
+        "angle": 45
+      },
+      {
+        "ring": 3,
+        "angle": 225
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "fact",
+  "id": "math-fact-central-limit-001",
+  "kicker": "FACT",
+  "topic": "Math",
+  "title": "Averages become bell-shaped almost regardless",
+  "body": "Add enough independent noisy quantities and their total drifts toward a normal distribution, whatever the original noise looked like, dice, errors or incomes. That universality, the central limit theorem, is why the bell curve haunts unrelated sciences. Its conditions matter: infinite-variance phenomena like wealth refuse to attend.",
+  "source_hint": "Central limit theorem (Laplace, Lyapunov forms)",
+  "scene": {
+    "type": "network",
+    "layers": [
+      3,
+      5,
+      3
+    ],
+    "anim": {
+      "type": "pulse",
+      "speed": 0.5
+    }
+  }
+}

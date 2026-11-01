@@ -139,3 +139,28 @@ math-fact-hairy-ball-001 · Math · You cannot comb a hairy ball flat everywhere
 math-fact-polya-walk-001 · Math · A random walker returns in 2D, may vanish in 3D
 math-fact-buffon-needle-001 · Math · Dropping needles on floorboards estimates pi
 math-fact-st-petersburg-001 · Math · A coin game worth infinity that nobody will buy
+math-fact-kaprekar6174-001 · Math · Every four-digit number falls into 6174
+math-fact-taxicab1729-001 · Math · 1729 is the smallest number special in two ways
+math-fact-paper-moon-001 · Math · Fold paper 42 times and you pass the Moon
+math-fact-chessboard-rice-001 · Math · The chessboard rice legend ends at a mountain of grain
+math-fact-rubik-states-001 · Math · A Rubik's cube has 43 quintillion positions
+math-fact-deck52-factorial-001 · Math · Your shuffle has probably never happened before
+math-fact-googol-origin-001 · Math · A googol got its name from a nine-year-old
+math-fact-mersenne-primes-001 · Math · The biggest known primes are almost all Mersenne
+math-fact-perfect-numbers-001 · Math · Perfect numbers and Mersenne primes are the same list
+math-fact-sqrt2-irrational-001 · Math · The square root of 2 broke a Greek worldview
+math-fact-golden-sunflower-001 · Math · Sunflowers pack seeds at the golden angle
+math-fact-twin-primes-open-001 · Math · Twin primes are unproven after two thousand years
+math-fact-zipf-law-001 · Math · In any book, the second word bows to the first
+math-fact-central-limit-001 · Math · Averages become bell-shaped almost regardless
+math-fact-clt-coins-001 · Math · Ten coins already hint at the bell curve
+math-fact-law-large-numbers-001 · Math · Casinos trust the law of large numbers, not luck
+math-fact-normal-body-001 · Math · Height is normal because many small causes add
+math-fact-six-degrees-001 · Math · Six degrees shrank in the network era
+math-fact-kelly-criterion-001 · Math · Betting everything on an edge still ruins you
+math-fact-gamblers-ruin-001 · Math · Against a richer house, persistence is the trap
+math-fact-martingale-myth-001 · Math · Doubling bets cannot repeal arithmetic
+math-fact-countable-rationals-001 · Math · Fractions are countable; reals are not
+math-fact-graham-number-001 · Math · Graham's number makes googolplex look like zero
+math-fact-euler-identity-001 · Math · Euler's identity compresses five constants into one line
+math-fact-i-rotation-001 · Math · Multiplying by i is a quarter turn

@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "math-fact-mersenne-primes-001",
+  "kicker": "FACT",
+  "topic": "Math",
+  "title": "The biggest known primes are almost all Mersenne",
+  "body": "Primes of the form 2^p - 1 can be tested far faster than general numbers of similar size, using the Lucas-Lehmer test, so record hunting concentrates there. The Great Internet Mersenne Prime Search has coordinated volunteers since 1996. The largest known prime at any time is therefore a statement about our tests as much as about primes.",
+  "source_hint": "GIMPS project and Lucas-Lehmer test",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "2^p - 1",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "fast special test",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "record primes live here",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

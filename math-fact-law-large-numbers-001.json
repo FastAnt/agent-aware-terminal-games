@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "math-fact-law-large-numbers-001",
+  "kicker": "FACT",
+  "topic": "Math",
+  "title": "Casinos trust the law of large numbers, not luck",
+  "body": "Over few trials anything can happen; over millions, averages settle near expectations with shrinking relative deviation. A casino's tiny edge is meaningless per spin and destiny per year. Gamblers feel the short run, businesses budget the long one, and confusing the two funds the building.",
+  "source_hint": "Law of large numbers (Bernoulli, Ars Conjectandi, 1713)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "few trials: chaos",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "millions: averages settle",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "the house budgets",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

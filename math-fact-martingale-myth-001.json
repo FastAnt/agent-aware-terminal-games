@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "math-fact-martingale-myth-001",
+  "kicker": "FACT",
+  "topic": "Math",
+  "title": "Doubling bets cannot repeal arithmetic",
+  "body": "The martingale strategy doubles after every loss so one win recovers all, but a losing streak of ten at a unit stake demands over a thousand for the next bet, and tables have limits anyway. Expected value stays exactly the game's edge. The system rearranges many small wins against rare catastrophes and calls the arrangement a method.",
+  "source_hint": "Martingale strategy analysis, classical probability",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "lose: double",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "streak: 1024 needed",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "limits + ruin",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

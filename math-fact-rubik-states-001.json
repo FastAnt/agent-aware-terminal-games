@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "math-fact-rubik-states-001",
+  "kicker": "FACT",
+  "topic": "Math",
+  "title": "A Rubik's cube has 43 quintillion positions",
+  "body": "Counting reachable arrangements, permuting corners and edges minus illegal twists, gives 43,252,003,274,489,856,000 positions. Yet God's number, proved in 2010 with massive computation, is 20: any scramble is at most twenty moves from solved. The state space is oceanic, the diameter strangely walkable.",
+  "source_hint": "Rokicki et al., God's number proof (2010)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "43 quintillion states",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "every scramble",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "at most 20 moves",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}
