@@ -82,3 +82,83 @@ that. Status is tracked in FACTS_INDEX.md ("visual: bespoke").
 - physics-fact-diamond-rain-001 — Neptune as layered disc:
   methane label near top, tiny diamond dots raining down
   through the mantle layer.
+
+## Batch O2 — orbits rest + first network (25)
+
+- physics-fact-earth-rotation-speed-001 — Equator line with a
+  speed arrow "1,670 km/h" and a tiny person standing calmly;
+  the point: speed without felt acceleration.
+- physics-fact-eddington-eclipse-001 — Black Sun disc with
+  corona ticks, two star dots whose apparent positions shift
+  outward along bent rays.
+- physics-fact-fusion-pp-chain-001 — Core dot and a photon
+  zig-zagging in tiny steps through dense dots for ages, then
+  escaping straight: the random walk out.
+- physics-fact-gps-relativity-001 — Earth, one satellite, and
+  two clock readouts: satellite "+38 µs/day" vs ground, with a
+  position dot drifting when uncorrected.
+- physics-fact-gravitational-waves-2015-001 — Two black dots
+  spiralling into each other and a chirp waveform below whose
+  frequency and amplitude rise.
+- physics-fact-great-oxidation-001 — Timeline axis: low oxygen
+  flat, then a rising curve labelled "cyanobacteria waste",
+  with rust-band dots appearing in rock layers.
+- physics-fact-magnetic-reversals-001 — A horizontal stripe
+  sequence of alternating light/dark polarity bands (ocean
+  floor record), a compass needle flipping above.
+- physics-fact-mercury-perihelion-001 — An ellipse whose
+  perihelion marker slowly precesses, drawing a rosette;
+  "43 arcsec/century unexplained" beside it.
+- physics-fact-milankovitch-001 — Three small dials
+  (eccentricity, tilt, precession) above a jagged ice-age
+  curve that follows their combined rhythm.
+- physics-fact-moon-receding-001 — Earth–Moon distance line
+  with a laser pulse bouncing to a mirror; the gap grows
+  "3.8 cm/yr" and a day-length gauge lengthens.
+- physics-fact-pulsar-clocks-001 — A neutron star with two
+  lighthouse beams sweeping; a tick strip below with
+  perfectly even ticks.
+- physics-fact-saturn-floats-001 — A big ringed planet circle
+  sitting high on a water line, a density bar showing
+  0.69 < 1.0 of water.
+- physics-fact-seismic-shadow-001 — Earth cross-section, an
+  earthquake star on the left, rays bending through layers
+  and a shadow gap on the far side with a small inner-core
+  deflection.
+- geometry-fact-bernoulli-spiral-tomb-001 — Two spirals side
+  by side: self-similar logarithmic (labelled "wanted") and
+  evenly spaced Archimedean ("carved by mistake").
+- geometry-fact-dymaxion-map-001 — A triangle net of an
+  icosahedron partly folded, continent blobs kept whole on
+  the triangles, cuts in the "oceans".
+- geometry-fact-geodesic-domes-001 — A hemisphere dome of
+  triangles with load arrows at the crown flowing down the
+  struts to the ground.
+- geometry-fact-loxodrome-spiral-001 — A sphere with a course
+  line crossing meridians at a constant angle, winding
+  tighter and tighter toward the pole.
+- geometry-fact-pentagon-soccer-001 — A ball patch: hexagons
+  around with exactly twelve pentagon dots highlighted and
+  counted as they appear.
+- physics-fact-cmb-pigeons-001 — An antenna dish, a noise
+  waveform that will not clean up, two pigeon dots being
+  shooed, and "2.7 K everywhere" as a baseline.
+- physics-fact-olbers-dark-001 — A field of star dots in
+  shells; lines of sight end at a horizon marked "finite
+  age", beyond it darkness — why the night is black.
+- physics-fact-snowball-earth-001 — Earth disc almost fully
+  white with a narrow dark equatorial crack of open water,
+  CO2 gauge rising beside it toward thaw.
+- architecture-fact-byzantine-third-001 — Four general nodes:
+  three honest repeating one order, one traitor sending the
+  opposite; counter "3 honest > 1 traitor x3 rule".
+- architecture-fact-chaos-monkey-001 — A rack of server boxes;
+  one randomly flashes and is struck out while traffic arrows
+  reroute and the service bar stays green-less "still up".
+- architecture-fact-gossip-spread-001 — Dots in a field; an
+  informed dot tells a random neighbour each beat and the
+  informed colour spreads exponentially.
+- architecture-fact-grpc-streaming-001 — One client and one
+  server joined by a thick channel carrying arrows both
+  ways at once (streams), contrasted with a thin single
+  request arrow above.

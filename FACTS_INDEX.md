@@ -194,14 +194,14 @@ math-fact-squaring-circle-001 · Math · Squaring the circle died when pi turned
 math-fact-transcendental-pi-e-001 · Math · We do not know if pi + e is irrational
 math-fact-chaitin-omega-001 · Math · There is a number that encodes all of mathematics' secrets
 math-fact-busy-beaver-001 · Math · The busiest small machines outrun all comprehension
-physics-fact-gps-relativity-001 · Physics · GPS works only because relativity is corrected daily
+physics-fact-gps-relativity-001 · Physics · GPS works only because relativity is corrected daily · visual: bespoke
 physics-fact-muons-rain-001 · Physics · Muons reach the ground by living in another time
 physics-fact-hafele-keating-001 · Physics · In 1971, clocks flown around the world disagreed on return · visual: bespoke
 physics-fact-hot-tea-mass-001 · Physics · A hot cup of tea is heavier than the same tea cold
 physics-fact-charged-battery-mass-001 · Physics · A charged battery weighs more than a dead one
-physics-fact-mercury-perihelion-001 · Physics · Mercury's orbit misbehaved until gravity was rethought
-physics-fact-cmb-pigeons-001 · Physics · The Big Bang's afterglow was found as antenna noise
-physics-fact-olbers-dark-001 · Physics · The night sky is dark because the universe has a birthday
+physics-fact-mercury-perihelion-001 · Physics · Mercury's orbit misbehaved until gravity was rethought · visual: bespoke
+physics-fact-cmb-pigeons-001 · Physics · The Big Bang's afterglow was found as antenna noise · visual: bespoke
+physics-fact-olbers-dark-001 · Physics · The night sky is dark because the universe has a birthday · visual: bespoke
 physics-fact-landauer-001 · Physics · Erasing one bit must release a minimum of heat
 physics-fact-maxwell-demon-001 · Physics · Maxwell's demon was defeated by its own memory
 physics-fact-tunnelling-sun-001 · Physics · The Sun shines by quantum tunnelling
@@ -218,7 +218,7 @@ physics-fact-speedlimit-info-001 · Physics · Nothing carrying information outr
 physics-fact-planck-scale-001 · Physics · Planck units mark where our two best theories collide
 physics-fact-chandrasekhar-001 · Physics · A star's death has a weight limit of 1.4 Suns · visual: bespoke
 physics-fact-neutron-star-density-001 · Physics · A neutron star packs a mountain range into a sugar cube · visual: bespoke
-physics-fact-eddington-eclipse-001 · Physics · A 1919 eclipse made Einstein famous overnight
+physics-fact-eddington-eclipse-001 · Physics · A 1919 eclipse made Einstein famous overnight · visual: bespoke
 physics-fact-metre-light-001 · Physics · The metre is defined by light, not a bar
 physics-fact-second-caesium-001 · Physics · One second is 9,192,631,770 ticks of caesium
 physics-fact-kilogram-planck-001 · Physics · The kilogram is anchored to Planck's constant since 2019
@@ -226,7 +226,7 @@ physics-fact-absolute-zero-001 · Physics · Absolute zero is a limit you may ap
 physics-fact-alpha-137-001 · Physics · One dimensionless number in physics has no explanation
 physics-fact-proton-electron-1836-001 · Physics · One proton outweighs 1836 electrons
 physics-fact-equivalence-tested-001 · Physics · Falling objects agree to 1 part in 10^15
-physics-fact-moon-receding-001 · Physics · The Moon drifts away about 4 centimetres a year
+physics-fact-moon-receding-001 · Physics · The Moon drifts away about 4 centimetres a year · visual: bespoke
 physics-fact-day-lengthening-001 · Physics · Days were about 22 hours when dinosaurs were young
 physics-fact-sky-blue-001 · Physics · The sky is blue because air itself scatters blue most
 physics-fact-metal-cold-001 · Physics · Metal feels colder than wood at the same temperature
@@ -240,21 +240,21 @@ physics-fact-pressure-cooker-001 · Physics · Pressure cookers cook by letting 
 physics-fact-sweat-cooling-001 · Physics · Sweat cools by taking the fastest molecules
 physics-fact-boomerang-nebula-001 · Physics · The coldest natural place is a star's outflow
 physics-fact-sun-sound-delay-001 · Physics · Sun storms would take a month to hear
-physics-fact-earth-rotation-speed-001 · Physics · You are moving at 1,600 km/h and feel nothing
+physics-fact-earth-rotation-speed-001 · Physics · You are moving at 1,600 km/h and feel nothing · visual: bespoke
 physics-fact-iss-falling-001 · Physics · Astronauts float because they never stop falling · visual: bespoke
 physics-fact-escape-velocity-001 · Physics · Escape velocity is about not coming back, not about engines
 physics-fact-coriolis-myth-001 · Physics · Toilet bowls do not reveal the hemisphere
 physics-fact-cmb-temperature-001 · Physics · The universe has a temperature: 2.725 kelvin
 physics-fact-dark-matter-rotation-001 · Physics · Galaxies spin too fast for the stars we see · visual: bespoke
 physics-fact-sun-fate-white-dwarf-001 · Physics · The Sun will end as a white dwarf, quietly · visual: bespoke
-physics-fact-fusion-pp-chain-001 · Physics · Sunlight began as gamma rays a hundred millennia ago
+physics-fact-fusion-pp-chain-001 · Physics · Sunlight began as gamma rays a hundred millennia ago · visual: bespoke
 physics-fact-earth-core-hot-001 · Physics · Earth's core is as hot as the Sun's surface · visual: bespoke
-physics-fact-magnetic-reversals-001 · Physics · Earth's magnetic poles have flipped hundreds of times
-physics-fact-seismic-shadow-001 · Physics · Earth's liquid core was found by an earthquake shadow
+physics-fact-magnetic-reversals-001 · Physics · Earth's magnetic poles have flipped hundreds of times · visual: bespoke
+physics-fact-seismic-shadow-001 · Physics · Earth's liquid core was found by an earthquake shadow · visual: bespoke
 physics-fact-continental-drift-rejected-001 · Physics · Wegener was right about continents, wrong about forces · visual: bespoke
-physics-fact-great-oxidation-001 · Physics · Oxygen was once a planetary poison gas
-physics-fact-snowball-earth-001 · Physics · Earth may once have frozen nearly to the equator
-physics-fact-milankovitch-001 · Physics · Ice ages keep time with wobbles in Earth's orbit
+physics-fact-great-oxidation-001 · Physics · Oxygen was once a planetary poison gas · visual: bespoke
+physics-fact-snowball-earth-001 · Physics · Earth may once have frozen nearly to the equator · visual: bespoke
+physics-fact-milankovitch-001 · Physics · Ice ages keep time with wobbles in Earth's orbit · visual: bespoke
 physics-fact-tidal-locking-001 · Physics · The Moon was once much closer and days much shorter · visual: bespoke
 physics-fact-aurora-sound-001 · Physics · Auroras are Earth's magnetic shield made visible · visual: bespoke
 physics-fact-lightning-sprites-001 · Physics · Above thunderstorms, red sprites flash toward space
@@ -265,16 +265,16 @@ physics-fact-deep-ocean-pressure-001 · Physics · The deep ocean presses with a
 physics-fact-ice-floats-anomaly-001 · Physics · Ice floats because water expands as it freezes
 physics-fact-diamond-rain-001 · Physics · It may rain diamonds inside Neptune and Uranus · visual: bespoke
 physics-fact-great-red-spot-001 · Physics · Jupiter's storm is wider than Earth and centuries old · visual: bespoke
-physics-fact-saturn-floats-001 · Physics · Saturn would float, in a large enough bathtub
+physics-fact-saturn-floats-001 · Physics · Saturn would float, in a large enough bathtub · visual: bespoke
 physics-fact-venus-retrograde-001 · Physics · Venus spins backwards, and nobody fully knows why · visual: bespoke
 physics-fact-mars-olympus-001 · Physics · Olympus Mons is nearly three Everests, and gently sloped · visual: bespoke
 physics-fact-io-volcanic-001 · Physics · Io kneads itself into the most volcanic body known · visual: bespoke
-physics-fact-pulsar-clocks-001 · Physics · Some pulsars keep time rivaling atomic clocks
-physics-fact-gravitational-waves-2015-001 · Physics · In 2015 we heard two black holes collide
+physics-fact-pulsar-clocks-001 · Physics · Some pulsars keep time rivaling atomic clocks · visual: bespoke
+physics-fact-gravitational-waves-2015-001 · Physics · In 2015 we heard two black holes collide · visual: bespoke
 physics-fact-time-crystal-space-001 · Physics · The oldest light we see left before Earth existed
 physics-fact-antimatter-banana-001 · Physics · Bananas emit antimatter, at a homeopathic rate
 architecture-fact-two-generals-001 · Architecture · Two generals cannot agree over an unreliable messenger
-architecture-fact-byzantine-third-001 · Architecture · Tolerating traitors takes more than triple the traitors
+architecture-fact-byzantine-third-001 · Architecture · Tolerating traitors takes more than triple the traitors · visual: bespoke
 architecture-fact-cap-partition-001 · Architecture · Under a network partition, you must pick a poison
 architecture-fact-dynamo-cart-001 · Architecture · Amazon's cart chose 'always writable' over always consistent
 architecture-fact-lamport-clocks-001 · Architecture · Lamport ordered events without trusting any clock
@@ -285,7 +285,7 @@ architecture-fact-thundering-herd-001 · Architecture · When a hot cache entry 
 architecture-fact-paxos-simple-001 · Architecture · Paxos was so hard to explain it needed a sequel paper
 architecture-fact-idempotency-keys-001 · Architecture · A good retry button is really an idempotency key
 architecture-fact-lsm-vs-btree-001 · Architecture · Write-heavy stores trade read work for write speed
-architecture-fact-gossip-spread-001 · Architecture · Cluster gossip spreads news like a rumour, on purpose
+architecture-fact-gossip-spread-001 · Architecture · Cluster gossip spreads news like a rumour, on purpose · visual: bespoke
 architecture-fact-anycast-001 · Architecture · The same IP address can live in a hundred cities
 architecture-fact-bulkheads-001 · Architecture · Ships' bulkheads became a software pattern
 architecture-fact-backpressure-001 · Architecture · Fast producers must be told to slow down
@@ -295,7 +295,7 @@ architecture-fact-spanner-truetime-001 · Architecture · Google put atomic cloc
 architecture-fact-snowflake-ids-001 · Architecture · Twitter's Snowflake IDs sort themselves by time
 architecture-fact-uuid-collision-001 · Architecture · Random UUIDs collide about when hell freezes over
 architecture-fact-hyrums-law-001 · Architecture · Every observable behaviour of your API becomes a contract
-architecture-fact-chaos-monkey-001 · Architecture · Netflix breaks its own production on weekdays, on purpose
+architecture-fact-chaos-monkey-001 · Architecture · Netflix breaks its own production on weekdays, on purpose · visual: bespoke
 architecture-fact-error-budgets-001 · Architecture · Reliability becomes negotiable with an error budget
 architecture-fact-prime-video-monolith-001 · Architecture · Prime Video cut costs 90 percent by un-distributing a tool
 architecture-fact-knight-capital-001 · Architecture · Knight Capital lost $440M in 45 minutes to a dead flag
@@ -339,7 +339,7 @@ architecture-fact-dkim-spf-dmarc-001 · Architecture · Email authentication arr
 architecture-fact-websocket-upgrade-001 · Architecture · WebSockets begin life as an HTTP request in disguise
 architecture-fact-mqtt-qos-001 · Architecture · MQTT's QoS 2 is a four-step handshake in miniature
 architecture-fact-keepalive-cost-001 · Architecture · Connection reuse exists because handshakes are expensive
-architecture-fact-grpc-streaming-001 · Architecture · gRPC streams because one request-response rarely fits
+architecture-fact-grpc-streaming-001 · Architecture · gRPC streams because one request-response rarely fits · visual: bespoke
 architecture-fact-cdn-origin-pull-001 · Architecture · The first visitor to a new city pays for everyone
 architecture-fact-sharding-hotspot-001 · Architecture · Sharding by the wrong key creates one celebrity shard
 architecture-fact-read-replica-lag-001 · Architecture · Read replicas can honestly return yesterday's news
@@ -410,7 +410,7 @@ geometry-fact-spherical-triangle-001 · Geometry · On a sphere, a triangle can 
 geometry-fact-mobius-cut-001 · Geometry · Cut a Möbius strip: you do not get two strips · visual: bespoke
 geometry-fact-klein-bottle-001 · Geometry · A Klein bottle has no inside; models fake one · visual: bespoke
 geometry-fact-penrose-triangle-001 · Geometry · The Penrose triangle exists in photographs, from one angle
-geometry-fact-pentagon-soccer-001 · Geometry · Every soccer ball hides exactly twelve pentagons
+geometry-fact-pentagon-soccer-001 · Geometry · Every soccer ball hides exactly twelve pentagons · visual: bespoke
 geometry-fact-five-platonics-001 · Geometry · Exactly five perfect solids exist; Euclid ends there
 geometry-fact-euler-formula-001 · Geometry · Vertices minus edges plus faces equals two, almost always
 geometry-fact-honeycomb-hales-001 · Geometry · Bees were proved optimal only in 1999
@@ -425,8 +425,8 @@ geometry-fact-torus-donut-001 · Geometry · Topologically, a coffee cup is a do
 geometry-fact-wallpaper-17-001 · Geometry · Every wallpaper uses one of 17 symmetries
 geometry-fact-penrose-tiling-001 · Geometry · Never-repeating tiles that conquered chemistry
 geometry-fact-girih-tiles-001 · Geometry · Medieval tilers may have beaten Penrose by 500 years
-geometry-fact-geodesic-domes-001 · Geometry · Fuller's domes get stronger as they get bigger
-geometry-fact-dymaxion-map-001 · Geometry · Fuller's map unfolds Earth into triangles
+geometry-fact-geodesic-domes-001 · Geometry · Fuller's domes get stronger as they get bigger · visual: bespoke
+geometry-fact-dymaxion-map-001 · Geometry · Fuller's map unfolds Earth into triangles · visual: bespoke
 geometry-fact-winkel-tripel-001 · Geometry · The atlas map is a three-way compromise · visual: bespoke
 geometry-fact-morley-triangle-001 · Geometry · Trisect every angle and an equilateral triangle appears
 geometry-fact-napoleon-triangle-001 · Geometry · Napoleon's theorem plants equilateral triangles everywhere
@@ -436,11 +436,11 @@ geometry-fact-ford-circles-001 · Geometry · Between two Ford circles hides an 
 geometry-fact-menger-sponge-001 · Geometry · A sponge with zero volume, infinite surface
 geometry-fact-peano-curve-001 · Geometry · One curve can fill an entire square
 geometry-fact-hilbert-gis-001 · Geometry · Hilbert curves order map tiles on disk
-geometry-fact-bernoulli-spiral-tomb-001 · Geometry · Bernoulli's tombstone got the wrong spiral
+geometry-fact-bernoulli-spiral-tomb-001 · Geometry · Bernoulli's tombstone got the wrong spiral · visual: bespoke
 geometry-fact-involute-gears-001 · Geometry · Gear teeth are shaped by unwinding string from a circle
 geometry-fact-tractrix-pursuit-001 · Geometry · Drag a watch on a chain: a tractrix
 geometry-fact-cycloid-clock-001 · Geometry · Huygens fixed clocks with cycloid cheeks
-geometry-fact-loxodrome-spiral-001 · Geometry · A fixed compass course spirals to the pole
+geometry-fact-loxodrome-spiral-001 · Geometry · A fixed compass course spirals to the pole · visual: bespoke
 geometry-fact-antipodal-map-001 · Geometry · Antipodal weather twins exist right now
 geometry-fact-sphere-area-lune-001 · Geometry · Sphere lunes have area by pure proportion · visual: bespoke
 geometry-fact-projective-perspective-001 · Geometry · Painters invented projective geometry by looking
