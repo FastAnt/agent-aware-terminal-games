@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "ml-fact-shortcut-learning-001",
+  "kicker": "FACT",
+  "topic": "Machine learning",
+  "title": "Models cheat with watermarks, rulers and backgrounds",
+  "body": "Classifiers have learned to detect horses from a photographer's watermark, skin lesions from the ruler beside them, and huskies from snow. Geirhos and colleagues named it shortcut learning: networks take the easiest predictive feature, intended or not. Accuracy on a test set drawn from the same shortcuts certifies the cheating, which is why out-of-distribution tests exist.",
+  "source_hint": "Geirhos et al., Nature Machine Intelligence (2020)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "husky or wolf?",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "snow in background",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "model uses snow",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

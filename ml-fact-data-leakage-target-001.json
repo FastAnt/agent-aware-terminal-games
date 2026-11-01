@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "ml-fact-data-leakage-target-001",
+  "kicker": "FACT",
+  "topic": "Machine learning",
+  "title": "Target leakage wins competitions and fails Mondays",
+  "body": "A feature computed using information only available after the outcome, like a discharge code predicting readmission, gives glorious validation scores and a useless model. Leakage is the most common way ML projects lie to themselves, because every metric applauds. The defence is boring: timestamp every feature and ask 'would I know this at prediction time'.",
+  "source_hint": "Kaufman et al. on leakage in data mining (2012)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "feature from the future",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "validation: glorious",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "production: useless",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "ml-fact-turing-test-loebner-001",
+  "kicker": "FACT",
+  "topic": "Machine learning",
+  "title": "The Turing test measures judges as much as machines",
+  "body": "Turing proposed imitation as an operational stand-in for 'can machines think' in 1950, partly to dodge definitional swamps. Chatbots from ELIZA onward showed how readily people project understanding onto fluent text. The test's history is therefore double: progress in machines, and a mirror held up to human credulity, which turns out to be the easier variable.",
+  "source_hint": "Turing, 'Computing Machinery and Intelligence' (1950)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "fluent text",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "judge projects mind",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "mirror for humans",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

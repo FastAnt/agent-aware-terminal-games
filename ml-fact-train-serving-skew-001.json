@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "ml-fact-train-serving-skew-001",
+  "kicker": "FACT",
+  "topic": "Machine learning",
+  "title": "Models meet a different world than they trained in",
+  "body": "If training data was assembled with joins and filters that production cannot reproduce, features differ silently at serving time and accuracy evaporates without a code change. Google's ML rules literature calls this training-serving skew and prescribes logging live features to compare. Half of 'the model decayed' postmortems are pipelines disagreeing with themselves.",
+  "source_hint": "Google, 'Rules of Machine Learning'",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "training pipeline",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "serving pipeline differs",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "silent decay",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

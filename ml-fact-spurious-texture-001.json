@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "ml-fact-spurious-texture-001",
+  "kicker": "FACT",
+  "topic": "Machine learning",
+  "title": "ImageNet networks judge by texture, not shape",
+  "body": "Humans recognise objects by shape; ImageNet-trained CNNs lean heavily on texture, so a cat with elephant skin texture becomes an elephant to the model. Geirhos's 2019 stylised experiments exposed the bias. It explains some adversarial fragility and motivated shape-bias training. The machines mastered our benchmark without seeing as we see, a distinction deployment keeps rediscovering.",
+  "source_hint": "Geirhos et al., ICLR 2019, texture bias",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "cat shape",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "elephant texture",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "model: elephant",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

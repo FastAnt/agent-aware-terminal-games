@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "ml-fact-label-errors-benchmark-001",
+  "kicker": "FACT",
+  "topic": "Machine learning",
+  "title": "Some benchmark labels are simply wrong",
+  "body": "Audits have estimated several percent of labels in famous test sets are errors or genuinely ambiguous; ImageNet's validation set included mislabeled and multi-object images that punished correct models. Northcutt and colleagues showed rankings can shuffle once labels are cleaned. Leaderboards measure agreement with labels, which is only a proxy for being right.",
+  "source_hint": "Northcutt, Athalye, Mueller (2021), label errors study",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "benchmark labels",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "some are wrong",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "rankings shuffle",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

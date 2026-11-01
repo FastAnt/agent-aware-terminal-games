@@ -368,3 +368,28 @@ ml-fact-bpe-tokens-001 · Machine learning · Language models read compression-b
 ml-fact-temperature-sampling-001 · Machine learning · Temperature: librarian or improviser knob
 ml-fact-rlhf-preference-001 · Machine learning · RLHF taught models manners from ranked preferences
 ml-fact-quantization-int8-001 · Machine learning · Models survive rewriting in 8-bit integers
+ml-fact-label-errors-benchmark-001 · Machine learning · Some benchmark labels are simply wrong
+ml-fact-data-leakage-target-001 · Machine learning · Target leakage wins competitions and fails Mondays
+ml-fact-class-imbalance-accuracy-001 · Machine learning · 99 percent accuracy can mean the model does nothing
+ml-fact-train-serving-skew-001 · Machine learning · Models meet a different world than they trained in
+ml-fact-concept-drift-001 · Machine learning · The world changes; yesterday's model is historical
+ml-fact-feedback-loops-ml-001 · Machine learning · Predictive policing can patrol its own predictions
+ml-fact-shortcut-learning-001 · Machine learning · Models cheat with watermarks, rulers and backgrounds
+ml-fact-spurious-texture-001 · Machine learning · ImageNet networks judge by texture, not shape
+ml-fact-embedding-bias-001 · Machine learning · Word embeddings absorbed the stereotypes of their text
+ml-fact-gpt2-too-dangerous-001 · Machine learning · GPT-2 was once staged-released as too dangerous
+ml-fact-turing-test-loebner-001 · Machine learning · The Turing test measures judges as much as machines
+ml-fact-eliza-effect-001 · Machine learning · A 1966 keyword script convinced users it understood
+ml-fact-deepblue-brute-001 · Machine learning · Deep Blue won with speed plus evaluation, not learning
+ml-fact-watson-jeopardy-001 · Machine learning · Watson won Jeopardy by ranking answers, not understanding
+ml-fact-recommender-bubble-001 · Machine learning · Recommenders optimise engagement, not your future taste
+ml-fact-cold-start-001 · Machine learning · Recommenders are blind exactly when you are new
+ml-fact-curse-dimensionality-001 · Machine learning · In high dimensions, everything is far from everything
+ml-fact-no-free-lunch-ml-001 · Machine learning · No algorithm is best at everything: that is a theorem
+ml-fact-bias-variance-001 · Machine learning · Prediction error is a tug of war you cannot win twice
+ml-fact-random-forest-trees-001 · Machine learning · A forest of bad trees outvotes a single good one
+ml-fact-svm-margin-001 · Machine learning · Support vector machines care only about the borderline
+ml-fact-knn-simplicity-001 · Machine learning · k-NN was analysed in 1967 and still embarrasses pipelines
+ml-fact-decision-tree-entropy-001 · Machine learning · Decision trees ask the question that splits doubt best
+ml-fact-naive-bayes-works-001 · Machine learning · Naive Bayes lies about independence and often wins
+ml-fact-pca-eigenfaces-001 · Machine learning · Faces compress into ghostly averages called eigenfaces

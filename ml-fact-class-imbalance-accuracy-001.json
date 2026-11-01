@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "ml-fact-class-imbalance-accuracy-001",
+  "kicker": "FACT",
+  "topic": "Machine learning",
+  "title": "99 percent accuracy can mean the model does nothing",
+  "body": "Predict a rare disease affecting one percent by always saying 'healthy' and you score 99 percent accuracy while catching nobody. Accuracy collapses under class imbalance, which is why precision, recall and their curves exist. A metric is a choice about which errors matter, disguised as arithmetic.",
+  "source_hint": "Standard imbalanced-classification literature",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "1% are ill",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "always say healthy",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "99% accurate, useless",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

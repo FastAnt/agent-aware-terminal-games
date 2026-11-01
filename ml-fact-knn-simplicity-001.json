@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "ml-fact-knn-simplicity-001",
+  "kicker": "FACT",
+  "topic": "Machine learning",
+  "title": "k-NN was analysed in 1967 and still embarrasses pipelines",
+  "body": "Classifying by the nearest stored examples, with zero training, was given theory by Cover and Hart in 1967, bounding its error by twice the optimal rate in the limit. On well-shaped data a lazy memorizer remains competitive with weeks of training. Its costs are paid at prediction and in storage, a reminder that 'training' is sometimes just moving the bill.",
+  "source_hint": "Cover and Hart (1967), nearest neighbour rule",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "store everything",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "vote of neighbours",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "no training at all",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "ml-fact-gpt2-too-dangerous-001",
+  "kicker": "FACT",
+  "topic": "Machine learning",
+  "title": "GPT-2 was once staged-released as too dangerous",
+  "body": "OpenAI in 2019 initially withheld the full GPT-2, citing misuse concerns, then released it in stages over nine months as evidence accumulated. The episode now reads quaintly and importantly: it normalised staged release and capability evaluations for language models. The arguments it started about openness versus safety never ended; they scaled.",
+  "source_hint": "OpenAI GPT-2 release notes (2019)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "model trained",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": " staged release",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "norms debated",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

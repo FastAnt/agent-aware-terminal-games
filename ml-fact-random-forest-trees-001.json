@@ -1,0 +1,22 @@
+{
+  "type": "fact",
+  "id": "ml-fact-random-forest-trees-001",
+  "kicker": "FACT",
+  "topic": "Machine learning",
+  "title": "A forest of bad trees outvotes a single good one",
+  "body": "Random forests grow many decision trees on bootstrapped data with random feature choices per split, then vote. Individual trees overfit flamboyantly; decorrelated errors cancel in the vote. Breiman's 2001 method remains a benchmark that deep learning must beat on tabular data, and frequently, embarrassingly, does not.",
+  "source_hint": "Breiman, 'Random Forests', Machine Learning (2001)",
+  "scene": {
+    "type": "network",
+    "layers": [
+      2,
+      5,
+      5,
+      3
+    ],
+    "anim": {
+      "type": "pulse",
+      "speed": 0.5
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "ml-fact-watson-jeopardy-001",
+  "kicker": "FACT",
+  "topic": "Machine learning",
+  "title": "Watson won Jeopardy by ranking answers, not understanding",
+  "body": "IBM Watson's 2011 victory rested on generating many candidate answers and scoring evidence for each, a retrieval-and-ranking pipeline with statistics at every joint. It still answered 'Toronto' for a US Cities category, a reminder that confidence was calibrated correlation, not comprehension. The architecture prefigured today's retrieve-then-generate systems more than its hype suggested.",
+  "source_hint": "Ferrucci et al., IBM Watson literature (2010-2012)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "candidates generated",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "evidence scored",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "top answer spoken",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "ml-fact-deepblue-brute-001",
+  "kicker": "FACT",
+  "topic": "Machine learning",
+  "title": "Deep Blue won with speed plus evaluation, not learning",
+  "body": "IBM's Deep Blue, which beat Kasparov in 1997, searched on the order of two hundred million positions per second with hand-tuned evaluation on custom chips. It did not learn from its games. Its victory closed the brute-force chapter of chess AI just before learning methods opened another, quieter and stranger one.",
+  "source_hint": "Campbell, Hoane, Hsu (2002), Deep Blue paper",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "200M positions/sec",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "hand-tuned evaluation",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "no learning",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "fact",
+  "id": "ml-fact-recommender-bubble-001",
+  "kicker": "FACT",
+  "topic": "Machine learning",
+  "title": "Recommenders optimise engagement, not your future taste",
+  "body": "A recommender rewarded for clicks learns that familiarity and outrage click well, and can narrow a user's diet toward the already-liked, the filter-bubble worry Pariser named in 2011. The system is not malevolent; the objective function is just not your long-term curiosity. Every ML system is its loss function wearing a product as a costume.",
+  "source_hint": "Pariser, 'The Filter Bubble' (2011); recommender literature",
+  "scene": {
+    "type": "network",
+    "layers": [
+      3,
+      4,
+      2
+    ],
+    "anim": {
+      "type": "pulse",
+      "speed": 0.5
+    }
+  }
+}

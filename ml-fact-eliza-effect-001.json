@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "ml-fact-eliza-effect-001",
+  "kicker": "FACT",
+  "topic": "Machine learning",
+  "title": "A 1966 keyword script convinced users it understood",
+  "body": "Joseph Weizenbaum's ELIZA mimicked a therapist by reflecting statements into questions with pattern matching, no comprehension anywhere. Users, including his secretary in his telling, confided in it seriously. Weizenbaum was so unsettled he spent later years warning about anthropomorphising software, the first ELIZA effect whistleblower being its own author.",
+  "source_hint": "Weizenbaum (1966); 'Computer Power and Human Reason' (1976)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "pattern matching",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "reflect as questions",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "users confide",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

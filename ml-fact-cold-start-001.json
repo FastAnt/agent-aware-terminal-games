@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "ml-fact-cold-start-001",
+  "kicker": "FACT",
+  "topic": "Machine learning",
+  "title": "Recommenders are blind exactly when you are new",
+  "body": "A brand-new user or item has no interaction history, so collaborative filtering has literally nothing to collaborate with: the cold-start problem. Systems fall back on popularity and content features until behaviour accumulates. It is a neat instance of a model being structurally ignorant, not undertrained, a distinction no amount of compute fixes directly.",
+  "source_hint": "Recommender systems literature (cold start)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "new user arrives",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "no history at all",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "popularity fallback",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

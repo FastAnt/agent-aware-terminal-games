@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "ml-fact-svm-margin-001",
+  "kicker": "FACT",
+  "topic": "Machine learning",
+  "title": "Support vector machines care only about the borderline",
+  "body": "An SVM's decision boundary depends solely on the closest training points, the support vectors; move any other point without crossing the margin and the solution does not change. Cortes and Vapnik's 1995 maximal-margin idea ruled the pre-deep era. There is elegance in a model defined by its hardest examples, the few that lean on the fence.",
+  "source_hint": "Cortes and Vapnik (1995)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "most points: ignored",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "closest points decide",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "widest margin",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

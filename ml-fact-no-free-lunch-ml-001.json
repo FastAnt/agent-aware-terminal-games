@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "ml-fact-no-free-lunch-ml-001",
+  "kicker": "FACT",
+  "topic": "Machine learning",
+  "title": "No algorithm is best at everything: that is a theorem",
+  "body": "Wolpert's no-free-lunch results show that averaged over all possible problems, every learning algorithm performs identically, including random guessing. Skill in ML is therefore the art of matching inductive bias to the problem's actual structure. 'Just use X for everything' fails not empirically but mathematically, which is a more permanent kind of failure.",
+  "source_hint": "Wolpert (1996), no free lunch theorems",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "all problems averaged",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "every method ties",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "bias must match world",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

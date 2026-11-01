@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "ml-fact-decision-tree-entropy-001",
+  "kicker": "FACT",
+  "topic": "Machine learning",
+  "title": "Decision trees ask the question that splits doubt best",
+  "body": "Classic tree induction scores each candidate split by information gain, how much entropy of the label it removes, and greedily asks the best question first. Quinlan's ID3 and C4.5 powered a generation of expert systems. The greed is the charm and the ceiling: a locally dull question that unlocks two great ones is never asked.",
+  "source_hint": "Quinlan (1986, 1993), ID3/C4.5",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "which question first?",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "most entropy removed",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "greedy split",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}
