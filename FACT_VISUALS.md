@@ -392,3 +392,81 @@ that. Status is tracked in FACTS_INDEX.md ("visual: bespoke").
 - architecture-fact-fastly-config-2021-001 — A customer toggle
   switch; flipping it wakes a sleeping bug icon inside a
   network of nodes that start failing outward.
+
+## Batch C2 — chains, part 2 (25)
+
+- audio-fact-sample-rate-001 — A sine wave with sample dots
+  at just over twice its peak rate; a second dashed wave shows
+  the alias that appears when sampling too slowly.
+- physics-fact-venus-day-001 — Venus circle with a slow
+  spinning arrow almost still, beside a full orbit arrow
+  completed around the Sun dot: year finishes first.
+- programming-fact-first-bug-001 — A relay panel grid; one
+  cell holds a small moth shape (two wing arcs) taped beside
+  the logbook line "first actual bug".
+- programming-fact-year-2038-001 — A 32-bit counter strip of
+  boxes filling toward the last cell, which flips to a minus
+  sign and a calendar page "2038".
+- programming-fact-ada-first-algorithm-001 — A paper sheet
+  with a table of numbers (Bernoulli), gears of the Engine
+  beside it never built, marked ghost outline.
+- programming-fact-halting-problem-001 — A machine box feeding
+  its own output back through a "will it halt?" oracle loop
+  that ties itself in a knot arrow.
+- programming-fact-apollo-1202-001 — A cockpit panel with
+  alarm lamps 1201/1202 blinking, a priority queue of tasks,
+  the guidance task highlighted kept, radar task dimmed.
+- programming-fact-ariane5-overflow-001 — A number line: a
+  64-bit long bar forced into a short 16-bit box, overflow
+  spilling as X marks, rocket silhouette tilting.
+- programming-fact-mars-orbiter-units-001 — Two rulers, lbf
+  and N, measuring the same burn arrow; the trajectory curve
+  bends too low into a planet arc.
+- programming-fact-therac-race-001 — Two typists' keystroke
+  timelines racing to a "ready" flag that lights before the
+  magnet settings settle; beam icon.
+- programming-fact-binary-search-overflow-001 — A sorted row
+  of boxes; lo and hi pointers whose midpoint calculation
+  wraps past the end, shown with a bending arrow.
+- programming-fact-pentium-fdiv-001 — A division worked on
+  paper: 4195835 / 3145727, the answer's tail digits crossed
+  and replaced, a lookup table with one missing cell.
+- programming-fact-manchester-baby-001 — A CRT grid of 32x32
+  dots (store), one line glowing: the first program stored
+  in the same memory as data.
+- programming-fact-ada-lovelace-vision-001 — The Engine gear
+  train on the left; on the right musical notes and weave
+  pattern icons it "could" produce, in dashed vision bubbles.
+- programming-fact-hopper-compiler-001 — English-like words
+  box "ADD" arrow through a compiler gear into 0/1 machine
+  code strip; "first compiler 1952".
+- programming-fact-hamilton-software-001 — A rope of woven
+  wires (core rope memory) beside code pages stacked to a
+  person's height mark.
+- programming-fact-turing-machine-paper-001 — An infinite
+  tape strip with square cells, a read head, and a tiny state
+  table; the tape extends with ellipsis both ways.
+- programming-fact-berners-web-free-001 — A document with
+  link arrows to other documents forming a web; a price tag
+  showing 0 crossed royalty.
+- programming-fact-tomlinson-at-001 — A mailbox address being
+  typed: user, then the @ symbol enlarged, then host; two
+  computer boxes on either side.
+- programming-fact-git-ten-days-001 — A calendar strip of ten
+  days, each with a commit dot growing a branching graph;
+  "self-hosting" when the graph manages itself.
+- programming-fact-python-name-001 — A snake curve forming
+  the path, ending at a circus silhouette hat; code bracket
+  "print()" beside, name crossed from snake to show.
+- programming-fact-javascript-ten-days-001 — Ten calendar
+  cells racing a sprint runner; a language box shipped with
+  rough edges (cracked corner) still running today.
+- programming-fact-y2k-two-digits-001 — Year digits "19" fixed
+  + two rolling digits 99 -> 00, a calendar flipping and a
+  clock confused arrow looping back.
+- programming-fact-moores-law-observation-001 — A staircase
+  doubling steps of transistor dots on a chip square, years
+  1965-2020 along the axis, curve slowing at the end.
+- programming-fact-sorting-lower-bound-001 — A decision tree
+  branching for 3 elements with 6 leaves labelled as the 6
+  orders; "at least log2(n!) questions".

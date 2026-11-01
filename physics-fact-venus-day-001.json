@@ -1,9 +1,0 @@
-{
-  "type": "fact",
-  "id": "physics-fact-venus-day-001",
-  "kicker": "FACT",
-  "topic": "Physics",
-  "title": "A Venusian day outlasts its year",
-  "body": "Venus rotates so slowly that one full spin takes 243 Earth days, longer than the 225 days it needs to orbit the Sun. The rotation is also retrograde: on Venus, the Sun would rise in the west.",
-  "source_hint": "IAU planetary rotation and orbit data"
-}
