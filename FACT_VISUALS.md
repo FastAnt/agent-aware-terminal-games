@@ -777,3 +777,62 @@ that. Status is tracked in FACTS_INDEX.md ("visual: bespoke").
 - math-fact-kaprekar6174-001 — Four-digit numbers (3524,
   3087...) funnel by sort-subtract steps into 6174, which
   maps to itself.
+
+## Batch C7 — chains, part 7 (25)
+
+- math-fact-taxicab1729-001 — 1729 in the centre as the sum
+  of two cube stacks drawn two ways: 1^3+12^3 and 9^3+10^3.
+- math-fact-paper-moon-001 — A paper strip folding; thickness
+  doubling steps 1,2,4... rising past a Moon dot at fold 42.
+- math-fact-chessboard-rice-001 — Chessboard corner squares
+  with grain piles doubling until the last square holds a
+  mountain silhouette.
+- math-fact-rubik-states-001 — A cube net of coloured-ish
+  (greyscale) stickers scrambled; the count 43 quintillion
+  written as a long zero tail.
+- math-fact-deck52-factorial-001 — A shuffled row of 52 card
+  miniatures; "52!" versus atoms-in-universe bar far below.
+- math-fact-googol-origin-001 — 1 followed by 100 zeros wrapped
+  in rows; a child speech bubble "googol!" 1938.
+- math-fact-mersenne-primes-001 — 2^p - 1 formula with p prime;
+  a scroll of the largest known prime digits trailing off.
+- math-fact-perfect-numbers-001 — 6, 28, 496 circles with divisor
+  arcs summing to themselves, Mersenne primes paired beside.
+- math-fact-sqrt2-irrational-001 — A unit square with diagonal
+  labelled sqrt(2); a fraction p/q crossed out, Greek column.
+- math-fact-golden-sunflower-001 — Seeds spiralling by 137.5
+  degrees from centre, counted spiral arms.
+- math-fact-twin-primes-001 — Prime number line with twin pairs
+  (11,13), (17,19) ringed; the rings fade into "?" far right.
+- math-fact-clt-coins-001 — Ten coins and their heads counts
+  histogram already bell-shaped over many trials.
+- math-fact-law-large-numbers-001 — Running average line wild
+  at left, settling onto true-value dashed line; casino chip.
+- math-fact-kelly-criterion-001 — Bankroll curves: bet all
+  crashes to zero, Kelly fraction grows steadily.
+- math-fact-gamblers-ruin-001 — A small bankroll random walk
+  against a huge house wall; walk absorbed at zero.
+- math-fact-martingale-myth-001 — Bets 1,2,4,8,16 doubling
+  staircase hitting a table-limit ceiling and a deep loss.
+- math-fact-graham-number-001 — Tower of exponent arrows
+  3^^^^3 ... layers labelled g1, g2 ... g64, dwarfing a
+  googolplex dot.
+- math-fact-euler-identity-001 — e^{i pi} + 1 = 0 large, five
+  constants each underlined with name tags.
+- math-fact-i-rotation-001 — Complex plane: point 1 rotated
+  by x i to i, to -1, to -i, circular arrow quarter turns.
+- math-fact-fixed-point-coffee-001 — A coffee cup with swirling
+  arrows, one centre dot perfectly still ringed.
+- math-fact-antipodes-weather-001 — Earth sphere with two
+  antipodal pins joined through centre; thermometer/wind
+  values equal sign between (Borsuk-Ulam flavour).
+- math-fact-condorcet-cycle-001 — Three candidates in a
+  circular arrow A>B, B>C, C>A with voter ballots beneath.
+- math-fact-nash-equilibrium-001 — A payoff grid with one cell
+  ringed stable: neither arrow out improves alone.
+- math-fact-prisoners-dilemma-001 — 2x2 payoff matrix; arrows
+  from both to (defect, defect) though (silent, silent) pays
+  both more.
+- math-fact-minimax-vonneumann-001 — Rock-paper-scissors circle
+  with a dice; "optimal = mix randomly" vs a predictable
+  pattern exploited.

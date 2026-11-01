@@ -140,37 +140,37 @@ math-fact-polya-walk-001 · Math · A random walker returns in 2D, may vanish in
 math-fact-buffon-needle-001 · Math · Dropping needles on floorboards estimates pi · visual: bespoke
 math-fact-st-petersburg-001 · Math · A coin game worth infinity that nobody will buy · visual: bespoke
 math-fact-kaprekar6174-001 · Math · Every four-digit number falls into 6174 · visual: bespoke
-math-fact-taxicab1729-001 · Math · 1729 is the smallest number special in two ways
-math-fact-paper-moon-001 · Math · Fold paper 42 times and you pass the Moon
-math-fact-chessboard-rice-001 · Math · The chessboard rice legend ends at a mountain of grain
-math-fact-rubik-states-001 · Math · A Rubik's cube has 43 quintillion positions
-math-fact-deck52-factorial-001 · Math · Your shuffle has probably never happened before
-math-fact-googol-origin-001 · Math · A googol got its name from a nine-year-old
-math-fact-mersenne-primes-001 · Math · The biggest known primes are almost all Mersenne
-math-fact-perfect-numbers-001 · Math · Perfect numbers and Mersenne primes are the same list
-math-fact-sqrt2-irrational-001 · Math · The square root of 2 broke a Greek worldview
-math-fact-golden-sunflower-001 · Math · Sunflowers pack seeds at the golden angle
-math-fact-twin-primes-open-001 · Math · Twin primes are unproven after two thousand years
+math-fact-taxicab1729-001 · Math · 1729 is the smallest number special in two ways · visual: bespoke
+math-fact-paper-moon-001 · Math · Fold paper 42 times and you pass the Moon · visual: bespoke
+math-fact-chessboard-rice-001 · Math · The chessboard rice legend ends at a mountain of grain · visual: bespoke
+math-fact-rubik-states-001 · Math · A Rubik's cube has 43 quintillion positions · visual: bespoke
+math-fact-deck52-factorial-001 · Math · Your shuffle has probably never happened before · visual: bespoke
+math-fact-googol-origin-001 · Math · A googol got its name from a nine-year-old · visual: bespoke
+math-fact-mersenne-primes-001 · Math · The biggest known primes are almost all Mersenne · visual: bespoke
+math-fact-perfect-numbers-001 · Math · Perfect numbers and Mersenne primes are the same list · visual: bespoke
+math-fact-sqrt2-irrational-001 · Math · The square root of 2 broke a Greek worldview · visual: bespoke
+math-fact-golden-sunflower-001 · Math · Sunflowers pack seeds at the golden angle · visual: bespoke
+math-fact-twin-primes-open-001 · Math · Twin primes are unproven after two thousand years · visual: bespoke
 math-fact-zipf-law-001 · Math · In any book, the second word bows to the first · visual: bespoke
 math-fact-central-limit-001 · Math · Averages become bell-shaped almost regardless · visual: bespoke
-math-fact-clt-coins-001 · Math · Ten coins already hint at the bell curve
-math-fact-law-large-numbers-001 · Math · Casinos trust the law of large numbers, not luck
+math-fact-clt-coins-001 · Math · Ten coins already hint at the bell curve · visual: bespoke
+math-fact-law-large-numbers-001 · Math · Casinos trust the law of large numbers, not luck · visual: bespoke
 math-fact-normal-body-001 · Math · Height is normal because many small causes add · visual: bespoke
 math-fact-six-degrees-001 · Math · Six degrees shrank in the network era · visual: bespoke
-math-fact-kelly-criterion-001 · Math · Betting everything on an edge still ruins you
-math-fact-gamblers-ruin-001 · Math · Against a richer house, persistence is the trap
-math-fact-martingale-myth-001 · Math · Doubling bets cannot repeal arithmetic
+math-fact-kelly-criterion-001 · Math · Betting everything on an edge still ruins you · visual: bespoke
+math-fact-gamblers-ruin-001 · Math · Against a richer house, persistence is the trap · visual: bespoke
+math-fact-martingale-myth-001 · Math · Doubling bets cannot repeal arithmetic · visual: bespoke
 math-fact-countable-rationals-001 · Math · Fractions are countable; reals are not · visual: bespoke
-math-fact-graham-number-001 · Math · Graham's number makes googolplex look like zero
-math-fact-euler-identity-001 · Math · Euler's identity compresses five constants into one line
-math-fact-i-rotation-001 · Math · Multiplying by i is a quarter turn
-math-fact-fixed-point-coffee-001 · Math · Stirring coffee guarantees one unmoved point
-math-fact-antipodes-weather-001 · Math · Right now, opposite sides of Earth share weather values
+math-fact-graham-number-001 · Math · Graham's number makes googolplex look like zero · visual: bespoke
+math-fact-euler-identity-001 · Math · Euler's identity compresses five constants into one line · visual: bespoke
+math-fact-i-rotation-001 · Math · Multiplying by i is a quarter turn · visual: bespoke
+math-fact-fixed-point-coffee-001 · Math · Stirring coffee guarantees one unmoved point · visual: bespoke
+math-fact-antipodes-weather-001 · Math · Right now, opposite sides of Earth share weather values · visual: bespoke
 math-fact-pigeonhole-socks-001 · Math · Eleven pigeons, ten holes: the deepest trivial theorem · visual: bespoke
-math-fact-condorcet-cycle-001 · Math · Majorities can prefer A to B, B to C, and C to A
-math-fact-nash-equilibrium-001 · Math · Nash proved every finite game has a stable point
-math-fact-prisoners-dilemma-001 · Math · Individually rational, collectively foolish: the dilemma
-math-fact-minimax-vonneumann-001 · Math · Optimal play in zero-sum games is often random
+math-fact-condorcet-cycle-001 · Math · Majorities can prefer A to B, B to C, and C to A · visual: bespoke
+math-fact-nash-equilibrium-001 · Math · Nash proved every finite game has a stable point · visual: bespoke
+math-fact-prisoners-dilemma-001 · Math · Individually rational, collectively foolish: the dilemma · visual: bespoke
+math-fact-minimax-vonneumann-001 · Math · Optimal play in zero-sum games is often random · visual: bespoke
 math-fact-monte-carlo-pi-001 · Math · Randomness computes what geometry struggles with
 math-fact-birthday-attack-sqrt-001 · Math · Collisions arrive at the square root, not halfway
 math-fact-expectation-linear-001 · Math · Expectation adds even when variables conspire
