@@ -7,29 +7,40 @@
   "body": "Rest a circle of radius 1/(2q^2) on each fraction p/q and neighbours touch exactly when the fractions are adjacent in a Farey sequence, nesting infinitely between any two. Number theory becomes visible as foam. The configuration ties mediants, continued fractions and circle packing into one picture worth a wall.",
   "source_hint": "Ford circles (Ford, 1938)",
   "scene": {
-    "type": "orbits",
-    "rings": 5,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 2,
-        "angle": 30
+        "id": "n0",
+        "label": "fraction p/q",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 3,
-        "angle": 120
+        "id": "n1",
+        "label": "circle radius 1/2q^2",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 4,
-        "angle": 210
+        "id": "n2",
+        "label": "neighbours kiss",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
       },
       {
-        "ring": 5,
-        "angle": 320
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

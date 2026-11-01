@@ -7,25 +7,40 @@
   "body": "Since 1983 the metre has been defined as the distance light travels in 1/299792458 of a second, fixing the speed of light as exact by definition. The platinum-iridium bar in Paris retired. Length is now derived from time, our most precisely measurable quantity, so any good clock laboratory can realise a metre without visiting a vault.",
   "source_hint": "SI brochure (BIPM), metre definition",
   "scene": {
-    "type": "orbits",
-    "rings": 4,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 2,
-        "angle": 30
+        "id": "n0",
+        "label": "metal bar retired",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 3,
-        "angle": 170
+        "id": "n1",
+        "label": "light timed exactly",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 4,
-        "angle": 300
+        "id": "n2",
+        "label": "metre from a second",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

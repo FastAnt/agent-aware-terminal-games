@@ -7,25 +7,40 @@
   "body": "Muons created high in the atmosphere decay in about 2.2 microseconds at rest, too briefly to cross ten kilometres even near light speed. Yet they rain through you constantly: at their speed, time dilation stretches their lives about twenty-fold from our frame. Relativity is not abstract; detectors count it on tabletops.",
   "source_hint": "Rossi and Hall experiment (1941)",
   "scene": {
-    "type": "orbits",
-    "rings": 4,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 1,
-        "angle": 80
+        "id": "n0",
+        "label": "muon born high",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 2,
-        "angle": 190
+        "id": "n1",
+        "label": "2.2 microseconds at rest",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 4,
-        "angle": 320
+        "id": "n2",
+        "label": "time dilation: it lands",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

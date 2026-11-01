@@ -7,21 +7,40 @@
   "body": "Steinhaus popularised that at any moment there are antipodal points on Earth with equal temperature and equal pressure simultaneously, a corollary of the Borsuk-Ulam theorem applied to two weather fields at once. It needs continuity and a spherical Earth, offering existence with no address. Surveyors of the impossible should note it gives no method to find them, only certainty they are there.",
   "source_hint": "Borsuk-Ulam applications (Lyusternik-Schnirelmann)",
   "scene": {
-    "type": "orbits",
-    "rings": 3,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 1,
-        "angle": 30
+        "id": "n0",
+        "label": "temperature field",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 3,
-        "angle": 210
+        "id": "n1",
+        "label": "pressure field",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "antipodal twins match",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

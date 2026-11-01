@@ -7,29 +7,40 @@
   "body": "Around 1900 Wallace Sabine, a young Harvard physicist, hauled seat cushions between lecture halls at night to measure how long sound lingered, founding architectural acoustics with his RT60 formula tying decay time to volume and absorption. Boston Symphony Hall, his consulting triumph, still ranks among the world's finest. Concert-hall science began as furniture rearrangement with a stopwatch.",
   "source_hint": "Sabine (1900), reverberation formula",
   "scene": {
-    "type": "orbits",
-    "rings": 4,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 1,
-        "angle": 50
+        "id": "n0",
+        "label": "cushions moved nightly",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 2,
-        "angle": 160
+        "id": "n1",
+        "label": "decay timed",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 3,
-        "angle": 270
+        "id": "n2",
+        "label": "RT60 formula born",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
       },
       {
-        "ring": 4,
-        "angle": 330
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

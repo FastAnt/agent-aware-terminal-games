@@ -7,25 +7,40 @@
   "body": "Between parallel walls, sound forms standing waves at frequencies whose wavelengths fit the gap, so some bass notes boom and others vanish seat by seat. Studios fight modes with placement, traps and non-parallel geometry. Your bedroom is an instrument with a few strong opinions, audible every time a bassline walks up the scale.",
   "source_hint": "Room acoustics, axial modes literature",
   "scene": {
-    "type": "orbits",
-    "rings": 3,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 1,
-        "angle": 60
+        "id": "n0",
+        "label": "parallel walls",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 2,
-        "angle": 190
+        "id": "n1",
+        "label": "standing waves fit",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 3,
-        "angle": 320
+        "id": "n2",
+        "label": "boom here, silence there",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

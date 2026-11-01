@@ -7,25 +7,40 @@
   "body": "In double-blind studies led by Claudia Fritz (2012 onward), professional violinists playing new and old Italian instruments, wearing modified welders' goggles in hotel rooms, could not reliably distinguish them and often preferred new ones. Romantic varnish theories survive anyway. The experiments test players, not magic; they say mastery now rivals myth at a fraction of the price.",
   "source_hint": "Fritz et al., PNAS (2012) and follow-ups",
   "scene": {
-    "type": "orbits",
-    "rings": 4,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 2,
-        "angle": 40
+        "id": "n0",
+        "label": "blindfold + goggles",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 3,
-        "angle": 150
+        "id": "n1",
+        "label": "old vs new violins",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 4,
-        "angle": 260
+        "id": "n2",
+        "label": "no reliable pick",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

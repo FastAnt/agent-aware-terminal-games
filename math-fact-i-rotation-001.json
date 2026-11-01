@@ -7,25 +7,40 @@
   "body": "On the complex plane, multiplying by i rotates a number ninety degrees counter-clockwise; twice turns it around, four times restores it, exactly matching i-squared equals minus one. That geometric reading turns baffling algebra into steering. Electrical engineers live there, encoding oscillation phase as rotation.",
   "source_hint": "Complex plane (Argand, Gauss)",
   "scene": {
-    "type": "orbits",
-    "rings": 3,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 1,
-        "angle": 0
+        "id": "n0",
+        "label": "multiply by i",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 2,
-        "angle": 90
+        "id": "n1",
+        "label": "quarter turn",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 3,
-        "angle": 180
+        "id": "n2",
+        "label": "four turns: restored",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

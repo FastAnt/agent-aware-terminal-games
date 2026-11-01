@@ -7,25 +7,40 @@
   "body": "Reuleaux triangles, arcs bulging from each corner, have the same width in every direction like a circle yet are not round; mounted eccentrically in a Watts drill they carve nearly square holes. Constant width is a property, roundness is a stronger claim. Barbier's theorem gives all such shapes the same perimeter, pi times width, cheekily including the circle.",
   "source_hint": "Reuleaux; Watts Brothers drill patents (1914)",
   "scene": {
-    "type": "orbits",
-    "rings": 3,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 1,
-        "angle": 0
+        "id": "n0",
+        "label": "constant-width triangle",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 2,
-        "angle": 120
+        "id": "n1",
+        "label": "eccentric mount",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 3,
-        "angle": 240
+        "id": "n2",
+        "label": "nearly square hole",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

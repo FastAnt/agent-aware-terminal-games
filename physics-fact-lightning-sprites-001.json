@@ -7,25 +7,40 @@
   "body": "Sprites are vast red electrical discharges blooming 50 to 90 kilometres up, lasting milliseconds, triggered by especially strong lightning below. Pilots reported them for decades and science dismissed the reports until one was accidentally videotaped in 1989. Whole weather systems of the upper atmosphere were hiding in plain night.",
   "source_hint": "Franz, Nemzek and Winckler (1990), sprite imaging",
   "scene": {
-    "type": "orbits",
-    "rings": 4,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 2,
-        "angle": 40
+        "id": "n0",
+        "label": "strong lightning below",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 3,
-        "angle": 170
+        "id": "n1",
+        "label": "red sprites 50-90 km",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 4,
-        "angle": 300
+        "id": "n2",
+        "label": "filmed only in 1989",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

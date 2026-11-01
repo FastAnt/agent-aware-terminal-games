@@ -7,25 +7,40 @@
   "body": "Eratosthenes found primes by writing numbers up and crossing out multiples of each new prime; composites fall as multiples, primes are what remain uncrossed. The sieve of Eratosthenes still introduces algorithmic thinking, and optimised sieves enumerate primes below billions today. Its inventor also measured Earth's circumference, with sticks and shadows.",
   "source_hint": "Eratosthenes (c. 240 BCE), via Nicomachus",
   "scene": {
-    "type": "orbits",
-    "rings": 4,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 2,
-        "angle": 30
+        "id": "n0",
+        "label": "write the numbers",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 3,
-        "angle": 150
+        "id": "n1",
+        "label": "cross out multiples",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 4,
-        "angle": 280
+        "id": "n2",
+        "label": "primes remain",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

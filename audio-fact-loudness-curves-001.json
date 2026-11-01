@@ -7,29 +7,40 @@
   "body": "Equal-loudness contours (Fletcher and Munson, 1933) show hearing is far less sensitive to low and very high frequencies at low volumes, which is why music sounds thin turned down and why old amplifiers had loudness buttons that boosted the ends. Your perception recalibrates with level; the Fletcher-Munson curves are its calibration chart.",
   "source_hint": "ISO 226 equal-loudness contours",
   "scene": {
-    "type": "orbits",
-    "rings": 4,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 1,
-        "angle": 50
+        "id": "n0",
+        "label": "quiet: bass fades",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 2,
-        "angle": 160
+        "id": "n1",
+        "label": "ear sensitivity curve",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 3,
-        "angle": 260
+        "id": "n2",
+        "label": "loudness button compensates",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
       },
       {
-        "ring": 4,
-        "angle": 330
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

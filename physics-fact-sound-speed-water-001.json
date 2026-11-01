@@ -7,25 +7,40 @@
   "body": "Water's stiffness beats its density in setting sound speed: roughly 1,480 metres per second in the sea versus 343 in air. Whales exploit it across ocean basins, and a deep sound channel traps low-frequency calls for thousands of kilometres. Navies and seismologists listen to the planet through the same physics.",
   "source_hint": "Acoustics references; SOFAR channel literature",
   "scene": {
-    "type": "orbits",
-    "rings": 4,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 2,
-        "angle": 40
+        "id": "n0",
+        "label": "sound in air: 343",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 3,
-        "angle": 170
+        "id": "n1",
+        "label": "sound in sea: 1480",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 4,
-        "angle": 300
+        "id": "n2",
+        "label": "whales call across basins",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

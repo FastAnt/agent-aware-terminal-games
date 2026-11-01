@@ -7,25 +7,40 @@
   "body": "Most substances contract when solidifying; water's hydrogen bonds lock into an open lattice that takes more room, so ice is about nine percent less dense than the water it came from. Lakes therefore freeze from the top down, insulating liquid water and its inhabitants below. A universe where ice sank would freeze its lakes solid from the bottom up.",
   "source_hint": "Water density anomaly, physical chemistry texts",
   "scene": {
-    "type": "orbits",
-    "rings": 3,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 1,
-        "angle": 70
+        "id": "n0",
+        "label": "water freezes",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 2,
-        "angle": 200
+        "id": "n1",
+        "label": "lattice takes more room",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 3,
-        "angle": 330
+        "id": "n2",
+        "label": "ice floats, lakes survive",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

@@ -7,29 +7,40 @@
   "body": "The involute of a circle, traced by unwrapping a taut string, gives gears their tooth profile in nearly all machinery. Its magic: involute gears keep constant velocity ratio even if axle spacing is slightly off, forgiving real factories. A string trick from geometry class quietly runs every gearbox, watch and transmission on Earth.",
   "source_hint": "Involute gear geometry (Euler's analysis)",
   "scene": {
-    "type": "orbits",
-    "rings": 4,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 1,
-        "angle": 45
+        "id": "n0",
+        "label": "string unwraps",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 2,
-        "angle": 150
+        "id": "n1",
+        "label": "involute tooth",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 3,
-        "angle": 250
+        "id": "n2",
+        "label": "gears forgive spacing",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
       },
       {
-        "ring": 4,
-        "angle": 330
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

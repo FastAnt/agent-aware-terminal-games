@@ -7,25 +7,40 @@
   "body": "Given finitely many points not all on one line, some line passes through exactly two of them. This Sylvester-Gallai theorem sounds obvious, resisted proof for decades, and fell to a beautiful shortest-distance argument. Its dual shapes orchard-planting problems. Easy geometry statements keep embarrassing the word 'obvious'.",
   "source_hint": "Sylvester (1893); Gallai's proof",
   "scene": {
-    "type": "orbits",
-    "rings": 4,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 2,
-        "angle": 40
+        "id": "n0",
+        "label": "scattered points",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 3,
-        "angle": 150
+        "id": "n1",
+        "label": "draw all lines",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 4,
-        "angle": 290
+        "id": "n2",
+        "label": "one line has exactly two",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

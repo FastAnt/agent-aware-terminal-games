@@ -7,29 +7,40 @@
   "body": "Pressure rises about one atmosphere every ten metres of seawater; at Challenger Deep, nearly eleven kilometres down, it exceeds a thousand atmospheres, like a small car balanced on a fingernail. Yet animals thrive there, being mostly water themselves with nothing compressible to crush. Engineering visitors need titanium spheres; residents need nothing.",
   "source_hint": "Hydrostatic pressure calculation; Trieste and submersible records",
   "scene": {
-    "type": "orbits",
-    "rings": 4,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 1,
-        "angle": 50
+        "id": "n0",
+        "label": "10 m: +1 atmosphere",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 2,
-        "angle": 170
+        "id": "n1",
+        "label": "11 km down",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 3,
-        "angle": 280
+        "id": "n2",
+        "label": "1000+ atmospheres",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
       },
       {
-        "ring": 4,
-        "angle": 330
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

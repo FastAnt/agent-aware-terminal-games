@@ -7,25 +7,40 @@
   "body": "Hawking showed in 1974 that black holes radiate thermally, with temperature inversely proportional to mass. A stellar black hole sits far below the cosmic background and effectively never shrinks, but a hypothetical mountain-mass one would glow fiercely. The result fused gravity, quantum theory and thermodynamics in one formula, and its information paradox still organises research.",
   "source_hint": "Hawking, Nature (1974)",
   "scene": {
-    "type": "orbits",
-    "rings": 3,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 1,
-        "angle": 60
+        "id": "n0",
+        "label": "black hole radiates",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 2,
-        "angle": 200
+        "id": "n1",
+        "label": "small means hot",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 3,
-        "angle": 330
+        "id": "n2",
+        "label": "temperature = 1/mass",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

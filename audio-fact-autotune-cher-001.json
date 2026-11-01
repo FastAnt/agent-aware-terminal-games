@@ -7,25 +7,40 @@
   "body": "Released in 1997 by Antares, Auto-Tune quietly corrected pitch until producers on Cher's 'Believe' (1998) set retune speed to zero, snapping notes instantly and making the robotic step the hook. The inventors reportedly first claimed it was a vocoder to guard the trick. A correction tool became an instrument, the standard fate of audio technology.",
   "source_hint": "Antares Auto-Tune history; 'Believe' production accounts",
   "scene": {
-    "type": "orbits",
-    "rings": 4,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 2,
-        "angle": 40
+        "id": "n0",
+        "label": "pitch correction 1997",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 3,
-        "angle": 160
+        "id": "n1",
+        "label": "retune speed zero",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 4,
-        "angle": 290
+        "id": "n2",
+        "label": "the Believe warble",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

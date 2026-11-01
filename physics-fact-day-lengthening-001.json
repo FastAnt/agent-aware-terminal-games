@@ -7,25 +7,40 @@
   "body": "Tidal friction saps Earth's spin, lengthening the day by roughly two milliseconds per century, a rate fossil corals confirm: Devonian corals show about 400 daily growth bands per annual band, meaning about 400 shorter days per year then. The Moon article and this one are the same transaction read from opposite ends.",
   "source_hint": "Paleorotation evidence (Wells, coral growth rings)",
   "scene": {
-    "type": "orbits",
-    "rings": 4,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 2,
-        "angle": 30
+        "id": "n0",
+        "label": "tides drag on Earth",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 3,
-        "angle": 170
+        "id": "n1",
+        "label": "spin slows",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 4,
-        "angle": 300
+        "id": "n2",
+        "label": "400 days a year once",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

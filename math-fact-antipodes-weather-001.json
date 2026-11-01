@@ -7,21 +7,40 @@
   "body": "The Borsuk-Ulam theorem implies that for temperature and pressure varying continuously over the globe, some pair of antipodal points matches exactly in both, at every instant. Nobody can point to them without global data, yet topology guarantees they exist. Existence without location is a very mathematical kind of knowledge.",
   "source_hint": "Borsuk-Ulam theorem (1933)",
   "scene": {
-    "type": "orbits",
-    "rings": 3,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 1,
-        "angle": 40
+        "id": "n0",
+        "label": "point on Earth",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 3,
-        "angle": 220
+        "id": "n1",
+        "label": "opposite point",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "same T and pressure",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

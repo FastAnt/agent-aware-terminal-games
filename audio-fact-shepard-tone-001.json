@@ -7,29 +7,40 @@
   "body": "Shepard tones layer octaves whose volumes rise and fall in a loop, so the pitch seems to climb endlessly like an auditory barber pole while going nowhere. The trick separates pitch height from pitch class, which your ear conflates. Filmmakers deploy it for dread that never resolves, most famously in 'Dunkirk'.",
   "source_hint": "Shepard (1964), circularity of pitch",
   "scene": {
-    "type": "orbits",
-    "rings": 5,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 2,
-        "angle": 30
+        "id": "n0",
+        "label": "octave layers",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 3,
-        "angle": 110
+        "id": "n1",
+        "label": "volumes loop",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 4,
-        "angle": 190
+        "id": "n2",
+        "label": "pitch seems to climb",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
       },
       {
-        "ring": 5,
-        "angle": 300
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

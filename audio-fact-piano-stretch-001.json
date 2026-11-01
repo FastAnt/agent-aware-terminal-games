@@ -7,25 +7,40 @@
   "body": "Piano strings are stiff, so their overtones ring sharp of true harmonics; tuners stretch octaves progressively, the Railsback curve, so notes agree with the overtones ears actually hear. A piano tuned to mathematical perfection sounds wrong. The instrument is a compromise between physics of wire and psychoacoustics, negotiated by ear for centuries.",
   "source_hint": "Railsback (1938), piano tuning curve",
   "scene": {
-    "type": "orbits",
-    "rings": 4,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 2,
-        "angle": 40
+        "id": "n0",
+        "label": "stiff strings",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 3,
-        "angle": 160
+        "id": "n1",
+        "label": "overtones run sharp",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 4,
-        "angle": 290
+        "id": "n2",
+        "label": "tuner stretches octaves",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

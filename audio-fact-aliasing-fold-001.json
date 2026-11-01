@@ -7,25 +7,40 @@
   "body": "Sample a wave too slowly and frequencies above half the sample rate reappear disguised as lower frequencies, like wagon wheels rotating backwards on film. Anti-aliasing filters exist to delete what cannot be represented before it can lie. The Nyquist limit is less a speed limit than an honesty boundary for measurement.",
   "source_hint": "Nyquist-Shannon sampling theorem; aliasing",
   "scene": {
-    "type": "orbits",
-    "rings": 4,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 2,
-        "angle": 40
+        "id": "n0",
+        "label": "wave too fast",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 3,
-        "angle": 170
+        "id": "n1",
+        "label": "sampled too slowly",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 4,
-        "angle": 300
+        "id": "n2",
+        "label": "false low tone",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

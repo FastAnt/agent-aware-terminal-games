@@ -7,25 +7,40 @@
   "body": "Successive seeds emerge rotated by about 137.5 degrees, the golden angle. Being maximally irrational, that angle never lines seeds into wasteful spokes, so they pack tightly at every radius. Count the spirals and Fibonacci numbers appear, not from mysticism but because their ratios best approximate that angle.",
   "source_hint": "Phyllotaxis literature (Douady and Couder)",
   "scene": {
-    "type": "orbits",
-    "rings": 5,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 3,
-        "angle": 20
+        "id": "n0",
+        "label": "seed at 137.5 degrees",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 4,
-        "angle": 140
+        "id": "n1",
+        "label": "never lines up",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 5,
-        "angle": 280
+        "id": "n2",
+        "label": "tightest packing",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

@@ -7,25 +7,40 @@
   "body": "During Japan's Edo isolation, worshippers hung wooden tablets called sangaku under shrine roofs, inscribed with geometry theorems and intricate circle configurations, part offering, part publication. Farmers and samurai alike authored them. A parallel mathematical culture, cut off from the West, developed its own aesthetic of elegant tangent-circle puzzles.",
   "source_hint": "Sangaku tablets (Edo period)",
   "scene": {
-    "type": "orbits",
-    "rings": 4,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 2,
-        "angle": 40
+        "id": "n0",
+        "label": "shrine tablet hung",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 3,
-        "angle": 150
+        "id": "n1",
+        "label": "tangent circles puzzle",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 4,
-        "angle": 260
+        "id": "n2",
+        "label": "offering and publication",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

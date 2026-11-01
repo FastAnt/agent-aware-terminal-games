@@ -7,29 +7,40 @@
   "body": "Pitch was local for centuries: surviving organs and forks suggest Baroque pitch often sat near or below 415 Hz, a semitone under modern. International agreement crept in via a 1939 conference and an ISO standard in 1955 fixing A at 440 Hz. Orchestras have since drifted sharp again for brilliance, standards notwithstanding.",
   "source_hint": "ISO 16:1975, standard musical pitch",
   "scene": {
-    "type": "orbits",
-    "rings": 4,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 1,
-        "angle": 50
+        "id": "n0",
+        "label": "local pitch varied",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 2,
-        "angle": 160
+        "id": "n1",
+        "label": "1939 conference",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 3,
-        "angle": 260
+        "id": "n2",
+        "label": "A = 440 Hz",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
       },
       {
-        "ring": 4,
-        "angle": 330
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

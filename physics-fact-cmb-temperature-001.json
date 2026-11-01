@@ -7,29 +7,40 @@
   "body": "The cosmic microwave background fills space with radiation peaking like a body at 2.725 K, measured by COBE's FIRAS instrument to extraordinary precision. As the universe expands the wavelength stretches and the temperature keeps falling. Long from now, telescopes would need ever colder instruments to even notice creation's afterglow.",
   "source_hint": "COBE FIRAS measurements (1990s)",
   "scene": {
-    "type": "orbits",
-    "rings": 5,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 2,
-        "angle": 40
+        "id": "n0",
+        "label": "hot early universe",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 3,
-        "angle": 140
+        "id": "n1",
+        "label": "space expands, waves stretch",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 4,
-        "angle": 240
+        "id": "n2",
+        "label": "now 2.725 K",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
       },
       {
-        "ring": 5,
-        "angle": 330
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

@@ -7,25 +7,40 @@
   "body": "When the same sound reaches you twice within roughly 5 to 40 milliseconds, as from a wall reflection, you localise only the first arrival and fuse the echoes into it: the precedence or Haas effect. PA systems exploit it with delayed fills that seem to come from the stage. Your brain edits echoes out of the map to keep the world stable.",
   "source_hint": "Haas (1951), precedence effect literature",
   "scene": {
-    "type": "orbits",
-    "rings": 3,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 1,
-        "angle": 50
+        "id": "n0",
+        "label": "direct sound first",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 2,
-        "angle": 180
+        "id": "n1",
+        "label": "echo 20 ms later",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 3,
-        "angle": 310
+        "id": "n2",
+        "label": "direction = first arrival",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

@@ -7,25 +7,40 @@
   "body": "The Boomerang Nebula's gas, expanding rapidly from a dying star, has cooled to about one kelvin, colder than the 2.7 kelvin cosmic background glow everywhere else. Expansion refrigerates it below the universe's own floor temperature, locally and briefly on cosmic scales. Laboratories on Earth go far colder, deliberately and in speck-sized samples.",
   "source_hint": "Boomerang Nebula measurements (ALMA / Sahai and Nyman)",
   "scene": {
-    "type": "orbits",
-    "rings": 4,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 2,
-        "angle": 40
+        "id": "n0",
+        "label": "gas expands fast",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 3,
-        "angle": 170
+        "id": "n1",
+        "label": "expansion cools it",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 4,
-        "angle": 300
+        "id": "n2",
+        "label": "about 1 kelvin",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

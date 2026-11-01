@@ -7,25 +7,40 @@
   "body": "Galileo guessed a circular arc; the true curve of fastest descent under gravity is a cycloid, shown by Johann Bernoulli's 1696 challenge and solved by Newton overnight, anonymously, among others. The winning curve dips steeply first to buy speed, then spends it. It launched the calculus of variations, mathematics for optimising whole paths, not points.",
   "source_hint": "Acta Eruditorum challenge (1696-97)",
   "scene": {
-    "type": "orbits",
-    "rings": 4,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 2,
-        "angle": 40
+        "id": "n0",
+        "label": "straight slide: slow",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 3,
-        "angle": 170
+        "id": "n1",
+        "label": "cycloid dips first",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 4,
-        "angle": 300
+        "id": "n2",
+        "label": "fastest descent",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

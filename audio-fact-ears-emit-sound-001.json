@@ -7,25 +7,40 @@
   "body": "In 1978 David Kemp showed the ear produces otoacoustic emissions, tiny sounds from the cochlea's active amplifier cells, detectable with a microphone in the ear canal. Newborns are screened for hearing by listening to these emissions. The ear is not a passive microphone; it is a powered instrument that hums its diagnostics aloud.",
   "source_hint": "Kemp (1978), otoacoustic emissions",
   "scene": {
-    "type": "orbits",
-    "rings": 3,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 1,
-        "angle": 70
+        "id": "n0",
+        "label": "cochlea amplifier",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 2,
-        "angle": 200
+        "id": "n1",
+        "label": "faint emissions",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 3,
-        "angle": 330
+        "id": "n2",
+        "label": "microphone screens babies",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

@@ -7,25 +7,40 @@
   "body": "Tambora's 1815 eruption injected sulphur into the stratosphere, where sulfate aerosols spread globally, dimming sunlight enough that 1816 became the Year Without a Summer, with crop failures across continents. Stratospheric aerosols ignore rain, lasting years, unlike low ash that washes out in weeks. Climate has a volcanic dimmer switch with a long memory.",
   "source_hint": "Tambora 1815 and climate records",
   "scene": {
-    "type": "orbits",
-    "rings": 4,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 1,
-        "angle": 50
+        "id": "n0",
+        "label": "Tambora erupts 1815",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 3,
-        "angle": 200
+        "id": "n1",
+        "label": "sulfate veil worldwide",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 4,
-        "angle": 320
+        "id": "n2",
+        "label": "1816: year without summer",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

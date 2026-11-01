@@ -7,29 +7,40 @@
   "body": "Small speakers cannot reproduce low fundamentals, yet listeners hear the pitch anyway: the ear infers it from the spacing of the harmonics above, the missing fundamental phenomenon. Producers mix bass so its harmonics survive laptop speakers, letting your auditory system hallucinate the rest. Perception completes instruments that physics left unfinished.",
   "source_hint": "Missing fundamental / residue pitch psychoacoustics",
   "scene": {
-    "type": "orbits",
-    "rings": 4,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 1,
-        "angle": 60
+        "id": "n0",
+        "label": "speaker: no low note",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 2,
-        "angle": 160
+        "id": "n1",
+        "label": "harmonics survive",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 3,
-        "angle": 260
+        "id": "n2",
+        "label": "brain infers the bass",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
       },
       {
-        "ring": 4,
-        "angle": 330
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

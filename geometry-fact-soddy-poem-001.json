@@ -7,29 +7,40 @@
   "body": "Frederick Soddy announced his rediscovery of the kissing-circles relation in a 1936 poem in Nature, 'The Kiss Precise', complete with instructions in verse. The journal printed it because the mathematics was real. It may be the only theorem whose standard citation includes stanzas, proving exposition formats are conventions, not laws of thought.",
   "source_hint": "Soddy, 'The Kiss Precise', Nature (1936)",
   "scene": {
-    "type": "orbits",
-    "rings": 4,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 1,
-        "angle": 40
+        "id": "n0",
+        "label": "kissing circles found",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 2,
-        "angle": 130
+        "id": "n1",
+        "label": "theorem in verse",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 3,
-        "angle": 230
+        "id": "n2",
+        "label": "Nature printed a poem",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
       },
       {
-        "ring": 4,
-        "angle": 330
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

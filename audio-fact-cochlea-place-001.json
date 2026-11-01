@@ -7,29 +7,40 @@
   "body": "The cochlea maps frequency to place: high tones peak near its base, low tones toward the apex, a tonotopic layout Georg von Bekesy won a Nobel for revealing. Some twenty thousand hair cells read the travelling wave's address. Hearing begins as geography, which cochlear implants exploit by stimulating places instead of recreating sounds.",
   "source_hint": "von Bekesy (1961 Nobel), cochlear mechanics",
   "scene": {
-    "type": "orbits",
-    "rings": 5,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 2,
-        "angle": 30
+        "id": "n0",
+        "label": "high tones: base",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 3,
-        "angle": 120
+        "id": "n1",
+        "label": "travelling wave",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 4,
-        "angle": 210
+        "id": "n2",
+        "label": "low tones: apex",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
       },
       {
-        "ring": 5,
-        "angle": 320
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

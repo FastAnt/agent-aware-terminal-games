@@ -7,29 +7,40 @@
   "body": "Dave McCrory named data gravity in 2010: large datasets pull services toward them because moving compute is cheaper than moving the data, and each landed service generates more data, deepening the well. Cloud egress fees add an economic event horizon. Architectures orbit datasets whether designed to or not, so dataset placement is destiny.",
   "source_hint": "McCrory, data gravity concept (2010)",
   "scene": {
-    "type": "orbits",
-    "rings": 4,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 1,
-        "angle": 50
+        "id": "n0",
+        "label": "big dataset",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 2,
-        "angle": 150
+        "id": "n1",
+        "label": "services move closer",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 3,
-        "angle": 240
+        "id": "n2",
+        "label": "more data lands",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
       },
       {
-        "ring": 4,
-        "angle": 330
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

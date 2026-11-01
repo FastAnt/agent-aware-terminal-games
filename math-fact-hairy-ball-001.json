@@ -7,25 +7,40 @@
   "body": "Topology proves any continuous tangent field on a sphere has a zero: comb a hairy ball and some point stands up or swirls. Meteorologists read it as 'somewhere on Earth the horizontal wind is calm right now'. The same theorem fails on a doughnut, which is why torus-shaped creatures could, in principle, be perfectly combed.",
   "source_hint": "Hairy ball theorem (Poincaré-Brouwer)",
   "scene": {
-    "type": "orbits",
-    "rings": 3,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 1,
-        "angle": 90
+        "id": "n0",
+        "label": "comb the sphere",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 2,
-        "angle": 200
+        "id": "n1",
+        "label": "one point stands up",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 3,
-        "angle": 330
+        "id": "n2",
+        "label": "topology insists",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

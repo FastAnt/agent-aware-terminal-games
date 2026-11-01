@@ -7,29 +7,40 @@
   "body": "Glass has a refractive index near 1.47, so signals in fiber travel at roughly two-thirds of vacuum light speed, about 200 kilometres per millisecond one way. A round trip across an ocean therefore costs tens of milliseconds no engineering can repeal. Cloud regions are placed by physics first and marketing second.",
   "source_hint": "Refractive index of silica fiber, networking texts",
   "scene": {
-    "type": "orbits",
-    "rings": 4,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 1,
-        "angle": 50
+        "id": "n0",
+        "label": "light enters fiber",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 2,
-        "angle": 160
+        "id": "n1",
+        "label": "glass slows it 1.47x",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 3,
-        "angle": 260
+        "id": "n2",
+        "label": "200 km per ms",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
       },
       {
-        "ring": 4,
-        "angle": 330
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

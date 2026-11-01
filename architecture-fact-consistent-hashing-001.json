@@ -7,29 +7,40 @@
   "body": "Hashing keys and servers onto a ring and assigning each key to the next server clockwise means adding one server only steals keys from its single neighbour's arc, about a 1/n share. Caches stopped reshuffling the world at every membership change. Karger and colleagues published it in 1997 for Akamai's web caching problem.",
   "source_hint": "Karger et al., 'Consistent Hashing and Random Trees' (1997)",
   "scene": {
-    "type": "orbits",
-    "rings": 5,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 2,
-        "angle": 20
+        "id": "n0",
+        "label": "keys on a ring",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 3,
-        "angle": 120
+        "id": "n1",
+        "label": "next server clockwise",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 4,
-        "angle": 220
+        "id": "n2",
+        "label": "one joins: 1/n moves",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
       },
       {
-        "ring": 5,
-        "angle": 320
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

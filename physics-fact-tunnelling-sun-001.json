@@ -7,25 +7,40 @@
   "body": "Protons in the Sun's core are not hot enough, classically, to overcome their electric repulsion and fuse. Tunnelling lets a small fraction slip through the barrier anyway, at a rate so slow that the Sun burns for billions of years. Our starlight is a quantum leak, metered out at geological pace.",
   "source_hint": "Gamow (1928), quantum tunnelling in fusion",
   "scene": {
-    "type": "orbits",
-    "rings": 3,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 1,
-        "angle": 70
+        "id": "n0",
+        "label": "protons repel",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 2,
-        "angle": 190
+        "id": "n1",
+        "label": "barrier too high",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 3,
-        "angle": 320
+        "id": "n2",
+        "label": "tunnelling leaks through",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

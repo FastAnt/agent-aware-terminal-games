@@ -7,29 +7,40 @@
   "body": "NTP organises time as strata: stratum-0 devices are reference clocks like GPS receivers, stratum-1 servers read them directly, and each hop adds a stratum and a whisper of error. Your laptop typically drinks from stratum 2 or 3. The design, by David Mills from 1985, still disciplines most of the planet's machines to within milliseconds.",
   "source_hint": "RFC 5905, NTP protocol",
   "scene": {
-    "type": "orbits",
-    "rings": 4,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 1,
-        "angle": 40
+        "id": "n0",
+        "label": "reference clocks",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 2,
-        "angle": 150
+        "id": "n1",
+        "label": "stratum 1 servers",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 3,
-        "angle": 240
+        "id": "n2",
+        "label": "your machine",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
       },
       {
-        "ring": 4,
-        "angle": 330
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

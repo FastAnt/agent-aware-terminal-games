@@ -7,25 +7,40 @@
   "body": "Rotate a Reuleaux triangle and you do not get one; Meissner bodies, made by rounding edges of a tetrahedron cleverly, are three-dimensional shapes with the same width in every direction yet not balls. They would roll like spheres between plates while being visibly tetrahedral. Barbier's circle of ideas generalises upward, with effort, into solid geometry.",
   "source_hint": "Meissner bodies (1911)",
   "scene": {
-    "type": "orbits",
-    "rings": 3,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 1,
-        "angle": 120
+        "id": "n0",
+        "label": "Reuleaux triangle",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 2,
-        "angle": 240
+        "id": "n1",
+        "label": "same width every way",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 3,
-        "angle": 330
+        "id": "n2",
+        "label": "rolls like a circle",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

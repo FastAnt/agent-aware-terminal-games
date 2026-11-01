@@ -7,29 +7,40 @@
   "body": "The cosmic microwave background was released about 380,000 years after the Big Bang, when the universe cooled enough for atoms to form and light to travel freely. Its photons have flown for over thirteen billion years. Every CMB telescope is looking at the oldest possible photograph, the moment the universe became transparent.",
   "source_hint": "Planck satellite CMB results",
   "scene": {
-    "type": "orbits",
-    "rings": 5,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 2,
-        "angle": 40
+        "id": "n0",
+        "label": "universe turns transparent",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 3,
-        "angle": 130
+        "id": "n1",
+        "label": "photons set free",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 4,
-        "angle": 220
+        "id": "n2",
+        "label": "arriving after 13 Gyr",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
       },
       {
-        "ring": 5,
-        "angle": 320
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

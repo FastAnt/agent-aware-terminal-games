@@ -7,21 +7,40 @@
   "body": "Brouwer's fixed-point theorem says any continuous map of a disk into itself leaves some point exactly where it started. Stir a cup without splashing and, in the idealised mathematics, one molecule of coffee ends where it began. The theorem also quietly underpins equilibrium proofs across economics and game theory.",
   "source_hint": "Brouwer fixed-point theorem (1911)",
   "scene": {
-    "type": "orbits",
-    "rings": 3,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 2,
-        "angle": 80
+        "id": "n0",
+        "label": "stir the disk",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 3,
-        "angle": 260
+        "id": "n1",
+        "label": "continuous motion",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "one point unmoved",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

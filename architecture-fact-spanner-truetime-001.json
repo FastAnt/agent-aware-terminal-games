@@ -7,25 +7,40 @@
   "body": "Spanner achieves globally consistent transactions by timestamping with TrueTime, which does not hide clock uncertainty but exposes it as an interval and waits it out before committing. Google installed GPS receivers and atomic clocks in datacenters to keep those intervals small. The system buys consistency with hardware and deliberate waiting, a refreshingly literal solution.",
   "source_hint": "Corbett et al., Spanner, OSDI 2012",
   "scene": {
-    "type": "orbits",
-    "rings": 4,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 2,
-        "angle": 40
+        "id": "n0",
+        "label": "GPS + atomic clocks",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 3,
-        "angle": 180
+        "id": "n1",
+        "label": "time as interval",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 4,
-        "angle": 310
+        "id": "n2",
+        "label": "wait it out, commit",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

@@ -7,25 +7,40 @@
   "body": "Because the Hilbert curve maps a line onto a plane while mostly keeping neighbours near each other, systems like Google's S2 geometry index the Earth by chopping it into Hilbert-ordered cells. A pure-mathematics curiosity from 1891 became production infrastructure for planetary search. Locality preservation is cash when your database is a planet.",
   "source_hint": "Hilbert curve; Google S2 geometry library",
   "scene": {
-    "type": "orbits",
-    "rings": 4,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 2,
-        "angle": 40
+        "id": "n0",
+        "label": "curve snakes the map",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 3,
-        "angle": 160
+        "id": "n1",
+        "label": "neighbours stay near",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 4,
-        "angle": 290
+        "id": "n2",
+        "label": "tiles ordered on disk",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

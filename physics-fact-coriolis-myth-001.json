@@ -7,25 +7,40 @@
   "body": "The Coriolis effect governs hurricanes, which way a hemisphere's storms spin, but over a sink it is overwhelmed by the basin's shape and the water's initial swirls by factors of thousands. Demonstrations claiming otherwise stage the initial conditions. Scale is physics' quiet gatekeeper: the same law can rule an ocean and lose to a drain's rim.",
   "source_hint": "Coriolis effect analyses (meteorology texts)",
   "scene": {
-    "type": "orbits",
-    "rings": 4,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 2,
-        "angle": 40
+        "id": "n0",
+        "label": "hurricanes: Coriolis rules",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 3,
-        "angle": 180
+        "id": "n1",
+        "label": "sink: basin shape wins",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 4,
-        "angle": 310
+        "id": "n2",
+        "label": "scale decides",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

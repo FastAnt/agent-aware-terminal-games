@@ -7,25 +7,40 @@
   "body": "Zu Chongzhi found in the 5th century that 355/113 matches pi to six decimal digits, a precision Europe would not beat for roughly a thousand years. Continued fractions explain the luck: 355/113 is a convergent, a best possible rational approximation for its size. Pi itself was proved irrational only in 1761, by Lambert.",
   "source_hint": "Zu Chongzhi (c. 480 CE); Lambert irrationality proof, 1761",
   "scene": {
-    "type": "orbits",
-    "rings": 4,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 2,
-        "angle": 20
+        "id": "n0",
+        "label": "Zu Chongzhi, 480",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 3,
-        "angle": 140
+        "id": "n1",
+        "label": "355/113",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 4,
-        "angle": 290
+        "id": "n2",
+        "label": "six decimals right",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }

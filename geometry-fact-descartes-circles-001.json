@@ -7,29 +7,40 @@
   "body": "Descartes' circle theorem relates the curvatures of four mutually tangent circles: the squared sum equals twice the sum of squares, letting you compute the tiny circle that fits the curvilinear gap. Frederick Soddy re-popularised it in a 1936 poem in Nature, calling them kissing circles. Packing problems turn lyrical surprisingly often.",
   "source_hint": "Descartes circle theorem (1643)",
   "scene": {
-    "type": "orbits",
-    "rings": 4,
-    "dots": [
+    "type": "diagram",
+    "nodes": [
       {
-        "ring": 1,
-        "angle": 40
+        "id": "n0",
+        "label": "three kissing circles",
+        "x": 0.5,
+        "y": 0.2
       },
       {
-        "ring": 2,
-        "angle": 140
+        "id": "n1",
+        "label": "tiny fourth fits",
+        "x": 0.22,
+        "y": 0.78
       },
       {
-        "ring": 3,
-        "angle": 240
+        "id": "n2",
+        "label": "one equation decides",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
       },
       {
-        "ring": 4,
-        "angle": 330
+        "from": "n1",
+        "to": "n2"
       }
     ],
     "anim": {
-      "type": "orbit",
-      "speed": 0.35
+      "type": "flow",
+      "speed": 0.5
     }
   }
 }
