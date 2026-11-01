@@ -1,0 +1,35 @@
+{
+  "type": "fact",
+  "id": "audio-fact-a440-standard-001",
+  "kicker": "FACT",
+  "topic": "Audio & DSP",
+  "title": "Concert A became 440 Hz only in the twentieth century",
+  "body": "Pitch was local for centuries: surviving organs and forks suggest Baroque pitch often sat near or below 415 Hz, a semitone under modern. International agreement crept in via a 1939 conference and an ISO standard in 1955 fixing A at 440 Hz. Orchestras have since drifted sharp again for brilliance, standards notwithstanding.",
+  "source_hint": "ISO 16:1975, standard musical pitch",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 50
+      },
+      {
+        "ring": 2,
+        "angle": 160
+      },
+      {
+        "ring": 3,
+        "angle": 260
+      },
+      {
+        "ring": 4,
+        "angle": 330
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

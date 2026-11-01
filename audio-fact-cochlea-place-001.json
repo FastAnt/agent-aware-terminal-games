@@ -1,0 +1,35 @@
+{
+  "type": "fact",
+  "id": "audio-fact-cochlea-place-001",
+  "kicker": "FACT",
+  "topic": "Audio & DSP",
+  "title": "Your inner ear is a piano laid out in a spiral",
+  "body": "The cochlea maps frequency to place: high tones peak near its base, low tones toward the apex, a tonotopic layout Georg von Bekesy won a Nobel for revealing. Some twenty thousand hair cells read the travelling wave's address. Hearing begins as geography, which cochlear implants exploit by stimulating places instead of recreating sounds.",
+  "source_hint": "von Bekesy (1961 Nobel), cochlear mechanics",
+  "scene": {
+    "type": "orbits",
+    "rings": 5,
+    "dots": [
+      {
+        "ring": 2,
+        "angle": 30
+      },
+      {
+        "ring": 3,
+        "angle": 120
+      },
+      {
+        "ring": 4,
+        "angle": 210
+      },
+      {
+        "ring": 5,
+        "angle": 320
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

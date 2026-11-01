@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "audio-fact-theremin-touchless-001",
+  "kicker": "FACT",
+  "topic": "Audio & DSP",
+  "title": "The theremin is played without touching it",
+  "body": "Invented in 1920 by Lev Termen, the theremin senses hand distance through capacitive fields: one antenna governs pitch, the other volume, and the player moves in air. It remains the only major instrument with zero contact, which makes intonation an act of proprioception alone. Its eerie glide colonised early science-fiction soundtracks before synthesisers existed.",
+  "source_hint": "Termen (1920); theremin histories",
+  "scene": {
+    "type": "orbits",
+    "rings": 3,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 80
+      },
+      {
+        "ring": 2,
+        "angle": 200
+      },
+      {
+        "ring": 3,
+        "angle": 330
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

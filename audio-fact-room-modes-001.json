@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "audio-fact-room-modes-001",
+  "kicker": "FACT",
+  "topic": "Audio & DSP",
+  "title": "Small rooms boom at notes set by their walls",
+  "body": "Between parallel walls, sound forms standing waves at frequencies whose wavelengths fit the gap, so some bass notes boom and others vanish seat by seat. Studios fight modes with placement, traps and non-parallel geometry. Your bedroom is an instrument with a few strong opinions, audible every time a bassline walks up the scale.",
+  "source_hint": "Room acoustics, axial modes literature",
+  "scene": {
+    "type": "orbits",
+    "rings": 3,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 60
+      },
+      {
+        "ring": 2,
+        "angle": 190
+      },
+      {
+        "ring": 3,
+        "angle": 320
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

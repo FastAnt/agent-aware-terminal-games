@@ -1,0 +1,35 @@
+{
+  "type": "fact",
+  "id": "audio-fact-missing-fundamental-001",
+  "kicker": "FACT",
+  "topic": "Audio & DSP",
+  "title": "Your phone plays bass notes it cannot physically make",
+  "body": "Small speakers cannot reproduce low fundamentals, yet listeners hear the pitch anyway: the ear infers it from the spacing of the harmonics above, the missing fundamental phenomenon. Producers mix bass so its harmonics survive laptop speakers, letting your auditory system hallucinate the rest. Perception completes instruments that physics left unfinished.",
+  "source_hint": "Missing fundamental / residue pitch psychoacoustics",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 60
+      },
+      {
+        "ring": 2,
+        "angle": 160
+      },
+      {
+        "ring": 3,
+        "angle": 260
+      },
+      {
+        "ring": 4,
+        "angle": 330
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

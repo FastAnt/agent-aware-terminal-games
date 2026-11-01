@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "audio-fact-mp3-masking-001",
+  "kicker": "FACT",
+  "topic": "Audio & DSP",
+  "title": "MP3 deletes sounds you would not have heard anyway",
+  "body": "Perceptual codecs model auditory masking: a loud tone hides nearby quieter ones in frequency and time, so bits need not describe them. Fraunhofer's MP3 (standardised 1993) threw away most of a recording by that model and kept what hearing keeps. Compression here is applied psychoacoustics, an argument about ears disguised as a file format.",
+  "source_hint": "ISO/IEC 11172-3; MP3 psychoacoustic model",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "loud tone masks neighbours",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "delete the masked",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "bits only for the heard",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

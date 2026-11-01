@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "audio-fact-loudness-war-001",
+  "kicker": "FACT",
+  "topic": "Audio & DSP",
+  "title": "Music got louder by getting dynamically poorer",
+  "body": "From the 1990s, mastering engineers used limiters to push average loudness toward the digital ceiling, squashing the quiet-loud contrast that carries punch, until streaming platforms normalised playback loudness and removed much of the incentive. The loudness war's casualties are measurable in crest factor. Loudness turned out to be an arms race with a treaty written by Spotify.",
+  "source_hint": "Loudness war literature; EBU R128 / streaming normalisation",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "push average louder",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "dynamics flattened",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "streaming normalises",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

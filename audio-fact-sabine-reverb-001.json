@@ -1,0 +1,35 @@
+{
+  "type": "fact",
+  "id": "audio-fact-sabine-reverb-001",
+  "kicker": "FACT",
+  "topic": "Audio & DSP",
+  "title": "Reverb science began with seat cushions at night",
+  "body": "Around 1900 Wallace Sabine, a young Harvard physicist, hauled seat cushions between lecture halls at night to measure how long sound lingered, founding architectural acoustics with his RT60 formula tying decay time to volume and absorption. Boston Symphony Hall, his consulting triumph, still ranks among the world's finest. Concert-hall science began as furniture rearrangement with a stopwatch.",
+  "source_hint": "Sabine (1900), reverberation formula",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 50
+      },
+      {
+        "ring": 2,
+        "angle": 160
+      },
+      {
+        "ring": 3,
+        "angle": 270
+      },
+      {
+        "ring": 4,
+        "angle": 330
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

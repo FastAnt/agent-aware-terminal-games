@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "audio-fact-aliasing-fold-001",
+  "kicker": "FACT",
+  "topic": "Audio & DSP",
+  "title": "Too-high notes fold into false low ones: aliasing",
+  "body": "Sample a wave too slowly and frequencies above half the sample rate reappear disguised as lower frequencies, like wagon wheels rotating backwards on film. Anti-aliasing filters exist to delete what cannot be represented before it can lie. The Nyquist limit is less a speed limit than an honesty boundary for measurement.",
+  "source_hint": "Nyquist-Shannon sampling theorem; aliasing",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 2,
+        "angle": 40
+      },
+      {
+        "ring": 3,
+        "angle": 170
+      },
+      {
+        "ring": 4,
+        "angle": 300
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

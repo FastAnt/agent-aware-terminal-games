@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "audio-fact-ears-emit-sound-001",
+  "kicker": "FACT",
+  "topic": "Audio & DSP",
+  "title": "Healthy ears emit faint sounds of their own",
+  "body": "In 1978 David Kemp showed the ear produces otoacoustic emissions, tiny sounds from the cochlea's active amplifier cells, detectable with a microphone in the ear canal. Newborns are screened for hearing by listening to these emissions. The ear is not a passive microphone; it is a powered instrument that hums its diagnostics aloud.",
+  "source_hint": "Kemp (1978), otoacoustic emissions",
+  "scene": {
+    "type": "orbits",
+    "rings": 3,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 70
+      },
+      {
+        "ring": 2,
+        "angle": 200
+      },
+      {
+        "ring": 3,
+        "angle": 330
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

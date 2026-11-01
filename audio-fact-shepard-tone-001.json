@@ -1,0 +1,35 @@
+{
+  "type": "fact",
+  "id": "audio-fact-shepard-tone-001",
+  "kicker": "FACT",
+  "topic": "Audio & DSP",
+  "title": "A tone can rise forever and never get higher",
+  "body": "Shepard tones layer octaves whose volumes rise and fall in a loop, so the pitch seems to climb endlessly like an auditory barber pole while going nowhere. The trick separates pitch height from pitch class, which your ear conflates. Filmmakers deploy it for dread that never resolves, most famously in 'Dunkirk'.",
+  "source_hint": "Shepard (1964), circularity of pitch",
+  "scene": {
+    "type": "orbits",
+    "rings": 5,
+    "dots": [
+      {
+        "ring": 2,
+        "angle": 30
+      },
+      {
+        "ring": 3,
+        "angle": 110
+      },
+      {
+        "ring": 4,
+        "angle": 190
+      },
+      {
+        "ring": 5,
+        "angle": 300
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

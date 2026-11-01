@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "audio-fact-stradivarius-blind-001",
+  "kicker": "FACT",
+  "topic": "Audio & DSP",
+  "title": "Blindfolded players do not reliably pick Stradivari",
+  "body": "In double-blind studies led by Claudia Fritz (2012 onward), professional violinists playing new and old Italian instruments, wearing modified welders' goggles in hotel rooms, could not reliably distinguish them and often preferred new ones. Romantic varnish theories survive anyway. The experiments test players, not magic; they say mastery now rivals myth at a fraction of the price.",
+  "source_hint": "Fritz et al., PNAS (2012) and follow-ups",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 2,
+        "angle": 40
+      },
+      {
+        "ring": 3,
+        "angle": 150
+      },
+      {
+        "ring": 4,
+        "angle": 260
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

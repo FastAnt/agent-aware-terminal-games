@@ -1,0 +1,35 @@
+{
+  "type": "fact",
+  "id": "audio-fact-loudness-curves-001",
+  "kicker": "FACT",
+  "topic": "Audio & DSP",
+  "title": "Ears are not microphones: bass vanishes when quiet",
+  "body": "Equal-loudness contours (Fletcher and Munson, 1933) show hearing is far less sensitive to low and very high frequencies at low volumes, which is why music sounds thin turned down and why old amplifiers had loudness buttons that boosted the ends. Your perception recalibrates with level; the Fletcher-Munson curves are its calibration chart.",
+  "source_hint": "ISO 226 equal-loudness contours",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 50
+      },
+      {
+        "ring": 2,
+        "angle": 160
+      },
+      {
+        "ring": 3,
+        "angle": 260
+      },
+      {
+        "ring": 4,
+        "angle": 330
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}
