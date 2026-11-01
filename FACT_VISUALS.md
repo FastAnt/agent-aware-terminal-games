@@ -162,3 +162,77 @@ that. Status is tracked in FACTS_INDEX.md ("visual: bespoke").
   server joined by a thick channel carrying arrows both
   ways at once (streams), contrasted with a thin single
   request arrow above.
+
+## Batch N1 — network group, part 1 (25)
+
+- audio-fact-dithering-paradox-001 — Two mini waveforms: clean
+  sine, its harsh staircase quantisation, then the dithered
+  version where steps dissolve into fine noise.
+- cloud-fact-cell-based-001 — A 3x2 grid of identical cells
+  (stack, data, routing); one cell is struck out in an
+  incident, the rest keep serving.
+- geometry-fact-five-platonics-001 — Five solid icons in a
+  row (tetrahedron, cube, octahedron, dodecahedron,
+  icosahedron outlines) each labelled with its face count.
+- geometry-fact-honeycomb-hales-001 — A hexagonal tiling
+  filling the frame; one cell outlined heavily with
+  "least perimeter per area" beneath.
+- geometry-fact-kepler-oranges-001 — Circles packed in
+  pyramid rows, each touching its neighbours; a density
+  gauge at 74 percent.
+- geometry-fact-menger-sponge-001 — A square carpet carved
+  recursively: centre removed, then centres of the remaining
+  nine, two levels deep, holes within holes.
+- geometry-fact-peano-curve-001 — A recursive Hilbert-style
+  polyline snaking until it fills a square frame, start and
+  end dots marked.
+- geometry-fact-sphere-packing-dim8-001 — A central circle
+  ringed by touching neighbours, with eight axis ticks
+  labelled "dimension 8: E8 proven optimal".
+- geometry-fact-tesseract-net-001 — A net of eight square
+  "cubes" in a cross (one centre, arms), each numbered,
+  captioned as the hypercube unfolded.
+- geometry-fact-voronoi-nature-001 — Seed dots with hand-drawn
+  cell borders between neighbours; one cell shaded, labelled
+  "closer to my seed".
+- geometry-fact-wallpaper-17-001 — Four pattern tiles showing
+  rotation, mirror and glide marks differently, and a counter
+  "17 groups in total, no 18th".
+- math-fact-benford-001 — Nine bars for first digits 1..9
+  falling on a log curve: 30 percent down to under 5.
+- math-fact-birthday23-001 — 23 person dots; all pair lines
+  faint, one matching pair highlighted, "253 pairs" beneath.
+- math-fact-central-limit-001 — Three lumpy histograms on the
+  left flowing by arrows into one smooth bell curve.
+- math-fact-countable-rationals-001 — A grid of fractions
+  with a diagonal zig-zag enumeration path and numbers
+  1,2,3... assigned along it.
+- math-fact-harmonic-diverges-slow-001 — Shrinking bars
+  1, 1/2, 1/3 ... above a cumulative sum curve that crawls
+  past 1, 2, 3 without ever hurrying.
+- math-fact-normal-body-001 — A bell curve; little person
+  marks stand at centre (many) and tails (few), labelled
+  height from many small causes.
+- math-fact-pick-theorem-001 — A lattice polygon on a dot
+  grid; interior dots filled solid, boundary dots ringed,
+  with the two counts written out.
+- math-fact-pigeonhole-socks-001 — Eleven bird dots above ten
+  boxes; arrows land them and one box visibly gets two.
+- math-fact-ramsey-friends-001 — Six nodes in a ring, every
+  pair connected faintly; one triangle glows: friends or
+  strangers, a trio is forced.
+- math-fact-six-degrees-001 — A chain of person dots from
+  "you" to "stranger": six hops drawn long above, four hops
+  drawn shorter below (the platform-era measurement).
+- math-fact-zipf-law-001 — Word bars: "the" full height,
+  "of" half, "and" a third, trailing off; rank on the axis.
+- ml-fact-alphazero-tabula-001 — A small chessboard with a
+  circular self-play arrow around it; below, a "human
+  openings" book crossed out and a rising strength curve.
+- ml-fact-backprop-1986-001 — A timeline 1970-1990 with three
+  flags: 1974 thesis, 1986 Nature paper, and "then it caught
+  fire" as small network sparks after.
+- ml-fact-batchnorm-landscape-001 — A wide shifted bell
+  (activations before) arrowed into a centred narrow bell;
+  a question mark over "covariate shift?" and a smooth hill
+  icon for the real explanation.

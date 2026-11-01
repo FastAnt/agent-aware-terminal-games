@@ -115,7 +115,7 @@ programming-fact-second-system-001 · Programming · The second system is the mo
 programming-fact-os360-lesson-001 · Programming · OS/360 taught the industry that schedules are not staffing
 programming-fact-nine-women-001 · Programming · Nine women cannot make a baby in one month
 math-fact-point999-001 · Math · 0.999... equals 1, exactly, not approximately
-math-fact-birthday23-001 · Math · 23 strangers likely share a birthday
+math-fact-birthday23-001 · Math · 23 strangers likely share a birthday · visual: bespoke
 math-fact-montyhall-001 · Math · Switching doors wins the car twice as often
 math-fact-gabriel-horn-001 · Math · Finite paint fills it; infinite paint coats it
 math-fact-zeta-minus12-001 · Math · 1+2+3+... = -1/12 is a label, not a sum
@@ -129,7 +129,7 @@ math-fact-fourcolour-001 · Math · The four colour theorem needed a computer's 
 math-fact-fermat358-001 · Math · Fermat's margin note took 358 years to settle
 math-fact-collatz-open-001 · Math · A problem a child can state has resisted everyone
 math-fact-konigsberg-001 · Math · Seven bridges founded graph theory by being impossible
-math-fact-benford-001 · Math · Real data starts with 1 far more often than with 9
+math-fact-benford-001 · Math · Real data starts with 1 far more often than with 9 · visual: bespoke
 math-fact-simpson-001 · Math · A trend can hold in every subgroup and reverse overall
 math-fact-base-rate-001 · Math · A 99 percent accurate test can be mostly wrong
 math-fact-regression-mean-001 · Math · Tall parents have shorter children, on average: regression
@@ -151,22 +151,22 @@ math-fact-perfect-numbers-001 · Math · Perfect numbers and Mersenne primes are
 math-fact-sqrt2-irrational-001 · Math · The square root of 2 broke a Greek worldview
 math-fact-golden-sunflower-001 · Math · Sunflowers pack seeds at the golden angle
 math-fact-twin-primes-open-001 · Math · Twin primes are unproven after two thousand years
-math-fact-zipf-law-001 · Math · In any book, the second word bows to the first
-math-fact-central-limit-001 · Math · Averages become bell-shaped almost regardless
+math-fact-zipf-law-001 · Math · In any book, the second word bows to the first · visual: bespoke
+math-fact-central-limit-001 · Math · Averages become bell-shaped almost regardless · visual: bespoke
 math-fact-clt-coins-001 · Math · Ten coins already hint at the bell curve
 math-fact-law-large-numbers-001 · Math · Casinos trust the law of large numbers, not luck
-math-fact-normal-body-001 · Math · Height is normal because many small causes add
-math-fact-six-degrees-001 · Math · Six degrees shrank in the network era
+math-fact-normal-body-001 · Math · Height is normal because many small causes add · visual: bespoke
+math-fact-six-degrees-001 · Math · Six degrees shrank in the network era · visual: bespoke
 math-fact-kelly-criterion-001 · Math · Betting everything on an edge still ruins you
 math-fact-gamblers-ruin-001 · Math · Against a richer house, persistence is the trap
 math-fact-martingale-myth-001 · Math · Doubling bets cannot repeal arithmetic
-math-fact-countable-rationals-001 · Math · Fractions are countable; reals are not
+math-fact-countable-rationals-001 · Math · Fractions are countable; reals are not · visual: bespoke
 math-fact-graham-number-001 · Math · Graham's number makes googolplex look like zero
 math-fact-euler-identity-001 · Math · Euler's identity compresses five constants into one line
 math-fact-i-rotation-001 · Math · Multiplying by i is a quarter turn
 math-fact-fixed-point-coffee-001 · Math · Stirring coffee guarantees one unmoved point
 math-fact-antipodes-weather-001 · Math · Right now, opposite sides of Earth share weather values
-math-fact-pigeonhole-socks-001 · Math · Eleven pigeons, ten holes: the deepest trivial theorem
+math-fact-pigeonhole-socks-001 · Math · Eleven pigeons, ten holes: the deepest trivial theorem · visual: bespoke
 math-fact-condorcet-cycle-001 · Math · Majorities can prefer A to B, B to C, and C to A
 math-fact-nash-equilibrium-001 · Math · Nash proved every finite game has a stable point
 math-fact-prisoners-dilemma-001 · Math · Individually rational, collectively foolish: the dilemma
@@ -175,7 +175,7 @@ math-fact-monte-carlo-pi-001 · Math · Randomness computes what geometry strugg
 math-fact-birthday-attack-sqrt-001 · Math · Collisions arrive at the square root, not halfway
 math-fact-expectation-linear-001 · Math · Expectation adds even when variables conspire
 math-fact-coupon-collector-001 · Math · The last coupon takes as long as all the rest
-math-fact-harmonic-diverges-slow-001 · Math · The harmonic series diverges, but at a crawl
+math-fact-harmonic-diverges-slow-001 · Math · The harmonic series diverges, but at a crawl · visual: bespoke
 math-fact-riemann-open-001 · Math · The Riemann hypothesis is a million-dollar pattern
 math-fact-axiom-choice-banach-001 · Math · Choice lets one ball become two, on paper
 math-fact-well-ordering-shock-001 · Math · Accept choice and every set can be lined up
@@ -186,9 +186,9 @@ math-fact-liouville-first-001 · Math · The first proven transcendental was bui
 math-fact-goldbach-open-001 · Math · Every even number tried is two primes; proof missing
 math-fact-catalan-miha-001 · Math · 8 and 9 are the only consecutive perfect powers
 math-fact-erdos-probabilistic-001 · Math · Existence by dice: the probabilistic method
-math-fact-ramsey-friends-001 · Math · In any six people, three mutual friends or strangers
+math-fact-ramsey-friends-001 · Math · In any six people, three mutual friends or strangers · visual: bespoke
 math-fact-sylvester-gallai-001 · Math · A line through exactly two points is guaranteed
-math-fact-pick-theorem-001 · Math · Farm plots on graph paper yield area by counting dots
+math-fact-pick-theorem-001 · Math · Farm plots on graph paper yield area by counting dots · visual: bespoke
 math-fact-no-ruler-compass-001 · Math · A compass alone can do everything ruler-and-compass can
 math-fact-squaring-circle-001 · Math · Squaring the circle died when pi turned transcendental
 math-fact-transcendental-pi-e-001 · Math · We do not know if pi + e is irrational
@@ -345,7 +345,7 @@ architecture-fact-sharding-hotspot-001 · Architecture · Sharding by the wrong 
 architecture-fact-read-replica-lag-001 · Architecture · Read replicas can honestly return yesterday's news
 ml-fact-perceptron-hype-001 · Machine learning · The 1958 perceptron was promised to walk and talk
 ml-fact-xor-winter-001 · Machine learning · One XOR problem helped freeze AI research for years
-ml-fact-backprop-1986-001 · Machine learning · Backpropagation was discovered at least three times
+ml-fact-backprop-1986-001 · Machine learning · Backpropagation was discovered at least three times · visual: bespoke
 ml-fact-imagenet-moment-001 · Machine learning · AlexNet won by 10 points and ended an era overnight
 ml-fact-imagenet-labels-001 · Machine learning · ImageNet's secret ingredient was labelled data at scale
 ml-fact-word2vec-arithmetic-001 · Machine learning · king - man + woman lands near queen, unprogrammed
@@ -357,10 +357,10 @@ ml-fact-double-descent-001 · Machine learning · Making a model bigger can make
 ml-fact-grokking-001 · Machine learning · Networks can understand long after memorising
 ml-fact-adversarial-examples-001 · Machine learning · A panda plus invisible noise fools a network
 ml-fact-move37-001 · Machine learning · Move 37 was first called a mistake by experts
-ml-fact-alphazero-tabula-001 · Machine learning · AlphaZero taught itself chess, then crushed Stockfish
+ml-fact-alphazero-tabula-001 · Machine learning · AlphaZero taught itself chess, then crushed Stockfish · visual: bespoke
 ml-fact-alphafold-casp-001 · Machine learning · AlphaFold2 essentially solved a 50-year grand challenge
 ml-fact-dqn-atari-001 · Machine learning · One algorithm learned Atari from pixels
-ml-fact-batchnorm-landscape-001 · Machine learning · Batch norm works, maybe not for the stated reason
+ml-fact-batchnorm-landscape-001 · Machine learning · Batch norm works, maybe not for the stated reason · visual: bespoke
 ml-fact-dropout-ensemble-001 · Machine learning · Dropout is secretly an ensemble of countless networks
 ml-fact-lottery-ticket-001 · Machine learning · Big networks hide small networks that win alone
 ml-fact-catastrophic-forgetting-001 · Machine learning · Networks forget the old task acing the new
@@ -411,10 +411,10 @@ geometry-fact-mobius-cut-001 · Geometry · Cut a Möbius strip: you do not get 
 geometry-fact-klein-bottle-001 · Geometry · A Klein bottle has no inside; models fake one · visual: bespoke
 geometry-fact-penrose-triangle-001 · Geometry · The Penrose triangle exists in photographs, from one angle
 geometry-fact-pentagon-soccer-001 · Geometry · Every soccer ball hides exactly twelve pentagons · visual: bespoke
-geometry-fact-five-platonics-001 · Geometry · Exactly five perfect solids exist; Euclid ends there
+geometry-fact-five-platonics-001 · Geometry · Exactly five perfect solids exist; Euclid ends there · visual: bespoke
 geometry-fact-euler-formula-001 · Geometry · Vertices minus edges plus faces equals two, almost always
-geometry-fact-honeycomb-hales-001 · Geometry · Bees were proved optimal only in 1999
-geometry-fact-kepler-oranges-001 · Geometry · Greengrocers stack oranges the provably best way
+geometry-fact-honeycomb-hales-001 · Geometry · Bees were proved optimal only in 1999 · visual: bespoke
+geometry-fact-kepler-oranges-001 · Geometry · Greengrocers stack oranges the provably best way · visual: bespoke
 geometry-fact-kissing-twelve-001 · Geometry · Newton and Gregory argued over twelve or thirteen spheres
 geometry-fact-brachistochrone-001 · Geometry · The fastest slide curve is a cycloid
 geometry-fact-catenary-arch-001 · Geometry · A hanging chain, flipped, is the perfect arch
@@ -422,7 +422,7 @@ geometry-fact-reuleaux-drill-001 · Geometry · A non-round triangle can drill a
 geometry-fact-coastline-paradox-001 · Geometry · Britain's coast has no definite length
 geometry-fact-koch-snowflake-001 · Geometry · A snowflake can fence infinite perimeter around finite land
 geometry-fact-torus-donut-001 · Geometry · Topologically, a coffee cup is a donut · visual: bespoke
-geometry-fact-wallpaper-17-001 · Geometry · Every wallpaper uses one of 17 symmetries
+geometry-fact-wallpaper-17-001 · Geometry · Every wallpaper uses one of 17 symmetries · visual: bespoke
 geometry-fact-penrose-tiling-001 · Geometry · Never-repeating tiles that conquered chemistry
 geometry-fact-girih-tiles-001 · Geometry · Medieval tilers may have beaten Penrose by 500 years
 geometry-fact-geodesic-domes-001 · Geometry · Fuller's domes get stronger as they get bigger · visual: bespoke
@@ -433,8 +433,8 @@ geometry-fact-napoleon-triangle-001 · Geometry · Napoleon's theorem plants equ
 geometry-fact-sangaku-001 · Geometry · Japanese temples hung geometry problems as offerings
 geometry-fact-descartes-circles-001 · Geometry · Four kissing circles obey one tidy equation
 geometry-fact-ford-circles-001 · Geometry · Between two Ford circles hides an infinite family
-geometry-fact-menger-sponge-001 · Geometry · A sponge with zero volume, infinite surface
-geometry-fact-peano-curve-001 · Geometry · One curve can fill an entire square
+geometry-fact-menger-sponge-001 · Geometry · A sponge with zero volume, infinite surface · visual: bespoke
+geometry-fact-peano-curve-001 · Geometry · One curve can fill an entire square · visual: bespoke
 geometry-fact-hilbert-gis-001 · Geometry · Hilbert curves order map tiles on disk
 geometry-fact-bernoulli-spiral-tomb-001 · Geometry · Bernoulli's tombstone got the wrong spiral · visual: bespoke
 geometry-fact-involute-gears-001 · Geometry · Gear teeth are shaped by unwinding string from a circle
@@ -446,15 +446,15 @@ geometry-fact-sphere-area-lune-001 · Geometry · Sphere lunes have area by pure
 geometry-fact-projective-perspective-001 · Geometry · Painters invented projective geometry by looking
 geometry-fact-desargues-shadow-001 · Geometry · Two triangles, perspective from point and line
 geometry-fact-pascal-hexagon-001 · Geometry · Six points on a conic hide a straight line
-geometry-fact-tesseract-net-001 · Geometry · A hypercube unfolds into eight cubes
+geometry-fact-tesseract-net-001 · Geometry · A hypercube unfolds into eight cubes · visual: bespoke
 geometry-fact-soddy-poem-001 · Geometry · A geometry theorem was published as a love poem
 geometry-fact-japanese-sangaku-lost-001 · Geometry · Most sangaku tablets rotted away
 geometry-fact-constant-width-body-001 · Geometry · Constant-width solids that are not spheres
-geometry-fact-sphere-packing-dim8-001 · Geometry · Sphere packing in 8D fell to a short proof
+geometry-fact-sphere-packing-dim8-001 · Geometry · Sphere packing in 8D fell to a short proof · visual: bespoke
 geometry-fact-gerrymandering-geometry-001 · Geometry · District shapes can be measured for mischief
-geometry-fact-voronoi-nature-001 · Geometry · Voronoi cells grow in giraffes, mud and dragonfly wings
+geometry-fact-voronoi-nature-001 · Geometry · Voronoi cells grow in giraffes, mud and dragonfly wings · visual: bespoke
 audio-fact-aliasing-fold-001 · Audio & DSP · Too-high notes fold into false low ones: aliasing
-audio-fact-dithering-paradox-001 · Audio & DSP · Adding noise can make digital audio more accurate
+audio-fact-dithering-paradox-001 · Audio & DSP · Adding noise can make digital audio more accurate · visual: bespoke
 audio-fact-missing-fundamental-001 · Audio & DSP · Your phone plays bass notes it cannot physically make
 audio-fact-loudness-curves-001 · Audio & DSP · Ears are not microphones: bass vanishes when quiet
 audio-fact-precedence-haas-001 · Audio & DSP · The first sound to arrive owns the direction
@@ -478,7 +478,7 @@ cloud-fact-station-wagon-bandwidth-001 · Cloud · Never underestimate a station
 cloud-fact-snowmobile-exabyte-001 · Cloud · AWS once sent an 18-wheeler to collect exabytes
 cloud-fact-data-gravity-001 · Cloud · Data attracts applications the way mass attracts mass
 cloud-fact-az-correlated-001 · Cloud · Availability zones fail together more often than brochures
-cloud-fact-cell-based-001 · Cloud · Amazon confines failures by building in cells
+cloud-fact-cell-based-001 · Cloud · Amazon confines failures by building in cells · visual: bespoke
 cloud-fact-noisy-neighbor-001 · Cloud · Your cloud neighbour can slow you without touching you
 cloud-fact-cold-start-physics-001 · Cloud · Serverless cold starts are mostly loading, not laziness
 cloud-fact-spot-markets-001 · Cloud · Cloud spare capacity is sold like an airline seat market
