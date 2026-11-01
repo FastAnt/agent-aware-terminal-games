@@ -1019,3 +1019,64 @@ that. Status is tracked in FACTS_INDEX.md ("visual: bespoke").
   prepare, one participant silent, all locked waiting.
 - architecture-fact-saga-compensate-001 — Booking chain flight+
   hotel+car; one fails, compensations run backwards.
+
+## Batch C11 — chains, part 11 (25)
+
+- architecture-fact-spanner-truetime-001 — Datacenter racks
+  with atomic clock and GPS icons; uncertainty interval bar
+  TrueTime.
+- architecture-fact-snowflake-ids-001 — ID bits as segments:
+  timestamp | machine | sequence; numbers rolling sorted.
+- architecture-fact-uuid-collision-001 — Space of UUID dots
+  vast arena, birthday gauge absurdly far; "hell freezes".
+- architecture-fact-hyrums-law-001 — API surface as ice with
+  users standing on every observable crack/behaviour.
+- architecture-fact-prime-video-monolith-001 — Many tiny
+  Lambda/step boxes collapsing into one monolith box, cost
+  bar -90%.
+- architecture-fact-knight-capital-001 — A dead feature flag
+  switch reused, old zombie code rising; money counter
+  plunging 45 min timeline.
+- architecture-fact-gitlab-backup-001 — Five backup methods as
+  five theatre masks/empty boxes during a restore attempt.
+- architecture-fact-notpetya-maersk-001 — Network of infected
+  domain controllers, one offline in Ghana spared, rebuild
+  arrow.
+- architecture-fact-ovh-fire-backup-001 — Burning datacenter
+  and its "backup" in same building burning too vs offsite.
+- architecture-fact-tsb-migration-001 — Big bang switch night:
+  old bank off, new on, crowd of locked-out customers 1.9M.
+- architecture-fact-google-calendar-2019-001 — Calendar grid
+  with one outage cell and blast-radius rings expanding.
+- architecture-fact-rogers-2022-001 — Canada map outline of
+  tower icons all going dark from one update box.
+- architecture-fact-nhs-wannacry-001 — Hospital cross icon,
+  patch window unpatched, worm arrows, old XP screen.
+- architecture-fact-heartbleed-lesson-001 — Heartbeat request
+  asking 3 letters but claiming length 64k, server leaking
+  memory contents.
+- architecture-fact-log4shell-ubiquity-001 — Log line with
+  ${jndi:...} string reaching out to attacker server; library
+  in everything diagram.
+- architecture-fact-solarwinds-build-001 — Build pipeline
+  factory line: clean source in, trojan update out signed.
+- architecture-fact-stuxnet-airgap-001 — Air-gapped centrifuge
+  room, USB stick bridging the gap, centrifuge spin speeds.
+- architecture-fact-yahoo-breach-scale-001 — Breach counter
+  numbers revising upward 500M, 1B, 3B over announcements.
+- architecture-fact-tcp-handshake-001 — Two machines exchanging
+  SYN, SYN-ACK, ACK arrows numbered 1-2-3.
+- architecture-fact-slow-start-001 — Congestion window steps
+  doubling 1,2,4,8 packets then flattening at a knee.
+- architecture-fact-nagle-delayed-ack-001 — Two polite waiters
+  holding doors for each other: Nagle waits for data, ACK
+  waits 40ms.
+- architecture-fact-http2-headline-001 — Many streams braided
+  on one connection; one lost packet blocks all stream heads.
+- architecture-fact-tls13-rtt-001 — Handshake timelines TLS1.2
+  2 round trips vs TLS1.3 1, obsolete ciphers crossed.
+- architecture-fact-ntp-stratum-001 — Stratum pyramid: atomic
+  clocks stratum 0/1 down to laptops stratum 3.
+- architecture-fact-protobuf-numbers-001 — Schema fields with
+  permanent numbers 1,2,3; renaming a field label while the
+  number stays.

@@ -291,47 +291,47 @@ architecture-fact-bulkheads-001 · Architecture · Ships' bulkheads became a sof
 architecture-fact-backpressure-001 · Architecture · Fast producers must be told to slow down · visual: bespoke
 architecture-fact-two-phase-commit-001 · Architecture · Two-phase commit can block everyone on one coordinator · visual: bespoke
 architecture-fact-saga-compensate-001 · Architecture · Sagas undo work with new work, never by time travel · visual: bespoke
-architecture-fact-spanner-truetime-001 · Architecture · Google put atomic clocks and GPS into its datacenters
-architecture-fact-snowflake-ids-001 · Architecture · Twitter's Snowflake IDs sort themselves by time
-architecture-fact-uuid-collision-001 · Architecture · Random UUIDs collide about when hell freezes over
-architecture-fact-hyrums-law-001 · Architecture · Every observable behaviour of your API becomes a contract
+architecture-fact-spanner-truetime-001 · Architecture · Google put atomic clocks and GPS into its datacenters · visual: bespoke
+architecture-fact-snowflake-ids-001 · Architecture · Twitter's Snowflake IDs sort themselves by time · visual: bespoke
+architecture-fact-uuid-collision-001 · Architecture · Random UUIDs collide about when hell freezes over · visual: bespoke
+architecture-fact-hyrums-law-001 · Architecture · Every observable behaviour of your API becomes a contract · visual: bespoke
 architecture-fact-chaos-monkey-001 · Architecture · Netflix breaks its own production on weekdays, on purpose · visual: bespoke
 architecture-fact-error-budgets-001 · Architecture · Reliability becomes negotiable with an error budget · visual: bespoke
-architecture-fact-prime-video-monolith-001 · Architecture · Prime Video cut costs 90 percent by un-distributing a tool
-architecture-fact-knight-capital-001 · Architecture · Knight Capital lost $440M in 45 minutes to a dead flag
-architecture-fact-gitlab-backup-001 · Architecture · GitLab deleted its database and found backups were theatre
+architecture-fact-prime-video-monolith-001 · Architecture · Prime Video cut costs 90 percent by un-distributing a tool · visual: bespoke
+architecture-fact-knight-capital-001 · Architecture · Knight Capital lost $440M in 45 minutes to a dead flag · visual: bespoke
+architecture-fact-gitlab-backup-001 · Architecture · GitLab deleted its database and found backups were theatre · visual: bespoke
 architecture-fact-aws-s3-typo-001 · Architecture · An AWS typo took down a chunk of the Internet · visual: bespoke
 architecture-fact-facebook-bgp-2021-001 · Architecture · Facebook's 2021 outage locked its own engineers out · visual: bespoke
 architecture-fact-cloudflare-regex-2019-001 · Architecture · One regex, deployed everywhere at once, CPU'd the planet · visual: bespoke
 architecture-fact-fastly-config-2021-001 · Architecture · One customer's valid setting triggered a dormant global bug · visual: bespoke
-architecture-fact-notpetya-maersk-001 · Architecture · Maersk was saved by a domain controller that lost power
+architecture-fact-notpetya-maersk-001 · Architecture · Maersk was saved by a domain controller that lost power · visual: bespoke
 architecture-fact-blackout-alarm-2003-001 · Architecture · The 2003 blackout grew behind a silenced alarm · visual: bespoke
 architecture-fact-denver-baggage-001 · Architecture · Denver's airport was delayed by its own baggage system · visual: bespoke
 architecture-fact-crowdstrike-2024-001 · Architecture · A sensor update crashed millions of Windows machines · visual: bespoke
 architecture-fact-boeing-mcas-redundancy-001 · Architecture · MCAS trusted one sensor; redundancy is an architecture · visual: bespoke
-architecture-fact-ovh-fire-backup-001 · Architecture · Fire taught the difference between backup and replica
-architecture-fact-tsb-migration-001 · Architecture · TSB's big-bang migration locked out 1.9 million customers
+architecture-fact-ovh-fire-backup-001 · Architecture · Fire taught the difference between backup and replica · visual: bespoke
+architecture-fact-tsb-migration-001 · Architecture · TSB's big-bang migration locked out 1.9 million customers · visual: bespoke
 architecture-fact-ba-power-2017-001 · Architecture · British Airways grounded itself by unplugging the IT · visual: bespoke
-architecture-fact-google-calendar-2019-001 · Architecture · Even Google Calendar has a blast radius
-architecture-fact-rogers-2022-001 · Architecture · One maintenance update silenced a national carrier
-architecture-fact-nhs-wannacry-001 · Architecture · WannaCry hurt hospitals through unpatched known holes
+architecture-fact-google-calendar-2019-001 · Architecture · Even Google Calendar has a blast radius · visual: bespoke
+architecture-fact-rogers-2022-001 · Architecture · One maintenance update silenced a national carrier · visual: bespoke
+architecture-fact-nhs-wannacry-001 · Architecture · WannaCry hurt hospitals through unpatched known holes · visual: bespoke
 architecture-fact-equifax-struts-001 · Architecture · Equifax was breached through a patched-elsewhere framework · visual: bespoke
-architecture-fact-heartbleed-lesson-001 · Architecture · Heartbleed was two missing lines in a heartbeat
-architecture-fact-log4shell-ubiquity-001 · Architecture · Log4Shell hid in a logging library's helpful feature
-architecture-fact-solarwinds-build-001 · Architecture · SolarWinds attackers compromised the build, not the product
-architecture-fact-stuxnet-airgap-001 · Architecture · Stuxnet crossed an air gap on a USB stick
-architecture-fact-yahoo-breach-scale-001 · Architecture · Yahoo's breach grew every time it was recounted
+architecture-fact-heartbleed-lesson-001 · Architecture · Heartbleed was two missing lines in a heartbeat · visual: bespoke
+architecture-fact-log4shell-ubiquity-001 · Architecture · Log4Shell hid in a logging library's helpful feature · visual: bespoke
+architecture-fact-solarwinds-build-001 · Architecture · SolarWinds attackers compromised the build, not the product · visual: bespoke
+architecture-fact-stuxnet-airgap-001 · Architecture · Stuxnet crossed an air gap on a USB stick · visual: bespoke
+architecture-fact-yahoo-breach-scale-001 · Architecture · Yahoo's breach grew every time it was recounted · visual: bespoke
 architecture-fact-ashley-lessons-001 · Architecture · Backups that nobody tested are a hope, not a plan · visual: bespoke
 architecture-fact-blameless-postmortems-001 · Architecture · Blameless postmortems exist because fear hides causes · visual: bespoke
-architecture-fact-tcp-handshake-001 · Architecture · TCP's three-way handshake proves both sides can hear
-architecture-fact-slow-start-001 · Architecture · TCP begins every connection deliberately slow
-architecture-fact-nagle-delayed-ack-001 · Architecture · Two polite algorithms once made each other wait
-architecture-fact-http2-headline-001 · Architecture · HTTP/2 multiplexed everything onto one fragile pipe
-architecture-fact-tls13-rtt-001 · Architecture · TLS 1.3 deleted a round trip and some antiques
+architecture-fact-tcp-handshake-001 · Architecture · TCP's three-way handshake proves both sides can hear · visual: bespoke
+architecture-fact-slow-start-001 · Architecture · TCP begins every connection deliberately slow · visual: bespoke
+architecture-fact-nagle-delayed-ack-001 · Architecture · Two polite algorithms once made each other wait · visual: bespoke
+architecture-fact-http2-headline-001 · Architecture · HTTP/2 multiplexed everything onto one fragile pipe · visual: bespoke
+architecture-fact-tls13-rtt-001 · Architecture · TLS 1.3 deleted a round trip and some antiques · visual: bespoke
 architecture-fact-dns-ttl-trade-001 · Architecture · Every DNS record carries its own staleness budget · visual: bespoke
 architecture-fact-bgp-pakistan-2008-001 · Architecture · One country's attempt to block YouTube blocked it worldwide · visual: bespoke
-architecture-fact-ntp-stratum-001 · Architecture · Internet time descends from atomic clocks in layers
-architecture-fact-protobuf-numbers-001 · Architecture · In protobuf, field numbers are forever; names are free
+architecture-fact-ntp-stratum-001 · Architecture · Internet time descends from atomic clocks in layers · visual: bespoke
+architecture-fact-protobuf-numbers-001 · Architecture · In protobuf, field numbers are forever; names are free · visual: bespoke
 architecture-fact-etag-revalidation-001 · Architecture · An ETag lets a browser ask 'still the same?' cheaply · visual: bespoke
 architecture-fact-range-resume-001 · Architecture · Downloads resume because HTTP can ask for slices
 architecture-fact-email-store-forward-001 · Architecture · Email was built to survive machines being off · visual: bespoke
