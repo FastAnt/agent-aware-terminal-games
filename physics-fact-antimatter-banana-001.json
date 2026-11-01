@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "physics-fact-antimatter-banana-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "Bananas emit antimatter, at a homeopathic rate",
+  "body": "Bananas contain potassium-40, a naturally radioactive isotope whose rare decay branch emits a positron, antimatter, roughly once every hour or so per banana. The dose is beyond negligible, but the physics is real: antimatter is not only laboratory exotica. Physicists use the banana equivalent dose, tongue in cheek, to calibrate public fear of radiation.",
+  "source_hint": "Potassium-40 decay scheme, radiochemistry data",
+  "scene": {
+    "type": "orbits",
+    "rings": 3,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 70
+      },
+      {
+        "ring": 2,
+        "angle": 200
+      },
+      {
+        "ring": 3,
+        "angle": 330
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

@@ -269,3 +269,7 @@ physics-fact-saturn-floats-001 · Physics · Saturn would float, in a large enou
 physics-fact-venus-retrograde-001 · Physics · Venus spins backwards, and nobody fully knows why
 physics-fact-mars-olympus-001 · Physics · Olympus Mons is nearly three Everests, and gently sloped
 physics-fact-io-volcanic-001 · Physics · Io kneads itself into the most volcanic body known
+physics-fact-pulsar-clocks-001 · Physics · Some pulsars keep time rivaling atomic clocks
+physics-fact-gravitational-waves-2015-001 · Physics · In 2015 we heard two black holes collide
+physics-fact-time-crystal-space-001 · Physics · The oldest light we see left before Earth existed
+physics-fact-antimatter-banana-001 · Physics · Bananas emit antimatter, at a homeopathic rate

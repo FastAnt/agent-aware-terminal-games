@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "physics-fact-gravitational-waves-2015-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "In 2015 we heard two black holes collide",
+  "body": "LIGO detected gravitational waves from black holes merging 1.3 billion light-years away, as a chirp sweeping through tens of hertz while detectors' arms changed length by far less than a proton's width. Einstein had predicted the waves in 1916 and later doubted them. The signal matched supercomputer templates built from his equations.",
+  "source_hint": "LIGO GW150914 detection papers (2016)",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 2,
+        "angle": 40
+      },
+      {
+        "ring": 3,
+        "angle": 160
+      },
+      {
+        "ring": 4,
+        "angle": 290
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}
