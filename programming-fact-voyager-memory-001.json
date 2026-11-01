@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "programming-fact-voyager-memory-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "Voyager's computers remember less than a car key fob",
+  "body": "Launched in 1977, Voyager's computer system works with a few tens of kilobytes of memory, yet has operated for nearly five decades at the edge of interstellar space. Engineers still reprogram it remotely, working around failed parts in code older than most of the team. Longevity came from simplicity and margin, not power.",
+  "source_hint": "NASA Voyager mission documentation",
+  "scene": {
+    "type": "orbits",
+    "rings": 3,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 60
+      },
+      {
+        "ring": 2,
+        "angle": 190
+      },
+      {
+        "ring": 3,
+        "angle": 320
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

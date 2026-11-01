@@ -105,3 +105,12 @@ programming-fact-signals-coarse-001 · Programming · Unix signals are a doorbel
 programming-fact-everything-file-001 · Programming · 'Everything is a file' bent Unix toward uniformity
 programming-fact-chmod-bits-001 · Programming · Unix permissions are three bits read three times
 programming-fact-init-systemd-001 · Programming · PID 1 has one job nobody else can do
+programming-fact-apollo-rope-memory-001 · Programming · Apollo's memory was woven by hand, literally
+programming-fact-voyager-memory-001 · Programming · Voyager's computers remember less than a car key fob
+programming-fact-tech-debt-metaphor-001 · Programming · Technical debt was a metaphor about money, deliberately
+programming-fact-rubber-duck-001 · Programming · Programmers debug by explaining code to a duck
+programming-fact-heisenbug-001 · Programming · Some bugs vanish when you look at them: heisenbugs
+programming-fact-worse-is-better-001 · Programming · Worse is better: the philosophy that shipped Unix and C
+programming-fact-second-system-001 · Programming · The second system is the most dangerous one you build
+programming-fact-os360-lesson-001 · Programming · OS/360 taught the industry that schedules are not staffing
+programming-fact-nine-women-001 · Programming · Nine women cannot make a baby in one month

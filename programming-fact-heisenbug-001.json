@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-heisenbug-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "Some bugs vanish when you look at them: heisenbugs",
+  "body": "A heisenbug changes behaviour when observed, because adding logging or a debugger alters timing, memory layout or optimisation. Race conditions are the usual suspects. Its cousins classify by temperament: deterministic bohrbugs, ageing-related mandelbugs, and schroedinbugs that 'could never have worked' yet did, until someone read the code.",
+  "source_hint": "IEEE / Jargon File bug taxonomy",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "observe the bug",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "timing changes",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "bug hides",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

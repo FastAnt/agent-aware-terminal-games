@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-tech-debt-metaphor-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "Technical debt was a metaphor about money, deliberately",
+  "body": "Ward Cunningham coined 'technical debt' in 1992 to explain to business sponsors that shipping fast with imperfect code is like borrowing: fine if you pay down the principal by refactoring, ruinous if you only service the interest forever in workarounds. He later stressed it never meant sloppy code, which is just sloppiness.",
+  "source_hint": "Cunningham, OOPSLA '92 experience report",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "ship fast = borrow",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "refactor = repay",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "workarounds = interest",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}
