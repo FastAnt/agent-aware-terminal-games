@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-codd-relational-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "Databases were revolutionised by one internal report",
+  "body": "Edgar Codd's 1970 paper proposed storing data in relations and querying what you want rather than navigating pointers to find it. IBM, his employer, was slow; others built it, and SQL databases followed. Codd had to argue that a mathematical model beat hand-tuned access paths, and he was right.",
+  "source_hint": "Codd, 'A Relational Model of Data for Large Shared Data Banks' (1970)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "relations, not pointers",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "ask what, not how",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "SQL databases",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "fact",
+  "id": "programming-fact-ajax-gmail-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "Web apps became real when pages stopped reloading",
+  "body": "Gmail (2004) and Google Maps (2005) fetched data in the background with XMLHttpRequest instead of reloading whole pages, a bundle of tricks Jesse James Garrett named Ajax in 2005. The browser went from document viewer to application platform. Almost every modern web app is that idea, industrialised.",
+  "source_hint": "Garrett, 'Ajax: A New Approach to Web Applications' (2005)",
+  "scene": {
+    "type": "network",
+    "layers": [
+      2,
+      3,
+      2
+    ],
+    "anim": {
+      "type": "pulse",
+      "speed": 0.5
+    }
+  }
+}

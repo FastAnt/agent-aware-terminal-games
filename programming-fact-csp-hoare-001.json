@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-csp-hoare-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "Go's goroutines descend from a 1978 paper",
+  "body": "Tony Hoare's Communicating Sequential Processes described programs as processes passing messages on channels instead of sharing memory with locks. Occam, Erlang and later Go's 'share memory by communicating' all descend from it. The 1978 formalism became practical style once multicore machines made lock-heavy code painful.",
+  "source_hint": "Hoare, 'Communicating Sequential Processes', CACM 1978",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "process A",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "channel",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "process B",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

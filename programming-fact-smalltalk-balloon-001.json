@@ -1,0 +1,21 @@
+{
+  "type": "fact",
+  "id": "programming-fact-smalltalk-balloon-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "Smalltalk hid an entire computer inside every object",
+  "body": "Smalltalk, developed at Xerox PARC in the 1970s, made everything an object receiving messages, including numbers and classes themselves, with a live image you could inspect and change while running. Modern IDEs, unit-test culture and design patterns all carry its fingerprints, even in languages that look nothing like it.",
+  "source_hint": "Kay, 'The Early History of Smalltalk' (1993)",
+  "scene": {
+    "type": "network",
+    "layers": [
+      3,
+      3,
+      3
+    ],
+    "anim": {
+      "type": "pulse",
+      "speed": 0.5
+    }
+  }
+}

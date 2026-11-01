@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-opensource-cathedral-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "The Cathedral and the Bazaar argued open code works better",
+  "body": "Eric Raymond's 1997 essay contrasted cathedral-style software, built privately by a priesthood, with bazaar-style open development, concluding 'given enough eyeballs, all bugs are shallow'. Written from the fetchmail project, it helped persuade Netscape to open-source its browser in 1998, the decision that eventually produced Firefox.",
+  "source_hint": "Raymond, 'The Cathedral and the Bazaar' (1997)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "cathedral: closed",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "bazaar: open",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "bugs go shallow",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

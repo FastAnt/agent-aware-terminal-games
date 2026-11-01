@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-wikiwikiweb-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "The first wiki was named after a Honolulu bus",
+  "body": "Ward Cunningham launched WikiWikiWeb in 1995 so programmers could edit pattern pages in the browser; 'wiki' is Hawaiian for quick, which he had seen on airport shuttle signs. Letting every reader edit was radical then. Wikipedia adopted the model in 2001 and scaled it to an encyclopedia.",
+  "source_hint": "Cunningham, WikiWikiWeb (1995)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "edit in browser",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "wiki = quick",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "Wikipedia 2001",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

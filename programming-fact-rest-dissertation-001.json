@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-rest-dissertation-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "REST is a PhD thesis, not a protocol",
+  "body": "Roy Fielding's 2000 dissertation analysed why the Web scaled, and named its architectural style REST: stateless requests, uniform interfaces, cacheable responses. He had co-written the HTTP specification, so REST was a description of why the Web already worked, later applied, and often misapplied, to APIs everywhere.",
+  "source_hint": "Fielding, 'Architectural Styles and the Design of Network-based Software Architectures' (2000)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "how Web scaled",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "stateless + uniform",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "named REST",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

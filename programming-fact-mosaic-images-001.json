@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-mosaic-images-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "One browser feature made the Web popular: inline images",
+  "body": "The Web of 1992 was text links between documents. Mosaic, from NCSA in 1993, displayed images inside the page instead of in separate windows, and ran on ordinary PCs. Traffic exploded; the Web went from physicists' tool to public medium in about a year.",
+  "source_hint": "NCSA Mosaic release history (1993)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "text-only web",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "images inline",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "everyone arrives",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

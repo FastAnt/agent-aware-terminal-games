@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-fortran-1957-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "FORTRAN's promise: let scientists stop hand-coding machines",
+  "body": "When FORTRAN shipped in 1957, sceptics doubted compiled code could rival hand-written assembly. John Backus's team made optimisation the point, and it worked well enough that scientists could write formulas instead. FORTRAN dialects still run weather and physics codes whose lineage is older than most of their users.",
+  "source_hint": "IBM FORTRAN history, Backus (1957)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "formulas in",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "optimising compiler",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "machine code out",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

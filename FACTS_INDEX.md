@@ -55,3 +55,28 @@ programming-fact-gc-vs-refcount-001 · Programming · Reference counting cannot 
 programming-fact-turing-completeness-css-001 · Programming · CSS plus HTML was shown to be Turing complete
 programming-fact-stack-frames-001 · Programming · Recursion depth is limited by memory, not by the language
 programming-fact-pipes-mcilroy-001 · Programming · Unix pipes were one person's stubborn suggestion
+programming-fact-fortran-1957-001 · Programming · FORTRAN's promise: let scientists stop hand-coding machines
+programming-fact-lisp-homoiconic-001 · Programming · In Lisp, code is its own data structure
+programming-fact-simula-classes-001 · Programming · Classes and objects were invented to simulate ships
+programming-fact-codd-relational-001 · Programming · Databases were revolutionised by one internal report
+programming-fact-visicalc-killer-app-001 · Programming · The spreadsheet was the first killer app
+programming-fact-alto-gui-001 · Programming · The GUI, mouse and Ethernet shared one 1973 machine
+programming-fact-mosaic-images-001 · Programming · One browser feature made the Web popular: inline images
+programming-fact-pagerank-eigen-001 · Programming · Google began as an eigenvector problem
+programming-fact-mapreduce-paper-001 · Programming · MapReduce taught clusters by hiding the hard parts
+programming-fact-tcp-flag-day-001 · Programming · The Internet once switched protocols on a deadline
+programming-fact-dns-hosts-file-001 · Programming · DNS exists because one text file stopped scaling
+programming-fact-first-domain-001 · Programming · The first .com was a computer maker's, in 1985
+programming-fact-erlang-nines-001 · Programming · Erlang was built so phone switches basically never stop
+programming-fact-csp-hoare-001 · Programming · Go's goroutines descend from a 1978 paper
+programming-fact-smalltalk-balloon-001 · Programming · Smalltalk hid an entire computer inside every object
+programming-fact-prolog-facts-001 · Programming · Prolog programs state facts; the machine finds the proof
+programming-fact-haskell-laziness-001 · Programming · Lazy evaluation once united a fragmented field
+programming-fact-regex-kleene-001 · Programming · Regular expressions began as nerve-net mathematics
+programming-fact-emoji-kurita-001 · Programming · Emoji were 12 by 12 pixels, designed for pagers
+programming-fact-wikiwikiweb-001 · Programming · The first wiki was named after a Honolulu bus
+programming-fact-ajax-gmail-001 · Programming · Web apps became real when pages stopped reloading
+programming-fact-json-crockford-001 · Programming · JSON won by being a subset of something else
+programming-fact-rest-dissertation-001 · Programming · REST is a PhD thesis, not a protocol
+programming-fact-opensource-cathedral-001 · Programming · The Cathedral and the Bazaar argued open code works better
+programming-fact-netscape-open-001 · Programming · Mozilla was a codename before it was a foundation

@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-first-domain-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "The first .com was a computer maker's, in 1985",
+  "body": "Symbolics.com, registered 15 March 1985, was the first commercial domain name, for a Lisp-machine company. Only a handful of organisations registered domains that year at all. Symbolics later went bankrupt; the domain outlived the company and was sold as a piece of Internet history.",
+  "source_hint": "IANA / Symbolics.com registration record, 1985",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "1985",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "symbolics.com",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "first .com",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

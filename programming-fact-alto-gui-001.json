@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-alto-gui-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "The GUI, mouse and Ethernet shared one 1973 machine",
+  "body": "Xerox's Alto put bitmapped graphics, windows, a mouse and Ethernet into a single research computer in 1973. Xerox never sold it widely, but visits by Steve Jobs in 1979 famously carried its ideas to Apple. Much of personal computing is Alto's design, commercialised by others.",
+  "source_hint": "Xerox PARC Alto history (1973)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": " Alto 1973",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "windows + mouse",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "Ethernet built in",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-haskell-laziness-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "Lazy evaluation once united a fragmented field",
+  "body": "By the late 1980s a dozen research teams had similar lazy functional languages, so they formed a committee and designed Haskell as their common successor. Laziness, evaluating only what is demanded, lets infinite lists exist safely because unrequested tails are never computed. Purity plus laziness pushed type theory into industrial practice.",
+  "source_hint": "Hudak et al., 'A History of Haskell' (2007)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "demand only",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "infinite lists OK",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "pure + typed",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}
