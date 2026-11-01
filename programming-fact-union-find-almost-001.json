@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-union-find-almost-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "Union-find is constant for all practical purposes",
+  "body": "With path compression and union by rank, union-find's cost per operation is the inverse Ackermann function, which stays below 5 for any input that fits in the physical universe. Tarjan proved that eerie bound in 1975. Programmers round it to 'constant' and are, for once, safely right.",
+  "source_hint": "Tarjan (1975), disjoint-set union analysis",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "union + compress",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "inverse Ackermann",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "effectively O(1)",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

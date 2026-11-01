@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-inode-no-name-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "On Unix, a file's name is not part of the file",
+  "body": "An inode stores a Unix file's metadata and data pointers but not its name; directories are tables mapping names to inode numbers. That split is why hard links work: two names, one inode, one body of data, freed only when the last name and last open handle both go away.",
+  "source_hint": "Unix file system design (inode documentation)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "name in directory",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "inode number",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "data blocks",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-overcommit-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "Linux promises more memory than it has",
+  "body": "By default Linux's malloc rarely fails at allocation time: virtual memory is overcommitted on the theory that programs reserve more than they touch. The bet usually pays. When it fails, it fails later and rudely, as the OOM killer choosing a process to sacrifice mid-flight, one of production computing's ruder surprises.",
+  "source_hint": "Linux man pages: malloc, proc overcommit_memory",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "reserve generously",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "pages on touch",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "OOM if all call in",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

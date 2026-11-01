@@ -1,0 +1,20 @@
+{
+  "type": "fact",
+  "id": "programming-fact-simd-lanes-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "One instruction can do sixteen additions at once",
+  "body": "SIMD registers hold many small values side by side, and a single instruction operates on all lanes simultaneously. Image filters, codecs and neural nets are largely this trick repeated billions of times. GPUs push the same idea to thousands of lanes, which is why they, not CPUs, became the engines of machine learning.",
+  "source_hint": "Flynn's taxonomy (1966); Intel AVX / ARM NEON manuals",
+  "scene": {
+    "type": "network",
+    "layers": [
+      4,
+      4
+    ],
+    "anim": {
+      "type": "pulse",
+      "speed": 0.5
+    }
+  }
+}

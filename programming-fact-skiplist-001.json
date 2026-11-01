@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-skiplist-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "Skip lists balance themselves with coin flips",
+  "body": "A skip list layers express lanes over a sorted linked list: each element is promoted to a faster lane with probability one half. Searches skip most elements, averaging log n without any rotations or rebalancing. William Pugh published it in 1990 as a deliberately simpler rival to balanced trees, powered by randomness instead of bookkeeping.",
+  "source_hint": "Pugh, 'Skip Lists: A Probabilistic Alternative to Balanced Trees' (1990)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "express lanes",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "coin-flip levels",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "sorted list",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

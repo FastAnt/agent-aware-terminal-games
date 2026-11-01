@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "programming-fact-sieve-eratosthenes-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "A Greek sieve from 2300 years ago still finds primes",
+  "body": "Eratosthenes found primes by writing numbers up and crossing out multiples of each new prime; composites fall as multiples, primes are what remain uncrossed. The sieve of Eratosthenes still introduces algorithmic thinking, and optimised sieves enumerate primes below billions today. Its inventor also measured Earth's circumference, with sticks and shadows.",
+  "source_hint": "Eratosthenes (c. 240 BCE), via Nicomachus",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 2,
+        "angle": 30
+      },
+      {
+        "ring": 3,
+        "angle": 150
+      },
+      {
+        "ring": 4,
+        "angle": 280
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

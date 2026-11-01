@@ -80,3 +80,28 @@ programming-fact-json-crockford-001 · Programming · JSON won by being a subset
 programming-fact-rest-dissertation-001 · Programming · REST is a PhD thesis, not a protocol
 programming-fact-opensource-cathedral-001 · Programming · The Cathedral and the Bazaar argued open code works better
 programming-fact-netscape-open-001 · Programming · Mozilla was a codename before it was a foundation
+programming-fact-skiplist-001 · Programming · Skip lists balance themselves with coin flips
+programming-fact-hash-tree-bins-001 · Programming · Java's hash maps turn crowded buckets into tiny trees
+programming-fact-array-vs-list-cache-001 · Programming · Arrays beat linked lists on modern hardware by locality
+programming-fact-union-find-almost-001 · Programming · Union-find is constant for all practical purposes
+programming-fact-heap-array-tree-001 · Programming · A heap is a tree that lives inside an array
+programming-fact-reservoir-sampling-001 · Programming · You can sample fairly from a stream you cannot store
+programming-fact-majority-vote-001 · Programming · One counter finds a majority without counting everything
+programming-fact-fisher-yates-001 · Programming · A fair shuffle swaps each card with a random earlier one
+programming-fact-sieve-eratosthenes-001 · Programming · A Greek sieve from 2300 years ago still finds primes
+programming-fact-duffs-device-001 · Programming · Duff's device interleaves a switch with a loop, legally
+programming-fact-wal-survival-001 · Programming · Databases survive crashes by writing the diary first
+programming-fact-btree-width-001 · Programming · B-trees are wide because disks think in pages
+programming-fact-fork-exec-split-001 · Programming · Unix split 'run a program' into two operations
+programming-fact-zerocopy-sendfile-001 · Programming · Sending a file need not pass through your program
+programming-fact-overcommit-001 · Programming · Linux promises more memory than it has
+programming-fact-pagecache-invisible-001 · Programming · Your second read of a file usually never touches disk
+programming-fact-simd-lanes-001 · Programming · One instruction can do sixteen additions at once
+programming-fact-context-switch-cost-001 · Programming · Switching threads costs more than the switch
+programming-fact-timer-interrupts-001 · Programming · Multitasking exists because a clock keeps interrupting
+programming-fact-inode-no-name-001 · Programming · On Unix, a file's name is not part of the file
+programming-fact-deleted-open-file-001 · Programming · A deleted Unix file lives until its last user lets go
+programming-fact-signals-coarse-001 · Programming · Unix signals are a doorbell, not a message
+programming-fact-everything-file-001 · Programming · 'Everything is a file' bent Unix toward uniformity
+programming-fact-chmod-bits-001 · Programming · Unix permissions are three bits read three times
+programming-fact-init-systemd-001 · Programming · PID 1 has one job nobody else can do

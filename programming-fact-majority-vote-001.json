@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-majority-vote-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "One counter finds a majority without counting everything",
+  "body": "The Boyer-Moore majority vote keeps one candidate and one counter: matching items increment, others decrement, and a zero counter swaps candidates. If anything occurs more than half the time it must survive the cancelling. Two passes and constant memory solve a problem that looks like it needs a full tally.",
+  "source_hint": "Boyer and Moore (1981), MJRTY algorithm",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "candidate + count",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "others cancel",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "majority survives",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

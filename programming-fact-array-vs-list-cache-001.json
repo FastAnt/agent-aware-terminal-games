@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-array-vs-list-cache-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "Arrays beat linked lists on modern hardware by locality",
+  "body": "A linked list can need a slow memory fetch for every element, because nodes scatter across RAM, while an array streams through prefetched cache lines. So lists often lose even where their textbook operation count wins. Big-O counts operations; hardware charges for distance, and the second bill is bigger than textbooks suggest.",
+  "source_hint": "Cache behaviour measurements; Intel optimisation manuals",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "scattered nodes",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "pointer chasing",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "arrays stream",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

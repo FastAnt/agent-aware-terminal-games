@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-context-switch-cost-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "Switching threads costs more than the switch",
+  "body": "Saving registers for a context switch is cheap; the real bill arrives after, when the new thread finds caches and branch predictors full of its predecessor's life. Performance engineers call this the indirect cost, and it dwarfs the direct one. It is a main reason event loops and async I/O beat thread-per-connection at scale.",
+  "source_hint": "Operating-systems literature on context-switch costs",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "save registers",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "caches polluted",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "indirect cost",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

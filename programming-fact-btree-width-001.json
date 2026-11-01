@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-btree-width-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "B-trees are wide because disks think in pages",
+  "body": "A B-tree node is sized to a disk page, so one read fetches hundreds of keys and the tree over millions of rows stays three or four levels deep. Depth, not comparisons, is what a database pays for. The design, from Bayer and McCreight in 1970, is hardware-shaped in a way balanced binary trees are not.",
+  "source_hint": "Bayer and McCreight (1970); database internals literature",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "page-sized node",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "hundreds of keys",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "3-4 levels deep",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

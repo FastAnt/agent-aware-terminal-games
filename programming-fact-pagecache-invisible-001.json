@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-pagecache-invisible-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "Your second read of a file usually never touches disk",
+  "body": "Operating systems keep recently read file pages in otherwise idle RAM, the page cache. A program rereading a file is often reading memory at memory speed, unaware anything was cached. This is why benchmarks magically improve on the second run, and why 'cold cache' is a mandatory confession in performance reports.",
+  "source_hint": "Linux page cache documentation",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "first read: disk",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "pages stay in RAM",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "second read: fast",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-fork-exec-split-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "Unix split 'run a program' into two operations",
+  "body": "Most systems combine starting a program into one call; Unix split it into fork, which duplicates the caller, and exec, which replaces the duplicate with a new program. The gap between them lets the shell set up pipes and redirections in the child before it transforms. Awkward at first sight, it is why shell composition is so fluid.",
+  "source_hint": "Ritchie and Thompson, Unix design histories",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "fork: duplicate",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "redirect in child",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "exec: transform",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

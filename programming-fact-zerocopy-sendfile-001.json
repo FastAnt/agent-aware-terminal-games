@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "programming-fact-zerocopy-sendfile-001",
+  "kicker": "FACT",
+  "topic": "Programming",
+  "title": "Sending a file need not pass through your program",
+  "body": "Copying a file to a socket the naive way hauls bytes disk-to-kernel-to-user-to-kernel-to-network. The sendfile call lets the kernel move data directly, so web servers stopped burning CPU on copies that added nothing. 'Zero-copy' really means zero unnecessary copies; the bytes still travel, the middleman retires.",
+  "source_hint": "sendfile(2) man page and kernel documentation",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "file on disk",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "kernel direct",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "socket out",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}
