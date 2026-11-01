@@ -89,6 +89,16 @@ If this file and the code disagree, **the code wins**:
   sentence, explanation 1–2 sentences and teaching something.
   English text.
 
+## Project-correlated content (the Content Researcher)
+
+A separate agent component creates games and fact cards about
+a *specific project's* domain (audio spectrograms, cloud
+bottlenecks, ciphers), keyed to the user's latest task. It has
+its own skills and lifecycle and deposits into the project's
+hidden `.aat/content/` folder, never into this base repo. Read
+`content-researcher/README.md` and `SKILL.md` in the main repo
+before doing project work.
+
 Legacy note: the engine also renders declarative JSON packs
 (`scene: orbits|diagram|network`) — fine for simple unscored
 cards, but new games should be code.
