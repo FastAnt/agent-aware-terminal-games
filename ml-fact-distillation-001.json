@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "ml-fact-distillation-001",
+  "kicker": "FACT",
+  "topic": "Machine learning",
+  "title": "A small model can be taught by a big one's hesitations",
+  "body": "Knowledge distillation trains a compact student on a teacher's soft probabilities, not just correct answers; the teacher's near-misses (this 2 is somewhat 7-like) carry the dark knowledge that speeds learning. Hinton, Vinyals and Dean's 2015 paper made model compression a teaching problem. The student often nearly matches a teacher many times its size.",
+  "source_hint": "Hinton, Vinyals, Dean (2015)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "teacher's soft odds",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "student imitates",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "small, nearly as good",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

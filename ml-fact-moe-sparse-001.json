@@ -1,0 +1,21 @@
+{
+  "type": "fact",
+  "id": "ml-fact-moe-sparse-001",
+  "kicker": "FACT",
+  "topic": "Machine learning",
+  "title": "Mixture of experts lets a model be big and cheap at once",
+  "body": "MoE layers route each token to a few specialist sub-networks out of many, so total parameters can be enormous while per-token computation stays modest. Shazeer and colleagues introduced the modern sparsely-gated version at Google in 2017. The catch moves elsewhere: load balancing the experts and the memory to hold them all.",
+  "source_hint": "Shazeer et al. (2017), sparsely-gated MoE",
+  "scene": {
+    "type": "network",
+    "layers": [
+      1,
+      4,
+      1
+    ],
+    "anim": {
+      "type": "pulse",
+      "speed": 0.5
+    }
+  }
+}

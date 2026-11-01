@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "ml-fact-pretraining-finetuning-001",
+  "kicker": "FACT",
+  "topic": "Machine learning",
+  "title": "Pretrain then fine-tune inverted who does the work",
+  "body": "Instead of training per task, the field converged on pretraining one model on broad data and lightly fine-tuning it per purpose, so task-specific data needs collapsed from millions of labels to thousands of examples. BERT's 2018 results across eleven tasks made the recipe canonical. The expensive intelligence is bought once, the manners per occasion.",
+  "source_hint": "Devlin et al., BERT (2018)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "pretrain on everything",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "fine-tune lightly",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "task solved cheaply",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

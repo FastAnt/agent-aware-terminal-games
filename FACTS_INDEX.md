@@ -393,3 +393,13 @@ ml-fact-knn-simplicity-001 · Machine learning · k-NN was analysed in 1967 and 
 ml-fact-decision-tree-entropy-001 · Machine learning · Decision trees ask the question that splits doubt best
 ml-fact-naive-bayes-works-001 · Machine learning · Naive Bayes lies about independence and often wins
 ml-fact-pca-eigenfaces-001 · Machine learning · Faces compress into ghostly averages called eigenfaces
+ml-fact-moe-sparse-001 · Machine learning · Mixture of experts lets a model be big and cheap at once
+ml-fact-distillation-001 · Machine learning · A small model can be taught by a big one's hesitations
+ml-fact-self-attention-cost-001 · Machine learning · Attention's power bill grows with the square of length
+ml-fact-positional-rope-001 · Machine learning · Models know word order only because we inject it
+ml-fact-pretraining-finetuning-001 · Machine learning · Pretrain then fine-tune inverted who does the work
+ml-fact-emergent-abilities-debate-001 · Machine learning · 'Emergent abilities' may partly be a mirage of metrics
+ml-fact-hallucination-mechanism-001 · Machine learning · Hallucination is the training objective working as designed
+ml-fact-eval-contamination-001 · Machine learning · Benchmarks leak into training data and inflate scores
+ml-fact-human-feedback-cost-001 · Machine learning · The humans in RLHF are an invisible workforce
+ml-fact-open-weights-irreversible-001 · Machine learning · Released weights cannot be unreleased

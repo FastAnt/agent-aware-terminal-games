@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "ml-fact-hallucination-mechanism-001",
+  "kicker": "FACT",
+  "topic": "Machine learning",
+  "title": "Hallucination is the training objective working as designed",
+  "body": "A language model is rewarded for plausible continuations; nothing in plain next-token training pays for saying 'I don't know' or checking a source. Fluent fabrication is therefore not a bug layered on the design but the design unaccompanied by grounding. Retrieval, citations and abstention training are grafts of conscience onto a storyteller.",
+  "source_hint": "Next-token prediction objective; hallucination surveys",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "predict plausible text",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "truth not in the loss",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "fluent invention",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

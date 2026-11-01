@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "ml-fact-human-feedback-cost-001",
+  "kicker": "FACT",
+  "topic": "Machine learning",
+  "title": "The humans in RLHF are an invisible workforce",
+  "body": "Ranking model outputs for preference training is done by contracted annotators following long guidelines, making judgement calls about helpfulness and harm at hourly rates. The polished assistant personality is partly their aggregated taste, operationalised. Supply chains of cognition deserve the same scrutiny as supply chains of parts, a lesson the industry is learning in public.",
+  "source_hint": "InstructGPT and RLHF documentation (2022 onward)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "annotators rank",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "guidelines shape taste",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "personality emerges",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

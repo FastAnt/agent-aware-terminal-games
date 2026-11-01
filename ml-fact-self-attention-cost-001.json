@@ -1,0 +1,20 @@
+{
+  "type": "fact",
+  "id": "ml-fact-self-attention-cost-001",
+  "kicker": "FACT",
+  "topic": "Machine learning",
+  "title": "Attention's power bill grows with the square of length",
+  "body": "Every token attending to every token costs n-squared score computations and memory for a sequence of length n, which is why context windows were tiny for years and why efficient-attention papers are an industry. Doubling context quadruples that part of the bill. Long-context models are as much accounting as architecture.",
+  "source_hint": "Vaswani et al. (2017), complexity analysis",
+  "scene": {
+    "type": "network",
+    "layers": [
+      4,
+      4
+    ],
+    "anim": {
+      "type": "pulse",
+      "speed": 0.5
+    }
+  }
+}
