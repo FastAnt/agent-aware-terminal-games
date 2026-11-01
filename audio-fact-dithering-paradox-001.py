@@ -122,6 +122,19 @@ def _bars(cr, view, items, x0, y0, bw, gap, maxv):
         _t(cr, view, x0 + i * (bw + gap) + bw / 2, y0 - bh - 12, val, 11, "text")
 
 
+def _waveplot(cr, view, x0, y0, wdt, hgt, mode, label):
+    _line(cr, view, x0, y0, x0 + wdt, y0, "muted", 0.45)
+    cr.new_path()
+    for i in range(61):
+        f = i/60; s = math.sin(f*6.2832)
+        if mode == "steps": s = round(s*2)/2
+        if mode == "dither": s = round(s*2)/2 + ((i*37) % 5 - 2)*0.06
+        x, y = x0 + f*wdt, y0 - s*hgt
+        cr.line_to(x, y) if i else cr.move_to(x, y)
+    cr.set_source_rgba(*view.colors["square" if mode != "steps" else "text"], 0.95); cr.set_line_width(1.8); cr.stroke()
+    _t(cr, view, x0 + wdt/2, y0 + hgt + 22, label, 11, "muted")
+
+
 def paint(cr, view):
     w, h = view.w, view.h
     _waveplot(cr, view, w*0.08, h*0.34, w*0.36, h*0.13, "sine", "the signal")

@@ -122,6 +122,15 @@ def _bars(cr, view, items, x0, y0, bw, gap, maxv):
         _t(cr, view, x0 + i * (bw + gap) + bw / 2, y0 - bh - 12, val, 11, "text")
 
 
+def _hex(cr, view, cx, cy, r, fill=False):
+    pts = [(cx + r*math.cos(j*1.047), cy + r*math.sin(j*1.047)) for j in range(6)]
+    cr.new_path(); cr.move_to(*pts[0])
+    for p in pts[1:]: cr.line_to(*p)
+    cr.close_path()
+    if fill: cr.set_source_rgba(*view.colors["square"], 0.85); cr.fill()
+    else: cr.set_source_rgba(*view.colors["text"], 0.55); cr.set_line_width(1.1); cr.stroke()
+
+
 def paint(cr, view):
     w, h, t = view.w, view.h, view.t
     r = min(w, h)*0.1
