@@ -128,10 +128,14 @@ def paint(cr, view):
         x = w*(0.14 + i*0.17)
         _box(cr, view, x, h*0.34, w*0.12, h*0.24, f"tape {i+1}", 10)
         _circ(cr, view, x + w*0.06, h*0.42, 9, "muted", 0.7, 1.4)
+        # the reels turn, slowly, forever untested
+        a = t * (0.5 + i * 0.17)
+        _circ(cr, view, x + w*0.06 + 5.5*math.cos(a),
+              h*0.42 + 5.5*math.sin(a), 2.2, "square", 0.9, fill=True)
     _line(cr, view, w*0.1, h*0.62, w*0.86, h*0.62, "text", 0.8, 2)
     _t(cr, view, w*0.12, h*0.3, "backups, dutifully written", 11, "muted", align="l")
     _box(cr, view, w*0.6, h*0.7, w*0.28, h*0.13, "restore test: NEVER TRIED", 11, fill_col="square")
     _t(cr, view, w*0.74, h*0.68, "?", 20, "square")
     blink = 0.6 + 0.4*math.sin(t*2.4)
-    _t(cr, view, w*0.2, h*0.78, "an untested restore is a hope, not a backup", 12, "text", align="l")
+    _t(cr, view, w*0.2, h*0.78, "an untested restore is a hope, not a backup", 12, "text", blink, align="l")
 
