@@ -448,34 +448,34 @@ geometry-fact-desargues-shadow-001 · Geometry · Two triangles, perspective fro
 geometry-fact-pascal-hexagon-001 · Geometry · Six points on a conic hide a straight line · visual: bespoke
 geometry-fact-tesseract-net-001 · Geometry · A hypercube unfolds into eight cubes · visual: bespoke
 geometry-fact-soddy-poem-001 · Geometry · A geometry theorem was published as a love poem · visual: bespoke
-geometry-fact-japanese-sangaku-lost-001 · Geometry · Most sangaku tablets rotted away
-geometry-fact-constant-width-body-001 · Geometry · Constant-width solids that are not spheres
+geometry-fact-japanese-sangaku-lost-001 · Geometry · Most sangaku tablets rotted away · visual: bespoke
+geometry-fact-constant-width-body-001 · Geometry · Constant-width solids that are not spheres · visual: bespoke
 geometry-fact-sphere-packing-dim8-001 · Geometry · Sphere packing in 8D fell to a short proof · visual: bespoke
-geometry-fact-gerrymandering-geometry-001 · Geometry · District shapes can be measured for mischief
+geometry-fact-gerrymandering-geometry-001 · Geometry · District shapes can be measured for mischief · visual: bespoke
 geometry-fact-voronoi-nature-001 · Geometry · Voronoi cells grow in giraffes, mud and dragonfly wings · visual: bespoke
-audio-fact-aliasing-fold-001 · Audio & DSP · Too-high notes fold into false low ones: aliasing
+audio-fact-aliasing-fold-001 · Audio & DSP · Too-high notes fold into false low ones: aliasing · visual: bespoke
 audio-fact-dithering-paradox-001 · Audio & DSP · Adding noise can make digital audio more accurate · visual: bespoke
-audio-fact-missing-fundamental-001 · Audio & DSP · Your phone plays bass notes it cannot physically make
-audio-fact-loudness-curves-001 · Audio & DSP · Ears are not microphones: bass vanishes when quiet
-audio-fact-precedence-haas-001 · Audio & DSP · The first sound to arrive owns the direction
-audio-fact-shepard-tone-001 · Audio & DSP · A tone can rise forever and never get higher
-audio-fact-deutsch-octave-001 · Audio & DSP · The octave illusion puts sounds in the wrong ear
-audio-fact-mp3-masking-001 · Audio & DSP · MP3 deletes sounds you would not have heard anyway
-audio-fact-loudness-war-001 · Audio & DSP · Music got louder by getting dynamically poorer
-audio-fact-a440-standard-001 · Audio & DSP · Concert A became 440 Hz only in the twentieth century
-audio-fact-piano-stretch-001 · Audio & DSP · Pianos are tuned deliberately out of tune
-audio-fact-cochlea-place-001 · Audio & DSP · Your inner ear is a piano laid out in a spiral
-audio-fact-ears-emit-sound-001 · Audio & DSP · Healthy ears emit faint sounds of their own
-audio-fact-autotune-cher-001 · Audio & DSP · Auto-Tune's famous warble was a setting, not an accident
-audio-fact-vocoder-war-001 · Audio & DSP · The vocoder was built to shrink and secret speech
-audio-fact-theremin-touchless-001 · Audio & DSP · The theremin is played without touching it
-audio-fact-stradivarius-blind-001 · Audio & DSP · Blindfolded players do not reliably pick Stradivari
-audio-fact-sabine-reverb-001 · Audio & DSP · Reverb science began with seat cushions at night
-audio-fact-room-modes-001 · Audio & DSP · Small rooms boom at notes set by their walls
-cloud-fact-fiber-light-speed-001 · Cloud · Light in fiber goes about 200 km per millisecond
-cloud-fact-latency-floor-001 · Cloud · Geography sets a latency floor no provider can beat
-cloud-fact-station-wagon-bandwidth-001 · Cloud · Never underestimate a station wagon full of tapes
-cloud-fact-snowmobile-exabyte-001 · Cloud · AWS once sent an 18-wheeler to collect exabytes
+audio-fact-missing-fundamental-001 · Audio & DSP · Your phone plays bass notes it cannot physically make · visual: bespoke
+audio-fact-loudness-curves-001 · Audio & DSP · Ears are not microphones: bass vanishes when quiet · visual: bespoke
+audio-fact-precedence-haas-001 · Audio & DSP · The first sound to arrive owns the direction · visual: bespoke
+audio-fact-shepard-tone-001 · Audio & DSP · A tone can rise forever and never get higher · visual: bespoke
+audio-fact-deutsch-octave-001 · Audio & DSP · The octave illusion puts sounds in the wrong ear · visual: bespoke
+audio-fact-mp3-masking-001 · Audio & DSP · MP3 deletes sounds you would not have heard anyway · visual: bespoke
+audio-fact-loudness-war-001 · Audio & DSP · Music got louder by getting dynamically poorer · visual: bespoke
+audio-fact-a440-standard-001 · Audio & DSP · Concert A became 440 Hz only in the twentieth century · visual: bespoke
+audio-fact-piano-stretch-001 · Audio & DSP · Pianos are tuned deliberately out of tune · visual: bespoke
+audio-fact-cochlea-place-001 · Audio & DSP · Your inner ear is a piano laid out in a spiral · visual: bespoke
+audio-fact-ears-emit-sound-001 · Audio & DSP · Healthy ears emit faint sounds of their own · visual: bespoke
+audio-fact-autotune-cher-001 · Audio & DSP · Auto-Tune's famous warble was a setting, not an accident · visual: bespoke
+audio-fact-vocoder-war-001 · Audio & DSP · The vocoder was built to shrink and secret speech · visual: bespoke
+audio-fact-theremin-touchless-001 · Audio & DSP · The theremin is played without touching it · visual: bespoke
+audio-fact-stradivarius-blind-001 · Audio & DSP · Blindfolded players do not reliably pick Stradivari · visual: bespoke
+audio-fact-sabine-reverb-001 · Audio & DSP · Reverb science began with seat cushions at night · visual: bespoke
+audio-fact-room-modes-001 · Audio & DSP · Small rooms boom at notes set by their walls · visual: bespoke
+cloud-fact-fiber-light-speed-001 · Cloud · Light in fiber goes about 200 km per millisecond · visual: bespoke
+cloud-fact-latency-floor-001 · Cloud · Geography sets a latency floor no provider can beat · visual: bespoke
+cloud-fact-station-wagon-bandwidth-001 · Cloud · Never underestimate a station wagon full of tapes · visual: bespoke
+cloud-fact-snowmobile-exabyte-001 · Cloud · AWS once sent an 18-wheeler to collect exabytes · visual: bespoke
 cloud-fact-data-gravity-001 · Cloud · Data attracts applications the way mass attracts mass
 cloud-fact-az-correlated-001 · Cloud · Availability zones fail together more often than brochures
 cloud-fact-cell-based-001 · Cloud · Amazon confines failures by building in cells · visual: bespoke

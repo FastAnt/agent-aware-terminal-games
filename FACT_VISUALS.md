@@ -1256,3 +1256,58 @@ that. Status is tracked in FACTS_INDEX.md ("visual: bespoke").
   collinear.
 - geometry-fact-soddy-poem-001 — Kissing circles with verses
   text lines beside: "The Kiss Precise" 1936 Nature poem.
+
+## Batch C15 — chains, part 15 (25)
+
+- geometry-fact-japanese-sangaku-lost-001 — Row of temple
+  tablets, most faded/cracked to outlines, one remaining vivid.
+- geometry-fact-constant-width-body-001 — A Meissner-ish
+  rounded tetrahedron silhouette calipers measuring same
+  width in three orientations.
+- geometry-fact-gerrymandering-geometry-001 — Map grid
+  districts: fair squares vs one salamander district,
+  efficiency gap numbers.
+- audio-fact-aliasing-fold-001 — Frequency axis folding at
+  Nyquist like paper: high tone folding to false low position.
+- audio-fact-missing-fundamental-001 — Harmonics ladder
+  200/300/400 Hz with 100 missing but a "heard: 100 Hz" ear.
+- audio-fact-loudness-curves-001 — Equal-loudness curves:
+  at low volume bass line needs boosting (Fletcher-Munson).
+- audio-fact-precedence-haas-001 — Two speakers, first wave
+  arriving 5 ms earlier wins direction arrow.
+- audio-fact-shepard-tone-001 — Circular staircase of tones
+  rising, pitch barberpole: octaves crossfading.
+- audio-fact-deutsch-octave-001 — Headphones L/R with high/low
+  tones swapping ears, perceived locations wrong.
+- audio-fact-mp3-masking-001 — Loud tone with quiet neighbour
+  tone under masking hill, deleted parts marked.
+- audio-fact-loudness-war-001 — Waveform blocks: 1983 dynamic
+  vs 2005 brick, loudness meter vs crest.
+- audio-fact-a440-standard-001 — Tuning forks labelled
+  415/435/440/444 through history to 440 standard.
+- audio-fact-piano-stretch-001 — Keyboard with octave tuning
+  curve stretched past pure at both ends (Railsback).
+- audio-fact-cochlea-place-001 — Spiral cochlea unrolled to
+  keyboard: base high notes, apex low.
+- audio-fact-ears-emit-sound-001 — Ear canal with tiny outward
+  wave arrows and microphone detecting otoacoustic emissions.
+- audio-fact-autotune-cher-001 — Pitch trace stair-stepping
+  to notes at zero retune speed, "Believe" 1998.
+- audio-fact-vocoder-war-001 — Voice into band filters and
+  buzz source, SIGSALY secrecy phone.
+- audio-fact-theremin-touchless-001 — Instrument with two
+  antennas, hands in air, pitch/volume fields.
+- audio-fact-stradivarius-blind-001 — Two violins behind a
+  blindfold screen, preference tally ~even.
+- audio-fact-sabine-reverb-001 — Lecture hall, cushions being
+  carried in at night, stopwatch echo decay.
+- audio-fact-room-modes-001 — Room box with standing wave
+  humps between walls at modal frequencies.
+- cloud-fact-fiber-light-speed-001 — Fiber cable with light
+  pulse, odometer 200 km per ms vs vacuum 300.
+- cloud-fact-latency-floor-001 — Two cities on globe with
+  light-time floor bar no provider beats.
+- cloud-fact-station-wagon-bandwidth-001 — Station wagon full
+  of tape boxes vs network line throughput chart.
+- cloud-fact-snowmobile-exabyte-001 — Truck (Snowmobile) with
+  drive racks, exabyte scale bar.
