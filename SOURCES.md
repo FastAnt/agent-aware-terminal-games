@@ -1,6 +1,6 @@
 # Sources, inspiration and licensing
 
-All 102 games added in this batch are **original** questions,
+All 100 games kept from this batch are **original** questions,
 explanations and cairo scenes written for this project. No text,
 images, code or level data were copied from the sites below.
 They were visited (Nov 2026) only to study what makes a good
@@ -37,13 +37,20 @@ condition, calm presentation.
 
 ## This batch
 
-102 new code games (`*-001.py`) plus the 3 original base games =
-105 games: physics 23+1, geometry 14, math 20, programming 20,
+300 code games (`*-001.py`) plus the 3 original base games =
+303 games. Second batch (200): logic gates/truth tables/Venn/laws,
+matrices with real grids and operations, harmonic waves/Fourier/
+standing waves, NN ops (convolution, pooling, activations, softmax,
+attention, dropout, residual), cryptography (Caesar, XOR, hashes,
+keys, signatures), engineering (stress/strain, gears, beams, PID,
+Bernoulli). Each scene draws its own subject with its own data.
 architecture 12+1, ml 13+1. Three interaction shapes copied from
 the base games: button-choice quizzes with an animated scene,
 clickable node diagrams (`target_at` via `view.node_hit`), and
 clickable orbit rings (`view.orbit_hit`). All paint with
 `view.colors` only, Inter, calm `view.t` motion, answered state
 highlighted. Verified with `python3 tools/test_game.py games-base/`
-(ALL OK) and by inspecting dark/light previews in
-`/tmp/game-previews/`.
+(ALL OK, 303/303) and by inspecting dark/light previews in
+`/tmp/game-previews3/` (per-category spot checks). Per REVIEW.md: 76 scenes were rewritten
+bespoke, the planet family was consolidated to Earth+Jupiter
+with labelled rings, and INDEX.md now ledgers every game.

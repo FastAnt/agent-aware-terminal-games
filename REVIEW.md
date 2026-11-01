@@ -338,3 +338,288 @@ remain excluded because they are base games, not batch items.
 5. Then continue to 300 — with ≥40 games about THIS project
    (read the app: square states, System-1, the deck, adapters),
    and scene-first design: sketch the picture, then the question.
+
+## Review — second batch (200 new games), 2026-11-01
+
+Method: `tools/test_game.py` on all 303 files (303/303 pass —
+loading, playthrough, click probes, motion), contact sheets of
+all 200 new dark previews, full-size spot checks, meta audit of
+all 200 questions (no duplicates, no duplicate ids).
+
+### The feedback loop worked
+
+The sine-wave trio from the first review is fixed properly:
+`geometry-parallel-lines-001` now draws two parallel lines with
+a transversal, `math-absolute-value-001` is a true V-graph,
+`geometry-supplementary-001` shows two angles on a straight
+line. 76 first-batch games were reworked; the direction is
+right. INDEX.md exists and is a real ledger (303 rows). Overall
+this batch is far stronger: Venn diagrams for set games,
+gate diagrams with live inputs for logic gates, real
+convolution/pooling layouts, superposition waves that actually
+cancel. Verdicts: **Fits 109 · Partly fits 83 · Does not fit 8.**
+
+### What still needs fixing
+
+1. **Still nothing committed.** The 200 new games and 76
+   reworks sat untracked/uncommitted (only doc commits landed).
+   They are committed alongside this review, as last time.
+   Commit per batch — this is the third reminder.
+2. **`__pycache__/` is tracked in this repo.** Remove it from
+   tracking and add it to `.gitignore`; bytecode is not source.
+3. **New template families are forming.** Better than batch 1
+   (each family is at least the right *kind* of picture), but
+   watch the counts: equation flashcards for ~15 logic laws
+   (two text boxes and an "="), the bare 2×2 matrix for ~20
+   matrix games, the loss-bowl for gradient/L2/MSE, the spring
+   icon for 6 SHM games, the 3-box flow for ~17 crypto games,
+   the feedback loop for all 4 PID games, Caesar alphabets ×5.
+   A template is allowed when it *is* the subject — gates,
+   pooling, standing waves pass that test. Flashcards do not:
+   the scene must add information beyond the question text.
+4. **Topic skew.** New programming games are ~90%
+   crypto/security/gates; physics leans on waves and springs;
+   math on matrices and logic laws. Fine as depth, but the deck
+   needs breadth (data structures, algorithms, everyday
+   physics) — and project-domain games still live only in the
+   Content Researcher track (none deposited yet in the projects
+   checked).
+5. **One rendering bug:** `physics-wave-amplitude-read-001`
+   draws its wave off-canvas (amplitude overflows the frame,
+   caption collides with the curve). Scale to the view.
+
+### Fits — no mandatory visual rework (109)
+
+| Game | Visual fits the game? | Visual rework needed? |
+| --- | --- | --- |
+| architecture-beam-bending-001 | Fits | No |
+| math-biconditional-001 | Fits | No |
+| math-contradiction-law-001 | Fits | No |
+| math-implication-false-001 | Fits | No |
+| math-implies-vacuous-001 | Fits | No |
+| math-matrix-add-compute-001 | Fits | No |
+| math-matrix-diagonal-def-001 | Fits | No |
+| math-matrix-dot-view-001 | Fits | No |
+| math-matrix-identity-entries-001 | Fits | No |
+| math-matrix-rotation-001 | Fits | No |
+| math-matrix-scalar-001 | Fits | No |
+| math-matrix-scaling-001 | Fits | No |
+| math-matrix-shear-001 | Fits | No |
+| math-matrix-symmetric-001 | Fits | No |
+| math-matrix-trace-compute-001 | Fits | No |
+| math-matrix-transpose-compute-001 | Fits | No |
+| math-set-complement-001 | Fits | No |
+| math-tautology-001 | Fits | No |
+| math-venn-intersection-001 | Fits | No |
+| math-venn-union-001 | Fits | No |
+| ml-attention-score-001 | Fits | No |
+| ml-conv-output-size-001 | Fits | No |
+| ml-conv-padding-001 | Fits | No |
+| ml-conv-purpose-001 | Fits | No |
+| ml-conv-stride-001 | Fits | No |
+| ml-cross-entropy-001 | Fits | No |
+| ml-dropout-test-001 | Fits | No |
+| ml-dropout-train-001 | Fits | No |
+| ml-leaky-relu-001 | Fits | No |
+| ml-perceptron-sum-001 | Fits | No |
+| ml-pool-avg-001 | Fits | No |
+| ml-pool-max-001 | Fits | No |
+| ml-relu-formula-001 | Fits | No |
+| ml-relu-negative-001 | Fits | No |
+| ml-residual-why-001 | Fits | No |
+| ml-sigmoid-range-001 | Fits | No |
+| ml-sigmoid-zero-001 | Fits | No |
+| ml-softmax-largest-001 | Fits | No |
+| ml-softmax-sum-001 | Fits | No |
+| ml-softmax-temperature-001 | Fits | No |
+| ml-tanh-range-001 | Fits | No |
+| physics-beats-frequency-001 | Fits | No |
+| physics-bernoulli-001 | Fits | No |
+| physics-center-mass-stability-001 | Fits | No |
+| physics-continuity-eq-001 | Fits | No |
+| physics-cosine-start-001 | Fits | No |
+| physics-damping-effect-001 | Fits | No |
+| physics-fourier-idea-001 | Fits | No |
+| physics-fourier-square-001 | Fits | No |
+| physics-gear-direction-001 | Fits | No |
+| physics-gear-ratio-001 | Fits | No |
+| physics-gear-torque-trade-001 | Fits | No |
+| physics-harmonic-third-string-001 | Fits | No |
+| physics-lever-balance-001 | Fits | No |
+| physics-pascal-law-001 | Fits | No |
+| physics-pulley-advantage-001 | Fits | No |
+| physics-simple-supported-max-001 | Fits | No |
+| physics-sine-derivative-001 | Fits | No |
+| physics-standing-antinode-001 | Fits | No |
+| physics-standing-node-001 | Fits | No |
+| physics-string-wavelength-2nd-001 | Fits | No |
+| physics-super-constructive-001 | Fits | No |
+| physics-super-destructive-001 | Fits | No |
+| physics-torque-def-001 | Fits | No |
+| physics-wave-angular-freq-001 | Fits | No |
+| physics-wave-period-freq-001 | Fits | No |
+| physics-wave-phase-shift-001 | Fits | No |
+| physics-wave-speed-harmonic-001 | Fits | No |
+| physics-young-modulus-001 | Fits | No |
+| programming-aes-block-001 | Fits | No |
+| programming-and-gate-001 | Fits | No |
+| programming-and-truth-row-001 | Fits | No |
+| programming-asymmetric-pair-001 | Fits | No |
+| programming-blockchain-link-001 | Fits | No |
+| programming-brute-keyspace-001 | Fits | No |
+| programming-caesar-decrypt-001 | Fits | No |
+| programming-caesar-shift3-001 | Fits | No |
+| programming-certificate-role-001 | Fits | No |
+| programming-diffie-hellman-001 | Fits | No |
+| programming-encoding-not-crypto-001 | Fits | No |
+| programming-hash-avalanche-001 | Fits | No |
+| programming-hash-oneway-001 | Fits | No |
+| programming-hmac-purpose-001 | Fits | No |
+| programming-key-128-001 | Fits | No |
+| programming-nand-gate-001 | Fits | No |
+| programming-negative-feedback-001 | Fits | No |
+| programming-nonce-purpose-001 | Fits | No |
+| programming-nor-gate-001 | Fits | No |
+| programming-not-gate-001 | Fits | No |
+| programming-onetime-pad-001 | Fits | No |
+| programming-or-gate-001 | Fits | No |
+| programming-or-truth-row-001 | Fits | No |
+| programming-pid-d-001 | Fits | No |
+| programming-pid-i-001 | Fits | No |
+| programming-pid-p-001 | Fits | No |
+| programming-pki-trust-001 | Fits | No |
+| programming-public-encrypt-001 | Fits | No |
+| programming-replay-attack-001 | Fits | No |
+| programming-rot13-001 | Fits | No |
+| programming-salt-purpose-001 | Fits | No |
+| programming-signature-key-001 | Fits | No |
+| programming-signature-purpose-001 | Fits | No |
+| programming-symmetric-key-001 | Fits | No |
+| programming-tls-session-001 | Fits | No |
+| programming-xnor-gate-001 | Fits | No |
+| programming-xor-cipher-rev-001 | Fits | No |
+| programming-xor-compute-001 | Fits | No |
+| programming-xor-exactly-one-001 | Fits | No |
+| programming-xor-gate-001 | Fits | No |
+
+### Partly fits — partial visual rework required (83)
+
+| Game | Visual fits the game? | Visual rework needed? |
+| --- | --- | --- |
+| architecture-arch-compression-001 | Partly fits | Yes — partial |
+| architecture-cantilever-001 | Partly fits | Yes — partial |
+| architecture-load-path-001 | Partly fits | Yes — partial |
+| math-absorption-law-001 | Partly fits | Yes — partial |
+| math-commutative-and-001 | Partly fits | Yes — partial |
+| math-contrapositive-001 | Partly fits | Yes — partial |
+| math-demorgan-and-001 | Partly fits | Yes — partial |
+| math-demorgan-or-001 | Partly fits | Yes — partial |
+| math-distributive-law-001 | Partly fits | Yes — partial |
+| math-domination-law-001 | Partly fits | Yes — partial |
+| math-double-negation-001 | Partly fits | Yes — partial |
+| math-existential-negation-001 | Partly fits | Yes — partial |
+| math-harmonic-function-def-001 | Partly fits | Yes — partial |
+| math-harmonic-mean-value-001 | Partly fits | Yes — partial |
+| math-harmonic-series-math-001 | Partly fits | Yes — partial |
+| math-idempotent-law-001 | Partly fits | Yes — partial |
+| math-identity-law-001 | Partly fits | Yes — partial |
+| math-matrix-add-rule-001 | Partly fits | Yes — partial |
+| math-matrix-det-compute-001 | Partly fits | Yes — partial |
+| math-matrix-det-diag-001 | Partly fits | Yes — partial |
+| math-matrix-det-formula-001 | Partly fits | Yes — partial |
+| math-matrix-det-meaning-001 | Partly fits | Yes — partial |
+| math-matrix-dims-product-001 | Partly fits | Yes — partial |
+| math-matrix-eigen-identity-001 | Partly fits | Yes — partial |
+| math-matrix-eigenvector-001 | Partly fits | Yes — partial |
+| math-matrix-identity-prop-001 | Partly fits | Yes — partial |
+| math-matrix-incompatible-001 | Partly fits | Yes — partial |
+| math-matrix-inverse-exists-001 | Partly fits | Yes — partial |
+| math-matrix-orthogonal-001 | Partly fits | Yes — partial |
+| math-matrix-product-inverse-001 | Partly fits | Yes — partial |
+| math-matrix-product-transpose-001 | Partly fits | Yes — partial |
+| math-matrix-rank-001 | Partly fits | Yes — partial |
+| math-matrix-rowswap-det-001 | Partly fits | Yes — partial |
+| math-matrix-singular-001 | Partly fits | Yes — partial |
+| math-matrix-trace-def-001 | Partly fits | Yes — partial |
+| math-matrix-transpose-def-001 | Partly fits | Yes — partial |
+| math-matrix-triangular-det-001 | Partly fits | Yes — partial |
+| math-matrix-vector-shape-001 | Partly fits | Yes — partial |
+| math-matrix-zero-product-001 | Partly fits | Yes — partial |
+| math-modus-ponens-001 | Partly fits | Yes — partial |
+| math-quantifier-negation-001 | Partly fits | Yes — partial |
+| math-sin-cos-identity-001 | Partly fits | Yes — partial |
+| math-subset-relation-001 | Partly fits | Yes — partial |
+| ml-attention-heads-001 | Partly fits | Yes — partial |
+| ml-attention-weights-001 | Partly fits | Yes — partial |
+| ml-backprop-chain-001 | Partly fits | Yes — partial |
+| ml-batch-iteration-001 | Partly fits | Yes — partial |
+| ml-batch-norm-001 | Partly fits | Yes — partial |
+| ml-embedding-meaning-001 | Partly fits | Yes — partial |
+| ml-gradient-step-nn-001 | Partly fits | Yes — partial |
+| ml-l2-regularization-001 | Partly fits | Yes — partial |
+| ml-layer-norm-001 | Partly fits | Yes — partial |
+| ml-matrix-ml-weights-001 | Partly fits | Yes — partial |
+| ml-mse-loss-001 | Partly fits | Yes — partial |
+| ml-pool-why-001 | Partly fits | Yes — partial |
+| ml-weight-multiply-001 | Partly fits | Yes — partial |
+| physics-ductile-vs-brittle-001 | Partly fits | Yes — partial |
+| physics-energy-shm-001 | Partly fits | Yes — partial |
+| physics-fatigue-001 | Partly fits | Yes — partial |
+| physics-forced-oscillation-001 | Partly fits | Yes — partial |
+| physics-friction-brakes-001 | Partly fits | Yes — partial |
+| physics-harmonic-fundamental-001 | Partly fits | Yes — partial |
+| physics-harmonic-second-001 | Partly fits | Yes — partial |
+| physics-hydrostatic-001 | Partly fits | Yes — partial |
+| physics-motor-vs-generator-001 | Partly fits | Yes — partial |
+| physics-organ-pipe-fundamental-001 | Partly fits | Yes — partial |
+| physics-pendulum-harmonic-001 | Partly fits | Yes — partial |
+| physics-quality-factor-001 | Partly fits | Yes — partial |
+| physics-resonance-bridge-001 | Partly fits | Yes — partial |
+| physics-resonance-def-001 | Partly fits | Yes — partial |
+| physics-shm-period-spring-001 | Partly fits | Yes — partial |
+| physics-shm-restoring-001 | Partly fits | Yes — partial |
+| physics-strain-def-001 | Partly fits | Yes — partial |
+| physics-stress-def-001 | Partly fits | Yes — partial |
+| physics-two-waves-speed-001 | Partly fits | Yes — partial |
+| programming-affirming-consequent-001 | Partly fits | Yes — partial |
+| programming-checksum-vs-hash-001 | Partly fits | Yes — partial |
+| programming-crypto-random-001 | Partly fits | Yes — partial |
+| programming-entropy-meaning-001 | Partly fits | Yes — partial |
+| programming-nyquist-001 | Partly fits | Yes — partial |
+| programming-password-storage-001 | Partly fits | Yes — partial |
+| programming-slow-hash-001 | Partly fits | Yes — partial |
+| programming-substitution-leak-001 | Partly fits | Yes — partial |
+
+### Does not fit — full visual redo required (8)
+
+| Game | Visual fits the game? | Visual rework needed? |
+| --- | --- | --- |
+| architecture-safety-factor-001 | Does not fit | Yes — full redo |
+| architecture-truss-triangles-001 | Does not fit | Yes — full redo |
+| math-disjoint-sets-001 | Does not fit | Yes — full redo |
+| ml-adam-optimizer-001 | Does not fit | Yes — full redo |
+| ml-augmentation-001 | Does not fit | Yes — full redo |
+| physics-power-vi-001 | Does not fit | Yes — full redo |
+| physics-thermal-expansion-001 | Does not fit | Yes — full redo |
+| physics-wave-amplitude-read-001 | Does not fit | Yes — full redo |
+
+Per-game direction for the redos: safety-factor → capacity vs
+load bars at 3:1; truss-triangles → an actual triangular truss;
+disjoint-sets → two separate, non-overlapping circles (the
+current overlapping Venn teaches the opposite); adam →
+per-parameter adaptive step sizes on a loss curve;
+augmentation → one example spawning flipped/rotated copies;
+power-vi → V and I quantities multiplying into P;
+thermal-expansion → a bar that lengthens with ΔL marks;
+wave-amplitude-read → fix the scale bug, then annotate A.
+
+### What to do next, in order (batch 3)
+
+1. Commit per batch; keep INDEX.md in the same commit.
+2. The 8 redos above, then the flashcard family (draw one
+   scene per law: Venn shading, truth-table row highlight,
+   set diagrams — not text in boxes).
+3. Bare-matrix games: draw the operation (highlight the
+   diagonal for det/trace, flip arrows for transpose, a vector
+   before/after for eigenvectors).
+4. Broaden topics; keep families honest.
