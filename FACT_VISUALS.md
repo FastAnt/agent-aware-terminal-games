@@ -314,3 +314,81 @@ that. Status is tracked in FACTS_INDEX.md ("visual: bespoke").
 - architecture-fact-ashley-lessons-001 — Backup tapes on a
   shelf under a vault door; a restore-test lever rusted at
   "never tried", with a question mark over the tapes.
+
+## Batch C1 — chains, part 1 (25)
+
+- architecture-fact-aws-s3-typo-001 — A command line with one
+  wrong character boxed; below, a row of server boxes where
+  far more than intended grey out at once.
+- architecture-fact-ba-power-2017-001 — A plug pulled from a
+  power strip; datacenter blocks behind it go dark in
+  sequence, then flicker wrongly on restart.
+- architecture-fact-backpressure-001 — A pump on the left, a
+  tank (queue) filling in the middle, and a return signal
+  arrow telling the pump to slow before overflow.
+- architecture-fact-bgp-pakistan-2008-001 — A globe; the route
+  to a video pin bends away mid-ocean into another country's
+  pin where it ends in an X.
+- architecture-fact-blackout-alarm-2003-001 — A small power
+  grid whose lines fail one by one; an alarm bell above with
+  a slash through it, operators' desk empty.
+- architecture-fact-blameless-postmortems-001 — An incident
+  timeline board; a person icon shielded by a "no blame"
+  badge while magnifying glasses point at system gears.
+- architecture-fact-boeing-mcas-redundancy-001 — A plane
+  profile; one sensor dot marked faulty feeding repeated
+  nose-down arrows, a second ghost sensor beside it labelled
+  "should compare".
+- architecture-fact-bulkheads-001 — A ship hull in
+  cross-section with watertight compartments; one floods
+  dark, neighbours stay dry.
+- architecture-fact-cap-partition-001 — Two islands after a
+  cut cable: left answers with a "stale" tag, right shows a
+  "refused" hand; scissors on the cut.
+- architecture-fact-cdn-origin-pull-001 — A map: first request
+  travels a long arrow to origin, the next three stop at the
+  nearby edge pin.
+- architecture-fact-circuit-breaker-001 — A wire with a switch
+  that snaps open after three failure sparks; a timer ring
+  shows the half-open probe.
+- architecture-fact-cloudflare-regex-2019-001 — The pattern
+  "(a+)+" above a branching tree that explodes in width; a
+  CPU gauge needle pinned at max.
+- architecture-fact-consistent-hashing-001 — A ring with
+  server nodes; key dots sit with the next server clockwise;
+  one new server lights and only its arc's keys move.
+- architecture-fact-crowdstrike-2024-001 — One update file
+  entering a globe of monitor squares; monitors flip to a
+  crash X in a wave.
+- architecture-fact-denver-baggage-001 — An airport track loop
+  with suitcase squares tumbling at a junction; a calendar
+  page labelled "+1 year" beside it.
+- architecture-fact-dkim-spf-dmarc-001 — A big envelope with
+  three stamp seals appearing in order: SPF, DKIM, DMARC.
+- architecture-fact-dns-ttl-trade-001 — A record pin with a
+  draining TTL bar and clock; low TTL refreshes fast, high
+  TTL lingers stale.
+- architecture-fact-dynamo-cart-001 — Two shopping carts with
+  diverging items that merge by arrows into one cart neither
+  shopper fully wrote.
+- architecture-fact-email-store-forward-001 — An envelope
+  hopping between relay towers; one tower sleeps (moon),
+  the envelope waits in a queue tray, then continues.
+- architecture-fact-equifax-struts-001 — A building facade of
+  windows all shield-patched but one dark window, with a
+  scanner beam finding it too late.
+- architecture-fact-error-budgets-001 — A budget gauge
+  draining coin dots as features ship; at zero a freeze lock
+  closes over the rocket icon.
+- architecture-fact-etag-revalidation-001 — Browser box
+  holding a page and tag; it asks "same?" and receives a
+  tiny "304" reply instead of the full page.
+- architecture-fact-exactly-once-myth-001 — Two copies of one
+  envelope approach a dedup gate; one passes, the duplicate
+  is dropped into a bin.
+- architecture-fact-facebook-bgp-2021-001 — A globe whose route
+  lines fade out dashed; a door with a badge reader marked X
+  in the foreground.
+- architecture-fact-fastly-config-2021-001 — A customer toggle
+  switch; flipping it wakes a sleeping bug icon inside a
+  network of nodes that start failing outward.

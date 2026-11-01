@@ -275,20 +275,20 @@ physics-fact-time-crystal-space-001 · Physics · The oldest light we see left b
 physics-fact-antimatter-banana-001 · Physics · Bananas emit antimatter, at a homeopathic rate
 architecture-fact-two-generals-001 · Architecture · Two generals cannot agree over an unreliable messenger
 architecture-fact-byzantine-third-001 · Architecture · Tolerating traitors takes more than triple the traitors · visual: bespoke
-architecture-fact-cap-partition-001 · Architecture · Under a network partition, you must pick a poison
-architecture-fact-dynamo-cart-001 · Architecture · Amazon's cart chose 'always writable' over always consistent
+architecture-fact-cap-partition-001 · Architecture · Under a network partition, you must pick a poison · visual: bespoke
+architecture-fact-dynamo-cart-001 · Architecture · Amazon's cart chose 'always writable' over always consistent · visual: bespoke
 architecture-fact-lamport-clocks-001 · Architecture · Lamport ordered events without trusting any clock
-architecture-fact-exactly-once-myth-001 · Architecture · Exactly-once delivery is impossible; dedup is the trick
-architecture-fact-consistent-hashing-001 · Architecture · Consistent hashing moves only 1/n of keys when a node joins
-architecture-fact-circuit-breaker-001 · Architecture · Circuit breakers exist because retries can be an attack
+architecture-fact-exactly-once-myth-001 · Architecture · Exactly-once delivery is impossible; dedup is the trick · visual: bespoke
+architecture-fact-consistent-hashing-001 · Architecture · Consistent hashing moves only 1/n of keys when a node joins · visual: bespoke
+architecture-fact-circuit-breaker-001 · Architecture · Circuit breakers exist because retries can be an attack · visual: bespoke
 architecture-fact-thundering-herd-001 · Architecture · When a hot cache entry expires, the database gets mobbed
 architecture-fact-paxos-simple-001 · Architecture · Paxos was so hard to explain it needed a sequel paper
 architecture-fact-idempotency-keys-001 · Architecture · A good retry button is really an idempotency key
 architecture-fact-lsm-vs-btree-001 · Architecture · Write-heavy stores trade read work for write speed
 architecture-fact-gossip-spread-001 · Architecture · Cluster gossip spreads news like a rumour, on purpose · visual: bespoke
 architecture-fact-anycast-001 · Architecture · The same IP address can live in a hundred cities · visual: bespoke
-architecture-fact-bulkheads-001 · Architecture · Ships' bulkheads became a software pattern
-architecture-fact-backpressure-001 · Architecture · Fast producers must be told to slow down
+architecture-fact-bulkheads-001 · Architecture · Ships' bulkheads became a software pattern · visual: bespoke
+architecture-fact-backpressure-001 · Architecture · Fast producers must be told to slow down · visual: bespoke
 architecture-fact-two-phase-commit-001 · Architecture · Two-phase commit can block everyone on one coordinator
 architecture-fact-saga-compensate-001 · Architecture · Sagas undo work with new work, never by time travel
 architecture-fact-spanner-truetime-001 · Architecture · Google put atomic clocks and GPS into its datacenters
@@ -296,51 +296,51 @@ architecture-fact-snowflake-ids-001 · Architecture · Twitter's Snowflake IDs s
 architecture-fact-uuid-collision-001 · Architecture · Random UUIDs collide about when hell freezes over
 architecture-fact-hyrums-law-001 · Architecture · Every observable behaviour of your API becomes a contract
 architecture-fact-chaos-monkey-001 · Architecture · Netflix breaks its own production on weekdays, on purpose · visual: bespoke
-architecture-fact-error-budgets-001 · Architecture · Reliability becomes negotiable with an error budget
+architecture-fact-error-budgets-001 · Architecture · Reliability becomes negotiable with an error budget · visual: bespoke
 architecture-fact-prime-video-monolith-001 · Architecture · Prime Video cut costs 90 percent by un-distributing a tool
 architecture-fact-knight-capital-001 · Architecture · Knight Capital lost $440M in 45 minutes to a dead flag
 architecture-fact-gitlab-backup-001 · Architecture · GitLab deleted its database and found backups were theatre
-architecture-fact-aws-s3-typo-001 · Architecture · An AWS typo took down a chunk of the Internet
-architecture-fact-facebook-bgp-2021-001 · Architecture · Facebook's 2021 outage locked its own engineers out
-architecture-fact-cloudflare-regex-2019-001 · Architecture · One regex, deployed everywhere at once, CPU'd the planet
-architecture-fact-fastly-config-2021-001 · Architecture · One customer's valid setting triggered a dormant global bug
+architecture-fact-aws-s3-typo-001 · Architecture · An AWS typo took down a chunk of the Internet · visual: bespoke
+architecture-fact-facebook-bgp-2021-001 · Architecture · Facebook's 2021 outage locked its own engineers out · visual: bespoke
+architecture-fact-cloudflare-regex-2019-001 · Architecture · One regex, deployed everywhere at once, CPU'd the planet · visual: bespoke
+architecture-fact-fastly-config-2021-001 · Architecture · One customer's valid setting triggered a dormant global bug · visual: bespoke
 architecture-fact-notpetya-maersk-001 · Architecture · Maersk was saved by a domain controller that lost power
-architecture-fact-blackout-alarm-2003-001 · Architecture · The 2003 blackout grew behind a silenced alarm
-architecture-fact-denver-baggage-001 · Architecture · Denver's airport was delayed by its own baggage system
-architecture-fact-crowdstrike-2024-001 · Architecture · A sensor update crashed millions of Windows machines
-architecture-fact-boeing-mcas-redundancy-001 · Architecture · MCAS trusted one sensor; redundancy is an architecture
+architecture-fact-blackout-alarm-2003-001 · Architecture · The 2003 blackout grew behind a silenced alarm · visual: bespoke
+architecture-fact-denver-baggage-001 · Architecture · Denver's airport was delayed by its own baggage system · visual: bespoke
+architecture-fact-crowdstrike-2024-001 · Architecture · A sensor update crashed millions of Windows machines · visual: bespoke
+architecture-fact-boeing-mcas-redundancy-001 · Architecture · MCAS trusted one sensor; redundancy is an architecture · visual: bespoke
 architecture-fact-ovh-fire-backup-001 · Architecture · Fire taught the difference between backup and replica
 architecture-fact-tsb-migration-001 · Architecture · TSB's big-bang migration locked out 1.9 million customers
-architecture-fact-ba-power-2017-001 · Architecture · British Airways grounded itself by unplugging the IT
+architecture-fact-ba-power-2017-001 · Architecture · British Airways grounded itself by unplugging the IT · visual: bespoke
 architecture-fact-google-calendar-2019-001 · Architecture · Even Google Calendar has a blast radius
 architecture-fact-rogers-2022-001 · Architecture · One maintenance update silenced a national carrier
 architecture-fact-nhs-wannacry-001 · Architecture · WannaCry hurt hospitals through unpatched known holes
-architecture-fact-equifax-struts-001 · Architecture · Equifax was breached through a patched-elsewhere framework
+architecture-fact-equifax-struts-001 · Architecture · Equifax was breached through a patched-elsewhere framework · visual: bespoke
 architecture-fact-heartbleed-lesson-001 · Architecture · Heartbleed was two missing lines in a heartbeat
 architecture-fact-log4shell-ubiquity-001 · Architecture · Log4Shell hid in a logging library's helpful feature
 architecture-fact-solarwinds-build-001 · Architecture · SolarWinds attackers compromised the build, not the product
 architecture-fact-stuxnet-airgap-001 · Architecture · Stuxnet crossed an air gap on a USB stick
 architecture-fact-yahoo-breach-scale-001 · Architecture · Yahoo's breach grew every time it was recounted
 architecture-fact-ashley-lessons-001 · Architecture · Backups that nobody tested are a hope, not a plan · visual: bespoke
-architecture-fact-blameless-postmortems-001 · Architecture · Blameless postmortems exist because fear hides causes
+architecture-fact-blameless-postmortems-001 · Architecture · Blameless postmortems exist because fear hides causes · visual: bespoke
 architecture-fact-tcp-handshake-001 · Architecture · TCP's three-way handshake proves both sides can hear
 architecture-fact-slow-start-001 · Architecture · TCP begins every connection deliberately slow
 architecture-fact-nagle-delayed-ack-001 · Architecture · Two polite algorithms once made each other wait
 architecture-fact-http2-headline-001 · Architecture · HTTP/2 multiplexed everything onto one fragile pipe
 architecture-fact-tls13-rtt-001 · Architecture · TLS 1.3 deleted a round trip and some antiques
-architecture-fact-dns-ttl-trade-001 · Architecture · Every DNS record carries its own staleness budget
-architecture-fact-bgp-pakistan-2008-001 · Architecture · One country's attempt to block YouTube blocked it worldwide
+architecture-fact-dns-ttl-trade-001 · Architecture · Every DNS record carries its own staleness budget · visual: bespoke
+architecture-fact-bgp-pakistan-2008-001 · Architecture · One country's attempt to block YouTube blocked it worldwide · visual: bespoke
 architecture-fact-ntp-stratum-001 · Architecture · Internet time descends from atomic clocks in layers
 architecture-fact-protobuf-numbers-001 · Architecture · In protobuf, field numbers are forever; names are free
-architecture-fact-etag-revalidation-001 · Architecture · An ETag lets a browser ask 'still the same?' cheaply
+architecture-fact-etag-revalidation-001 · Architecture · An ETag lets a browser ask 'still the same?' cheaply · visual: bespoke
 architecture-fact-range-resume-001 · Architecture · Downloads resume because HTTP can ask for slices
-architecture-fact-email-store-forward-001 · Architecture · Email was built to survive machines being off
-architecture-fact-dkim-spf-dmarc-001 · Architecture · Email authentication arrived decades after email
+architecture-fact-email-store-forward-001 · Architecture · Email was built to survive machines being off · visual: bespoke
+architecture-fact-dkim-spf-dmarc-001 · Architecture · Email authentication arrived decades after email · visual: bespoke
 architecture-fact-websocket-upgrade-001 · Architecture · WebSockets begin life as an HTTP request in disguise
 architecture-fact-mqtt-qos-001 · Architecture · MQTT's QoS 2 is a four-step handshake in miniature
 architecture-fact-keepalive-cost-001 · Architecture · Connection reuse exists because handshakes are expensive
 architecture-fact-grpc-streaming-001 · Architecture · gRPC streams because one request-response rarely fits · visual: bespoke
-architecture-fact-cdn-origin-pull-001 · Architecture · The first visitor to a new city pays for everyone
+architecture-fact-cdn-origin-pull-001 · Architecture · The first visitor to a new city pays for everyone · visual: bespoke
 architecture-fact-sharding-hotspot-001 · Architecture · Sharding by the wrong key creates one celebrity shard
 architecture-fact-read-replica-lag-001 · Architecture · Read replicas can honestly return yesterday's news
 ml-fact-perceptron-hype-001 · Machine learning · The 1958 perceptron was promised to walk and talk · visual: bespoke
