@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "physics-fact-lightning-sprites-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "Above thunderstorms, red sprites flash toward space",
+  "body": "Sprites are vast red electrical discharges blooming 50 to 90 kilometres up, lasting milliseconds, triggered by especially strong lightning below. Pilots reported them for decades and science dismissed the reports until one was accidentally videotaped in 1989. Whole weather systems of the upper atmosphere were hiding in plain night.",
+  "source_hint": "Franz, Nemzek and Winckler (1990), sprite imaging",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 2,
+        "angle": 40
+      },
+      {
+        "ring": 3,
+        "angle": 170
+      },
+      {
+        "ring": 4,
+        "angle": 300
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

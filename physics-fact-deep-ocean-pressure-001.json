@@ -1,0 +1,35 @@
+{
+  "type": "fact",
+  "id": "physics-fact-deep-ocean-pressure-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "The deep ocean presses with a tonne per square centimetre",
+  "body": "Pressure rises about one atmosphere every ten metres of seawater; at Challenger Deep, nearly eleven kilometres down, it exceeds a thousand atmospheres, like a small car balanced on a fingernail. Yet animals thrive there, being mostly water themselves with nothing compressible to crush. Engineering visitors need titanium spheres; residents need nothing.",
+  "source_hint": "Hydrostatic pressure calculation; Trieste and submersible records",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 50
+      },
+      {
+        "ring": 2,
+        "angle": 170
+      },
+      {
+        "ring": 3,
+        "angle": 280
+      },
+      {
+        "ring": 4,
+        "angle": 330
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

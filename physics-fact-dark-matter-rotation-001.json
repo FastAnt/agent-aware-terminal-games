@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "physics-fact-dark-matter-rotation-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "Galaxies spin too fast for the stars we see",
+  "body": "Stars in outer galactic disks orbit about as fast as inner ones, though visible matter predicts a decline. The flat rotation curves Vera Rubin mapped in the 1970s imply far more mass than shines, the dark matter halo. Either unseen matter exists in bulk, or gravity changes at galactic scales; decades of tests keep the halo ahead.",
+  "source_hint": "Rubin and Ford (1970s), galaxy rotation curves",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 2,
+        "angle": 50
+      },
+      {
+        "ring": 3,
+        "angle": 180
+      },
+      {
+        "ring": 4,
+        "angle": 310
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

@@ -244,3 +244,28 @@ physics-fact-earth-rotation-speed-001 · Physics · You are moving at 1,600 km/h
 physics-fact-iss-falling-001 · Physics · Astronauts float because they never stop falling
 physics-fact-escape-velocity-001 · Physics · Escape velocity is about not coming back, not about engines
 physics-fact-coriolis-myth-001 · Physics · Toilet bowls do not reveal the hemisphere
+physics-fact-cmb-temperature-001 · Physics · The universe has a temperature: 2.725 kelvin
+physics-fact-dark-matter-rotation-001 · Physics · Galaxies spin too fast for the stars we see
+physics-fact-sun-fate-white-dwarf-001 · Physics · The Sun will end as a white dwarf, quietly
+physics-fact-fusion-pp-chain-001 · Physics · Sunlight began as gamma rays a hundred millennia ago
+physics-fact-earth-core-hot-001 · Physics · Earth's core is as hot as the Sun's surface
+physics-fact-magnetic-reversals-001 · Physics · Earth's magnetic poles have flipped hundreds of times
+physics-fact-seismic-shadow-001 · Physics · Earth's liquid core was found by an earthquake shadow
+physics-fact-continental-drift-rejected-001 · Physics · Wegener was right about continents, wrong about forces
+physics-fact-great-oxidation-001 · Physics · Oxygen was once a planetary poison gas
+physics-fact-snowball-earth-001 · Physics · Earth may once have frozen nearly to the equator
+physics-fact-milankovitch-001 · Physics · Ice ages keep time with wobbles in Earth's orbit
+physics-fact-tidal-locking-001 · Physics · The Moon was once much closer and days much shorter
+physics-fact-aurora-sound-001 · Physics · Auroras are Earth's magnetic shield made visible
+physics-fact-lightning-sprites-001 · Physics · Above thunderstorms, red sprites flash toward space
+physics-fact-volcano-cooling-001 · Physics · Big eruptions cool the planet for years
+physics-fact-ocean-tides-two-001 · Physics · There are two high tides because water bulges twice
+physics-fact-sound-speed-water-001 · Physics · Sound travels about 4.4 times faster in water than air
+physics-fact-deep-ocean-pressure-001 · Physics · The deep ocean presses with a tonne per square centimetre
+physics-fact-ice-floats-anomaly-001 · Physics · Ice floats because water expands as it freezes
+physics-fact-diamond-rain-001 · Physics · It may rain diamonds inside Neptune and Uranus
+physics-fact-great-red-spot-001 · Physics · Jupiter's storm is wider than Earth and centuries old
+physics-fact-saturn-floats-001 · Physics · Saturn would float, in a large enough bathtub
+physics-fact-venus-retrograde-001 · Physics · Venus spins backwards, and nobody fully knows why
+physics-fact-mars-olympus-001 · Physics · Olympus Mons is nearly three Everests, and gently sloped
+physics-fact-io-volcanic-001 · Physics · Io kneads itself into the most volcanic body known

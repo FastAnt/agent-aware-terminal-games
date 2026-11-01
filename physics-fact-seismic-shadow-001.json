@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "physics-fact-seismic-shadow-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "Earth's liquid core was found by an earthquake shadow",
+  "body": "Seismic waves from earthquakes bend and vanish in a shadow zone on the far side of the planet; Inge Lehmann in 1936 used stray arrivals inside that shadow to infer a solid inner core within the liquid outer one. She read the planet's anatomy from tremors nobody caused on purpose. Seismology remains our only direct probe down there.",
+  "source_hint": "Lehmann (1936), inner core discovery",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 60
+      },
+      {
+        "ring": 2,
+        "angle": 180
+      },
+      {
+        "ring": 3,
+        "angle": 300
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

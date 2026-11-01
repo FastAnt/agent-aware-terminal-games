@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "physics-fact-aurora-sound-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "Auroras are Earth's magnetic shield made visible",
+  "body": "Charged particles from the Sun spiral along magnetic field lines into the poles, exciting oxygen and nitrogen which glow green, red and purple as they settle. The colours encode altitude and gas, a spectrogram the size of a sky. During strong storms the oval expands and mid-latitude cities get the show.",
+  "source_hint": "Auroral physics (Birkeland onward)",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 60
+      },
+      {
+        "ring": 2,
+        "angle": 180
+      },
+      {
+        "ring": 4,
+        "angle": 320
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

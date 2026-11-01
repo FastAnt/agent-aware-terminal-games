@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "physics-fact-ocean-tides-two-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "There are two high tides because water bulges twice",
+  "body": "The Moon's gravity pulls the near ocean hardest and Earth itself less, while the far ocean is pulled least, leaving bulges on both sides. So most coasts get two high tides daily as Earth rotates through the pair. 'The Moon pulls the water up' explains one bulge and quietly fails at the second.",
+  "source_hint": "Tidal theory (Newton onward)",
+  "scene": {
+    "type": "orbits",
+    "rings": 3,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 90
+      },
+      {
+        "ring": 2,
+        "angle": 220
+      },
+      {
+        "ring": 3,
+        "angle": 330
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

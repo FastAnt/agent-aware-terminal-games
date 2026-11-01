@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "physics-fact-great-red-spot-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "Jupiter's storm is wider than Earth and centuries old",
+  "body": "The Great Red Spot is an anticyclone at least about 16,000 kilometres wide in recent measurements, shrinking slowly, with winds peaking around hundreds of kilometres per hour. It has been observed continuously since the 1800s, probably longer. Weather on Earth dies in weeks because friction and land stop it; Jupiter offers neither.",
+  "source_hint": "Juno and Hubble observations of the Great Red Spot",
+  "scene": {
+    "type": "orbits",
+    "rings": 3,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 60
+      },
+      {
+        "ring": 2,
+        "angle": 190
+      },
+      {
+        "ring": 3,
+        "angle": 330
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

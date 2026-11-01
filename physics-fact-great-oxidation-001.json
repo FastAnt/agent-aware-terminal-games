@@ -1,0 +1,35 @@
+{
+  "type": "fact",
+  "id": "physics-fact-great-oxidation-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "Oxygen was once a planetary poison gas",
+  "body": "Cyanobacteria's photosynthesis filled the air with oxygen starting about 2.4 billion years ago, rusting oceans' iron into banded deposits and likely mass-poisoning anaerobic life. The waste gas of microbes became the atmosphere's second ingredient. Every breath is recycled pollution from the most successful chemical accident in Earth's history.",
+  "source_hint": "Great Oxidation Event, geological record",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 50
+      },
+      {
+        "ring": 2,
+        "angle": 170
+      },
+      {
+        "ring": 3,
+        "angle": 280
+      },
+      {
+        "ring": 4,
+        "angle": 330
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "fact",
+  "id": "physics-fact-magnetic-reversals-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "Earth's magnetic poles have flipped hundreds of times",
+  "body": "Cooling lava freezes in the direction of the field, and ocean-floor stripes record the geomagnetic polarity flipping irregularly, on average every few hundred thousand years. During a reversal, taking thousands of years, the field weakens and wanders into multiple poles. Compasses in such eras would be unreliable narrators. The last full flip was about 780,000 years ago.",
+  "source_hint": "Geomagnetic polarity timescale (ocean magnetic anomalies)",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 50
+      },
+      {
+        "ring": 2,
+        "angle": 160
+      },
+      {
+        "ring": 3,
+        "angle": 260
+      },
+      {
+        "ring": 4,
+        "angle": 330
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

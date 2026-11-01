@@ -1,0 +1,35 @@
+{
+  "type": "fact",
+  "id": "physics-fact-milankovitch-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "Ice ages keep time with wobbles in Earth's orbit",
+  "body": "Variations in orbital eccentricity, axial tilt and precession redistribute sunlight by latitude and season on cycles of roughly twenty to a hundred thousand years. Deep-sea sediments and ice cores show ice ages marching to those periods. The Serbian mathematician Milutin Milankovitch computed the cycles by hand during the First World War, decades before the cores agreed.",
+  "source_hint": "Milankovitch cycles; Hays, Imbrie and Shackleton (1976)",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 50
+      },
+      {
+        "ring": 2,
+        "angle": 170
+      },
+      {
+        "ring": 3,
+        "angle": 280
+      },
+      {
+        "ring": 4,
+        "angle": 330
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "physics-fact-volcano-cooling-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "Big eruptions cool the planet for years",
+  "body": "Tambora's 1815 eruption injected sulphur into the stratosphere, where sulfate aerosols spread globally, dimming sunlight enough that 1816 became the Year Without a Summer, with crop failures across continents. Stratospheric aerosols ignore rain, lasting years, unlike low ash that washes out in weeks. Climate has a volcanic dimmer switch with a long memory.",
+  "source_hint": "Tambora 1815 and climate records",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 50
+      },
+      {
+        "ring": 3,
+        "angle": 200
+      },
+      {
+        "ring": 4,
+        "angle": 320
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

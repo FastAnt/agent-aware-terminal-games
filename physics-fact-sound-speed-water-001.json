@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "physics-fact-sound-speed-water-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "Sound travels about 4.4 times faster in water than air",
+  "body": "Water's stiffness beats its density in setting sound speed: roughly 1,480 metres per second in the sea versus 343 in air. Whales exploit it across ocean basins, and a deep sound channel traps low-frequency calls for thousands of kilometres. Navies and seismologists listen to the planet through the same physics.",
+  "source_hint": "Acoustics references; SOFAR channel literature",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 2,
+        "angle": 40
+      },
+      {
+        "ring": 3,
+        "angle": 170
+      },
+      {
+        "ring": 4,
+        "angle": 300
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

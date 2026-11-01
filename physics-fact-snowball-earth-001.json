@@ -1,0 +1,35 @@
+{
+  "type": "fact",
+  "id": "physics-fact-snowball-earth-001",
+  "kicker": "FACT",
+  "topic": "Physics",
+  "title": "Earth may once have frozen nearly to the equator",
+  "body": "Glacial deposits laid down in tropical latitudes suggest episodes around 700 million years ago when ice reached low latitudes, possibly a nearly global 'snowball'. Volcanoes, cut off from silicate weathering sinks under ice, would slowly build CO2 until a catastrophic thaw. Life survived in refugia; complex animals diversify soon after in the record.",
+  "source_hint": "Snowball Earth hypothesis (Kirschvink, Hoffman)",
+  "scene": {
+    "type": "orbits",
+    "rings": 5,
+    "dots": [
+      {
+        "ring": 2,
+        "angle": 40
+      },
+      {
+        "ring": 3,
+        "angle": 140
+      },
+      {
+        "ring": 4,
+        "angle": 230
+      },
+      {
+        "ring": 5,
+        "angle": 320
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}
