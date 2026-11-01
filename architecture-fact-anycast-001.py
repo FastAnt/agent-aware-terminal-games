@@ -132,5 +132,10 @@ def paint(cr, view):
     ux, uy = cx - r*0.78, cy + r*0.42
     _circ(cr, view, ux, uy, 6, "text", 1, fill=True); _t(cr, view, ux, uy + 24, "you", 10, "text")
     _arr(cr, view, ux, uy, *pins[0], "square", 0.95, 2)
+    # a request packet travels to the nearest instance, loops
+    f = (t * 0.45) % 1.0
+    px = ux + (pins[0][0] - ux) * f
+    py = uy + (pins[0][1] - uy) * f
+    _circ(cr, view, px, py, 4, "text", 0.35 + 0.6 * f, fill=True)
     _t(cr, view, cx, cy + r + 28, "routing takes you to the nearest one", 12, "square")
 
