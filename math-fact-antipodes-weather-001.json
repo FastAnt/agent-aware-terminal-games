@@ -1,0 +1,27 @@
+{
+  "type": "fact",
+  "id": "math-fact-antipodes-weather-001",
+  "kicker": "FACT",
+  "topic": "Math",
+  "title": "Right now, opposite sides of Earth share weather values",
+  "body": "The Borsuk-Ulam theorem implies that for temperature and pressure varying continuously over the globe, some pair of antipodal points matches exactly in both, at every instant. Nobody can point to them without global data, yet topology guarantees they exist. Existence without location is a very mathematical kind of knowledge.",
+  "source_hint": "Borsuk-Ulam theorem (1933)",
+  "scene": {
+    "type": "orbits",
+    "rings": 3,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 40
+      },
+      {
+        "ring": 3,
+        "angle": 220
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

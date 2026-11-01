@@ -1,0 +1,21 @@
+{
+  "type": "fact",
+  "id": "math-fact-ramsey-friends-001",
+  "kicker": "FACT",
+  "topic": "Math",
+  "title": "In any six people, three mutual friends or strangers",
+  "body": "Ramsey theory's party theorem: among any six people there are three pairwise acquainted or three pairwise unacquainted, because one person has at least three friends-or-strangers and the relations cascade. Complete disorder is impossible at scale; enough structure forces pattern. The exact thresholds for larger cases remain mostly unknown.",
+  "source_hint": "Ramsey theorem R(3,3)=6",
+  "scene": {
+    "type": "network",
+    "layers": [
+      3,
+      3,
+      3
+    ],
+    "anim": {
+      "type": "pulse",
+      "speed": 0.5
+    }
+  }
+}

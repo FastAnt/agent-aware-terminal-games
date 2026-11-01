@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "math-fact-nash-equilibrium-001",
+  "kicker": "FACT",
+  "topic": "Math",
+  "title": "Nash proved every finite game has a stable point",
+  "body": "Using a fixed-point theorem, John Nash showed any finite game has an equilibrium, possibly with randomised strategies, where nobody gains by unilaterally changing. The 1950 proof fits in about a page and refounded economics. Equilibrium does not mean good outcomes; prisoner's dilemmas sit at bad equilibria, stably.",
+  "source_hint": "Nash, 'Equilibrium Points in N-person Games' (1950)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "everyone best-responds",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "nobody deviates",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "stable, not good",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "math-fact-expectation-linear-001",
+  "kicker": "FACT",
+  "topic": "Math",
+  "title": "Expectation adds even when variables conspire",
+  "body": "Expected values sum regardless of dependence: the expected total of two dice is seven whether they are independent, glued, or rigged opposites. Linearity of expectation ignores joint behaviour entirely, making it the laziest powerful tool in probability. Whole algorithms are analysed by counting indicator variables and invoking it.",
+  "source_hint": "Linearity of expectation, standard probability texts",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "E[X] + E[Y]",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "dependence irrelevant",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "E[X+Y]",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

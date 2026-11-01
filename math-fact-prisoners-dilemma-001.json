@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "math-fact-prisoners-dilemma-001",
+  "kicker": "FACT",
+  "topic": "Math",
+  "title": "Individually rational, collectively foolish: the dilemma",
+  "body": "If both prisoners stay silent both do well; but whatever the other does, confessing pays more for each alone, so both confess and both suffer. The prisoner's dilemma isolates why rational actors produce outcomes all of them hate. Arms races, doping and price wars are its real-world costumes.",
+  "source_hint": "Flood, Dresher (1950); Tucker naming",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "both silent: well",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "each confesses: safer alone",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "both confess: badly",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "fact",
+  "id": "math-fact-pick-theorem-001",
+  "kicker": "FACT",
+  "topic": "Math",
+  "title": "Farm plots on graph paper yield area by counting dots",
+  "body": "Pick's theorem: the area of a lattice polygon equals interior points plus half the boundary points minus one. A child can compute honest areas by counting dots, yet the result waited until 1899 for Georg Pick. Counting and measuring, two instincts of mathematics, turned out to be secretly the same.",
+  "source_hint": "Pick's theorem (1899)",
+  "scene": {
+    "type": "network",
+    "layers": [
+      3,
+      4,
+      3
+    ],
+    "anim": {
+      "type": "pulse",
+      "speed": 0.5
+    }
+  }
+}

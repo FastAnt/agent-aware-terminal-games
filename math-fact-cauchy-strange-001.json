@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "math-fact-cauchy-strange-001",
+  "kicker": "FACT",
+  "topic": "Math",
+  "title": "There are functions continuous everywhere, tame nowhere",
+  "body": "Weierstrass exhibited a function that is continuous at every point yet has no tangent anywhere, a curve like an endless coastline of corners. Contemporaries called such things pathological; fractal geometry later made them central. Analysis spent the late 1800s discovering its intuition about 'nice' functions was parochial.",
+  "source_hint": "Weierstrass function (1872)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "continuous everywhere",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "differentiable nowhere",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "corners all the way down",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

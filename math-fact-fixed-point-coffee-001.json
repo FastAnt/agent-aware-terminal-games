@@ -1,0 +1,27 @@
+{
+  "type": "fact",
+  "id": "math-fact-fixed-point-coffee-001",
+  "kicker": "FACT",
+  "topic": "Math",
+  "title": "Stirring coffee guarantees one unmoved point",
+  "body": "Brouwer's fixed-point theorem says any continuous map of a disk into itself leaves some point exactly where it started. Stir a cup without splashing and, in the idealised mathematics, one molecule of coffee ends where it began. The theorem also quietly underpins equilibrium proofs across economics and game theory.",
+  "source_hint": "Brouwer fixed-point theorem (1911)",
+  "scene": {
+    "type": "orbits",
+    "rings": 3,
+    "dots": [
+      {
+        "ring": 2,
+        "angle": 80
+      },
+      {
+        "ring": 3,
+        "angle": 260
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

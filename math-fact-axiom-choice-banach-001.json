@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "math-fact-axiom-choice-banach-001",
+  "kicker": "FACT",
+  "topic": "Math",
+  "title": "Choice lets one ball become two, on paper",
+  "body": "The axiom of choice, innocuous-sounding ('pick one element from each set'), implies the Banach-Tarski paradox: a ball can be split into finitely many pieces and reassembled into two balls of the same size. The pieces are unmeasurable dust, not anything scissors could cut. Mathematicians keep choice because algebra breaks without it, paradoxes notwithstanding.",
+  "source_hint": "Banach and Tarski (1924)",
+  "scene": {
+    "type": "orbits",
+    "rings": 3,
+    "dots": [
+      {
+        "ring": 1,
+        "angle": 90
+      },
+      {
+        "ring": 2,
+        "angle": 200
+      },
+      {
+        "ring": 3,
+        "angle": 330
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

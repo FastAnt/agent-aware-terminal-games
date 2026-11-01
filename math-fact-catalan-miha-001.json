@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "math-fact-catalan-miha-001",
+  "kicker": "FACT",
+  "topic": "Math",
+  "title": "8 and 9 are the only consecutive perfect powers",
+  "body": "Catalan conjectured in 1844 that the only consecutive powers above 1 are 8 and 9. It stood until Preda Mihailescu proved it in 2002 with deep algebraic number theory. Two schoolroom numbers guarded a theorem for 158 years. Elementary statements keep proving to be load-bearing walls.",
+  "source_hint": "Mihailescu's theorem (2002)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "8 = 2^3",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "9 = 3^2",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "only neighbours",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

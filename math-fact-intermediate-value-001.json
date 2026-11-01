@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "math-fact-intermediate-value-001",
+  "kicker": "FACT",
+  "topic": "Math",
+  "title": "A continuous walk cannot jump over the riverbank",
+  "body": "If a continuous function is negative here and positive there, it must equal zero somewhere between: the intermediate value theorem. Bolzano proved it in 1817 while trying to put calculus on honest foundations. It guarantees solutions exist for countless equations whose solutions nobody can write in closed form.",
+  "source_hint": "Bolzano (1817), intermediate value theorem",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 2,
+        "angle": 50
+      },
+      {
+        "ring": 3,
+        "angle": 190
+      },
+      {
+        "ring": 4,
+        "angle": 320
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "math-fact-monte-carlo-pi-001",
+  "kicker": "FACT",
+  "topic": "Math",
+  "title": "Randomness computes what geometry struggles with",
+  "body": "Scatter random points in a square around an inscribed circle; the fraction landing inside estimates pi over four, better with more points. Monte Carlo methods generalise this: turn integrals and simulations into counting. They were developed for neutron problems at Los Alamos, where counting was easier than solving.",
+  "source_hint": "Metropolis and Ulam (1949), Monte Carlo method",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 2,
+        "angle": 30
+      },
+      {
+        "ring": 3,
+        "angle": 160
+      },
+      {
+        "ring": 4,
+        "angle": 300
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

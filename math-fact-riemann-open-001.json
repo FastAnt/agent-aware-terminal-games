@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "math-fact-riemann-open-001",
+  "kicker": "FACT",
+  "topic": "Math",
+  "title": "The Riemann hypothesis is a million-dollar pattern",
+  "body": "The nontrivial zeros of the zeta function are observed, in trillions of computed cases, to lie on one vertical line, and proving they all do would pin down how primes are distributed with the best possible error terms. Riemann stated it in 1859 in eight pages. It is the most consequential pattern ever believed on evidence.",
+  "source_hint": "Riemann (1859); Clay Millennium Prize problem",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "zeros computed",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "all on one line",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "primes explained",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

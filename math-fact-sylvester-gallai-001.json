@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "math-fact-sylvester-gallai-001",
+  "kicker": "FACT",
+  "topic": "Math",
+  "title": "A line through exactly two points is guaranteed",
+  "body": "Given finitely many points not all on one line, some line passes through exactly two of them. This Sylvester-Gallai theorem sounds obvious, resisted proof for decades, and fell to a beautiful shortest-distance argument. Its dual shapes orchard-planting problems. Easy geometry statements keep embarrassing the word 'obvious'.",
+  "source_hint": "Sylvester (1893); Gallai's proof",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 2,
+        "angle": 40
+      },
+      {
+        "ring": 3,
+        "angle": 150
+      },
+      {
+        "ring": 4,
+        "angle": 290
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

@@ -164,3 +164,28 @@ math-fact-countable-rationals-001 · Math · Fractions are countable; reals are 
 math-fact-graham-number-001 · Math · Graham's number makes googolplex look like zero
 math-fact-euler-identity-001 · Math · Euler's identity compresses five constants into one line
 math-fact-i-rotation-001 · Math · Multiplying by i is a quarter turn
+math-fact-fixed-point-coffee-001 · Math · Stirring coffee guarantees one unmoved point
+math-fact-antipodes-weather-001 · Math · Right now, opposite sides of Earth share weather values
+math-fact-pigeonhole-socks-001 · Math · Eleven pigeons, ten holes: the deepest trivial theorem
+math-fact-condorcet-cycle-001 · Math · Majorities can prefer A to B, B to C, and C to A
+math-fact-nash-equilibrium-001 · Math · Nash proved every finite game has a stable point
+math-fact-prisoners-dilemma-001 · Math · Individually rational, collectively foolish: the dilemma
+math-fact-minimax-vonneumann-001 · Math · Optimal play in zero-sum games is often random
+math-fact-monte-carlo-pi-001 · Math · Randomness computes what geometry struggles with
+math-fact-birthday-attack-sqrt-001 · Math · Collisions arrive at the square root, not halfway
+math-fact-expectation-linear-001 · Math · Expectation adds even when variables conspire
+math-fact-coupon-collector-001 · Math · The last coupon takes as long as all the rest
+math-fact-harmonic-diverges-slow-001 · Math · The harmonic series diverges, but at a crawl
+math-fact-riemann-open-001 · Math · The Riemann hypothesis is a million-dollar pattern
+math-fact-axiom-choice-banach-001 · Math · Choice lets one ball become two, on paper
+math-fact-well-ordering-shock-001 · Math · Accept choice and every set can be lined up
+math-fact-intermediate-value-001 · Math · A continuous walk cannot jump over the riverbank
+math-fact-cauchy-strange-001 · Math · There are functions continuous everywhere, tame nowhere
+math-fact-countable-algebraic-001 · Math · Almost every real number is transcendental
+math-fact-liouville-first-001 · Math · The first proven transcendental was built to be one
+math-fact-goldbach-open-001 · Math · Every even number tried is two primes; proof missing
+math-fact-catalan-miha-001 · Math · 8 and 9 are the only consecutive perfect powers
+math-fact-erdos-probabilistic-001 · Math · Existence by dice: the probabilistic method
+math-fact-ramsey-friends-001 · Math · In any six people, three mutual friends or strangers
+math-fact-sylvester-gallai-001 · Math · A line through exactly two points is guaranteed
+math-fact-pick-theorem-001 · Math · Farm plots on graph paper yield area by counting dots
