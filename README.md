@@ -21,6 +21,7 @@ runtime and are hot-loaded without restarting.
 | `physics_orbits.py` | Planets really orbit (inner = faster); click Mercury's ring |
 | `architecture_mvc.py` | A dot travels the MVC cycle; which part takes input first |
 | `ml_gradient.py` | Gradient pulses flow through a network; pick the formula |
+| `*-001.py` (102 games) | Generated batch in the same style: physics 23, geometry 14, math 20, programming 20, architecture 12, ml 13 — choice quizzes with animated scenes, clickable node diagrams and orbit rings. See [SOURCES.md](SOURCES.md) for inspiration and licensing |
 
 The engine serves packs in a shuffled cycle — no repeats until
 every pack has been shown (the cycle persists across restarts).
