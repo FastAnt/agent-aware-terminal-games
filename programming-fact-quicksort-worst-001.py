@@ -125,7 +125,10 @@ def _bars(cr, view, items, x0, y0, bw, gap, maxv):
 def paint(cr,view):
     w,h,t=view.w,view.h,view.t
     vals=[i+1 for i in range(9)]
-    bars_sorted(cr,view,vals,w*0.1,h*0.62,w*0.055,w*0.02,h*0.045,{0})
+    for i,v in enumerate(vals):
+        bh=v*h*0.045
+        cr.rectangle(w*0.1+i*(w*0.055+w*0.02),h*0.62-bh,w*0.055,bh)
+        cr.set_source_rgba(*view.colors["square" if i==0 else "muted"],0.85 if i==0 else 0.45); cr.fill()
     _t(cr,view,w*0.1+ (w*0.055)/2,h*0.5,"pivot",10,"square")
     _t(cr,view,w*0.6,h*0.34,"split: 0 | 8, then 0 | 7, then 0 | 6...",12,"square")
     for i in range(4):
