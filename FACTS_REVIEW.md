@@ -594,3 +594,15 @@ composition it wears today.
 | audio-fact-sample-rate-001 | audio | Why CDs sample at 44.1 kHz |
 | physics-fact-venus-day-001 | physics | A Venusian day outlasts its year |
 | programming-fact-first-bug-001 | programming | The first bug was not the first bug |
+
+## Resolution (re-audit, 2026-11-01)
+
+The redo was executed: all 500 facts are now individual Python
+modules with their own `paint()`. Verified independently of the
+author: `tools/test_game.py` 503/503 OK; normalized `paint()`
+skeletons (labels stripped, geometry counted) are distinct
+in 503/503 modules; contact sheets across topics show
+subject-specific illustrations. Remaining nitpicks for a later
+pass: a few scenes are sparse (schrodinger-cat), in-scene text
+runs small. Status: **closed, with the skeleton-uniqueness
+check now enforced by the test suite.**
