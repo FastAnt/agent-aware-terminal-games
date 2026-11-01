@@ -15,20 +15,20 @@ programming-fact-therac-race-001 · Programming · Therac-25: a race condition i
 programming-fact-binary-search-overflow-001 · Programming · Binary search hid an overflow bug for years
 programming-fact-pentium-fdiv-001 · Programming · Intel once shipped a chip that divided wrongly
 programming-fact-manchester-baby-001 · Programming · The first stored program ran 52 minutes, in 1948
-programming-fact-eniac-programmers-001 · Programming · ENIAC was programmed by rewiring it
+programming-fact-eniac-programmers-001 · Programming · ENIAC was programmed by rewiring it · visual: bespoke
 programming-fact-ada-lovelace-vision-001 · Programming · Lovelace predicted computers would compose music
 programming-fact-hopper-compiler-001 · Programming · Hopper built a compiler they said was impossible
 programming-fact-hamilton-software-001 · Programming · Apollo software made failure a scheduling problem
 programming-fact-turing-machine-paper-001 · Programming · Computability came from an imaginary machine
-programming-fact-shannon-bit-001 · Programming · Shannon founded information theory and digital logic
+programming-fact-shannon-bit-001 · Programming · Shannon founded information theory and digital logic · visual: bespoke
 programming-fact-berners-web-free-001 · Programming · The Web was given away. That is why it won
 programming-fact-tomlinson-at-001 · Programming · Email's @ came from a rarely used key
-programming-fact-linus-hobby-001 · Programming · Linux began as 'just a hobby'
+programming-fact-linus-hobby-001 · Programming · Linux began as 'just a hobby' · visual: bespoke
 programming-fact-git-ten-days-001 · Programming · Git was written in weeks, out of necessity
 programming-fact-python-name-001 · Programming · Python is named after a comedy troupe
 programming-fact-javascript-ten-days-001 · Programming · JavaScript was prototyped in about ten days
 programming-fact-y2k-two-digits-001 · Programming · Y2K was a memory-saving decision coming due
-programming-fact-morris-worm-001 · Programming · The first Internet worm was a survey that escaped
+programming-fact-morris-worm-001 · Programming · The first Internet worm was a survey that escaped · visual: bespoke
 programming-fact-moores-law-observation-001 · Programming · Moore's law is an observation, not physics
 programming-fact-sorting-lower-bound-001 · Programming · Comparison sorts cannot beat n log n, and it is provable
 programming-fact-quicksort-worst-001 · Programming · Quicksort's worst case hides in already-sorted input
@@ -50,7 +50,7 @@ programming-fact-euclid-still-001 · Programming · The oldest algorithm still i
 programming-fact-inverse-sqrt-hack-001 · Programming · Quake's inverse square root used a magic hexadecimal number
 programming-fact-copy-on-write-001 · Programming · Forking a process does not copy its memory
 programming-fact-branch-prediction-001 · Programming · Your CPU runs code that may never happen
-programming-fact-jit-hotspot-001 · Programming · JIT compilers optimise the code you actually run
+programming-fact-jit-hotspot-001 · Programming · JIT compilers optimise the code you actually run · visual: bespoke
 programming-fact-gc-vs-refcount-001 · Programming · Reference counting cannot collect a cycle
 programming-fact-turing-completeness-css-001 · Programming · CSS plus HTML was shown to be Turing complete
 programming-fact-stack-frames-001 · Programming · Recursion depth is limited by memory, not by the language
@@ -62,20 +62,20 @@ programming-fact-codd-relational-001 · Programming · Databases were revolution
 programming-fact-visicalc-killer-app-001 · Programming · The spreadsheet was the first killer app
 programming-fact-alto-gui-001 · Programming · The GUI, mouse and Ethernet shared one 1973 machine
 programming-fact-mosaic-images-001 · Programming · One browser feature made the Web popular: inline images
-programming-fact-pagerank-eigen-001 · Programming · Google began as an eigenvector problem
-programming-fact-mapreduce-paper-001 · Programming · MapReduce taught clusters by hiding the hard parts
+programming-fact-pagerank-eigen-001 · Programming · Google began as an eigenvector problem · visual: bespoke
+programming-fact-mapreduce-paper-001 · Programming · MapReduce taught clusters by hiding the hard parts · visual: bespoke
 programming-fact-tcp-flag-day-001 · Programming · The Internet once switched protocols on a deadline
 programming-fact-dns-hosts-file-001 · Programming · DNS exists because one text file stopped scaling
 programming-fact-first-domain-001 · Programming · The first .com was a computer maker's, in 1985
-programming-fact-erlang-nines-001 · Programming · Erlang was built so phone switches basically never stop
+programming-fact-erlang-nines-001 · Programming · Erlang was built so phone switches basically never stop · visual: bespoke
 programming-fact-csp-hoare-001 · Programming · Go's goroutines descend from a 1978 paper
-programming-fact-smalltalk-balloon-001 · Programming · Smalltalk hid an entire computer inside every object
+programming-fact-smalltalk-balloon-001 · Programming · Smalltalk hid an entire computer inside every object · visual: bespoke
 programming-fact-prolog-facts-001 · Programming · Prolog programs state facts; the machine finds the proof
 programming-fact-haskell-laziness-001 · Programming · Lazy evaluation once united a fragmented field
 programming-fact-regex-kleene-001 · Programming · Regular expressions began as nerve-net mathematics
 programming-fact-emoji-kurita-001 · Programming · Emoji were 12 by 12 pixels, designed for pagers
 programming-fact-wikiwikiweb-001 · Programming · The first wiki was named after a Honolulu bus
-programming-fact-ajax-gmail-001 · Programming · Web apps became real when pages stopped reloading
+programming-fact-ajax-gmail-001 · Programming · Web apps became real when pages stopped reloading · visual: bespoke
 programming-fact-json-crockford-001 · Programming · JSON won by being a subset of something else
 programming-fact-rest-dissertation-001 · Programming · REST is a PhD thesis, not a protocol
 programming-fact-opensource-cathedral-001 · Programming · The Cathedral and the Bazaar argued open code works better
@@ -96,7 +96,7 @@ programming-fact-fork-exec-split-001 · Programming · Unix split 'run a program
 programming-fact-zerocopy-sendfile-001 · Programming · Sending a file need not pass through your program
 programming-fact-overcommit-001 · Programming · Linux promises more memory than it has
 programming-fact-pagecache-invisible-001 · Programming · Your second read of a file usually never touches disk
-programming-fact-simd-lanes-001 · Programming · One instruction can do sixteen additions at once
+programming-fact-simd-lanes-001 · Programming · One instruction can do sixteen additions at once · visual: bespoke
 programming-fact-context-switch-cost-001 · Programming · Switching threads costs more than the switch
 programming-fact-timer-interrupts-001 · Programming · Multitasking exists because a clock keeps interrupting
 programming-fact-inode-no-name-001 · Programming · On Unix, a file's name is not part of the file
@@ -286,7 +286,7 @@ architecture-fact-paxos-simple-001 · Architecture · Paxos was so hard to expla
 architecture-fact-idempotency-keys-001 · Architecture · A good retry button is really an idempotency key
 architecture-fact-lsm-vs-btree-001 · Architecture · Write-heavy stores trade read work for write speed
 architecture-fact-gossip-spread-001 · Architecture · Cluster gossip spreads news like a rumour, on purpose · visual: bespoke
-architecture-fact-anycast-001 · Architecture · The same IP address can live in a hundred cities
+architecture-fact-anycast-001 · Architecture · The same IP address can live in a hundred cities · visual: bespoke
 architecture-fact-bulkheads-001 · Architecture · Ships' bulkheads became a software pattern
 architecture-fact-backpressure-001 · Architecture · Fast producers must be told to slow down
 architecture-fact-two-phase-commit-001 · Architecture · Two-phase commit can block everyone on one coordinator
@@ -321,7 +321,7 @@ architecture-fact-log4shell-ubiquity-001 · Architecture · Log4Shell hid in a l
 architecture-fact-solarwinds-build-001 · Architecture · SolarWinds attackers compromised the build, not the product
 architecture-fact-stuxnet-airgap-001 · Architecture · Stuxnet crossed an air gap on a USB stick
 architecture-fact-yahoo-breach-scale-001 · Architecture · Yahoo's breach grew every time it was recounted
-architecture-fact-ashley-lessons-001 · Architecture · Backups that nobody tested are a hope, not a plan
+architecture-fact-ashley-lessons-001 · Architecture · Backups that nobody tested are a hope, not a plan · visual: bespoke
 architecture-fact-blameless-postmortems-001 · Architecture · Blameless postmortems exist because fear hides causes
 architecture-fact-tcp-handshake-001 · Architecture · TCP's three-way handshake proves both sides can hear
 architecture-fact-slow-start-001 · Architecture · TCP begins every connection deliberately slow
@@ -343,14 +343,14 @@ architecture-fact-grpc-streaming-001 · Architecture · gRPC streams because one
 architecture-fact-cdn-origin-pull-001 · Architecture · The first visitor to a new city pays for everyone
 architecture-fact-sharding-hotspot-001 · Architecture · Sharding by the wrong key creates one celebrity shard
 architecture-fact-read-replica-lag-001 · Architecture · Read replicas can honestly return yesterday's news
-ml-fact-perceptron-hype-001 · Machine learning · The 1958 perceptron was promised to walk and talk
-ml-fact-xor-winter-001 · Machine learning · One XOR problem helped freeze AI research for years
+ml-fact-perceptron-hype-001 · Machine learning · The 1958 perceptron was promised to walk and talk · visual: bespoke
+ml-fact-xor-winter-001 · Machine learning · One XOR problem helped freeze AI research for years · visual: bespoke
 ml-fact-backprop-1986-001 · Machine learning · Backpropagation was discovered at least three times · visual: bespoke
-ml-fact-imagenet-moment-001 · Machine learning · AlexNet won by 10 points and ended an era overnight
+ml-fact-imagenet-moment-001 · Machine learning · AlexNet won by 10 points and ended an era overnight · visual: bespoke
 ml-fact-imagenet-labels-001 · Machine learning · ImageNet's secret ingredient was labelled data at scale
 ml-fact-word2vec-arithmetic-001 · Machine learning · king - man + woman lands near queen, unprogrammed
 ml-fact-gan-pub-001 · Machine learning · GANs were argued into existence in a Montreal pub
-ml-fact-transformer-paper-001 · Machine learning · 'Attention Is All You Need deleted recurrence
+ml-fact-transformer-paper-001 · Machine learning · 'Attention Is All You Need deleted recurrence · visual: bespoke
 ml-fact-scaling-laws-001 · Machine learning · Language model quality follows eerily straight power laws
 ml-fact-chinchilla-001 · Machine learning · Famous models were trained on too little text
 ml-fact-double-descent-001 · Machine learning · Making a model bigger can make test error fall twice
@@ -359,9 +359,9 @@ ml-fact-adversarial-examples-001 · Machine learning · A panda plus invisible n
 ml-fact-move37-001 · Machine learning · Move 37 was first called a mistake by experts
 ml-fact-alphazero-tabula-001 · Machine learning · AlphaZero taught itself chess, then crushed Stockfish · visual: bespoke
 ml-fact-alphafold-casp-001 · Machine learning · AlphaFold2 essentially solved a 50-year grand challenge
-ml-fact-dqn-atari-001 · Machine learning · One algorithm learned Atari from pixels
+ml-fact-dqn-atari-001 · Machine learning · One algorithm learned Atari from pixels · visual: bespoke
 ml-fact-batchnorm-landscape-001 · Machine learning · Batch norm works, maybe not for the stated reason · visual: bespoke
-ml-fact-dropout-ensemble-001 · Machine learning · Dropout is secretly an ensemble of countless networks
+ml-fact-dropout-ensemble-001 · Machine learning · Dropout is secretly an ensemble of countless networks · visual: bespoke
 ml-fact-lottery-ticket-001 · Machine learning · Big networks hide small networks that win alone
 ml-fact-catastrophic-forgetting-001 · Machine learning · Networks forget the old task acing the new
 ml-fact-bpe-tokens-001 · Machine learning · Language models read compression-born subwords
@@ -382,20 +382,20 @@ ml-fact-turing-test-loebner-001 · Machine learning · The Turing test measures 
 ml-fact-eliza-effect-001 · Machine learning · A 1966 keyword script convinced users it understood
 ml-fact-deepblue-brute-001 · Machine learning · Deep Blue won with speed plus evaluation, not learning
 ml-fact-watson-jeopardy-001 · Machine learning · Watson won Jeopardy by ranking answers, not understanding
-ml-fact-recommender-bubble-001 · Machine learning · Recommenders optimise engagement, not your future taste
+ml-fact-recommender-bubble-001 · Machine learning · Recommenders optimise engagement, not your future taste · visual: bespoke
 ml-fact-cold-start-001 · Machine learning · Recommenders are blind exactly when you are new
-ml-fact-curse-dimensionality-001 · Machine learning · In high dimensions, everything is far from everything
+ml-fact-curse-dimensionality-001 · Machine learning · In high dimensions, everything is far from everything · visual: bespoke
 ml-fact-no-free-lunch-ml-001 · Machine learning · No algorithm is best at everything: that is a theorem
 ml-fact-bias-variance-001 · Machine learning · Prediction error is a tug of war you cannot win twice
-ml-fact-random-forest-trees-001 · Machine learning · A forest of bad trees outvotes a single good one
+ml-fact-random-forest-trees-001 · Machine learning · A forest of bad trees outvotes a single good one · visual: bespoke
 ml-fact-svm-margin-001 · Machine learning · Support vector machines care only about the borderline
 ml-fact-knn-simplicity-001 · Machine learning · k-NN was analysed in 1967 and still embarrasses pipelines
 ml-fact-decision-tree-entropy-001 · Machine learning · Decision trees ask the question that splits doubt best
 ml-fact-naive-bayes-works-001 · Machine learning · Naive Bayes lies about independence and often wins
-ml-fact-pca-eigenfaces-001 · Machine learning · Faces compress into ghostly averages called eigenfaces
-ml-fact-moe-sparse-001 · Machine learning · Mixture of experts lets a model be big and cheap at once
+ml-fact-pca-eigenfaces-001 · Machine learning · Faces compress into ghostly averages called eigenfaces · visual: bespoke
+ml-fact-moe-sparse-001 · Machine learning · Mixture of experts lets a model be big and cheap at once · visual: bespoke
 ml-fact-distillation-001 · Machine learning · A small model can be taught by a big one's hesitations
-ml-fact-self-attention-cost-001 · Machine learning · Attention's power bill grows with the square of length
+ml-fact-self-attention-cost-001 · Machine learning · Attention's power bill grows with the square of length · visual: bespoke
 ml-fact-positional-rope-001 · Machine learning · Models know word order only because we inject it
 ml-fact-pretraining-finetuning-001 · Machine learning · Pretrain then fine-tune inverted who does the work
 ml-fact-emergent-abilities-debate-001 · Machine learning · 'Emergent abilities' may partly be a mirage of metrics

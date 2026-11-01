@@ -236,3 +236,81 @@ that. Status is tracked in FACTS_INDEX.md ("visual: bespoke").
   (activations before) arrowed into a centred narrow bell;
   a question mark over "covariate shift?" and a smooth hill
   icon for the real explanation.
+
+## Batch N2 — network rest + first chains (25)
+
+- ml-fact-curse-dimensionality-001 — Left: 2D dots at varied
+  distances. Right: dots spread on a thin shell ring, all
+  nearly the same distance from the centre.
+- ml-fact-dqn-atari-001 — A Breakout screen (bricks, paddle,
+  ball with a tunnel behind the wall) feeding pixels into a
+  small network box; score counter rising.
+- ml-fact-dropout-ensemble-001 — One network whose units
+  flicker off in changing subsets; beneath, three thin
+  "sub-network" copies and a vote into the full net.
+- ml-fact-imagenet-moment-001 — Error bars 2010-2012 near
+  26-28 percent, then AlexNet's bar dropping to 15.3 with
+  two small GPU boxes beside it.
+- ml-fact-moe-sparse-001 — A router diamond reading a token
+  and lighting only 2 of 8 expert boxes; the rest stay dim,
+  "pay for 2, own 8".
+- ml-fact-pca-eigenfaces-001 — A face oval above a row of
+  ghost component ovals; weight bars under each ghost sum
+  back into the face.
+- ml-fact-perceptron-hype-001 — A 1958 newspaper frame; inside,
+  one neuron diagram and a speech bubble: "will walk, talk,
+  see..." — the promise vs the circuit.
+- ml-fact-random-forest-trees-001 — Three scraggly decision
+  trees drop ballots into a majority box; the wrong solo
+  ballot is outvoted.
+- ml-fact-recommender-bubble-001 — A user dot before a wide
+  funnel of varied items; the funnel narrows to three
+  repeated sameness items circled as a bubble.
+- ml-fact-self-attention-cost-001 — Token squares: four tokens
+  with all pair lines (16), then eight tokens' corner of a
+  much denser web, "cost grows as n squared".
+- ml-fact-transformer-paper-001 — A row of tokens with arcs
+  connecting every pair directly; below, a crossed-out
+  chain link labelled "recurrence removed".
+- ml-fact-xor-winter-001 — A 2x2 plot: filled dots on one
+  diagonal, empty on the other, one straight line failing
+  every way it tilts; "no single line separates XOR".
+- programming-fact-ajax-gmail-001 — A page frame where only
+  one panel refreshes with a spinner while the rest of the
+  page stays put; a faint full-reload circular arrow crossed.
+- programming-fact-eniac-programmers-001 — A wall panel of
+  sockets in a grid with swooping patch cables plugged by
+  six small operator dots along the bottom.
+- programming-fact-erlang-nines-001 — Many tiny process
+  circles; one bursts (X), a supervisor box above sends a
+  restart arrow and a fresh circle appears.
+- programming-fact-jit-hotspot-001 — Code blocks in a row;
+  one glows as "hot: profiled 10,000 runs" and drops through
+  a compiler funnel into native code.
+- programming-fact-linus-hobby-001 — A terminal post: three
+  quoted lines ("just a hobby..."), and beneath a small tree
+  of contributors growing branches.
+- programming-fact-mapreduce-paper-001 — Documents split into
+  shards, map boxes emit key pairs, arrows shuffle them by
+  key into reduce boxes adding totals.
+- programming-fact-morris-worm-001 — Machine nodes in a ring;
+  a worm dot travels and each visited node sprouts copies
+  until the ring clogs.
+- programming-fact-pagerank-eigen-001 — Web page nodes of
+  different sizes joined by link arrows; the biggest node
+  collects the most arrows, "rank flows along links".
+- programming-fact-shannon-bit-001 — A relay switch circuit
+  AND/OR drawn with contacts, and below a clean bit stream
+  0 1 1 0 labelled "information, measured".
+- programming-fact-simd-lanes-001 — One long register split
+  into 16 lanes with numbers; a single instruction banner
+  above applies "+" to all lanes at once.
+- programming-fact-smalltalk-balloon-001 — Speech-bubble
+  objects (a number, a window, a point) exchanging message
+  arrows; even "3" is an object receiving "+ 4".
+- architecture-fact-anycast-001 — A globe with three pins
+  sharing one label "same IP"; a user arrow bends to the
+  nearest pin only.
+- architecture-fact-ashley-lessons-001 — Backup tapes on a
+  shelf under a vault door; a restore-test lever rusted at
+  "never tried", with a question mark over the tapes.
