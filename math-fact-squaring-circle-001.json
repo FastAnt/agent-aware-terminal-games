@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "math-fact-squaring-circle-001",
+  "kicker": "FACT",
+  "topic": "Math",
+  "title": "Squaring the circle died when pi turned transcendental",
+  "body": "For two millennia people tried to construct, with ruler and compass, a square equal in area to a given circle. Lindemann's 1882 proof that pi is transcendental implies the needed length can never arise from such constructions, ending the quest by impossibility rather than ingenuity. The phrase survives as slang for hopeless tasks that are actually provable dead ends.",
+  "source_hint": "Lindemann (1882), pi transcendence",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "circle area pi r^2",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "need sqrt(pi)",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "transcendental: impossible",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

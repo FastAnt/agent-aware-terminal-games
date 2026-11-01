@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "math-fact-busy-beaver-001",
+  "kicker": "FACT",
+  "topic": "Math",
+  "title": "The busiest small machines outrun all comprehension",
+  "body": "Busy beaver numbers ask how long a small Turing machine can run before halting. The values are computable-looking yet grow faster than anything provable in standard mathematics; settling the five-state case took until 2024 with a community proof effort. Tiny machines, five rules of state, already exceed formal reach.",
+  "source_hint": "Radó (1962); BB(5) resolution effort (2024)",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "5-state machine",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "runs, then halts",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "longer than provable",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}

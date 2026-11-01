@@ -189,3 +189,8 @@ math-fact-erdos-probabilistic-001 · Math · Existence by dice: the probabilisti
 math-fact-ramsey-friends-001 · Math · In any six people, three mutual friends or strangers
 math-fact-sylvester-gallai-001 · Math · A line through exactly two points is guaranteed
 math-fact-pick-theorem-001 · Math · Farm plots on graph paper yield area by counting dots
+math-fact-no-ruler-compass-001 · Math · A compass alone can do everything ruler-and-compass can
+math-fact-squaring-circle-001 · Math · Squaring the circle died when pi turned transcendental
+math-fact-transcendental-pi-e-001 · Math · We do not know if pi + e is irrational
+math-fact-chaitin-omega-001 · Math · There is a number that encodes all of mathematics' secrets
+math-fact-busy-beaver-001 · Math · The busiest small machines outrun all comprehension

@@ -1,0 +1,31 @@
+{
+  "type": "fact",
+  "id": "math-fact-no-ruler-compass-001",
+  "kicker": "FACT",
+  "topic": "Math",
+  "title": "A compass alone can do everything ruler-and-compass can",
+  "body": "The Mohr-Mascheroni theorem says every point constructible with ruler and compass is constructible with compass alone; the ruler's lines are recoverable from circles. Mohr published it in 1672 and was forgotten; Mascheroni re-proved it in 1797 and kept the fame. Tools in geometry constrain methods far less than they appear to.",
+  "source_hint": "Mohr (1672); Mascheroni (1797)",
+  "scene": {
+    "type": "orbits",
+    "rings": 4,
+    "dots": [
+      {
+        "ring": 2,
+        "angle": 60
+      },
+      {
+        "ring": 3,
+        "angle": 200
+      },
+      {
+        "ring": 4,
+        "angle": 330
+      }
+    ],
+    "anim": {
+      "type": "orbit",
+      "speed": 0.35
+    }
+  }
+}

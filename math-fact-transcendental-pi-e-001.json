@@ -1,0 +1,46 @@
+{
+  "type": "fact",
+  "id": "math-fact-transcendental-pi-e-001",
+  "kicker": "FACT",
+  "topic": "Math",
+  "title": "We do not know if pi + e is irrational",
+  "body": "Despite centuries with both constants, nobody knows whether pi + e is rational or irrational, though at least one of pi+e and pi*e must be transcendental by algebra. Mathematics has abysses at arm's length: one line of arithmetic, total ignorance. Openness, not exoticism, is the normal state of research frontiers.",
+  "source_hint": "Open problem; standard transcendence theory",
+  "scene": {
+    "type": "diagram",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "pi + e",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "id": "n1",
+        "label": "rational? irrational?",
+        "x": 0.22,
+        "y": 0.78
+      },
+      {
+        "id": "n2",
+        "label": "nobody knows",
+        "x": 0.78,
+        "y": 0.78
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "from": "n1",
+        "to": "n2"
+      }
+    ],
+    "anim": {
+      "type": "flow",
+      "speed": 0.5
+    }
+  }
+}
