@@ -836,3 +836,59 @@ that. Status is tracked in FACTS_INDEX.md ("visual: bespoke").
 - math-fact-minimax-vonneumann-001 — Rock-paper-scissors circle
   with a dice; "optimal = mix randomly" vs a predictable
   pattern exploited.
+
+## Batch C8 — chains, part 8 (25)
+
+- math-fact-monte-carlo-pi-001 — Random dots in a square,
+  those inside the quarter circle lit; ratio x4 estimates pi.
+- math-fact-birthday-attack-sqrt-001 — A scale 365 boxes but
+  collision spark at only 23 people; sqrt curve.
+- math-fact-expectation-linear-001 — Two interlocked dice/
+  gears labelled X and Y; E[X+Y] = E[X]+E[Y] anyway.
+- math-fact-coupon-collector-001 — Coupon slots filling;
+  expected waits 1, 1/2 ... the last slot's bar as long as all.
+- math-fact-riemann-open-001 — Complex plane with zeros on the
+  critical line x=1/2 ringed; a million-dollar tag.
+- math-fact-axiom-choice-banach-001 — One sphere split by
+  dashed cuts reassembling into two spheres (Banach-Tarski).
+- math-fact-well-ordering-shock-001 — A scattered set of dots
+  being pulled into one single queue line by "choice".
+- math-fact-intermediate-value-001 — A continuous path from
+  below a river line to above; crossing point forced ringed.
+- math-fact-cauchy-strange-001 — A jagged fractal-ish function
+  (Weierstrass) zooming jagged at every scale.
+- math-fact-countable-algebraic-001 — A countable list of
+  algebraic numbers as tiny strip vs the vast real line.
+- math-fact-liouville-first-001 — 0.110001000000000000000001...
+  digit pattern with growing zero runs, built transcendental.
+- math-fact-goldbach-open-001 — Even numbers 4..20 as sums of
+  two prime dots; beyond them a proof "?" horizon.
+- math-fact-catalan-miha-001 — Powers on a number line: 8 and 9
+  adjacent ringed, all other powers spaced apart.
+- math-fact-erdos-probabilistic-001 — Dice over a combinatorial
+  object; "if a random one works with P>0, one exists".
+- math-fact-sylvester-gallai-001 — Scattered points; all the
+  lines through pairs, one line touching exactly two ringed.
+- math-fact-no-ruler-compass-001 — A construction done with
+  compass arcs only; the straightedge lying crossed aside.
+- math-fact-squaring-circle-001 — Circle and a square of equal
+  area ghosted; ruler/compass crossed when pi proved
+  transcendental (1882).
+- math-fact-transcendental-pi-e-001 — pi + e = ? a balance with
+  two known weights and an unknown verdict tag.
+- math-fact-chaitin-omega-001 — Binary expansion of Omega with
+  bits as halting answers; a lock over later bits "knowable
+  only finitely".
+- math-fact-busy-beaver-001 — Tiny Turing machines table; steps
+  explode 1, 6, 21, 107... then "unknown" for 5 states.
+- physics-fact-muons-rain-001 — Mountain, muon streaks; clock
+  beside dilated: most should decay, many arrive.
+- physics-fact-hot-tea-mass-001 — Two cups on a scale, hot one
+  tipped heavier by E=mc^2 caption, absurdly tiny delta.
+- physics-fact-charged-battery-mass-001 — Battery outline full
+  vs empty on scale pans, fuller side heavier by 10^-12 kg.
+- physics-fact-landauer-001 — A bit cell erased to 0, heat
+  arrow out labelled kT ln2 minimum.
+- physics-fact-maxwell-demon-001 — A demon at a door between
+  fast/slow molecules, its notebook filling until erasure
+  costs the savings.

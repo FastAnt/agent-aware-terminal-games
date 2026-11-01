@@ -171,39 +171,39 @@ math-fact-condorcet-cycle-001 · Math · Majorities can prefer A to B, B to C, a
 math-fact-nash-equilibrium-001 · Math · Nash proved every finite game has a stable point · visual: bespoke
 math-fact-prisoners-dilemma-001 · Math · Individually rational, collectively foolish: the dilemma · visual: bespoke
 math-fact-minimax-vonneumann-001 · Math · Optimal play in zero-sum games is often random · visual: bespoke
-math-fact-monte-carlo-pi-001 · Math · Randomness computes what geometry struggles with
-math-fact-birthday-attack-sqrt-001 · Math · Collisions arrive at the square root, not halfway
-math-fact-expectation-linear-001 · Math · Expectation adds even when variables conspire
-math-fact-coupon-collector-001 · Math · The last coupon takes as long as all the rest
+math-fact-monte-carlo-pi-001 · Math · Randomness computes what geometry struggles with · visual: bespoke
+math-fact-birthday-attack-sqrt-001 · Math · Collisions arrive at the square root, not halfway · visual: bespoke
+math-fact-expectation-linear-001 · Math · Expectation adds even when variables conspire · visual: bespoke
+math-fact-coupon-collector-001 · Math · The last coupon takes as long as all the rest · visual: bespoke
 math-fact-harmonic-diverges-slow-001 · Math · The harmonic series diverges, but at a crawl · visual: bespoke
-math-fact-riemann-open-001 · Math · The Riemann hypothesis is a million-dollar pattern
-math-fact-axiom-choice-banach-001 · Math · Choice lets one ball become two, on paper
-math-fact-well-ordering-shock-001 · Math · Accept choice and every set can be lined up
-math-fact-intermediate-value-001 · Math · A continuous walk cannot jump over the riverbank
-math-fact-cauchy-strange-001 · Math · There are functions continuous everywhere, tame nowhere
-math-fact-countable-algebraic-001 · Math · Almost every real number is transcendental
-math-fact-liouville-first-001 · Math · The first proven transcendental was built to be one
-math-fact-goldbach-open-001 · Math · Every even number tried is two primes; proof missing
-math-fact-catalan-miha-001 · Math · 8 and 9 are the only consecutive perfect powers
-math-fact-erdos-probabilistic-001 · Math · Existence by dice: the probabilistic method
+math-fact-riemann-open-001 · Math · The Riemann hypothesis is a million-dollar pattern · visual: bespoke
+math-fact-axiom-choice-banach-001 · Math · Choice lets one ball become two, on paper · visual: bespoke
+math-fact-well-ordering-shock-001 · Math · Accept choice and every set can be lined up · visual: bespoke
+math-fact-intermediate-value-001 · Math · A continuous walk cannot jump over the riverbank · visual: bespoke
+math-fact-cauchy-strange-001 · Math · There are functions continuous everywhere, tame nowhere · visual: bespoke
+math-fact-countable-algebraic-001 · Math · Almost every real number is transcendental · visual: bespoke
+math-fact-liouville-first-001 · Math · The first proven transcendental was built to be one · visual: bespoke
+math-fact-goldbach-open-001 · Math · Every even number tried is two primes; proof missing · visual: bespoke
+math-fact-catalan-miha-001 · Math · 8 and 9 are the only consecutive perfect powers · visual: bespoke
+math-fact-erdos-probabilistic-001 · Math · Existence by dice: the probabilistic method · visual: bespoke
 math-fact-ramsey-friends-001 · Math · In any six people, three mutual friends or strangers · visual: bespoke
-math-fact-sylvester-gallai-001 · Math · A line through exactly two points is guaranteed
+math-fact-sylvester-gallai-001 · Math · A line through exactly two points is guaranteed · visual: bespoke
 math-fact-pick-theorem-001 · Math · Farm plots on graph paper yield area by counting dots · visual: bespoke
-math-fact-no-ruler-compass-001 · Math · A compass alone can do everything ruler-and-compass can
-math-fact-squaring-circle-001 · Math · Squaring the circle died when pi turned transcendental
-math-fact-transcendental-pi-e-001 · Math · We do not know if pi + e is irrational
-math-fact-chaitin-omega-001 · Math · There is a number that encodes all of mathematics' secrets
-math-fact-busy-beaver-001 · Math · The busiest small machines outrun all comprehension
+math-fact-no-ruler-compass-001 · Math · A compass alone can do everything ruler-and-compass can · visual: bespoke
+math-fact-squaring-circle-001 · Math · Squaring the circle died when pi turned transcendental · visual: bespoke
+math-fact-transcendental-pi-e-001 · Math · We do not know if pi + e is irrational · visual: bespoke
+math-fact-chaitin-omega-001 · Math · There is a number that encodes all of mathematics' secrets · visual: bespoke
+math-fact-busy-beaver-001 · Math · The busiest small machines outrun all comprehension · visual: bespoke
 physics-fact-gps-relativity-001 · Physics · GPS works only because relativity is corrected daily · visual: bespoke
-physics-fact-muons-rain-001 · Physics · Muons reach the ground by living in another time
+physics-fact-muons-rain-001 · Physics · Muons reach the ground by living in another time · visual: bespoke
 physics-fact-hafele-keating-001 · Physics · In 1971, clocks flown around the world disagreed on return · visual: bespoke
-physics-fact-hot-tea-mass-001 · Physics · A hot cup of tea is heavier than the same tea cold
-physics-fact-charged-battery-mass-001 · Physics · A charged battery weighs more than a dead one
+physics-fact-hot-tea-mass-001 · Physics · A hot cup of tea is heavier than the same tea cold · visual: bespoke
+physics-fact-charged-battery-mass-001 · Physics · A charged battery weighs more than a dead one · visual: bespoke
 physics-fact-mercury-perihelion-001 · Physics · Mercury's orbit misbehaved until gravity was rethought · visual: bespoke
 physics-fact-cmb-pigeons-001 · Physics · The Big Bang's afterglow was found as antenna noise · visual: bespoke
 physics-fact-olbers-dark-001 · Physics · The night sky is dark because the universe has a birthday · visual: bespoke
-physics-fact-landauer-001 · Physics · Erasing one bit must release a minimum of heat
-physics-fact-maxwell-demon-001 · Physics · Maxwell's demon was defeated by its own memory
+physics-fact-landauer-001 · Physics · Erasing one bit must release a minimum of heat · visual: bespoke
+physics-fact-maxwell-demon-001 · Physics · Maxwell's demon was defeated by its own memory · visual: bespoke
 physics-fact-tunnelling-sun-001 · Physics · The Sun shines by quantum tunnelling
 physics-fact-uncertainty-intrinsic-001 · Physics · Uncertainty is not clumsy measurement; it is the world
 physics-fact-double-slit-single-001 · Physics · Single electrons build interference one dot at a time
