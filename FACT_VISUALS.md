@@ -1311,3 +1311,61 @@ that. Status is tracked in FACTS_INDEX.md ("visual: bespoke").
   of tape boxes vs network line throughput chart.
 - cloud-fact-snowmobile-exabyte-001 — Truck (Snowmobile) with
   drive racks, exabyte scale bar.
+
+## Batch C16 — chains, part 16, final (25)
+
+- cloud-fact-data-gravity-001 — A big dataset planet with
+  apps orbiting/falling toward it; moving apps cheaper than
+  moving data.
+- cloud-fact-az-correlated-001 — Three AZ buildings sharing
+  one power/control plane cable, failing together.
+- cloud-fact-noisy-neighbor-001 — Two tenants on one host
+  bar, neighbour's CPU bars spiking compressing yours.
+- cloud-fact-cold-start-physics-001 — Function timeline:
+  load runtime, load code, init, then finally run slice.
+- cloud-fact-spot-markets-001 — Price curve of spare servers
+  as airline seats, interruption notice tag.
+- cloud-fact-s3-strong-2020-001 — Before/after 2020 line: PUT
+  then read returning old vs immediately new.
+- cloud-fact-retry-jitter-001 — Retry timing bars doubling
+  with dice jitter scattered, server recovering.
+- cloud-fact-egress-asymmetry-001 — Cloud door: entry free
+  arrow in, exit with price tag per GB.
+- cloud-fact-clock-skew-leases-001 — Two skewed clocks and a
+  lease expiry overlap window with safety margin.
+- cloud-fact-load-shedding-001 — Request queue at a gate,
+  some turned away early, core service graph healthy.
+- security-fact-venona-reuse-001 — Two ciphertexts XORed
+  cancelling the reused pad, language patterns emerging.
+- security-fact-code-is-speech-001 — PGP source printed as a
+  book (legally exported) vs floppy crossed at border, court
+  gavel.
+- security-fact-nist-password-reversal-001 — Old rules list
+  (rotate 90d, symbols!) crossed, new guidance: length +
+  screening.
+- security-fact-correct-horse-entropy-001 — Two password
+  bars: Tr0ub4dor entropy bits ~28 vs correct-horse battery
+  ~44+ with word dice.
+- security-fact-timing-side-channel-001 — Password compare
+  stopping at first wrong char, stopwatch leaking position.
+- security-fact-rowhammer-001 — Memory rows grid, hammered
+  row glowing, bit flipping in the neighbour row.
+- security-fact-spectre-lesson-001 — Branch predictor path
+  speculatively reading forbidden box, cache footprints.
+- security-fact-van-eck-001 — CRT monitor leaking wavy RF to
+  a van antenna reconstructing the screen (1985).
+- security-fact-krack-wpa2-001 — WPA2 four-way handshake
+  messages replayed resetting nonce/keystream.
+- security-fact-wep-iv-reuse-001 — 24-bit IV counter wrapping
+  by lunch on busy network, same keystream reused.
+- security-fact-sql-injection-shape-001 — Query parse tree:
+  input ' OR '1'='1 breaking out of string leaf into logic.
+- security-fact-passkeys-origin-001 — Phishing clone site
+  asking passkey, browser refusing because origin differs.
+- security-fact-totp-window-001 — Phone and server clocks,
+  30-second windows with +-1 acceptance bars, code 6 digits.
+- security-fact-beyondcorp-aurora-001 — Castle VPN wall
+  dissolving into per-request identity checks (zero trust).
+- security-fact-navajo-code-001 — Message encoded twice:
+  Navajo word layer plus military alphabet layer, unbroken
+  lock.

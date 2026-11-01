@@ -476,29 +476,29 @@ cloud-fact-fiber-light-speed-001 · Cloud · Light in fiber goes about 200 km pe
 cloud-fact-latency-floor-001 · Cloud · Geography sets a latency floor no provider can beat · visual: bespoke
 cloud-fact-station-wagon-bandwidth-001 · Cloud · Never underestimate a station wagon full of tapes · visual: bespoke
 cloud-fact-snowmobile-exabyte-001 · Cloud · AWS once sent an 18-wheeler to collect exabytes · visual: bespoke
-cloud-fact-data-gravity-001 · Cloud · Data attracts applications the way mass attracts mass
-cloud-fact-az-correlated-001 · Cloud · Availability zones fail together more often than brochures
+cloud-fact-data-gravity-001 · Cloud · Data attracts applications the way mass attracts mass · visual: bespoke
+cloud-fact-az-correlated-001 · Cloud · Availability zones fail together more often than brochures · visual: bespoke
 cloud-fact-cell-based-001 · Cloud · Amazon confines failures by building in cells · visual: bespoke
-cloud-fact-noisy-neighbor-001 · Cloud · Your cloud neighbour can slow you without touching you
-cloud-fact-cold-start-physics-001 · Cloud · Serverless cold starts are mostly loading, not laziness
-cloud-fact-spot-markets-001 · Cloud · Cloud spare capacity is sold like an airline seat market
-cloud-fact-s3-strong-2020-001 · Cloud · Amazon S3 changed its consistency personality in 2020
-cloud-fact-retry-jitter-001 · Cloud · Polite retries back off exponentially and roll dice
-cloud-fact-egress-asymmetry-001 · Cloud · Clouds charge rent on the exit door, not the entrance
-cloud-fact-clock-skew-leases-001 · Cloud · Cloud leases assume clocks lie a little
-cloud-fact-load-shedding-001 · Cloud · Dropping some requests early saves the rest
-security-fact-venona-reuse-001 · Security · One-time pads failed the Soviets only when reused
-security-fact-code-is-speech-001 · Security · A court fight made source code legally speech
-security-fact-nist-password-reversal-001 · Security · The password rules' author publicly recanted them
-security-fact-correct-horse-entropy-001 · Security · Four random words beat one tortured password
-security-fact-timing-side-channel-001 · Security · Passwords have been stolen by measuring nanoseconds
-security-fact-rowhammer-001 · Security · Reading your own memory can flip bits in your neighbour's
-security-fact-spectre-lesson-001 · Security · Spectre made CPUs leak through their own predictions
-security-fact-van-eck-001 · Security · A monitor's picture was recoverable from its radio leakage
-security-fact-krack-wpa2-001 · Security · KRACK made WPA2 handshakes replay their keys away
-security-fact-wep-iv-reuse-001 · Security · WEP died because its 24-bit IVs repeated by lunch
-security-fact-sql-injection-shape-001 · Security · SQL injection is a grammar confusion, not bad luck
-security-fact-passkeys-origin-001 · Security · Passkeys stop phishing by refusing the wrong site
-security-fact-totp-window-001 · Security · Your 6-digit code is a clock, shared with the server
-security-fact-beyondcorp-aurora-001 · Security · Google rebuilt access after being breached in 2009
-security-fact-navajo-code-001 · Security · The Navajo code was never broken, and it was two codes deep
+cloud-fact-noisy-neighbor-001 · Cloud · Your cloud neighbour can slow you without touching you · visual: bespoke
+cloud-fact-cold-start-physics-001 · Cloud · Serverless cold starts are mostly loading, not laziness · visual: bespoke
+cloud-fact-spot-markets-001 · Cloud · Cloud spare capacity is sold like an airline seat market · visual: bespoke
+cloud-fact-s3-strong-2020-001 · Cloud · Amazon S3 changed its consistency personality in 2020 · visual: bespoke
+cloud-fact-retry-jitter-001 · Cloud · Polite retries back off exponentially and roll dice · visual: bespoke
+cloud-fact-egress-asymmetry-001 · Cloud · Clouds charge rent on the exit door, not the entrance · visual: bespoke
+cloud-fact-clock-skew-leases-001 · Cloud · Cloud leases assume clocks lie a little · visual: bespoke
+cloud-fact-load-shedding-001 · Cloud · Dropping some requests early saves the rest · visual: bespoke
+security-fact-venona-reuse-001 · Security · One-time pads failed the Soviets only when reused · visual: bespoke
+security-fact-code-is-speech-001 · Security · A court fight made source code legally speech · visual: bespoke
+security-fact-nist-password-reversal-001 · Security · The password rules' author publicly recanted them · visual: bespoke
+security-fact-correct-horse-entropy-001 · Security · Four random words beat one tortured password · visual: bespoke
+security-fact-timing-side-channel-001 · Security · Passwords have been stolen by measuring nanoseconds · visual: bespoke
+security-fact-rowhammer-001 · Security · Reading your own memory can flip bits in your neighbour's · visual: bespoke
+security-fact-spectre-lesson-001 · Security · Spectre made CPUs leak through their own predictions · visual: bespoke
+security-fact-van-eck-001 · Security · A monitor's picture was recoverable from its radio leakage · visual: bespoke
+security-fact-krack-wpa2-001 · Security · KRACK made WPA2 handshakes replay their keys away · visual: bespoke
+security-fact-wep-iv-reuse-001 · Security · WEP died because its 24-bit IVs repeated by lunch · visual: bespoke
+security-fact-sql-injection-shape-001 · Security · SQL injection is a grammar confusion, not bad luck · visual: bespoke
+security-fact-passkeys-origin-001 · Security · Passkeys stop phishing by refusing the wrong site · visual: bespoke
+security-fact-totp-window-001 · Security · Your 6-digit code is a clock, shared with the server · visual: bespoke
+security-fact-beyondcorp-aurora-001 · Security · Google rebuilt access after being breached in 2009 · visual: bespoke
+security-fact-navajo-code-001 · Security · The Navajo code was never broken, and it was two codes deep · visual: bespoke
