@@ -1137,3 +1137,57 @@ that. Status is tracked in FACTS_INDEX.md ("visual: bespoke").
   split train Monday vs deployment.
 - ml-fact-class-imbalance-accuracy-001 — 99 green vs 1 red dot
   field; lazy classifier "always green" scoring 99%.
+
+## Batch C13 — chains, part 13 (25)
+
+- ml-fact-train-serving-skew-001 — Two worlds: training data
+  landscape vs serving landscape shifted, model in middle
+  meeting different distributions.
+- ml-fact-concept-drift-001 — A river of data changing colour
+  downstream over time; an old model snapshot dated.
+- ml-fact-feedback-loops-ml-001 — Patrol car icon circling to
+  districts the model flagged, generating more flags there.
+- ml-fact-shortcut-learning-001 — X-ray with a ruler token in
+  corner that the model reads instead of the lung.
+- ml-fact-spurious-texture-001 — Elephant silhouette filled
+  with cat fur texture labelled cat; shape vs texture split.
+- ml-fact-embedding-bias-001 — Word axes man/woman vs jobs,
+  "programmer/homemaker" points skewed along gender axis.
+- ml-fact-gpt2-too-dangerous-001 — Model sizes staircase
+  released in stages with caution tape shrinking.
+- ml-fact-turing-test-loebner-001 — Chat window, judge with
+  question mark scale weighing human vs machine.
+- ml-fact-eliza-effect-001 — 1966 terminal chat, pattern-match
+  gears behind a therapist mask.
+- ml-fact-deepblue-brute-001 — Chess board with search tree
+  exploding to 200M positions/sec counter, "no learning".
+- ml-fact-watson-jeopardy-001 — Jeopardy clue card, three
+  candidate answers ranked with confidence bars.
+- ml-fact-cold-start-001 — New user silhouette with empty
+  profile, recommender showing generic popular items.
+- ml-fact-no-free-lunch-ml-001 — Many problem hills, one
+  algorithm crown passing around: averaged equally.
+- ml-fact-bias-variance-001 — Dartboards: biased (cluster off
+  centre), variance (scattered), trade-off seesaw.
+- ml-fact-svm-margin-001 — Two point clouds, widest street
+  between them, borderline support vectors ringed.
+- ml-fact-knn-simplicity-001 — A new point asking its 3 nearest
+  neighbours, majority label, 1967 paper tag.
+- ml-fact-decision-tree-entropy-001 — A mixed basket splitting
+  by a question into purer baskets, entropy numbers falling.
+- ml-fact-naive-bayes-works-001 — Word chips of an email
+  multiplied as if independent, spam verdict wins anyway.
+- ml-fact-distillation-001 — Big teacher network pouring soft
+  probability curves into a small student network.
+- ml-fact-positional-rope-001 — Word tokens with rotating
+  position dials (RoPE) by angle per position.
+- ml-fact-pretraining-finetuning-001 — Huge library read once
+  (pretrain), then a small task booklet (fine-tune).
+- ml-fact-emergent-abilities-debate-001 — Ability curve
+  appearing to jump on one metric scale, smooth on another.
+- ml-fact-hallucination-mechanism-001 — A fluent sentence
+  generator choosing plausible next words over a fact gap.
+- ml-fact-eval-contamination-001 — Exam paper leaking into
+  textbook stack, score gauge inflated.
+- ml-fact-human-feedback-cost-001 — Rows of annotator desks
+  behind the model curtain, ranking answers.

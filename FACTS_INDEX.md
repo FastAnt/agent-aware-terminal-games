@@ -371,37 +371,37 @@ ml-fact-quantization-int8-001 · Machine learning · Models survive rewriting in
 ml-fact-label-errors-benchmark-001 · Machine learning · Some benchmark labels are simply wrong · visual: bespoke
 ml-fact-data-leakage-target-001 · Machine learning · Target leakage wins competitions and fails Mondays · visual: bespoke
 ml-fact-class-imbalance-accuracy-001 · Machine learning · 99 percent accuracy can mean the model does nothing · visual: bespoke
-ml-fact-train-serving-skew-001 · Machine learning · Models meet a different world than they trained in
-ml-fact-concept-drift-001 · Machine learning · The world changes; yesterday's model is historical
-ml-fact-feedback-loops-ml-001 · Machine learning · Predictive policing can patrol its own predictions
-ml-fact-shortcut-learning-001 · Machine learning · Models cheat with watermarks, rulers and backgrounds
-ml-fact-spurious-texture-001 · Machine learning · ImageNet networks judge by texture, not shape
-ml-fact-embedding-bias-001 · Machine learning · Word embeddings absorbed the stereotypes of their text
-ml-fact-gpt2-too-dangerous-001 · Machine learning · GPT-2 was once staged-released as too dangerous
-ml-fact-turing-test-loebner-001 · Machine learning · The Turing test measures judges as much as machines
-ml-fact-eliza-effect-001 · Machine learning · A 1966 keyword script convinced users it understood
-ml-fact-deepblue-brute-001 · Machine learning · Deep Blue won with speed plus evaluation, not learning
-ml-fact-watson-jeopardy-001 · Machine learning · Watson won Jeopardy by ranking answers, not understanding
+ml-fact-train-serving-skew-001 · Machine learning · Models meet a different world than they trained in · visual: bespoke
+ml-fact-concept-drift-001 · Machine learning · The world changes; yesterday's model is historical · visual: bespoke
+ml-fact-feedback-loops-ml-001 · Machine learning · Predictive policing can patrol its own predictions · visual: bespoke
+ml-fact-shortcut-learning-001 · Machine learning · Models cheat with watermarks, rulers and backgrounds · visual: bespoke
+ml-fact-spurious-texture-001 · Machine learning · ImageNet networks judge by texture, not shape · visual: bespoke
+ml-fact-embedding-bias-001 · Machine learning · Word embeddings absorbed the stereotypes of their text · visual: bespoke
+ml-fact-gpt2-too-dangerous-001 · Machine learning · GPT-2 was once staged-released as too dangerous · visual: bespoke
+ml-fact-turing-test-loebner-001 · Machine learning · The Turing test measures judges as much as machines · visual: bespoke
+ml-fact-eliza-effect-001 · Machine learning · A 1966 keyword script convinced users it understood · visual: bespoke
+ml-fact-deepblue-brute-001 · Machine learning · Deep Blue won with speed plus evaluation, not learning · visual: bespoke
+ml-fact-watson-jeopardy-001 · Machine learning · Watson won Jeopardy by ranking answers, not understanding · visual: bespoke
 ml-fact-recommender-bubble-001 · Machine learning · Recommenders optimise engagement, not your future taste · visual: bespoke
-ml-fact-cold-start-001 · Machine learning · Recommenders are blind exactly when you are new
+ml-fact-cold-start-001 · Machine learning · Recommenders are blind exactly when you are new · visual: bespoke
 ml-fact-curse-dimensionality-001 · Machine learning · In high dimensions, everything is far from everything · visual: bespoke
-ml-fact-no-free-lunch-ml-001 · Machine learning · No algorithm is best at everything: that is a theorem
-ml-fact-bias-variance-001 · Machine learning · Prediction error is a tug of war you cannot win twice
+ml-fact-no-free-lunch-ml-001 · Machine learning · No algorithm is best at everything: that is a theorem · visual: bespoke
+ml-fact-bias-variance-001 · Machine learning · Prediction error is a tug of war you cannot win twice · visual: bespoke
 ml-fact-random-forest-trees-001 · Machine learning · A forest of bad trees outvotes a single good one · visual: bespoke
-ml-fact-svm-margin-001 · Machine learning · Support vector machines care only about the borderline
-ml-fact-knn-simplicity-001 · Machine learning · k-NN was analysed in 1967 and still embarrasses pipelines
-ml-fact-decision-tree-entropy-001 · Machine learning · Decision trees ask the question that splits doubt best
-ml-fact-naive-bayes-works-001 · Machine learning · Naive Bayes lies about independence and often wins
+ml-fact-svm-margin-001 · Machine learning · Support vector machines care only about the borderline · visual: bespoke
+ml-fact-knn-simplicity-001 · Machine learning · k-NN was analysed in 1967 and still embarrasses pipelines · visual: bespoke
+ml-fact-decision-tree-entropy-001 · Machine learning · Decision trees ask the question that splits doubt best · visual: bespoke
+ml-fact-naive-bayes-works-001 · Machine learning · Naive Bayes lies about independence and often wins · visual: bespoke
 ml-fact-pca-eigenfaces-001 · Machine learning · Faces compress into ghostly averages called eigenfaces · visual: bespoke
 ml-fact-moe-sparse-001 · Machine learning · Mixture of experts lets a model be big and cheap at once · visual: bespoke
-ml-fact-distillation-001 · Machine learning · A small model can be taught by a big one's hesitations
+ml-fact-distillation-001 · Machine learning · A small model can be taught by a big one's hesitations · visual: bespoke
 ml-fact-self-attention-cost-001 · Machine learning · Attention's power bill grows with the square of length · visual: bespoke
-ml-fact-positional-rope-001 · Machine learning · Models know word order only because we inject it
-ml-fact-pretraining-finetuning-001 · Machine learning · Pretrain then fine-tune inverted who does the work
-ml-fact-emergent-abilities-debate-001 · Machine learning · 'Emergent abilities' may partly be a mirage of metrics
-ml-fact-hallucination-mechanism-001 · Machine learning · Hallucination is the training objective working as designed
-ml-fact-eval-contamination-001 · Machine learning · Benchmarks leak into training data and inflate scores
-ml-fact-human-feedback-cost-001 · Machine learning · The humans in RLHF are an invisible workforce
+ml-fact-positional-rope-001 · Machine learning · Models know word order only because we inject it · visual: bespoke
+ml-fact-pretraining-finetuning-001 · Machine learning · Pretrain then fine-tune inverted who does the work · visual: bespoke
+ml-fact-emergent-abilities-debate-001 · Machine learning · 'Emergent abilities' may partly be a mirage of metrics · visual: bespoke
+ml-fact-hallucination-mechanism-001 · Machine learning · Hallucination is the training objective working as designed · visual: bespoke
+ml-fact-eval-contamination-001 · Machine learning · Benchmarks leak into training data and inflate scores · visual: bespoke
+ml-fact-human-feedback-cost-001 · Machine learning · The humans in RLHF are an invisible workforce · visual: bespoke
 ml-fact-open-weights-irreversible-001 · Machine learning · Released weights cannot be unreleased
 geometry-fact-mercator-greenland-001 · Geometry · Mercator makes Greenland look Africa-sized · visual: bespoke
 geometry-fact-no-perfect-map-001 · Geometry · A perfect flat map is a theorem-level impossibility · visual: bespoke
