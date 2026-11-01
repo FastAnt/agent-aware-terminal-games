@@ -113,33 +113,33 @@ programming-fact-heisenbug-001 · Programming · Some bugs vanish when you look 
 programming-fact-worse-is-better-001 · Programming · Worse is better: the philosophy that shipped Unix and C · visual: bespoke
 programming-fact-second-system-001 · Programming · The second system is the most dangerous one you build · visual: bespoke
 programming-fact-os360-lesson-001 · Programming · OS/360 taught the industry that schedules are not staffing · visual: bespoke
-programming-fact-nine-women-001 · Programming · Nine women cannot make a baby in one month
-math-fact-point999-001 · Math · 0.999... equals 1, exactly, not approximately
+programming-fact-nine-women-001 · Programming · Nine women cannot make a baby in one month · visual: bespoke
+math-fact-point999-001 · Math · 0.999... equals 1, exactly, not approximately · visual: bespoke
 math-fact-birthday23-001 · Math · 23 strangers likely share a birthday · visual: bespoke
-math-fact-montyhall-001 · Math · Switching doors wins the car twice as often
-math-fact-gabriel-horn-001 · Math · Finite paint fills it; infinite paint coats it
-math-fact-zeta-minus12-001 · Math · 1+2+3+... = -1/12 is a label, not a sum
-math-fact-pi-355-113-001 · Math · 355/113 approximates pi to six decimal places
-math-fact-e-interest-001 · Math · e was discovered by asking how interest compounds
-math-fact-euclid-primes-001 · Math · Euclid proved primes never run out, in four lines
-math-fact-hilbert-hotel-001 · Math · A full hotel with infinite rooms can still take guests
-math-fact-cantor-bigger-001 · Math · Some infinities are provably bigger than others
-math-fact-godel-001 · Math · Arithmetic hides true but unprovable statements
-math-fact-fourcolour-001 · Math · The four colour theorem needed a computer's stamina
-math-fact-fermat358-001 · Math · Fermat's margin note took 358 years to settle
-math-fact-collatz-open-001 · Math · A problem a child can state has resisted everyone
-math-fact-konigsberg-001 · Math · Seven bridges founded graph theory by being impossible
+math-fact-montyhall-001 · Math · Switching doors wins the car twice as often · visual: bespoke
+math-fact-gabriel-horn-001 · Math · Finite paint fills it; infinite paint coats it · visual: bespoke
+math-fact-zeta-minus12-001 · Math · 1+2+3+... = -1/12 is a label, not a sum · visual: bespoke
+math-fact-pi-355-113-001 · Math · 355/113 approximates pi to six decimal places · visual: bespoke
+math-fact-e-interest-001 · Math · e was discovered by asking how interest compounds · visual: bespoke
+math-fact-euclid-primes-001 · Math · Euclid proved primes never run out, in four lines · visual: bespoke
+math-fact-hilbert-hotel-001 · Math · A full hotel with infinite rooms can still take guests · visual: bespoke
+math-fact-cantor-bigger-001 · Math · Some infinities are provably bigger than others · visual: bespoke
+math-fact-godel-001 · Math · Arithmetic hides true but unprovable statements · visual: bespoke
+math-fact-fourcolour-001 · Math · The four colour theorem needed a computer's stamina · visual: bespoke
+math-fact-fermat358-001 · Math · Fermat's margin note took 358 years to settle · visual: bespoke
+math-fact-collatz-open-001 · Math · A problem a child can state has resisted everyone · visual: bespoke
+math-fact-konigsberg-001 · Math · Seven bridges founded graph theory by being impossible · visual: bespoke
 math-fact-benford-001 · Math · Real data starts with 1 far more often than with 9 · visual: bespoke
-math-fact-simpson-001 · Math · A trend can hold in every subgroup and reverse overall
-math-fact-base-rate-001 · Math · A 99 percent accurate test can be mostly wrong
-math-fact-regression-mean-001 · Math · Tall parents have shorter children, on average: regression
-math-fact-arrow-voting-001 · Math · No voting rule satisfies every fairness wish
-math-fact-ham-sandwich-001 · Math · One cut can halve two sandwiches exactly
-math-fact-hairy-ball-001 · Math · You cannot comb a hairy ball flat everywhere
-math-fact-polya-walk-001 · Math · A random walker returns in 2D, may vanish in 3D
-math-fact-buffon-needle-001 · Math · Dropping needles on floorboards estimates pi
-math-fact-st-petersburg-001 · Math · A coin game worth infinity that nobody will buy
-math-fact-kaprekar6174-001 · Math · Every four-digit number falls into 6174
+math-fact-simpson-001 · Math · A trend can hold in every subgroup and reverse overall · visual: bespoke
+math-fact-base-rate-001 · Math · A 99 percent accurate test can be mostly wrong · visual: bespoke
+math-fact-regression-mean-001 · Math · Tall parents have shorter children, on average: regression · visual: bespoke
+math-fact-arrow-voting-001 · Math · No voting rule satisfies every fairness wish · visual: bespoke
+math-fact-ham-sandwich-001 · Math · One cut can halve two sandwiches exactly · visual: bespoke
+math-fact-hairy-ball-001 · Math · You cannot comb a hairy ball flat everywhere · visual: bespoke
+math-fact-polya-walk-001 · Math · A random walker returns in 2D, may vanish in 3D · visual: bespoke
+math-fact-buffon-needle-001 · Math · Dropping needles on floorboards estimates pi · visual: bespoke
+math-fact-st-petersburg-001 · Math · A coin game worth infinity that nobody will buy · visual: bespoke
+math-fact-kaprekar6174-001 · Math · Every four-digit number falls into 6174 · visual: bespoke
 math-fact-taxicab1729-001 · Math · 1729 is the smallest number special in two ways
 math-fact-paper-moon-001 · Math · Fold paper 42 times and you pass the Moon
 math-fact-chessboard-rice-001 · Math · The chessboard rice legend ends at a mountain of grain

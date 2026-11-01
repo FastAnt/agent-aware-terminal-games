@@ -704,3 +704,76 @@ that. Status is tracked in FACTS_INDEX.md ("visual: bespoke").
 - programming-fact-os360-lesson-001 — A schedule Gantt and a
   staffing curve: adding people to the late project moves
   the finish later (Brooks's law graph).
+
+## Batch C6 — chains, part 6 (25)
+
+- programming-fact-nine-women-001 — Nine figure icons and a
+  one-month calendar crossed out; beside, one figure and a
+  nine-month timeline: Brooks's pregnancy line.
+- math-fact-point999-001 — A number line zooming: 0.9, 0.99,
+  0.999 arrows converging onto the same point as 1, no gap.
+- math-fact-montyhall-001 — Three doors; car icon behind one,
+  host opens a goat door, switch arrow to the other closed
+  door with tally "wins 2 of 3".
+- math-fact-gabriel-horn-001 — The horn y=1/x spun long and
+  thin; a paint bucket fills its finite volume, coating
+  arrows run off its endless surface.
+- math-fact-zeta-minus12-001 — Partial sums 1,3,6,10 climbing
+  away; a tag "analytic continuation: -1/12" pinned beside,
+  explicitly not a sum.
+- math-fact-pi-355-113-001 — 355/113 as stacked fraction over
+  pi's digits, matching digits 3.1415929 highlighted to six
+  places.
+- math-fact-e-interest-001 — Compounding bars: yearly,
+  monthly, daily steps approaching a smooth curve capped at
+  e = 2.718...
+- math-fact-euclid-primes-001 — Primes 2,3,5,7,11 multiplied,
+  +1; the new number's prime factor starred "not in the
+  list".
+- math-fact-hilbert-hotel-001 — An endless corridor of rooms
+  1,2,3,...; every guest shifts one door right, room 1 frees
+  for the newcomer.
+- math-fact-cantor-bigger-001 — Rows of binary decimals; the
+  diagonal cells flipped build a new row at the bottom,
+  missing from the list.
+- math-fact-godel-001 — A framed axiom system; inside it a
+  statement card "this statement is unprovable here" with a
+  circular arrow.
+- math-fact-fourcolour-001 — A map of regions coloured with
+  four swatches only; a computer monitor ticking checked
+  cases beside it.
+- math-fact-fermat358-001 — x^n+y^n=z^n on a book page, a
+  tiny margin note "no room", and a timeline 1637 to 1995.
+- math-fact-collatz-open-001 — The orbit of 27: jagged up-down
+  path finally falling to 1; a proof cloud with "?" above.
+- math-fact-konigsberg-001 — River with four land masses and
+  seven bridge lines; beside it the same as graph dots,
+  odd-degree dots ringed.
+- math-fact-simpson-001 — Two small charts with rising lines
+  per group; the combined chart's line falls: Simpson's
+  reversal drawn honestly.
+- math-fact-base-rate-001 — A 1000-person dot grid; about 10
+  true positives lit, a larger false-positive cluster from
+  the healthy: "positive" mostly wrong.
+- math-fact-regression-mean-001 — Scatter of parent vs child
+  height with diagonal and a flatter regression line;
+  extremes pull toward the mean.
+- math-fact-arrow-voting-001 — A checklist of fairness wishes
+  with a Condorcet cycle A>B>C>A making one always fail;
+  "no perfect rule (Arrow)".
+- math-fact-ham-sandwich-001 — Two irregular sandwich blobs;
+  one straight knife line halves both areas, equal halves
+  labelled.
+- math-fact-hairy-ball-001 — A sphere covered in tangent
+  arrows flowing around, forced into one swirl point on top.
+- math-fact-polya-walk-001 — Left: a 2D grid walk looping home;
+  right: 3D axes walk drifting away, "may never return".
+- math-fact-buffon-needle-001 — Floorboard strips with needles
+  dropped at angles; crossing tally feeds an estimate
+  pi ~ 3.14.
+- math-fact-st-petersburg-001 — Coin-flip payout table
+  doubling 2,4,8,16... expected value infinity arrow versus
+  a small "what people pay" coin stack.
+- math-fact-kaprekar6174-001 — Four-digit numbers (3524,
+  3087...) funnel by sort-subtract steps into 6174, which
+  maps to itself.
