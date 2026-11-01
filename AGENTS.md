@@ -52,6 +52,25 @@ you trust, and review game diffs like code. The test tool runs
 each game in a timeout subprocess, but that is crash protection,
 not a security sandbox.
 
+## Content types (every file declares one)
+
+Mark each file inside itself with `"type"` (in `GAME` for
+Python modules, as a top-level field for JSON):
+
+| type | Behaviour in the pane |
+| --- | --- |
+| `game` | quiz: answered for **points** (score + streak shown) |
+| `fact` | interesting fact: **Skip / Next** only, never scored |
+| `idea` | proposal the user can **Save** — saved ideas land in the project's `.aat/research/saved_ideas.jsonl` for an agent to implement later |
+| `news` | news item: **Skip / Next** plus an **Open link** button |
+
+Per-type requirements: `game` needs an `answer` + `explanation`
+(+ choices or click targets). `fact` / `idea` / `news` need
+`title` + `body`; `news` additionally needs an http(s) `link`;
+`idea` should carry an `action_hint` (first step for the
+implementing agent). Legacy files without `type` still work:
+`kind: quiz` reads as `game`, `kind: card` as `fact`.
+
 ## Canonical sources
 
 If this file and the code disagree, **the code wins**:
