@@ -124,7 +124,7 @@ def _bars(cr, view, items, x0, y0, bw, gap, maxv):
 
 def paint(cr,view):
     w,h,t=view.w,view.h,view.t
-    rng=_rnd.Random(2)
+    rng=__import__('random').Random(2)
     for _ in range(16):
         _circ(cr,view,w*(0.08+rng.random()*0.3),h*(0.2+rng.random()*0.5),4,"muted",0.7,fill=True)
     _t(cr,view,w*0.22,h*0.82,"any messy set",10,"muted")

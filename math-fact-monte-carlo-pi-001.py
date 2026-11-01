@@ -127,7 +127,7 @@ def paint(cr,view):
     x0,y0,s=w*0.28,h*0.14,min(w,h)*0.62
     cr.rectangle(x0,y0,s,s); cr.set_source_rgba(*view.colors["text"],0.8); cr.set_line_width(1.6); cr.stroke()
     cr.new_path(); cr.arc(x0,y0+s,s,4.71,6.283); cr.set_source_rgba(*view.colors["square"],0.8); cr.set_line_width(1.5); cr.stroke()
-    rng=_rnd.Random(6); inside=0; n=90
+    rng=__import__('random').Random(6); inside=0; n=90
     for i in range(n):
         x,y=x0+rng.random()*s,y0+rng.random()*s
         inn=(x-x0)**2+(y-(y0+s))**2<s*s
